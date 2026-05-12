@@ -1,29 +1,31 @@
 // scripts/generate.js
 // Runs on GitHub Actions every 2 hours.
 // Calls Gemini API once → saves all content to data/content.json
-// Users read from content.json — no API calls on their end. 
+// Users read from content.json — no API calls on their end.
 
 const fs   = require('fs');
 const path = require('path');
 
-const GROQ_KEY = process.env.GROQ_API_KEY;
-const GROQ_URL  = 'https://api.groq.com/openai/v1/chat/completions';
+const API_KEY = process.env.OPENROUTER_API_KEY;
+const API_URL  = 'https://openrouter.ai/api/v1/chat/completions';
 
-if (!GROQ_KEY) {
-  console.error('❌ GROQ_API_KEY environment variable not set.');
-  console.error('   Go to GitHub repo → Settings → Secrets → New secret → GROQ_API_KEY');
+if (!API_KEY) {
+  console.error('❌ OPENROUTER_API_KEY environment variable not set.');
+  console.error('   Go to GitHub repo → Settings → Secrets → New secret → OPENROUTER_API_KEY');
   process.exit(1);
 }
 
 // ── Prompts ────────────────────────────────────────────────────────────────
 
-const today = new Date().toLocaleDateString('en-IN', {
-  weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
-});
+// Safe date formatting — avoids locale issues on GitHub Actions runner
+const _d = new Date();
+const _days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const _months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const today = `${_days[_d.getDay()]}, ${_d.getDate()} ${_months[_d.getMonth()]} ${_d.getFullYear()}`;
 
 const INDUSTRY_PROMPT = `You are editor of REPower News. Today is ${today}.
 
-Generate 10 renewable energy INDUSTRY & BUSINESS news articles from the last 7 days.
+Generate 6 renewable energy INDUSTRY & BUSINESS news articles from the last 7 days.
 Cover a DIVERSE mix — NOT just tenders. Include:
 - Leadership changes (CEO/MD/Chairman appointments in RE companies)
 - Government statements (what India ministers said about RE sector)
@@ -38,7 +40,7 @@ Cover a DIVERSE mix — NOT just tenders. Include:
 
 India entities: Adani Green Energy, NTPC Renewable, ReNew Power, Tata Power Solar, Greenko, Torrent Power, JSW Energy, Waaree Energies, Premier Energies, Vikram Solar, SECI, MNRE, IREDA, CERC, Hero Future Energies, Avaada Energy.
 Global entities: Orsted, Vestas, Siemens Gamesa, Shell Renewables, BP, Equinor, RWE, Enel Green Power, NextEra Energy, Iberdrola.
-Mix: 6 India + 4 global. All different topics and companies.
+Mix: 3 India + 3 global. All different topics and companies.
 
 Return ONLY a valid JSON array. Each object:
 {
@@ -57,8 +59,8 @@ JSON array only. No markdown. Start with [ end with ]`;
 
 const TECH_PROMPT = `You are editor of REPower News. Today is ${today}.
 
-Generate 10 renewable energy TECHNOLOGY & INNOVATION articles from the last 7 days.
-Pick 10 completely different topics from:
+Generate 6 renewable energy TECHNOLOGY & INNOVATION articles from the last 7 days.
+Pick 6 completely different topics from:
 perovskite solar cells, tandem solar, solid-state batteries, sodium-ion batteries, green hydrogen electrolyzers, floating offshore wind, iron-air storage, AI grid management, building-integrated PV, agrivoltaics, wave energy, vehicle-to-grid, virtual power plants, compressed air storage, green ammonia, bifacial solar records, offshore wind size records, battery recycling, gravity storage, tidal energy, EV second-life batteries, solar desalination, smart inverters, HVDC transmission.
 
 Institutions: NREL, MIT, IIT, Fraunhofer ISE, Tesla Energy, QuantumScape, Northvolt, Form Energy, Nel Hydrogen, ITM Power, LONGi Solar, Siemens Energy.
@@ -97,9 +99,9 @@ const LEARN_TOPICS = [
 ];
 
 // Pick 8 random topics each run for variety
-const chosenTopics = [...LEARN_TOPICS].sort(() => Math.random() - 0.5).slice(0, 8);
+const chosenTopics = [...LEARN_TOPICS].sort(() => Math.random() - 0.5).slice(0, 5);
 
-const LEARN_PROMPT = `You are a renewable energy educator. Create 8 educational learning cards.
+const LEARN_PROMPT = `You are a renewable energy educator. Create 5 educational learning cards.
 
 Topics:
 ${chosenTopics.map((t, i) => `${i + 1}. ${t}`).join('\n')}
@@ -131,23 +133,25 @@ All values plain strings. JSON array only. No markdown. Start with [ end with ]`
 async function callGemini(prompt, label) {
   console.log(`  📡 Calling Gemini for: ${label}...`);
 
-  const res = await fetch(GROQ_URL, {
+  const res = await fetch(API_URL, {
     method: 'POST',
     headers: {
       'Content-Type':  'application/json',
-      'Authorization': `Bearer ${GROQ_KEY}`,
+      'Authorization': `Bearer ${API_KEY}`,
+      'HTTP-Referer': 'https://github.com/repower-news',
+      'X-Title': 'REPower News',
     },
     body: JSON.stringify({
-      model:       'llama-3.3-70b-versatile',
+      model:       'meta-llama/llama-3.3-70b-instruct:free',
       messages:    [{ role: 'user', content: prompt }],
       temperature: 0.7,
-      max_tokens:  6000,
+      max_tokens:  3000,
     }),
   });
 
   if (!res.ok) {
     const err = await res.text();
-    throw new Error(`Groq error ${res.status} for ${label}: ${err.slice(0, 200)}`);
+    throw new Error(`OpenRouter error ${res.status} for ${label}: ${err.slice(0, 200)}`);
   }
 
   const data = await res.json();
@@ -186,12 +190,13 @@ async function main() {
 
   try {
     industry = await callGemini(INDUSTRY_PROMPT, 'Industry News');
-    await sleep(5000); // 5 second gap between calls
+    await sleep(30000); // 30 second gap — avoids TPM rate limit
     tech     = await callGemini(TECH_PROMPT,     'Tech & Innovation');
-    await sleep(5000);
+    await sleep(30000);
     learn    = await callGemini(LEARN_PROMPT,    'Learning Tech');
   } catch(err) {
     console.error('\n❌ Generation failed:', err.message);
+    console.error('Stack:', err.stack);
     process.exit(1);
   }
 
