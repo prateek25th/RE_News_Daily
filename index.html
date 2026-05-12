@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#1B5E20">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="REPower">
+<link rel="manifest" href="/manifest.json">
+<title>REPower News</title>
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+:root{
+  --g900:#1B5E20;--g800:#2E7D32;--g600:#388E3C;
+  --g100:#C8E6C9;--g50:#E8F5E9;
+  --t1:#1a1a1a;--t2:#333;--t3:#777;
+  --bdr:#e0e0e0;--card:#fff;
+}
+html,body{height:100%;width:100%;overflow:hidden;background:#111;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased}
+.app{display:flex;flex-direction:column;height:100vh;width:100%;
+  max-width:640px;margin:0 auto;background:#f4f6f4}
+.hdr{flex-shrink:0;background:var(--g900);box-shadow:0 2px 8px rgba(0,0,0,.3);z-index:100}
+.hdr-top{display:flex;align-items:center;justify-content:space-between;padding:10px 14px 7px}
+.logo{display:flex;align-items:center;gap:7px;color:#fff;font-size:16px}
+.logo strong{font-weight:800}
+.hright{display:flex;align-items:center;gap:8px}
+.live{width:7px;height:7px;border-radius:50%;background:#4CAF50;animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(76,175,80,.5)}70%{box-shadow:0 0 0 5px rgba(76,175,80,0)}100%{box-shadow:0 0 0 0 rgba(76,175,80,0)}}
+.ibtn{background:rgba(255,255,255,.12);border:none;color:#fff;width:32px;height:32px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.ibtn:active{background:rgba(255,255,255,.25)}
+.spin svg{animation:rot .6s linear}
+@keyframes rot{to{transform:rotate(360deg)}}
+.tabs{display:flex;border-top:1px solid rgba(255,255,255,.1)}
+.tab{flex:1;display:flex;align-items:center;justify-content:center;gap:4px;padding:8px 4px;background:none;border:none;border-bottom:2.5px solid transparent;color:rgba(255,255,255,.5);font-size:10.5px;font-weight:500;cursor:pointer;white-space:nowrap;transition:all .2s}
+.tab.on{color:#fff;border-bottom-color:var(--g100)}
+.counter{flex-shrink:0;background:#fff;border-bottom:0.5px solid var(--bdr);display:flex;align-items:center;justify-content:space-between;padding:5px 14px;font-size:11px;color:var(--t3)}
+.cdots{display:flex;gap:4px;align-items:center}
+.cdot{width:5px;height:5px;border-radius:50%;background:var(--bdr);transition:all .2s}
+.cdot.on{background:var(--g800);width:14px;border-radius:3px}
+.card-wrap{flex:1;overflow:hidden;position:relative}
+.card{position:absolute;inset:0;display:flex;flex-direction:column;background:var(--card);transition:transform .35s cubic-bezier(.4,0,.2,1),opacity .3s}
+.card.eu{transform:translateY(-100%);opacity:0;pointer-events:none}
+.card.ed{transform:translateY(100%); opacity:0;pointer-events:none}
+.card.on{transform:translateY(0);    opacity:1}
+.card-img{width:100%;height:42%;flex-shrink:0;position:relative;overflow:hidden;background:#1a2a1a}
+.learn-img{width:100%;height:28%;flex-shrink:0;position:relative;overflow:hidden;background:#1a2a1a}
+.card-img img,.learn-img img{width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .5s;display:block}
+.card-img img.vis,.learn-img img.vis{opacity:1}
+.img-grad{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.05),rgba(0,0,0,.7))}
+.b-cat{position:absolute;top:10px;left:10px;background:var(--g900);color:#fff;font-size:9px;font-weight:700;padding:3px 9px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px;z-index:2}
+.b-src{position:absolute;bottom:9px;left:10px;font-size:9px;font-weight:700;color:#fff;background:rgba(27,94,32,.9);padding:3px 8px;border-radius:20px;z-index:2}
+.b-meta{position:absolute;bottom:9px;right:10px;display:flex;gap:4px;z-index:2}
+.b-meta span{font-size:9px;color:rgba(255,255,255,.92);background:rgba(0,0,0,.42);padding:2px 7px;border-radius:20px}
+.b-diff{position:absolute;top:10px;right:10px;font-size:9px;font-weight:700;padding:3px 9px;border-radius:20px;z-index:2}
+.d-beg{background:#1565C0;color:#fff}.d-int{background:#E65100;color:#fff}.d-adv{background:#B71C1C;color:#fff}
+.card-body{flex:1;overflow-y:auto;padding:13px 14px 10px;display:flex;flex-direction:column;gap:9px;scrollbar-width:thin;scrollbar-color:var(--bdr) transparent}
+.card-body::-webkit-scrollbar{width:3px}
+.card-body::-webkit-scrollbar-thumb{background:var(--bdr);border-radius:3px}
+.c-head{font-size:15px;font-weight:800;color:var(--t1);line-height:1.4}
+.c-body{font-size:13.5px;color:var(--t2);line-height:1.75}
+.cblock{background:#f7faf7;border-radius:10px;padding:10px 12px;border:0.5px solid var(--bdr)}
+.cblock-t{font-size:12px;font-weight:700;color:var(--g800);margin-bottom:4px}
+.cblock-b{font-size:13px;color:var(--t2);line-height:1.68}
+.stats-row{display:flex;flex-wrap:wrap;gap:5px}
+.stat-chip{font-size:10.5px;font-weight:600;color:#fff;background:var(--g800);padding:3px 9px;border-radius:20px}
+.btn-act{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--g800);background:var(--g50);padding:8px 14px;border-radius:24px;text-decoration:none;border:1px solid var(--g100);align-self:flex-start;flex-shrink:0}
+.btn-act:active{background:var(--g100)}
+.c-foot{display:flex;align-items:center;justify-content:space-between;padding-top:9px;border-top:0.5px solid var(--bdr);flex-shrink:0;margin-top:auto}
+.vbadge{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:600;padding:3px 9px;border-radius:20px}
+.vdot{width:5px;height:5px;border-radius:50%}
+.vhi{background:#E8F5E9;color:#2E7D32}.vhi .vdot{background:#4CAF50}
+.vmd{background:#FFF8E1;color:#E65100}.vmd .vdot{background:#FF9800}
+.swipe-hint{font-size:10px;color:var(--t3);display:flex;align-items:center;gap:3px}
+.loadmore{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#f7faf7;gap:14px;transition:transform .35s cubic-bezier(.4,0,.2,1),opacity .3s}
+.loadmore.eu{transform:translateY(-100%);opacity:0;pointer-events:none}
+.loadmore.ed{transform:translateY(100%); opacity:0;pointer-events:none}
+.loadmore.on{transform:translateY(0);    opacity:1}
+.lm-btn{background:var(--g900);color:#fff;border:none;padding:12px 28px;border-radius:24px;font-size:14px;font-weight:700;cursor:pointer}
+.nav-btns{display:flex;border-top:0.5px solid var(--bdr);flex-shrink:0;background:#fff}
+.nb{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:10px;background:#fff;border:none;font-size:12px;font-weight:500;color:var(--t3);cursor:pointer;transition:background .15s}
+.nb:first-child{border-right:0.5px solid var(--bdr)}
+.nb:not(:disabled):hover,.nb:not(:disabled):active{background:var(--g50);color:var(--g800)}
+.nb:disabled{opacity:.3;cursor:default}
+.src-bar{flex-shrink:0;background:#fafafa;border-top:0.5px solid var(--bdr);padding:5px 12px;overflow-x:auto;scrollbar-width:none;white-space:nowrap}
+.src-bar::-webkit-scrollbar{display:none}
+.src-label{font-size:9px;font-weight:700;color:var(--t3);text-transform:uppercase;letter-spacing:.5px;margin-right:6px}
+.src-pill{display:inline-block;font-size:9px;color:var(--t2);background:#fff;border:0.5px solid var(--bdr);padding:2px 7px;border-radius:20px;margin-right:3px}
+.sk-card{position:absolute;inset:0;display:flex;flex-direction:column;background:#fff}
+.sk-img{width:100%;height:42%;background:#ddd;position:relative;overflow:hidden;flex-shrink:0}
+.sk-img::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 25%,rgba(255,255,255,.5) 50%,transparent 75%);background-size:300% 100%;animation:shim 1.4s infinite}
+.sk-body{flex:1;padding:14px;display:flex;flex-direction:column;gap:12px}
+.sk-line{height:13px;border-radius:5px;background:linear-gradient(90deg,#ececec 25%,#d8d8d8 50%,#ececec 75%);background-size:300% 100%;animation:shim 1.4s infinite}
+.sk-s{width:30%}.sk-l{width:100%}.sk-m{width:65%}.sk-xl{width:100%;height:56px}
+@keyframes shim{0%{background-position:100% 50%}100%{background-position:-100% 50%}}
+.err-card{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#fff;padding:24px;text-align:center;gap:12px}
+.err-retry{background:var(--g900);color:#fff;border:none;padding:11px 26px;border-radius:24px;font-size:13px;font-weight:600;cursor:pointer}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%) translateY(20px);background:#1a1a1a;color:#fff;font-size:12px;padding:8px 16px;border-radius:24px;opacity:0;transition:all .3s;pointer-events:none;white-space:nowrap;z-index:999}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="hdr">
+    <div class="hdr-top">
+      <div class="logo">
+        <svg width="24" height="24" viewBox="0 0 26 26" fill="none">
+          <circle cx="13" cy="13" r="13" fill="rgba(255,255,255,0.15)"/>
+          <path d="M15 4L7 14h7l-3 8 10-12h-7l2-6z" fill="#A5D6A7" stroke="#A5D6A7" stroke-width="0.5" stroke-linejoin="round"/>
+        </svg>
+        <span>REPower <strong>News</strong></span>
+      </div>
+      <div class="hright">
+        <div class="live"></div>
+        <button class="ibtn" id="rfBtn" title="Refresh">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M23 4v6h-6"/><path d="M1 20v-6h6"/>
+            <path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="tabs">
+      <button class="tab on" data-t="industry">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        Industry News
+      </button>
+      <button class="tab" data-t="tech">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+        Tech &amp; Innovation
+      </button>
+      <button class="tab" data-t="learn">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        Learning Tech
+      </button>
+    </div>
+  </div>
+  <div class="counter">
+    <span id="cText">Loading…</span>
+    <div class="cdots" id="cDots"></div>
+  </div>
+  <div class="card-wrap" id="cardWrap"></div>
+  <div class="nav-btns">
+    <button class="nb" id="prevBtn" disabled>
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+      Previous
+    </button>
+    <button class="nb" id="nextBtn" disabled>
+      Next
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </button>
+  </div>
+  <div class="src-bar">
+    <span class="src-label">Sources:</span>
+    <span class="src-pill">Economic Times</span><span class="src-pill">Business Standard</span>
+    <span class="src-pill">Solar Quarter</span><span class="src-pill">Mercom India</span>
+    <span class="src-pill">The Hindu</span><span class="src-pill">Times of India</span>
+    <span class="src-pill">Livemint</span><span class="src-pill">NDTV</span>
+    <span class="src-pill">PV Magazine</span><span class="src-pill">Reuters</span>
+    <span class="src-pill">Bloomberg</span><span class="src-pill">CleanTechnica</span>
+    <span class="src-pill">IRENA</span><span class="src-pill">IEA</span>
+    <span class="src-pill">Bloomberg NEF</span><span class="src-pill">Electrek</span>
+    <span class="src-pill">Wood Mackenzie</span><span class="src-pill">Down To Earth</span>
+    <span class="src-pill">Business Line</span><span class="src-pill">MIT Tech Review</span>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+// ── Config ────────────────────────────────────────────────
+// Content is pre-generated by GitHub Actions every 2 hours.
+// Frontend just reads this static JSON file — zero API calls.
+const CONTENT_URL = '/data/content.json';
+
+// ── Images ────────────────────────────────────────────────
+const PHOTOS = {
+  solar:   ['1509391366360-2e959784a276','1497440001374-f26997328c1b','1548337138-e87d889cc369','1559302504-2e7484673ff0','1460925895917-afdab827c52f'],
+  wind:    ['1466611653911-95081537e5b7','1467579424161-6bbc141569d7','1508193638397-1c4234db14d8','1473341304170-971dccb5ac1e'],
+  battery: ['1593941707882-a5bba14938c7','1473341304170-971dccb5ac1e','1548337138-e87d889cc369','1460925895917-afdab827c52f'],
+  grid:    ['1459767129954-d0cb016b5574','1473341304170-971dccb5ac1e','1548337138-e87d889cc369','1509391366360-2e959784a276'],
+  ev:      ['1593941707882-a5bba14938c7','1460925895917-afdab827c52f','1473341304170-971dccb5ac1e'],
+  ocean:   ['1467579424161-6bbc141569d7','1508193638397-1c4234db14d8','1473341304170-971dccb5ac1e'],
+  general: ['1509391366360-2e959784a276','1466611653911-95081537e5b7','1473341304170-971dccb5ac1e','1548337138-e87d889cc369'],
+};
+const CAT_POOL = {
+  'Solar Tender':'solar','Wind Auction':'wind','Green Finance':'solar',
+  'Project Commission':'solar','Policy Update':'general','Power Trading':'grid',
+  'Leadership Change':'general','Regulation':'general','M&A Deal':'general',
+  'Market Analysis':'general','Company Results':'general','International Deal':'general',
+  'Grid Infrastructure':'grid','Manufacturing':'solar','Energy Storage':'battery',
+  'Rooftop Solar':'solar','EV Infrastructure':'ev','Offshore Wind':'wind',
+  'Solar Tech':'solar','Battery Innovation':'battery','Green Hydrogen':'general',
+  'Offshore Wind Tech':'wind','Grid Technology':'grid','EV Technology':'ev',
+  'Carbon Tech':'general','Smart Grid':'grid','Agrivoltaics':'solar',
+  'Wave Energy':'ocean','Building Solar':'solar','Tidal Energy':'ocean',
+  'Green Ammonia':'general','Solar Energy':'solar','Wind Energy':'wind',
+  'Battery Storage':'battery','Grid & Systems':'grid','Hydrogen':'general',
+  'EV & Transport':'ev','Ocean Energy':'ocean','Energy Policy':'general',
+};
+function getImg(cat, idx) {
+  const pool = PHOTOS[CAT_POOL[cat] || 'general'];
+  return `https://images.unsplash.com/photo-${pool[Math.abs(idx) % pool.length]}?w=900&h=500&fit=crop&auto=format&q=80`;
+}
+
+// ── State ─────────────────────────────────────────────────
+let curTab = 'industry';
+let allData = null;
+let arts = [];
+let curIdx = 0;
+let startY = 0;
+
+const $wrap  = document.getElementById('cardWrap');
+const $cText = document.getElementById('cText');
+const $cDots = document.getElementById('cDots');
+const $prev  = document.getElementById('prevBtn');
+const $next  = document.getElementById('nextBtn');
+const $toast = document.getElementById('toast');
+
+// ── Init ──────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.tab').forEach(b =>
+    b.addEventListener('click', () => switchTab(b.dataset.t)));
+
+  document.getElementById('rfBtn').addEventListener('click', () => {
+    const b = document.getElementById('rfBtn');
+    b.classList.add('spin');
+    setTimeout(() => b.classList.remove('spin'), 700);
+    loadContent();
+  });
+
+  $prev.addEventListener('click', () => nav(-1));
+  $next.addEventListener('click', () => nav(1));
+  $wrap.addEventListener('touchstart', e => { startY = e.touches[0].clientY; }, {passive:true});
+  $wrap.addEventListener('touchend', e => {
+    const d = startY - e.changedTouches[0].clientY;
+    if (Math.abs(d) > 50) nav(d > 0 ? 1 : -1);
+  }, {passive:true});
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowRight') nav(1);
+    if (e.key === 'ArrowUp'   || e.key === 'ArrowLeft')  nav(-1);
+  });
+
+  loadContent();
+});
+
+// ── Load content.json ─────────────────────────────────────
+async function loadContent() {
+  showSkel();
+  updCounter('Loading news…', 0);
+
+  try {
+    // Add cache-busting so browser gets latest version
+    const res = await fetch(`${CONTENT_URL}?v=${Date.now()}`);
+    if (!res.ok) throw new Error(`Could not load content (${res.status}). Try again shortly.`);
+
+    const data = await res.json();
+
+    if (!data.industry?.length && !data.tech?.length) {
+      throw new Error('Content is being generated. Please check back in a few minutes.');
+    }
+
+    allData = data;
+    showTab('industry');
+
+    // Show when content was last updated
+    const updated = new Date(data.generatedAt);
+    const minutesAgo = Math.floor((Date.now() - updated) / 60000);
+    const timeStr = minutesAgo < 60
+      ? `${minutesAgo}m ago`
+      : `${Math.floor(minutesAgo/60)}h ago`;
+    showToast(`✅ ${data.industry.length + data.tech.length} articles · updated ${timeStr}`);
+
+  } catch(err) {
+    console.error('loadContent:', err.message);
+    showError(err.message);
+  }
+}
+
+// ── Tab switch ────────────────────────────────────────────
+function switchTab(t) {
+  curTab = t;
+  curIdx = 0;
+  document.querySelectorAll('.tab').forEach(b => b.classList.toggle('on', b.dataset.t === t));
+  if (!allData) { loadContent(); return; }
+  showTab(t);
+}
+
+function showTab(t) {
+  arts = allData?.[t] || [];
+  if (!arts.length) {
+    showError(`No ${t} content yet. Content refreshes every 2 hours.`);
+    return;
+  }
+  renderFirst();
+}
+
+// ── Navigation ────────────────────────────────────────────
+function nav(dir) {
+  const nxt = curIdx + dir;
+  if (curTab === 'learn' && nxt >= arts.length) {
+    animOut(dir);
+    showLoadMore();
+    return;
+  }
+  if (nxt < 0 || nxt >= arts.length) return;
+  animOut(dir);
+  curIdx = nxt;
+  buildCard(arts[curIdx], curIdx, dir > 0 ? 'ed' : 'eu');
+  updCounter(`${curIdx+1} of ${arts.length}`, curIdx);
+  $prev.disabled = curIdx === 0;
+  $next.disabled = curTab !== 'learn' && curIdx === arts.length-1;
+}
+
+function animOut(dir) {
+  const old = $wrap.querySelector('.card.on, .loadmore.on');
+  if (old) { old.classList.remove('on'); old.classList.add(dir>0?'eu':'ed'); setTimeout(()=>old.remove(),380); }
+}
+
+function renderFirst() {
+  $wrap.innerHTML = '';
+  curIdx = 0;
+  buildCard(arts[0], 0, 'ed');
+  updCounter(`1 of ${arts.length}`, 0);
+  $prev.disabled = true;
+  $next.disabled = arts.length <= 1;
+}
+
+function buildCard(a, idx, from) {
+  curTab === 'learn' ? buildLearnCard(a, idx, from) : buildNewsCard(a, idx, from);
+}
+
+// ── News card ─────────────────────────────────────────────
+function buildNewsCard(a, idx, from) {
+  if (!a) return;
+  const v  = Number(a.validity) || 7;
+  const vc = v >= 8 ? 'vhi' : 'vmd';
+  const vt = v >= 8 ? `Verified · ${v}/10` : `Moderate · ${v}/10`;
+  const img = getImg(a.category, idx);
+  const searchUrl = a.searchQuery
+    ? `https://news.google.com/search?q=${encodeURIComponent(a.searchQuery)}&hl=en-IN&gl=IN&tbs=qdr:w`
+    : '';
+
+  const card = mk('div', `card ${from}`);
+  card.innerHTML = `
+    <div class="card-img">
+      <img src="${img}" alt="" onload="this.classList.add('vis')"
+        onerror="this.src='https://images.unsplash.com/photo-1509391366360-2e959784a276?w=900&h=500&fit=crop'">
+      <div class="img-grad"></div>
+      <div class="b-cat">${x(a.category)}</div>
+      <div class="b-src">${x(a.source)}</div>
+      <div class="b-meta"><span>${x(a.region)}</span><span>${x(a.timeAgo)}</span></div>
+    </div>
+    <div class="card-body">
+      <div class="c-head">${x(a.headline)}</div>
+      <div class="c-body">${x(a.summary)}</div>
+      ${searchUrl ? `<a href="${searchUrl}" target="_blank" rel="noopener" class="btn-act">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        Search on Google News (last 7 days)
+      </a>` : ''}
+      <div class="c-foot">
+        <div class="vbadge ${vc}"><div class="vdot"></div>${vt}</div>
+        <div class="swipe-hint">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+          Swipe or arrows
+        </div>
+      </div>
+    </div>`;
+  append(card, from);
+}
+
+// ── Learning card ─────────────────────────────────────────
+function buildLearnCard(a, idx, from) {
+  if (!a) return;
+  const dc    = a.difficulty==='Advanced'?'d-adv':a.difficulty==='Intermediate'?'d-int':'d-beg';
+  const img   = getImg(a.category, idx + 300);
+  const stats = [a.stat1, a.stat2, a.stat3, a.stat4].filter(Boolean);
+
+  const card = mk('div', `card ${from}`);
+  card.innerHTML = `
+    <div class="learn-img">
+      <img src="${img}" alt="" onload="this.classList.add('vis')"
+        onerror="this.src='https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=900&h=500&fit=crop'">
+      <div class="img-grad"></div>
+      <div class="b-cat">${x(a.category)}</div>
+      <div class="b-src">Learning Tech</div>
+      <div class="b-diff ${dc}">${x(a.difficulty)}</div>
+    </div>
+    <div class="card-body">
+      <div class="c-head">${x(a.title)}</div>
+      <div class="c-body">${x(a.intro)}</div>
+      ${a.c1_title?`<div class="cblock"><div class="cblock-t">${x(a.c1_title)}</div><div class="cblock-b">${x(a.c1_text)}</div></div>`:''}
+      ${a.c2_title?`<div class="cblock"><div class="cblock-t">${x(a.c2_title)}</div><div class="cblock-b">${x(a.c2_text)}</div></div>`:''}
+      ${a.c3_title?`<div class="cblock"><div class="cblock-t">${x(a.c3_title)}</div><div class="cblock-b">${x(a.c3_text)}</div></div>`:''}
+      ${stats.length?`<div class="stats-row">${stats.map(s=>`<span class="stat-chip">${x(s)}</span>`).join('')}</div>`:''}
+      ${a.readUrl?`<a href="${x(a.readUrl)}" target="_blank" rel="noopener" class="btn-act">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        ${x(a.readLabel||'Learn more')}
+      </a>`:''}
+      <div class="c-foot">
+        <div class="vbadge vhi"><div class="vdot"></div>AI Generated</div>
+        <div class="swipe-hint">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+          Swipe for more
+        </div>
+      </div>
+    </div>`;
+  append(card, from);
+}
+
+function showLoadMore() {
+  const el = mk('div', 'loadmore ed');
+  el.innerHTML = `
+    <div style="font-size:44px">📚</div>
+    <div style="font-size:16px;font-weight:700;color:#1a1a1a;text-align:center;padding:0 16px">All ${arts.length} cards read!</div>
+    <div style="font-size:13px;color:#777;text-align:center;max-width:240px;line-height:1.6">New learning cards are generated every 2 hours automatically</div>
+    <button class="lm-btn" onclick="switchTab('industry')">Back to Industry News</button>`;
+  $wrap.appendChild(el);
+  raf(() => raf(() => el.classList.replace('ed','on')));
+  updCounter(`All ${arts.length} read`, arts.length-1);
+  $prev.disabled = false; $next.disabled = true;
+}
+
+function showSkel() {
+  $wrap.innerHTML = `
+    <div class="sk-card">
+      <div class="sk-img"></div>
+      <div class="sk-body">
+        <div class="sk-line sk-s"></div><div class="sk-line sk-l"></div>
+        <div class="sk-line sk-xl"></div><div class="sk-line sk-m"></div>
+        <div class="sk-line sk-l"></div>
+      </div>
+    </div>`;
+  $prev.disabled = true; $next.disabled = true;
+}
+
+function showError(msg) {
+  $wrap.innerHTML = `
+    <div class="err-card">
+      <div style="font-size:36px">⚠️</div>
+      <div style="font-size:15px;font-weight:700;color:#1a1a1a">Could not load content</div>
+      <div style="font-size:12.5px;color:#888;line-height:1.65;max-width:270px">${x(msg)}</div>
+      <button class="err-retry" onclick="loadContent()">Try Again</button>
+    </div>`;
+  updCounter('Error — tap Try Again', 0);
+  $prev.disabled = true; $next.disabled = true;
+}
+
+function updCounter(txt, idx) {
+  $cText.textContent = txt;
+  $cDots.innerHTML   = '';
+  const n = Math.min(arts.length, 10);
+  for (let i=0; i<n; i++) {
+    const d = mk('div', `cdot${i===idx?' on':''}`);
+    $cDots.appendChild(d);
+  }
+}
+
+function append(el, from) {
+  $wrap.appendChild(el);
+  raf(() => raf(() => el.classList.replace(from, 'on')));
+}
+
+function showToast(m, ms=2500) {
+  $toast.textContent = m;
+  $toast.classList.add('show');
+  setTimeout(() => $toast.classList.remove('show'), ms);
+}
+
+function mk(tag, cls) {
+  const el = document.createElement(tag);
+  el.className = cls;
+  return el;
+}
+
+const raf = requestAnimationFrame;
+function x(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+</script>
+</body>
+</html>

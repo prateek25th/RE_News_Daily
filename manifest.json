@@ -1,0 +1,10 @@
+{
+  "name": "REPower News",
+  "short_name": "REPower",
+  "description": "Renewable energy news in 60 words. AI-verified.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1B5E20",
+  "theme_color": "#1B5E20",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
