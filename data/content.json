@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-12T18:31:02.556Z",
-  "nextUpdateAt": "2026-05-12T20:31:02.556Z",
+  "generatedAt": "2026-05-12T23:41:54.194Z",
+  "nextUpdateAt": "2026-05-13T01:41:54.194Z",
   "today": "Tuesday, 12 May 2026",
   "stats": {
     "industryTotal": 12,
-    "techTotal": 9,
+    "techTotal": 11,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -179,6 +179,34 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1778629263978-0",
+      "fetchedAt": "2026-05-12T23:41:03.978Z",
+      "headline": "Hydrogen Transportation After HVS: Narrow Niches, Big Subsidies, Long Pilots",
+      "summary": "HVS was not a fringe hydrogen truck company with a sketch and a slogan. It had a serious ambition, a real engineering team, public support, private funding, partnerships, prototypes, and a target market that sounded plausible enough: zero-emission he",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/05/12/hydrogen-transportation-after-hvs-narrow-niches-big-subsidies-long-pilots/",
+      "searchQuery": "Hydrogen Transportation After HVS: Narrow Niches,  2026",
+      "category": "Policy Update",
+      "region": "India",
+      "timeAgo": "21m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "The Guardian-1778629263978-7",
+      "fetchedAt": "2026-05-12T23:41:03.978Z",
+      "headline": "Don’t reach for the bug spray: scientists find insects may feel pain after crickets nurse sore antenna",
+      "summary": "<p>The behavioural cue of ‘flexible self-protection’ is a way to establish whether an animal feels pain, scientists say</p><ul><li><p><a href=\"https://www.theguardian.com/environment/2025/mar/10/sign-up-for-the-clear-air-australia-environment-newslet",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/science/2026/may/13/insects-feel-pain-research",
+      "searchQuery": "Don’t reach for the bug spray: scientists find ins 2026",
+      "category": "Policy Update",
+      "region": "India",
+      "timeAgo": "39m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Electrek-1778610611945-3",
       "fetchedAt": "2026-05-12T18:30:11.945Z",
