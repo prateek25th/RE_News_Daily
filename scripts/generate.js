@@ -1,224 +1,509 @@
 // scripts/generate.js
-// Runs on GitHub Actions every 2 hours.
-// Calls Gemini API once → saves all content to data/content.json
-// Users read from content.json — no API calls on their end.
+// Fetches REAL news from RSS feeds of actual publications.
+// AI (OpenRouter/Llama) only SUMMARISES real articles — never invents news.
+// Saves real summaries + real article URLs to data/content.json
 
 const fs   = require('fs');
 const path = require('path');
+const https = require('https');
+const http  = require('http');
 
 const API_KEY = process.env.OPENROUTER_API_KEY;
-const API_URL  = 'https://openrouter.ai/api/v1/chat/completions';
+const API_URL = 'https://openrouter.ai/api/v1/chat/completions';
 
 if (!API_KEY) {
-  console.error('❌ OPENROUTER_API_KEY environment variable not set.');
-  console.error('   Go to GitHub repo → Settings → Secrets → New secret → OPENROUTER_API_KEY');
+  console.error('❌ OPENROUTER_API_KEY not set in GitHub Secrets.');
   process.exit(1);
 }
 
-// ── Prompts ────────────────────────────────────────────────────────────────
-
-// Safe date formatting — avoids locale issues on GitHub Actions runner
-const _d = new Date();
-const _days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+// ── Date helpers ──────────────────────────────────────────────────────────
+const _d      = new Date();
+const _days   = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 const _months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-const today = `${_days[_d.getDay()]}, ${_d.getDate()} ${_months[_d.getMonth()]} ${_d.getFullYear()}`;
+const today   = `${_days[_d.getDay()]}, ${_d.getDate()} ${_months[_d.getMonth()]} ${_d.getFullYear()}`;
 
-const INDUSTRY_PROMPT = `You are editor of REPower News. Today is ${today}.
-
-Generate 6 renewable energy INDUSTRY & BUSINESS news articles from the last 7 days.
-Cover a DIVERSE mix — NOT just tenders. Include:
-- Leadership changes (CEO/MD/Chairman appointments in RE companies)
-- Government statements (what India ministers said about RE sector)
-- New regulations (MNRE circulars, CERC/SERC orders, policy notifications)
-- Company earnings, fundraising, IPOs, partnerships
-- International RE deals and climate finance agreements
-- Capacity additions and records broken
-- Grid and transmission infrastructure updates
-- Manufacturing news (PLI scheme, import duties, production milestones)
-- Green bonds and sustainability-linked financing
-- Newspaper headlines about major RE developments
-
-India entities: Adani Green Energy, NTPC Renewable, ReNew Power, Tata Power Solar, Greenko, Torrent Power, JSW Energy, Waaree Energies, Premier Energies, Vikram Solar, SECI, MNRE, IREDA, CERC, Hero Future Energies, Avaada Energy.
-Global entities: Orsted, Vestas, Siemens Gamesa, Shell Renewables, BP, Equinor, RWE, Enel Green Power, NextEra Energy, Iberdrola.
-Mix: 3 India + 3 global. All different topics and companies.
-
-Return ONLY a valid JSON array. Each object:
-{
-  "headline": "compelling headline max 12 words",
-  "summary": "80-90 words. Start with entity name. Include specific figures MW/GW, crore/billion, location, timeline, significance.",
-  "source": "one of: Economic Times|Business Standard|Livemint|Financial Express|The Hindu|Times of India|Business Line|Solar Quarter|Mercom India|PV Magazine|NDTV|Hindustan Times|Reuters|Bloomberg|AP News|Down To Earth|Deccan Herald",
-  "searchQuery": "6-8 words + 2025 for Google News search",
-  "category": "one of: Solar Tender|Wind Auction|Green Finance|Project Commission|Policy Update|Leadership Change|Regulation|Market Analysis|Company Results|International Deal|Grid Infrastructure|Manufacturing|Rooftop Solar|Energy Storage|Offshore Wind",
-  "region": "India or Global or Europe or US or Middle East",
-  "validity": 8,
-  "validityReason": "Industry publication cited",
-  "timeAgo": "1h ago to 6 days ago"
-}
-
-JSON array only. No markdown. Start with [ end with ]`;
-
-const TECH_PROMPT = `You are editor of REPower News. Today is ${today}.
-
-Generate 6 renewable energy TECHNOLOGY & INNOVATION articles from the last 7 days.
-Pick 6 completely different topics from:
-perovskite solar cells, tandem solar, solid-state batteries, sodium-ion batteries, green hydrogen electrolyzers, floating offshore wind, iron-air storage, AI grid management, building-integrated PV, agrivoltaics, wave energy, vehicle-to-grid, virtual power plants, compressed air storage, green ammonia, bifacial solar records, offshore wind size records, battery recycling, gravity storage, tidal energy, EV second-life batteries, solar desalination, smart inverters, HVDC transmission.
-
-Institutions: NREL, MIT, IIT, Fraunhofer ISE, Tesla Energy, QuantumScape, Northvolt, Form Energy, Nel Hydrogen, ITM Power, LONGi Solar, Siemens Energy.
-
-Return ONLY a valid JSON array. Each object:
-{
-  "headline": "technology headline max 12 words",
-  "summary": "80-90 words. Start with institution/company. Include efficiency %, cost/kWh, % improvement, timeline.",
-  "source": "one of: CleanTechnica|Electrek|PV Magazine|IRENA|IEA|Solar Power World|Green Tech Media|Bloomberg NEF|MIT Technology Review|Nature Energy|Science Daily|Wood Mackenzie|Canary Media|RE World",
-  "searchQuery": "6-8 words + 2025 for Google News search",
-  "category": "one of: Solar Tech|Battery Innovation|Green Hydrogen|Offshore Wind Tech|Grid Technology|EV Technology|Energy Storage|Carbon Tech|Smart Grid|Agrivoltaics|Wave Energy|Building Solar|Tidal Energy|Green Ammonia",
-  "region": "Global or Europe or US or India or Asia",
-  "validity": 8,
-  "validityReason": "Research institution cited",
-  "timeAgo": "1h ago to 6 days ago"
-}
-
-JSON array only. No markdown. Start with [ end with ]`;
-
-const LEARN_TOPICS = [
-  'How solar PV panels generate electricity using the photoelectric effect',
-  'How wind turbines produce power through aerodynamics and generators',
-  'How lithium-ion battery storage works and its grid applications',
-  'How the electricity grid balances supply and demand in real time',
-  'Green hydrogen production through water electrolysis explained',
-  'How offshore wind farms are built and connected to shore',
-  'What is a Power Purchase Agreement and how it works in India',
-  'How electric vehicles work including motors and regenerative braking',
-  'Perovskite solar cells — why they may replace silicon panels soon',
-  'Agrivoltaics — combining solar panels with farming for dual benefit',
-  'Vehicle-to-grid technology — EVs stabilising the power grid',
-  'How pumped hydro storage works as the world oldest battery',
-  'Net metering — how rooftop solar owners earn from surplus power',
-  'Capacity factor — why a 100MW solar plant produces less than 100MW',
-  'India ISTS waiver and how it made renewable energy cheaper',
+// ── Real RSS Feed Sources ─────────────────────────────────────────────────
+// These are real publications with free RSS feeds
+const RSS_FEEDS = [
+  // Indian RE specific
+  { url: 'https://mercomindia.com/feed/',                                                   name: 'Mercom India',     tab: 'industry' },
+  { url: 'https://solarquarter.com/feed/',                                                  name: 'Solar Quarter',    tab: 'industry' },
+  { url: 'https://www.pv-magazine-india.com/feed/',                                         name: 'PV Magazine India',tab: 'industry' },
+  // Indian business papers
+  { url: 'https://economictimes.indiatimes.com/industry/energy/rssfeeds/13358499.cms',      name: 'Economic Times',   tab: 'industry' },
+  { url: 'https://www.business-standard.com/rss/companies-114.rss',                         name: 'Business Standard',tab: 'industry' },
+  { url: 'https://www.livemint.com/rss/industry',                                           name: 'Livemint',         tab: 'industry' },
+  // Global RE
+  { url: 'https://cleantechnica.com/feed/',                                                  name: 'CleanTechnica',    tab: 'both'     },
+  { url: 'https://www.pv-magazine.com/feed/',                                                name: 'PV Magazine',      tab: 'both'     },
+  { url: 'https://electrek.co/feed/',                                                        name: 'Electrek',         tab: 'both'     },
+  { url: 'https://www.renewableenergyworld.com/feed/',                                       name: 'RE World',         tab: 'industry' },
+  { url: 'https://www.solarpowerworldonline.com/feed/',                                      name: 'Solar Power World', tab: 'tech'    },
+  { url: 'https://www.pv-tech.org/feed/',                                                    name: 'PV Tech',          tab: 'tech'     },
+  // News agencies
+  { url: 'https://feeds.bbci.co.uk/news/science_and_environment/rss.xml',                   name: 'BBC Environment',  tab: 'both'     },
+  { url: 'https://www.theguardian.com/environment/rss',                                      name: 'The Guardian',     tab: 'both'     },
 ];
 
-// Pick 8 random topics each run for variety
-const chosenTopics = [...LEARN_TOPICS].sort(() => Math.random() - 0.5).slice(0, 5);
+// RE keywords to filter relevant articles
+const RE_KEYWORDS = [
+  'solar', 'wind', 'renewable', 'clean energy', 'green energy', 'photovoltaic',
+  'battery storage', 'energy storage', 'electric vehicle', 'ev charging',
+  'green hydrogen', 'offshore wind', 'rooftop solar', 'net metering',
+  'mnre', 'seci', 'power purchase', 'carbon', 'climate', 'emission',
+  'megawatt', 'gigawatt', 'mw ', 'gw ', 'kwh', 'solar panel', 'turbine',
+  'adani green', 'ntpc renewable', 'tata power', 'greenko', 'renew power',
+  'waaree', 'vikram solar', 'orsted', 'vestas', 'siemens gamesa',
+  'perovskite', 'lithium', 'electrolyzer', 'agrivoltaic', 'bifacial',
+];
 
-const LEARN_PROMPT = `You are a renewable energy educator. Create 5 educational learning cards.
+const TECH_KEYWORDS = [
+  'breakthrough', 'efficiency', 'record', 'research', 'innovation', 'technology',
+  'perovskite', 'solid state', 'sodium ion', 'electrolyzer', 'floating wind',
+  'agrivoltaic', 'vehicle to grid', 'v2g', 'bifacial', 'storage technology',
+  'new study', 'scientists', 'researchers', 'laboratory', 'prototype', 'patent',
+  'milestone', 'achievement', 'announced', 'developed', 'discovered',
+];
 
-Topics:
-${chosenTopics.map((t, i) => `${i + 1}. ${t}`).join('\n')}
+// ── HTTP fetch helper ─────────────────────────────────────────────────────
+function fetchUrl(url, redirectCount = 0) {
+  return new Promise((resolve, reject) => {
+    if (redirectCount > 5) { reject(new Error('Too many redirects')); return; }
 
-Return ONLY a valid JSON array. Each object must have ONLY flat string fields:
+    const lib     = url.startsWith('https') ? https : http;
+    const options = {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; REPowerNews/2.0; +https://github.com/repower-news)',
+        'Accept':     'application/rss+xml, application/xml, text/xml, */*',
+      },
+      timeout: 12000,
+    };
+
+    const req = lib.get(url, options, (res) => {
+      // Follow redirects
+      if ([301, 302, 303, 307, 308].includes(res.statusCode) && res.headers.location) {
+        const nextUrl = res.headers.location.startsWith('http')
+          ? res.headers.location
+          : new URL(res.headers.location, url).href;
+        resolve(fetchUrl(nextUrl, redirectCount + 1));
+        return;
+      }
+
+      if (res.statusCode !== 200) {
+        reject(new Error(`HTTP ${res.statusCode} for ${url}`));
+        return;
+      }
+
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => resolve(data));
+    });
+
+    req.on('error', reject);
+    req.on('timeout', () => { req.destroy(); reject(new Error(`Timeout: ${url}`)); });
+  });
+}
+
+// ── Parse RSS XML ─────────────────────────────────────────────────────────
+function parseRSS(xml, sourceName) {
+  const articles = [];
+
+  // Extract items using regex (no external dependencies needed)
+  const itemRegex = /<item>([\s\S]*?)<\/item>|<entry>([\s\S]*?)<\/entry>/gi;
+  let match;
+
+  while ((match = itemRegex.exec(xml)) !== null && articles.length < 8) {
+    const item = match[1] || match[2];
+
+    const title = extractTag(item, 'title');
+    const link  = extractLink(item);
+    const desc  = extractTag(item, 'description') ||
+                  extractTag(item, 'summary')     ||
+                  extractTag(item, 'content:encoded') || '';
+    const pubDate = extractTag(item, 'pubDate') ||
+                    extractTag(item, 'published') ||
+                    extractTag(item, 'updated') || '';
+
+    if (!title || !link) continue;
+
+    // Clean HTML tags from description
+    const cleanDesc = desc
+      .replace(/<[^>]*>/g, ' ')
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .slice(0, 500);
+
+    articles.push({
+      title:   title.replace(/<[^>]*>/g, '').trim(),
+      url:     link,
+      desc:    cleanDesc,
+      pubDate,
+      source:  sourceName,
+    });
+  }
+
+  return articles;
+}
+
+function extractTag(xml, tag) {
+  const patterns = [
+    new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>`, 'i'),
+    new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, 'i'),
+  ];
+  for (const p of patterns) {
+    const m = xml.match(p);
+    if (m) return m[1].trim();
+  }
+  return '';
+}
+
+function extractLink(item) {
+  // Try <link> tag
+  const linkTag = item.match(/<link[^>]*>([^<]+)<\/link>/i);
+  if (linkTag) return linkTag[1].trim();
+
+  // Try <link href="..."> (Atom feeds)
+  const linkAttr = item.match(/<link[^>]+href=["']([^"']+)["']/i);
+  if (linkAttr) return linkAttr[1].trim();
+
+  // Try <guid>
+  const guid = item.match(/<guid[^>]*>([^<]+)<\/guid>/i);
+  if (guid && guid[1].startsWith('http')) return guid[1].trim();
+
+  return '';
+}
+
+// ── Check if article is about renewable energy ────────────────────────────
+function isREArticle(article) {
+  const text = `${article.title} ${article.desc}`.toLowerCase();
+  return RE_KEYWORDS.some(kw => text.includes(kw.toLowerCase()));
+}
+
+function isTechArticle(article) {
+  const text = `${article.title} ${article.desc}`.toLowerCase();
+  return TECH_KEYWORDS.some(kw => text.includes(kw.toLowerCase()));
+}
+
+function timeAgo(pubDate) {
+  if (!pubDate) return 'Recently';
+  const d    = new Date(pubDate);
+  if (isNaN(d)) return 'Recently';
+  const diff = Math.floor((Date.now() - d) / 1000);
+  if (diff < 3600)  return `${Math.floor(diff / 60)}m ago`;
+  if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
+  return `${Math.floor(diff / 86400)}d ago`;
+}
+
+// ── Fetch all RSS feeds ───────────────────────────────────────────────────
+async function fetchAllFeeds() {
+  const allArticles = [];
+
+  for (const feed of RSS_FEEDS) {
+    try {
+      console.log(`  📡 Fetching ${feed.name}...`);
+      const xml      = await fetchUrl(feed.url);
+      const articles = parseRSS(xml, feed.name);
+      const relevant = articles.filter(isREArticle).map(a => ({ ...a, feedTab: feed.tab }));
+      allArticles.push(...relevant);
+      console.log(`  ✅ ${feed.name}: ${relevant.length} relevant articles`);
+    } catch(e) {
+      console.warn(`  ⚠️  ${feed.name} failed: ${e.message}`);
+    }
+
+    // Small delay between RSS requests
+    await sleep(500);
+  }
+
+  return allArticles;
+}
+
+// ── Summarise with AI ─────────────────────────────────────────────────────
+async function summariseArticles(articles, label) {
+  if (!articles.length) {
+    console.warn(`  ⚠️  No articles to summarise for ${label}`);
+    return [];
+  }
+
+  console.log(`  🤖 Summarising ${articles.length} ${label} articles...`);
+
+  const articleList = articles.map((a, i) =>
+    `[${i}] TITLE: ${a.title}\nSOURCE: ${a.source}\nCONTENT: ${a.desc}\nURL: ${a.url}`
+  ).join('\n\n');
+
+  const prompt = `You are editor of REPower News. Today is ${today}.
+
+Below are REAL news articles fetched from actual publications. 
+Your job is ONLY to summarise them — do NOT invent any information.
+Only use facts present in the title and content provided.
+
+${articleList}
+
+For each article return a JSON object. Return ONLY a valid JSON array:
+{
+  "index": article index number,
+  "headline": "rewritten headline max 12 words — must reflect actual article content",
+  "summary": "55-65 word summary using ONLY facts from the article. Start with the most important fact. Include specific figures if mentioned in the article.",
+  "source": "source name as provided",
+  "url": "exact URL as provided — do not change",
+  "category": "one of: Solar Tender|Wind Auction|Green Finance|Project Commission|Policy Update|Leadership Change|Regulation|Market Analysis|Company Results|International Deal|Grid Infrastructure|Manufacturing|Rooftop Solar|Energy Storage|Offshore Wind|Solar Tech|Battery Innovation|Green Hydrogen|EV Technology|Smart Grid|Agrivoltaics",
+  "region": "India or Global or Europe or US or Asia or Middle East",
+  "timeAgo": "time string as provided",
+  "validity": 9,
+  "validityReason": "Real article from ${label === 'industry' ? 'industry publication' : 'tech publication'}"
+}
+
+IMPORTANT: 
+- Only summarise articles in the list above
+- Do not add facts not in the original
+- Keep the exact URL provided
+- If content is too short to summarise properly, skip that article
+
+JSON array only. No markdown. Start with [ end with ]`;
+
+  try {
+    const res = await fetch(API_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type':  'application/json',
+        'Authorization': `Bearer ${API_KEY}`,
+        'HTTP-Referer':  'https://github.com/repower-news',
+        'X-Title':       'REPower News',
+      },
+      body: JSON.stringify({
+        model:       'meta-llama/llama-3.3-70b-instruct:free',
+        messages:    [{ role: 'user', content: prompt }],
+        temperature: 0.3, // Low temperature — we want faithful summaries
+        max_tokens:  3000,
+      }),
+    });
+
+    if (!res.ok) {
+      const err = await res.text();
+      throw new Error(`OpenRouter ${res.status}: ${err.slice(0, 200)}`);
+    }
+
+    const data = await res.json();
+    const text = data?.choices?.[0]?.message?.content || '';
+
+    const parsed = parseJSON(text);
+    if (!parsed?.length) throw new Error('Could not parse summarisation response');
+
+    // Map back to full articles with summaries
+    return parsed.map(s => {
+      const original = articles[s.index];
+      if (!original) return null;
+      return {
+        headline:       s.headline || original.title,
+        summary:        s.summary  || original.desc.slice(0, 200),
+        source:         original.source,
+        url:            original.url,  // Always use original URL
+        searchQuery:    `${original.title.slice(0, 50)} ${new Date().getFullYear()}`,
+        category:       s.category || 'Policy Update',
+        region:         s.region   || 'India',
+        timeAgo:        timeAgo(original.pubDate),
+        validity:       9,
+        validityReason: 'Real article — AI summarised only',
+      };
+    }).filter(Boolean);
+
+  } catch(e) {
+    console.error(`  ❌ Summarisation failed for ${label}: ${e.message}`);
+    // Fallback: return articles with truncated description as summary
+    return articles.map(a => ({
+      headline:       a.title,
+      summary:        a.desc.slice(0, 250) || a.title,
+      source:         a.source,
+      url:            a.url,
+      searchQuery:    `${a.title.slice(0, 50)} ${new Date().getFullYear()}`,
+      category:       'Policy Update',
+      region:         'India',
+      timeAgo:        timeAgo(a.pubDate),
+      validity:       9,
+      validityReason: 'Real article from publication',
+    }));
+  }
+}
+
+// ── Generate learning content (AI-generated educational cards are OK) ────
+async function generateLearnContent() {
+  const LEARN_TOPICS = [
+    'How solar PV panels generate electricity — photoelectric effect and silicon cells',
+    'How wind turbines produce power — rotor aerodynamics and generators',
+    'How lithium-ion battery storage works and its applications in grid stabilisation',
+    'How the electricity grid balances supply and demand in real time',
+    'Green hydrogen production through water electrolysis — PEM vs alkaline',
+    'How offshore wind farms are designed, installed and connected to shore',
+    'What is a Power Purchase Agreement and how it works for RE projects in India',
+    'How electric vehicles work — motors, regenerative braking and charging levels',
+    'Perovskite solar cells — why they could replace silicon and current efficiency records',
+    'Agrivoltaics — combining solar panels with farming for dual land use',
+    'Vehicle-to-grid technology — how EVs can stabilise the renewable power grid',
+    'How pumped hydro storage works as the world largest battery technology',
+    'Net metering in India — how rooftop solar owners sell power back to the grid',
+    'Capacity factor explained — why a 100MW solar plant produces less than 100MW always',
+    'India ISTS waiver policy — how it reduced renewable energy costs significantly',
+    'Solid-state batteries vs lithium-ion — safety, energy density and timeline',
+    'Floating solar farms on water bodies — advantages and India installations',
+    'The duck curve problem — why solar power creates a grid challenge at sunset',
+    'Green steel production — using hydrogen to replace coking coal in blast furnaces',
+    'India National Green Hydrogen Mission — targets, incentives and 2030 roadmap',
+  ];
+
+  const chosen = [...LEARN_TOPICS].sort(() => Math.random() - 0.5).slice(0, 6);
+
+  const prompt = `You are a renewable energy educator creating learning cards for professionals and students.
+
+Create 6 educational cards on these topics:
+${chosen.map((t, i) => `${i + 1}. ${t}`).join('\n')}
+
+These educational cards can be AI-generated (unlike news which must be real).
+Make them accurate, detailed and useful.
+
+Return ONLY a valid JSON array. Each object must have these exact flat string fields:
 {
   "title": "clear educational title max 10 words",
   "category": "Solar Energy|Wind Energy|Battery Storage|Grid & Systems|Hydrogen|EV & Transport|Ocean Energy|Energy Policy",
   "difficulty": "Beginner or Intermediate or Advanced",
-  "intro": "65-70 word engaging introduction explaining why this matters",
-  "c1_title": "First concept title with emoji",
-  "c1_text": "55 word explanation with analogy",
-  "c2_title": "Second concept title with emoji",
-  "c2_text": "55 word explanation building on first",
-  "c3_title": "Third concept title with emoji — include India context",
-  "c3_text": "55 word explanation with India data or policy",
-  "stat1": "short fact with number",
-  "stat2": "short fact with number",
-  "stat3": "short fact with number",
-  "stat4": "short fact with number",
+  "intro": "65-70 word engaging introduction explaining why this topic matters",
+  "c1_title": "First concept title with relevant emoji",
+  "c1_text": "55 word explanation with a helpful analogy",
+  "c2_title": "Second concept title with relevant emoji",
+  "c2_text": "55 word explanation building on the first concept",
+  "c3_title": "Third concept title with relevant emoji",
+  "c3_text": "55 word explanation with India-specific data or policy context",
+  "stat1": "short factual stat with number e.g. India: 90 GW solar installed 2024",
+  "stat2": "short factual stat with number",
+  "stat3": "short factual stat with number",
+  "stat4": "short factual stat with number",
   "readUrl": "real URL from irena.org, iea.org, mnre.gov.in, or nrel.gov",
   "readLabel": "short label e.g. Explore at IRENA"
 }
 
-All values plain strings. JSON array only. No markdown. Start with [ end with ]`;
-
-// ── Call Gemini ─────────────────────────────────────────────────────────────
-
-async function callGemini(prompt, label) {
-  console.log(`  📡 Calling Gemini for: ${label}...`);
+All values must be plain strings. JSON array only. No markdown. Start with [ end with ]`;
 
   const res = await fetch(API_URL, {
     method: 'POST',
     headers: {
       'Content-Type':  'application/json',
       'Authorization': `Bearer ${API_KEY}`,
-      'HTTP-Referer': 'https://github.com/repower-news',
-      'X-Title': 'REPower News',
+      'HTTP-Referer':  'https://github.com/repower-news',
+      'X-Title':       'REPower News',
     },
     body: JSON.stringify({
       model:       'meta-llama/llama-3.3-70b-instruct:free',
       messages:    [{ role: 'user', content: prompt }],
       temperature: 0.7,
-      max_tokens:  3000,
+      max_tokens:  4000,
     }),
   });
 
   if (!res.ok) {
     const err = await res.text();
-    throw new Error(`OpenRouter error ${res.status} for ${label}: ${err.slice(0, 200)}`);
+    throw new Error(`OpenRouter ${res.status}: ${err.slice(0, 200)}`);
   }
 
   const data = await res.json();
   const text = data?.choices?.[0]?.message?.content || '';
-
-  // Parse JSON — try multiple strategies
-  const strategies = [
-    () => JSON.parse(text.trim()),
-    () => JSON.parse(text.replace(/```json|```/g, '').trim()),
-    () => { const m = text.match(/\[[\s\S]*\]/); if (m) return JSON.parse(m[0]); throw new Error('no match'); },
-  ];
-
-  for (const fn of strategies) {
-    try {
-      const parsed = fn();
-      if (Array.isArray(parsed) && parsed.length > 0) {
-        console.log(`  ✅ ${label}: ${parsed.length} items`);
-        return parsed;
-      }
-    } catch {}
-  }
-
-  throw new Error(`Could not parse Gemini response for ${label}. Raw: ${text.slice(0, 300)}`);
+  const parsed = parseJSON(text);
+  if (!parsed?.length) throw new Error('Could not parse learn content');
+  return parsed;
 }
 
-// ── Main ────────────────────────────────────────────────────────────────────
+// ── Helpers ───────────────────────────────────────────────────────────────
+function parseJSON(t) {
+  if (!t) return null;
+  for (const fn of [
+    () => JSON.parse(t.trim()),
+    () => JSON.parse(t.replace(/```json|```/g, '').trim()),
+    () => { const m = t.match(/\[[\s\S]*\]/); if (m) return JSON.parse(m[0]); throw 0; },
+  ]) { try { const r = fn(); if (Array.isArray(r)) return r; } catch {} }
+  return null;
+}
 
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+// ── Main ──────────────────────────────────────────────────────────────────
 async function main() {
-  console.log('\n🌱 REPower News — Content Generator');
-  console.log(`📅 ${today}\n`);
+  console.log('\n🌱 REPower News — Real Content Generator');
+  console.log(`📅 ${today}`);
+  console.log('📰 Fetching REAL news from actual publications...\n');
 
-  // Small delay between calls to respect Gemini rate limits (15 req/min free)
-  const sleep = ms => new Promise(r => setTimeout(r, ms));
+  // Step 1: Fetch all RSS feeds
+  const allArticles = await fetchAllFeeds();
+  console.log(`\n📊 Total relevant articles found: ${allArticles.length}`);
 
-  let industry, tech, learn;
-
-  try {
-    industry = await callGemini(INDUSTRY_PROMPT, 'Industry News');
-    await sleep(30000); // 30 second gap — avoids TPM rate limit
-    tech     = await callGemini(TECH_PROMPT,     'Tech & Innovation');
-    await sleep(30000);
-    learn    = await callGemini(LEARN_PROMPT,    'Learning Tech');
-  } catch(err) {
-    console.error('\n❌ Generation failed:', err.message);
-    console.error('Stack:', err.stack);
-    process.exit(1);
+  if (allArticles.length === 0) {
+    console.error('❌ No articles fetched from any RSS feed.');
+    console.error('   RSS feeds may be temporarily unavailable. Will retry next run.');
+    // Don't exit with error — keep old content rather than showing nothing
+    process.exit(0);
   }
 
+  // Step 2: Split into industry vs tech
+  const industryArticles = allArticles
+    .filter(a => a.feedTab === 'industry' || a.feedTab === 'both')
+    .slice(0, 8); // Max 8 for AI summarisation
+
+  const techArticles = allArticles
+    .filter(a => (a.feedTab === 'tech' || a.feedTab === 'both') && isTechArticle(a))
+    .slice(0, 8);
+
+  console.log(`   Industry articles: ${industryArticles.length}`);
+  console.log(`   Tech articles: ${techArticles.length}`);
+
+  // Step 3: Summarise with AI
+  console.log('\n🤖 Summarising articles with AI...');
+
+  const industry = await summariseArticles(industryArticles, 'industry');
+  console.log(`   ✅ Industry summaries: ${industry.length}`);
+
+  await sleep(30000); // 30 second gap for rate limit
+
+  const tech = await summariseArticles(techArticles, 'tech');
+  console.log(`   ✅ Tech summaries: ${tech.length}`);
+
+  await sleep(30000);
+
+  // Step 4: Generate learning cards (AI-generated is fine for education)
+  console.log('\n📚 Generating learning cards...');
+  let learn = [];
+  try {
+    learn = await generateLearnContent();
+    console.log(`   ✅ Learning cards: ${learn.length}`);
+  } catch(e) {
+    console.warn(`   ⚠️  Learning cards failed: ${e.message}`);
+  }
+
+  // Step 5: Save to content.json
   const content = {
     generatedAt:  new Date().toISOString(),
     nextUpdateAt: new Date(Date.now() + 2 * 60 * 60 * 1000).toISOString(),
     today,
-    industry,
-    tech,
-    learn,
+    totalFetched: allArticles.length,
+    industry:     industry.length ? industry : [],
+    tech:         tech.length     ? tech     : [],
+    learn:        learn.length    ? learn    : [],
   };
 
-  // Save to data/content.json
   const outputPath = path.join(__dirname, '..', 'data', 'content.json');
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   fs.writeFileSync(outputPath, JSON.stringify(content, null, 2));
 
-  console.log(`\n✅ Saved to data/content.json`);
-  console.log(`   Industry: ${industry.length} articles`);
-  console.log(`   Tech:     ${tech.length} articles`);
-  console.log(`   Learn:    ${learn.length} cards`);
+  console.log('\n✅ DONE — Real news saved to data/content.json');
+  console.log(`   Industry: ${industry.length} real articles`);
+  console.log(`   Tech:     ${tech.length} real articles`);
+  console.log(`   Learn:    ${learn.length} educational cards`);
+  console.log(`   Sources:  ${[...new Set(allArticles.map(a => a.source))].join(', ')}`);
   console.log(`   Next run: ${content.nextUpdateAt}`);
 }
 
-main();
+main().catch(err => {
+  console.error('\n❌ Fatal error:', err.message);
+  console.error(err.stack);
+  process.exit(1);
+});
