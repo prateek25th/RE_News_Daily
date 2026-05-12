@@ -1,7 +1,7 @@
 // scripts/generate.js
 // Runs on GitHub Actions every 2 hours.
 // Calls Gemini API once → saves all content to data/content.json
-// Users read from content.json — no API calls on their end.
+// Users read from content.json — no API calls on their end. 
 
 const fs   = require('fs');
 const path = require('path');
