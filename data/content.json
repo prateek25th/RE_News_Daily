@@ -1,14 +1,56 @@
 {
-  "generatedAt": "2026-05-13T10:04:01.423Z",
-  "nextUpdateAt": "2026-05-13T12:04:01.423Z",
+  "generatedAt": "2026-05-13T18:31:50.892Z",
+  "nextUpdateAt": "2026-05-13T20:31:50.892Z",
   "today": "Wednesday, 13 May 2026",
   "stats": {
-    "industryTotal": 24,
-    "techTotal": 13,
+    "industryTotal": 27,
+    "techTotal": 16,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1778697029719-0",
+      "fetchedAt": "2026-05-13T18:30:29.719Z",
+      "headline": "HPERC Issues Draft Rules Defining Useful Life for Solar, Wind, Biomass Projects",
+      "summary": "The Himachal Pradesh Electricity Regulatory Commission (HPERC) has issued the draft Promotion of Generation from the Renewable Energy Sources and Terms and Conditions for Tariff Determination (Eighth Amendment) Regulations, 2026, which seeks to add d",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/hperc-issues-draft-rules-defining-useful-life-for-solar-wind-biomass-projects",
+      "searchQuery": "HPERC Issues Draft Rules Defining Useful Life for  2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "4m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1778697029720-1",
+      "fetchedAt": "2026-05-13T18:30:29.720Z",
+      "headline": "Nextpower to Acquire Zigor’s Power Conversion Assets and Apex Power",
+      "summary": "Nextpower (previously known as Nextracker), a solar PV solutions provider, has entered into a definitive agreement to acquire&#8230;",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/nextpower-acquire-zigors-power-conversion-assets-and-apex-power",
+      "searchQuery": "Nextpower to Acquire Zigor’s Power Conversion Asse 2026",
+      "category": "M&A Deal",
+      "region": "Global",
+      "timeAgo": "12m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Quarter-1778697029720-9",
+      "fetchedAt": "2026-05-13T18:30:29.720Z",
+      "headline": "Gamuda Berhad Wins RM600 Million Australia Solar Project Contract",
+      "summary": "Gamuda Berhad's Australian unit, DT Infrastructure, has secured a RM600 million contract for the Jinbi Solar Project in Western Australia, anticipated to enhance financial performance and expand in the renewable sector. The project, featuring a 75 MW",
+      "source": "Solar Quarter",
+      "url": "https://solarquarter.com/2026/05/13/gamuda-berhad-wins-rm600-million-australia-solar-project-contract/",
+      "searchQuery": "Gamuda Berhad Wins RM600 Million Australia Solar P 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "5h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1778666560826-0",
       "fetchedAt": "2026-05-13T10:02:40.826Z",
@@ -347,6 +389,48 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1778697059991-0",
+      "fetchedAt": "2026-05-13T18:30:59.991Z",
+      "headline": "€1 Billion To Be Invested In German Electric Truck Charging",
+      "summary": "The German Ministry of Transport recently announced it will invest €1 billion to develop more commercial electric truck charging infrastructure in Germany. The funding will be spread out over four years. Electric vehicles have a distinct advantage ov",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/05/13/e1-billion-to-be-invested-in-german-electric-truck-charging/",
+      "searchQuery": "€1 Billion To Be Invested In German Electric Truck 2026",
+      "category": "Policy Update",
+      "region": "Europe",
+      "timeAgo": "29m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "CleanTechnica-1778697059991-1",
+      "fetchedAt": "2026-05-13T18:30:59.991Z",
+      "headline": "Dubai, London Heathrow, &#038; Los Angeles Airports Produce Three Times As Much CO2 As The Entire City Of Paris",
+      "summary": "Airports in Europe account for more emissions than Latin America, the Middle East and Africa combined. NEW research from global affairs thinktank ODI Global, in partnership with T&#38;E (Transport &#38; Environment) and with data provided by the Inte",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/05/13/dubai-london-heathrow-los-angeles-airports-produce-three-times-as-much-co2-as-the-entire-city-of-paris/",
+      "searchQuery": "Dubai, London Heathrow, &#038; Los Angeles Airport 2026",
+      "category": "Policy Update",
+      "region": "Europe",
+      "timeAgo": "4h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1778697059991-2",
+      "fetchedAt": "2026-05-13T18:30:59.991Z",
+      "headline": "Large-scale PV could intensify water stress in China’s Tarim Basin",
+      "summary": "Chinese researchers have found that massive photovoltaic deployment in the Taklamakan Desert could alter regional climate dynamics and worsen water stress in the already arid Tarim Basin, despite the area’s vast solar potential.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/05/13/large-scale-pv-could-intensify-water-stress-in-chinas-tarim-basin/",
+      "searchQuery": "Large-scale PV could intensify water stress in Chi 2026",
+      "category": "Policy Update",
+      "region": "Asia",
+      "timeAgo": "7h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1778666591029-1",
       "fetchedAt": "2026-05-13T10:03:11.029Z",
