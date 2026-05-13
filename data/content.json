@@ -1,14 +1,42 @@
 {
-  "generatedAt": "2026-05-13T08:08:23.423Z",
-  "nextUpdateAt": "2026-05-13T10:08:23.423Z",
+  "generatedAt": "2026-05-13T10:04:01.423Z",
+  "nextUpdateAt": "2026-05-13T12:04:01.423Z",
   "today": "Wednesday, 13 May 2026",
   "stats": {
-    "industryTotal": 22,
-    "techTotal": 12,
+    "industryTotal": 24,
+    "techTotal": 13,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1778666560826-0",
+      "fetchedAt": "2026-05-13T10:02:40.826Z",
+      "headline": "Tamil Nadu Approves Procurement of 12 MW of Solar Power Under PM KUSUM",
+      "summary": "The Tamil Nadu Electricity Regulatory Commission (TNERC) has approved tariffs in the range of ₹3.02 (~$0.0315)/kWh to ₹3.09 (~$0.0323)/kWh for the procurement of 12 MW of solar power under Component-A of the Pradhan Mantri Kisan Urja Suraksha evam Ut",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/tamil-nadu-approves-procurement-of-12-mw-of-solar-power-under-pm-kusum",
+      "searchQuery": "Tamil Nadu Approves Procurement of 12 MW of Solar  2026",
+      "category": "Project Commission",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Quarter-1778666560827-9",
+      "fetchedAt": "2026-05-13T10:02:40.827Z",
+      "headline": "Clearway Energy Group Commissions 320 MW Honeycomb Energy Center, Strengthening Utah’s Grid And Expanding Its State Portfolio",
+      "summary": "Clearway Energy Group has launched the 320 MW Honeycomb Energy Center in Utah, a $600 million battery storage project that enhances the local power grid and economy. It includes four 80 MW systems, provides reliable energy, creates jobs, and benefits",
+      "source": "Solar Quarter",
+      "url": "https://solarquarter.com/2026/05/13/clearway-energy-group-commissions-320-mw-honeycomb-energy-center-strengthening-utahs-grid-and-expanding-its-state-portfolio/",
+      "searchQuery": "Clearway Energy Group Commissions 320 MW Honeycomb 2026",
+      "category": "Project Commission",
+      "region": "Global",
+      "timeAgo": "3m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1778659623042-0",
       "fetchedAt": "2026-05-13T08:07:03.042Z",
@@ -319,6 +347,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1778666591029-1",
+      "fetchedAt": "2026-05-13T10:03:11.029Z",
+      "headline": "Continuous-wave infrared laser technology enables damage-free backsheet removal in end-of-life solar modules",
+      "summary": "U.S. researchers have developed an IR-CW laser-based method to remove backsheets from end-of-life silicon solar modules without damaging the glass or wafers, using controlled heating of the silicon–EVA interface through the front glass. The process e",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/05/13/continuous-wave-infrared-laser-technology-enables-damage-free-backsheet-removal-in-end-of-life-solar-modules/",
+      "searchQuery": "Continuous-wave infrared laser technology enables  2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1778659653165-1",
       "fetchedAt": "2026-05-13T08:07:33.165Z",
