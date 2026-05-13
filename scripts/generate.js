@@ -208,7 +208,18 @@ function extractLink(item) {
   return '';
 }
 
-function isRE(a)   { const t = `${a.title} ${a.desc}`.toLowerCase(); return RE_KEYWORDS.some(k => t.includes(k)); }
+function isRE(a) {
+  const t = `${a.title} ${a.desc}`.toLowerCase();
+  // For general news sources (Guardian/BBC), require stronger RE signal
+  const generalSources = ['the guardian', 'bbc environment', 'bbc news'];
+  const isGeneral = generalSources.some(s => a.source.toLowerCase().includes(s.replace('the ','')));
+  if (isGeneral) {
+    // Must match at least 2 RE keywords OR contain core energy terms
+    const coreTerms = ['solar','wind energy','renewable','clean energy','battery storage','electric vehicle','green hydrogen','offshore wind','energy storage','photovoltaic'];
+    return coreTerms.some(k => t.includes(k));
+  }
+  return RE_KEYWORDS.some(k => t.includes(k));
+}
 function isTech(a) { const t = `${a.title} ${a.desc}`.toLowerCase(); return TECH_KEYWORDS.some(k => t.includes(k)); }
 
 function timeAgo(pubDate) {
@@ -216,9 +227,12 @@ function timeAgo(pubDate) {
   const d = new Date(pubDate);
   if (isNaN(d)) return 'Recently';
   const s = Math.floor((Date.now() - d) / 1000);
+  if (s < 0)     return 'Just now';   // future date — treat as now
+  if (s < 60)    return 'Just now';
   if (s < 3600)  return `${Math.floor(s/60)}m ago`;
   if (s < 86400) return `${Math.floor(s/3600)}h ago`;
-  return `${Math.floor(s/86400)}d ago`;
+  if (s < 86400*7) return `${Math.floor(s/86400)}d ago`;
+  return 'This week';
 }
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -326,8 +340,8 @@ CRITICAL: Keep exact URLs. Only summarise what is in the articles. JSON array on
       source:         a.source,
       url:            a.url,
       searchQuery:    `${a.title.slice(0,50)} ${new Date().getFullYear()}`,
-      category:       'Policy Update',
-      region:         'India',
+      category:       guessCategory(a.title),
+      region:         guessRegion(a.title + ' ' + a.desc),
       timeAgo:        timeAgo(a.pubDate),
       validity:       9,
       validityReason: 'Real article from publication',
@@ -441,6 +455,40 @@ function parseJSON(t) {
     () => { const m = t.match(/\[[\s\S]*\]/); if (m) return JSON.parse(m[0]); throw 0; },
   ]) { try { const r = fn(); if (Array.isArray(r)) return r; } catch {} }
   return null;
+}
+
+
+// ── Smart category & region guessing ─────────────────────────────────────
+function guessCategory(text) {
+  const t = text.toLowerCase();
+  if (t.match(/tender|auction|bid|rfp|rfs|rfq/))           return 'Solar Tender';
+  if (t.match(/wind.*auction|auction.*wind/))               return 'Wind Auction';
+  if (t.match(/finance|fund|investment|loan|bond|capital/)) return 'Green Finance';
+  if (t.match(/commission|install|deploy|complet|megawatt|mw |gw /)) return 'Project Commission';
+  if (t.match(/policy|regulation|rule|circular|order|ministry|mnre|cerc|government/)) return 'Policy Update';
+  if (t.match(/ceo|coo|cfo|md |chairman|director|appoint|resign|leadership/)) return 'Leadership Change';
+  if (t.match(/acquire|acquisition|merger|stake|m&a|buy|purchase.*company/)) return 'M&A Deal';
+  if (t.match(/rooftop|residential|pm surya|net meter/))   return 'Rooftop Solar';
+  if (t.match(/offshore wind|floating wind/))               return 'Offshore Wind';
+  if (t.match(/grid|transmission|hvdc|substation/))         return 'Grid Infrastructure';
+  if (t.match(/storage|battery|bess/))                      return 'Energy Storage';
+  if (t.match(/manufactur|pli|import|export|production/))   return 'Manufacturing';
+  if (t.match(/result|revenue|profit|earning|q[1-4]|fy2/))  return 'Company Results';
+  if (t.match(/perovskite|tandem|efficiency|breakthrough|research|lab/)) return 'Solar Tech';
+  if (t.match(/hydrogen|electrolyzer|electrolys/))          return 'Green Hydrogen';
+  if (t.match(/ev |electric vehicle|e-vehicle|v2g/))        return 'EV Technology';
+  return 'Policy Update';
+}
+
+function guessRegion(text) {
+  const t = text.toLowerCase();
+  if (t.match(/india|indian|rajasthan|gujarat|tamil|maharashtra|delhi|mnre|seci|ntpc|adani|tata power|greenko|waaree|premier energies/)) return 'India';
+  if (t.match(/europe|european|germany|france|spain|uk |britain|denmark|netherlands/)) return 'Europe';
+  if (t.match(/us |usa|united states|american|california|texas|new york|federal/))     return 'US';
+  if (t.match(/china|chinese|beijing|shanghai/))            return 'Asia';
+  if (t.match(/middle east|uae|saudi|abu dhabi|dubai|oman|qatar/)) return 'Middle East';
+  if (t.match(/australia|japan|korea|southeast asia|africa/)) return 'Global';
+  return 'Global';
 }
 
 // ── Fallback learning cards ───────────────────────────────────────────────
