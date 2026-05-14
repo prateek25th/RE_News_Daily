@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-14T17:16:50.268Z",
-  "nextUpdateAt": "2026-05-14T19:16:50.268Z",
+  "generatedAt": "2026-05-14T21:58:13.555Z",
+  "nextUpdateAt": "2026-05-14T23:58:13.555Z",
   "today": "Thursday, 14 May 2026",
   "stats": {
-    "industryTotal": 36,
-    "techTotal": 15,
+    "industryTotal": 34,
+    "techTotal": 13,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -484,34 +484,6 @@
       "timeAgo": "10m ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1778610581758-0",
-      "fetchedAt": "2026-05-12T18:29:41.758Z",
-      "headline": "Borosil Renewables’ Revenue Jumps 18% YoY, Reports Profit of ₹1.69 Billion in Q4",
-      "summary": "Mumbai-based solar glass manufacturer Borosil Renewables reported revenue of ₹4.40 billion (~$46.24 million) in the fourth quarter (Q4) of the financial year (FY) 2026, increasing 17.77% from ₹3.74 billion (~$39.26 million) a year ago. Its profit aft",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/borosil-renewable-revenue-jumps-18-yoy-reports-profit-of-₹1-69-billion",
-      "searchQuery": "Borosil Renewables’ Revenue Jumps 18% YoY, Reports 2026",
-      "category": "Policy Update",
-      "region": "India",
-      "timeAgo": "-90m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1778610581758-1",
-      "fetchedAt": "2026-05-12T18:29:41.758Z",
-      "headline": "NHPC Issues RfS for 13 MW of Rooftop Solar Projects in Northeast India",
-      "summary": "Listen to this article NHPC has issued a request for selection (RfS) to set up 13.255 MW of grid-connected rooftop solar projects across Sikkim, Manipur, and Nagaland.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/nhpc-issues-rfs-for-13-mw-of-rooftop-solar-projects-in-northeast-india",
-      "searchQuery": "NHPC Issues RfS for 13 MW of Rooftop Solar Project 2026",
-      "category": "Policy Update",
-      "region": "India",
-      "timeAgo": "30m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "tech": [
@@ -694,34 +666,6 @@
       "category": "Policy Update",
       "region": "India",
       "timeAgo": "39m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Electrek-1778610611945-3",
-      "fetchedAt": "2026-05-12T18:30:11.945Z",
-      "headline": "Tesla invests $250M more in Giga Berlin battery cells, boosting capacity to 18 GWh",
-      "summary": "Tesla announced today that it will invest almost $250 million more in battery cell production at its Grünheide factory outside Berlin, more than doubling planned capacity to 18 gigawatt hours per year and creating over 1,500 battery-related jobs. The",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/05/12/tesla-giga-berlin-250-million-battery-cell-investment-18-gwh/",
-      "searchQuery": "Tesla invests $250M more in Giga Berlin battery ce 2026",
-      "category": "Policy Update",
-      "region": "India",
-      "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "The Guardian-1778610611945-7",
-      "fetchedAt": "2026-05-12T18:30:11.945Z",
-      "headline": "Trump’s rollback of toxic gas rules limits EPA’s authority to protect public health, analysis says",
-      "summary": "<p>Ethylene oxide (EtO) is about 60 times more carcinogenic than believed in 2006, research finds</p><p>A new <a href=\"https://www.theguardian.com/us-news/trump-administration\">Trump administration</a> plan to rescind 2024 regulations for toxic ethyl",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/may/12/trump-rollback-eto-pollution-epa",
-      "searchQuery": "Trump’s rollback of toxic gas rules limits EPA’s a 2026",
-      "category": "Policy Update",
-      "region": "India",
-      "timeAgo": "6h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
