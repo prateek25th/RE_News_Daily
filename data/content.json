@@ -1,14 +1,56 @@
 {
-  "generatedAt": "2026-05-15T21:42:11.392Z",
-  "nextUpdateAt": "2026-05-15T23:42:11.392Z",
-  "today": "Friday, 15 May 2026",
+  "generatedAt": "2026-05-16T06:40:21.127Z",
+  "nextUpdateAt": "2026-05-16T08:40:21.127Z",
+  "today": "Saturday, 16 May 2026",
   "stats": {
-    "industryTotal": 33,
+    "industryTotal": 36,
     "techTotal": 14,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Solar Quarter-1778913540491-7",
+      "fetchedAt": "2026-05-16T06:39:00.491Z",
+      "headline": "TNERC Approves Tariffs For 12 MW PM-KUSUM Solar Projects In Tamil Nadu",
+      "summary": "The Tamil Nadu Electricity Regulatory Commission has approved tariffs for 12 MW of solar power projects under the PM-KUSUM scheme, promoting decentralized solar generation. Following a joint petition, four developers secured tariffs ranging from ₹3.0",
+      "source": "Solar Quarter",
+      "url": "https://solarquarter.com/2026/05/16/tnerc-approves-tariffs-for-12-mw-pm-kusum-solar-projects-in-tamil-nadu/",
+      "searchQuery": "TNERC Approves Tariffs For 12 MW PM-KUSUM Solar Pr 2026",
+      "category": "Project Commission",
+      "region": "India",
+      "timeAgo": "6m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Quarter-1778913540491-8",
+      "fetchedAt": "2026-05-16T06:39:00.491Z",
+      "headline": "TNERC Approves 500 MW Pumped Storage Power Procurement For Tamil Nadu Grid Stability",
+      "summary": "The Tamil Nadu Electricity Regulatory Commission has approved Tamil Nadu Power Distribution Corporation's plan to procure 500 MW of energy storage from a pumped storage project in Andhra Pradesh. Starting May 1, 2026, it aims to balance power supply ",
+      "source": "Solar Quarter",
+      "url": "https://solarquarter.com/2026/05/16/tnerc-approves-500-mw-pumped-storage-power-procurement-for-tamil-nadu-grid-stability/",
+      "searchQuery": "TNERC Approves 500 MW Pumped Storage Power Procure 2026",
+      "category": "Project Commission",
+      "region": "India",
+      "timeAgo": "19m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Quarter-1778913540491-9",
+      "fetchedAt": "2026-05-16T06:39:00.491Z",
+      "headline": "Central Electricity Authority Report Warns Of Rising Financial Stress In India’s Power Distribution Sector",
+      "summary": "A report by the Central Electricity Authority reveals a significant financial imbalance in India's power distribution sector, where DISCOMs face high fixed costs but low fixed charges from consumers. This gap forces utilities to recover costs through",
+      "source": "Solar Quarter",
+      "url": "https://solarquarter.com/2026/05/16/central-electricity-authority-report-warns-of-rising-financial-stress-in-indias-power-distribution-sector/",
+      "searchQuery": "Central Electricity Authority Report Warns Of Risi 2026",
+      "category": "Policy Update",
+      "region": "India",
+      "timeAgo": "56m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1778862621160-0",
       "fetchedAt": "2026-05-15T16:30:21.160Z",
