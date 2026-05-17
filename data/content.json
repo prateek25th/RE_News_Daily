@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-16T22:33:11.635Z",
-  "nextUpdateAt": "2026-05-17T00:33:11.635Z",
-  "today": "Saturday, 16 May 2026",
+  "generatedAt": "2026-05-17T08:36:59.467Z",
+  "nextUpdateAt": "2026-05-17T10:36:59.467Z",
+  "today": "Sunday, 17 May 2026",
   "stats": {
-    "industryTotal": 20,
+    "industryTotal": 16,
     "techTotal": 11,
     "learnTotal": 6,
     "windowHours": 48
@@ -232,65 +232,23 @@
       "timeAgo": "4h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1778833936680-0",
-      "fetchedAt": "2026-05-15T08:32:16.680Z",
-      "headline": "SECI Announces Winner of 10 MW Solar Auction",
-      "summary": "The Solar Energy Corporation of India (SECI) has announced the winner of its auction to set up a 10 MW grid-connected solar project in Odisha.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/seci-announces-winner-of-10-mw-solar-plus-20-mwh-battery-storage-auction",
-      "searchQuery": "SECI Announces Winner of 10 MW Solar Auction 2026",
-      "category": "Solar Tender",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1778833936680-1",
-      "fetchedAt": "2026-05-15T08:32:16.680Z",
-      "headline": "Daily News Wrap-Up: India Adds 15.3 GW of Solar Capacity in Q1 2026",
-      "summary": "India installed 15.3 GW of solar capacity in the first quarter (Q1) of 2026, its highest-ever quarterly total, according to Mercom India’s Q1 2026 India Solar Market Update Report. Additions rose more than 143% year-over-year (YoY) from 6.3 GW in Q1 ",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/daily-news-wrap-up-india-adds-15-3-gw-of-solar-capacity-in-q1-2026",
-      "searchQuery": "Daily News Wrap-Up: India Adds 15.3 GW of Solar Ca 2026",
-      "category": "Project Commission",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1778833936681-2",
-      "fetchedAt": "2026-05-15T08:32:16.681Z",
-      "headline": "PSPCL Announces Winners of 1 GWh Battery Energy Storage Auction",
-      "summary": "The Punjab State Power Corporation (PSPCL) has announced the winners of the 500 MW/1,000 MWh standalone battery energy storage systems (BESS) auction. Stockwell Solar won 150 MW/300 MWh at a tariff of ₹335,000 (~$3,499.43)/MW/month, and Rama Reflecti",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/pspcl-announces-winners-of-1-gwh-battery-energy-storage-auction",
-      "searchQuery": "PSPCL Announces Winners of 1 GWh Battery Energy St 2026",
-      "category": "Solar Tender",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1778833936681-3",
-      "fetchedAt": "2026-05-15T08:32:16.681Z",
-      "headline": "India Adds 1.6 GW of Wind Capacity in Q1 2026",
-      "summary": "Listen to this article India added nearly 1.6 GW of wind power capacity in the first quarter (Q1) of the calendar year (CY) 2026, up",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/india-adds-1-6-gw-of-wind-capacity-in-q1-2026",
-      "searchQuery": "India Adds 1.6 GW of Wind Capacity in Q1 2026 2026",
-      "category": "Project Commission",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1779006968998-0",
+      "fetchedAt": "2026-05-17T08:36:08.998Z",
+      "headline": "Solar &#038; Farming Can Share Land, But The Details Matter",
+      "summary": "Agrivoltaics has become one of those ideas that is simple enough to fit on a social media tile and complex enough to be mangled by one. The image that prompted this discussion showed a farmer kneeling beneath solar panels in front of vegetables, shee",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/05/16/solar-farming-can-share-land-but-the-details-matter/",
+      "searchQuery": "Solar &#038; Farming Can Share Land, But The Detai 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "7h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Solar Power World-1778961119445-4",
       "fetchedAt": "2026-05-16T19:51:59.445Z",
@@ -427,20 +385,6 @@
       "searchQuery": "India installs record 15.3GW of solar in Q1 2026 a 2026",
       "category": "Project Commission",
       "region": "India",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1778833966781-0",
-      "fetchedAt": "2026-05-15T08:32:46.781Z",
-      "headline": "HY Solar unveils 670 W TOPCon modules with 24.8% efficiency",
-      "summary": "HY Solar has launched the HT3.0 quad-cut module at its Jiangyin base, marking an upgrade to its n-type portfolio built on TOPCon 3.0 cell technology with up to 27.5% cell efficiency. The manufacturer said the new product features PSP quad-cut archite",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/05/15/hy-solar-unveils-670-w-topcon-modules-with-24-8-efficiency/",
-      "searchQuery": "HY Solar unveils 670 W TOPCon modules with 24.8% e 2026",
-      "category": "Solar Tech",
-      "region": "Global",
       "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
