@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-17T19:58:36.509Z",
-  "nextUpdateAt": "2026-05-17T21:58:36.509Z",
+  "generatedAt": "2026-05-17T23:16:49.820Z",
+  "nextUpdateAt": "2026-05-18T01:16:49.820Z",
   "today": "Sunday, 17 May 2026",
   "stats": {
     "industryTotal": 13,
-    "techTotal": 9,
+    "techTotal": 8,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -301,20 +301,6 @@
       "searchQuery": "Upcycling silicon from end-of-life solar modules v 2026",
       "category": "Policy Update",
       "region": "Global",
-      "timeAgo": "2h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1778881280890-0",
-      "fetchedAt": "2026-05-15T21:41:20.890Z",
-      "headline": "Canada Needs A Second Golden Spike For Electricity",
-      "summary": "Canada’s federal government has finally put electricity where it belongs: at the centre of the national economy. That is the most important thing about Mark Carney’s newly announced National Electricity Strategy. This is not just a climate file. It i",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/05/15/canada-needs-a-second-golden-spike-for-electricity/",
-      "searchQuery": "Canada Needs A Second Golden Spike For Electricity 2026",
-      "category": "Policy Update",
-      "region": "US",
       "timeAgo": "2h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
