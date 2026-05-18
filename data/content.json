@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-18T19:19:50.027Z",
-  "nextUpdateAt": "2026-05-18T21:19:50.027Z",
+  "generatedAt": "2026-05-18T23:48:56.115Z",
+  "nextUpdateAt": "2026-05-19T01:48:56.115Z",
   "today": "Monday, 18 May 2026",
   "stats": {
     "industryTotal": 20,
-    "techTotal": 17,
+    "techTotal": 16,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -292,6 +292,20 @@
   ],
   "tech": [
     {
+      "id": "Electrek-1779148085874-5",
+      "fetchedAt": "2026-05-18T23:48:05.874Z",
+      "headline": "Tesla Model Y becomes Colombia&#8217;s top-selling car amid 304% EV surge",
+      "summary": "Tesla’s Model Y became the best-selling vehicle in Colombia in March 2026 with 1,791 units delivered — just two months after the automaker’s first deliveries in the country. The achievement is part of an explosive EV market transformation in Colombia",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/05/18/tesla-model-y-colombia-best-selling-car-ev-surge-regulator/",
+      "searchQuery": "Tesla Model Y becomes Colombia&#8217;s top-selling 2026",
+      "category": "EV Technology",
+      "region": "Global",
+      "timeAgo": "3h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Magazine-1779131939808-0",
       "fetchedAt": "2026-05-18T19:18:59.808Z",
       "headline": "Floating PV tested at manure lagoon in Spain",
@@ -498,34 +512,6 @@
       "category": "Policy Update",
       "region": "US",
       "timeAgo": "7h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1778961119445-4",
-      "fetchedAt": "2026-05-16T19:51:59.445Z",
-      "headline": "Gotion links with US electronics manufacturer for domestic battery production",
-      "summary": "Electronics manufacturer Richardson Electronics announced it would partner with Chinese lithium battery company Gotion to produce more large-scale battery energy storage systems in the United States. Gotion operates an battery manufacturing site in M",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/05/gotion-links-with-us-electronics-manufacturer-for-domestic-battery-production/",
-      "searchQuery": "Gotion links with US electronics manufacturer for  2026",
-      "category": "Energy Storage",
-      "region": "US",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1778961119445-5",
-      "fetchedAt": "2026-05-16T19:51:59.445Z",
-      "headline": "New Mexico partners unveil community solar portfolio",
-      "summary": "Pluma Construction, ForeFront Power, Standard Solar and Solstice gathered with project partners, invited guests and community stakeholders at the Pino community solar site in Las Vegas, New Mexico, to celebrate community solar in the state and progre",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/05/new-mexico-partners-unveil-community-solar-portfolio/",
-      "searchQuery": "New Mexico partners unveil community solar portfol 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
