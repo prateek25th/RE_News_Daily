@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-20T19:58:12.605Z",
-  "nextUpdateAt": "2026-05-20T21:58:12.605Z",
-  "today": "Wednesday, 20 May 2026",
+  "generatedAt": "2026-05-21T00:17:33.861Z",
+  "nextUpdateAt": "2026-05-21T02:17:33.861Z",
+  "today": "Thursday, 21 May 2026",
   "stats": {
     "industryTotal": 27,
     "techTotal": 19,
@@ -390,6 +390,20 @@
   ],
   "tech": [
     {
+      "id": "Electrek-1779322603382-6",
+      "fetchedAt": "2026-05-21T00:16:43.382Z",
+      "headline": "In a first, wind and solar generated more power than gas globally in April 2026",
+      "summary": "Wind and solar just hit a major global milestone: For the first time ever, they generated more electricity than gas for the full month of April. more…",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/05/20/in-a-first-wind-solar-generated-more-power-than-gas-globally-april-2026/",
+      "searchQuery": "In a first, wind and solar generated more power th 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "CleanTechnica-1779307042126-0",
       "fetchedAt": "2026-05-20T19:57:22.126Z",
       "headline": "How EPA Cuts Will Affect US Lives For Generations To Come",
@@ -638,20 +652,6 @@
       "category": "Energy Storage",
       "region": "US",
       "timeAgo": "4d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Electrek-1779148085874-5",
-      "fetchedAt": "2026-05-18T23:48:05.874Z",
-      "headline": "Tesla Model Y becomes Colombia&#8217;s top-selling car amid 304% EV surge",
-      "summary": "Tesla’s Model Y became the best-selling vehicle in Colombia in March 2026 with 1,791 units delivered — just two months after the automaker’s first deliveries in the country. The achievement is part of an explosive EV market transformation in Colombia",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/05/18/tesla-model-y-colombia-best-selling-car-ev-surge-regulator/",
-      "searchQuery": "Tesla Model Y becomes Colombia&#8217;s top-selling 2026",
-      "category": "EV Technology",
-      "region": "Global",
-      "timeAgo": "3h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
