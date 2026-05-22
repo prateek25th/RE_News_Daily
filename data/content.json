@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-22T18:25:16.991Z",
-  "nextUpdateAt": "2026-05-22T20:25:16.991Z",
+  "generatedAt": "2026-05-22T23:50:52.244Z",
+  "nextUpdateAt": "2026-05-23T01:50:52.244Z",
   "today": "Friday, 22 May 2026",
   "stats": {
-    "industryTotal": 28,
-    "techTotal": 17,
+    "industryTotal": 26,
+    "techTotal": 16,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -372,37 +372,23 @@
       "timeAgo": "7m ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
+    }
+  ],
+  "tech": [
     {
-      "id": "Mercom India-1779307011956-0",
-      "fetchedAt": "2026-05-20T19:56:51.956Z",
-      "headline": "GRID-India Flags Severe Frequency Oscillation at 3.16 GW Rajasthan RE Complex",
-      "summary": "Listen to this article The Grid Controller of India (GRID-India) has flagged a sustained frequency oscillation event in the Bhadla-Bikaner-Fatehgarh renewable energy complex in Rajasthan",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/grid-india-flags-severe-frequency-oscillation-at-3-16-gw-rajasthan-re-complex",
-      "searchQuery": "GRID-India Flags Severe Frequency Oscillation at 3 2026",
-      "category": "Project Commission",
-      "region": "India",
+      "id": "CleanTechnica-1779493801743-0",
+      "fetchedAt": "2026-05-22T23:50:01.743Z",
+      "headline": "Buying Electric Vehicles Supports Good Jobs",
+      "summary": "Much of the news about electric vehicles tends to be about the vehicles themselves, but there&#8217;s very little about the people who make them. However, a couple of days ago, Illinois Governor JB Pritzker shared many details and comments about inve",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/05/22/buying-electric-vehicles-supports-good-jobs/",
+      "searchQuery": "Buying Electric Vehicles Supports Good Jobs 2026",
+      "category": "M&A Deal",
+      "region": "Global",
       "timeAgo": "3h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     },
-    {
-      "id": "Solar Quarter-1779307011957-9",
-      "fetchedAt": "2026-05-20T19:56:51.957Z",
-      "headline": "Jinko Academy Returns to Al Hussein Technical University (HTU) in Jordan",
-      "summary": "Following the success of its first edition, Jinko Academy proudly returned to Al Hussein Technical University (HTU) on 18–19 May, reaffirming its commitment to empowering and inspiring the next generation [&#8230;] The post Jinko Academy Returns to A",
-      "source": "Solar Quarter",
-      "url": "https://solarquarter.com/2026/05/20/jinko-academy-returns-to-al-hussein-technical-university-htu-in-jordan/",
-      "searchQuery": "Jinko Academy Returns to Al Hussein Technical Univ 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "8h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    }
-  ],
-  "tech": [
     {
       "id": "CleanTechnica-1779474266529-0",
       "fetchedAt": "2026-05-22T18:24:26.529Z",
@@ -610,34 +596,6 @@
       "category": "Policy Update",
       "region": "Global",
       "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1779307042126-0",
-      "fetchedAt": "2026-05-20T19:57:22.126Z",
-      "headline": "How EPA Cuts Will Affect US Lives For Generations To Come",
-      "summary": "We used to think of the US Environmental Protection Agency as the site where groundbreaking scientific research took place. One of the most important areas of inquiry by its scientific staff was released to the public in 2009, when the US EPA found t",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/05/20/how-epa-cuts-will-affect-us-lives-for-generations-to-come/",
-      "searchQuery": "How EPA Cuts Will Affect US Lives For Generations  2026",
-      "category": "Policy Update",
-      "region": "US",
-      "timeAgo": "8h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1779307042126-2",
-      "fetchedAt": "2026-05-20T19:57:22.126Z",
-      "headline": "U.S. PV manufacturing capex could reach $7 billion in 2027 in breakout year for domestic supply-chain",
-      "summary": "Driven by multi-billion-dollar investments from the likes of Tesla and Corning, U.S. solar manufacturing capital expenditure is forecast to skyrocket 150% year-on-year to $7 billion in 2027, marking a massive breakout year as silicon-based technology",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/05/20/u-s-pv-manufacturing-capex-could-reach-7-billion-in-2027-in-breakout-year-for-domestic-supply-chain/",
-      "searchQuery": "U.S. PV manufacturing capex could reach $7 billion 2026",
-      "category": "Manufacturing",
-      "region": "Global",
-      "timeAgo": "6h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
