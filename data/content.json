@@ -1,14 +1,56 @@
 {
-  "generatedAt": "2026-05-22T23:50:52.244Z",
-  "nextUpdateAt": "2026-05-23T01:50:52.244Z",
-  "today": "Friday, 22 May 2026",
+  "generatedAt": "2026-05-23T08:34:20.591Z",
+  "nextUpdateAt": "2026-05-23T10:34:20.591Z",
+  "today": "Saturday, 23 May 2026",
   "stats": {
-    "industryTotal": 26,
-    "techTotal": 16,
+    "industryTotal": 29,
+    "techTotal": 15,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Solar Quarter-1779525179798-7",
+      "fetchedAt": "2026-05-23T08:32:59.798Z",
+      "headline": "Delhi Government Plans CAG Audit Of Discoms Over ₹38,500 Crore Regulatory Assets",
+      "summary": "The Delhi government is seeking to utilize Section 108 of the Electricity Act to mandate an audit of private power distribution companies, verifying their claims of regulatory assets totaling ₹38,500 crore. This aims to ensure transparency and protec",
+      "source": "Solar Quarter",
+      "url": "https://solarquarter.com/2026/05/23/delhi-government-plans-cag-audit-of-discoms-over-%e2%82%b938500-crore-regulatory-assets/",
+      "searchQuery": "Delhi Government Plans CAG Audit Of Discoms Over ₹ 2026",
+      "category": "Policy Update",
+      "region": "India",
+      "timeAgo": "29m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Quarter-1779525179798-8",
+      "fetchedAt": "2026-05-23T08:32:59.798Z",
+      "headline": "U.S. Clean Energy Manufacturing Surges Ahead Despite Policy Hurdles, Reports The American Clean Power Association",
+      "summary": "The American Clean Power Association's report highlights the growing momentum of the U.S. clean energy manufacturing sector, emphasizing its importance for economic growth and national security. With over 300 facilities now operational, the sector su",
+      "source": "Solar Quarter",
+      "url": "https://solarquarter.com/2026/05/23/u-s-clean-energy-manufacturing-surges-ahead-despite-policy-hurdles-reports-the-american-clean-power-association/",
+      "searchQuery": "U.S. Clean Energy Manufacturing Surges Ahead Despi 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "41m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Quarter-1779525179798-9",
+      "fetchedAt": "2026-05-23T08:32:59.798Z",
+      "headline": "IRENA Roadmap Highlights Urgent Need For Electrification, Grid Expansion, and Energy Storage To Achieve Global Climate Goals—Report",
+      "summary": "The global energy transition is crucial, emphasized by the UAE Consensus at COP28 and IRENA's initiative to redesign energy systems away from fossil fuels. Electrification across sectors is vital, requiring substantial renewable energy capacity growt",
+      "source": "Solar Quarter",
+      "url": "https://solarquarter.com/2026/05/23/irena-roadmap-highlights-urgent-need-for-electrification-grid-expansion-and-energy-storage-to-achieve-global-climate-goals-report/",
+      "searchQuery": "IRENA Roadmap Highlights Urgent Need For Electrifi 2026",
+      "category": "Grid Infrastructure",
+      "region": "US",
+      "timeAgo": "50m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1779474236268-0",
       "fetchedAt": "2026-05-22T18:23:56.268Z",
@@ -582,20 +624,6 @@
       "category": "Manufacturing",
       "region": "Europe",
       "timeAgo": "2h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Electrek-1779322603382-6",
-      "fetchedAt": "2026-05-21T00:16:43.382Z",
-      "headline": "In a first, wind and solar generated more power than gas globally in April 2026",
-      "summary": "Wind and solar just hit a major global milestone: For the first time ever, they generated more electricity than gas for the full month of April. more…",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/05/20/in-a-first-wind-solar-generated-more-power-than-gas-globally-april-2026/",
-      "searchQuery": "In a first, wind and solar generated more power th 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
