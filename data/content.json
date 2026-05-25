@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-25T19:09:30.274Z",
-  "nextUpdateAt": "2026-05-25T21:09:30.274Z",
+  "generatedAt": "2026-05-25T23:47:41.764Z",
+  "nextUpdateAt": "2026-05-26T01:47:41.764Z",
   "today": "Monday, 25 May 2026",
   "stats": {
     "industryTotal": 22,
-    "techTotal": 8,
+    "techTotal": 9,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -319,6 +319,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1779752811502-0",
+      "fetchedAt": "2026-05-25T23:46:51.502Z",
+      "headline": "An Post Reaches Emissions Milestone 3 Months Early",
+      "summary": "An Post, the national postal service of Ireland, has achieved its carbon reduction plans three months early. The post An Post Reaches Emissions Milestone 3 Months Early appeared first on CleanTechnica .",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/05/25/an-post-reaches-emissions-milestone-3-months-early/",
+      "searchQuery": "An Post Reaches Emissions Milestone 3 Months Early 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1779713513282-0",
       "fetchedAt": "2026-05-25T12:51:53.282Z",
