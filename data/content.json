@@ -1,14 +1,84 @@
 {
-  "generatedAt": "2026-05-25T12:52:43.550Z",
-  "nextUpdateAt": "2026-05-25T14:52:43.550Z",
+  "generatedAt": "2026-05-25T19:09:30.274Z",
+  "nextUpdateAt": "2026-05-25T21:09:30.274Z",
   "today": "Monday, 25 May 2026",
   "stats": {
-    "industryTotal": 18,
+    "industryTotal": 22,
     "techTotal": 8,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1779736089938-0",
+      "fetchedAt": "2026-05-25T19:08:09.938Z",
+      "headline": "ALMM June 1 Mandate for Solar Cells Stays, MNRE Rules Out Blanket Extension",
+      "summary": "The Ministry of New and Renewable Energy (MNRE) has declared that there will be no blanket extension of the Approved List of Models and Manufacturers (ALMM) List-II deadline beyond June 1, 2026.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/almm-june-1-mandate-for-solar-cells-stays-mnre-rules-out-blanket-extension",
+      "searchQuery": "ALMM June 1 Mandate for Solar Cells Stays, MNRE Ru 2026",
+      "category": "Policy Update",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1779736089939-1",
+      "fetchedAt": "2026-05-25T19:08:09.939Z",
+      "headline": "KIOCL Tenders 2.7 MW Floating Solar Project in Karnataka",
+      "summary": "Listen to this article KIOCL, under the Ministry of Steel, has issued a tender for a floating solar project with a minimum capacity of 2.7",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/kiocl-tenders-2-7-mw-floating-solar-project-in-karnataka",
+      "searchQuery": "KIOCL Tenders 2.7 MW Floating Solar Project in Kar 2026",
+      "category": "Solar Tender",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1779736089939-2",
+      "fetchedAt": "2026-05-25T19:08:09.939Z",
+      "headline": "Spearmint Energy Secures $450 Million for Texas Battery Storage Project",
+      "summary": "Listen to this article Spearmint Energy, a utility-scale battery storage project developer, has closed approximately $450 million in financing for Red Egret, a 300 MW/600",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/spearmint-energy-secures-450-million-for-texas-battery-storage-project",
+      "searchQuery": "Spearmint Energy Secures $450 Million for Texas Ba 2026",
+      "category": "Energy Storage",
+      "region": "US",
+      "timeAgo": "20m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1779736089939-3",
+      "fetchedAt": "2026-05-25T19:08:09.939Z",
+      "headline": "Suzlon’s Q4 Revenue Up 45% YoY, Wind Turbine Sales Soar",
+      "summary": "Wind turbine manufacturer Suzlon Energy reported a revenue of ₹54.68 billion (~$571.89 million) in the fourth quarter (Q4) of the financial year, a 44.9% year-over-year (YoY) increase from ₹37.74 billion (~$394.71 million).Profit after tax (PAT) decl",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/suzlons-q4-revenue-up-45-yoy-wind-turbine-sales-soar",
+      "searchQuery": "Suzlon’s Q4 Revenue Up 45% YoY, Wind Turbine Sales 2026",
+      "category": "Company Results",
+      "region": "Global",
+      "timeAgo": "27m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1779736089940-4",
+      "fetchedAt": "2026-05-25T19:08:09.940Z",
+      "headline": "Solar Financing Platform Stride Raises $15 Million in Series B Funding",
+      "summary": "Listen to this article Stride, a Vietnam-based rooftop solar financing platform, has raised $15 million in a Series B funding round to expand solar and",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/solar-financing-platform-stride-raises-15m-series-b-funding",
+      "searchQuery": "Solar Financing Platform Stride Raises $15 Million 2026",
+      "category": "Green Finance",
+      "region": "Global",
+      "timeAgo": "33m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1779713483133-0",
       "fetchedAt": "2026-05-25T12:51:23.133Z",
@@ -244,20 +314,6 @@
       "category": "Project Commission",
       "region": "India",
       "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Quarter-1779547721302-7",
-      "fetchedAt": "2026-05-23T14:48:41.302Z",
-      "headline": "Explained &#8211; Solar Power Evacuation Through Modern Transmission Lines: Challenges and Smart Grid Solutions",
-      "summary": "As solar power capacity continues to grow across the world, one of the biggest technical challenges is transmitting electricity from solar plants to demand centers efficiently and reliably. Large-scale solar [&#8230;] The post Explained &#8211; Solar",
-      "source": "Solar Quarter",
-      "url": "https://solarquarter.com/2026/05/23/explained-solar-power-evacuation-through-modern-transmission-lines-challenges-and-smart-grid-solutions/",
-      "searchQuery": "Explained &#8211; Solar Power Evacuation Through M 2026",
-      "category": "Grid Infrastructure",
-      "region": "Global",
-      "timeAgo": "6h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
