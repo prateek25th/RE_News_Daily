@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-26T19:36:57.616Z",
-  "nextUpdateAt": "2026-05-26T21:36:57.616Z",
+  "generatedAt": "2026-05-26T23:53:54.882Z",
+  "nextUpdateAt": "2026-05-27T01:53:54.882Z",
   "today": "Tuesday, 26 May 2026",
   "stats": {
-    "industryTotal": 29,
-    "techTotal": 17,
+    "industryTotal": 25,
+    "techTotal": 15,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -358,62 +358,6 @@
       "timeAgo": "19m ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1779652685589-0",
-      "fetchedAt": "2026-05-24T19:58:05.589Z",
-      "headline": "DP Cocoa Eyes ₹11 Million Power Bill Savings with Rooftop Solar Project",
-      "summary": "For energy-intensive industries, the shift to solar is no longer being driven by sustainability targets alone.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/dp-cocoa-eyes-₹11-million-power-bill-savings-with-rooftop-solar-project",
-      "searchQuery": "DP Cocoa Eyes ₹11 Million Power Bill Savings with  2026",
-      "category": "Rooftop Solar",
-      "region": "Global",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1779652685590-1",
-      "fetchedAt": "2026-05-24T19:58:05.590Z",
-      "headline": "NLC India Invites Bids to Lease 1,500 Acres in Gujarat for Solar Projects",
-      "summary": "NLC India has invited bids to lease 1,500 acres of land in Gujarat for the development of solar projects. Bidders must arrange government&#8230;",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/nlc-india-invites-bids-to-lease-1500-acres-in-gujarat-for-solar-projects",
-      "searchQuery": "NLC India Invites Bids to Lease 1,500 Acres in Guj 2026",
-      "category": "Solar Tender",
-      "region": "India",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1779652685590-2",
-      "fetchedAt": "2026-05-24T19:58:05.590Z",
-      "headline": "IPX Power Closes $4.95 Billion Financing for Solar and Storage Projects",
-      "summary": "Listen to this article IPX Power, an independent power producer, has closed committed financing for the construction and operation of the Darden solar and battery",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/ipx-power-closes-4-95b-financing-solar-storage-projects",
-      "searchQuery": "IPX Power Closes $4.95 Billion Financing for Solar 2026",
-      "category": "Energy Storage",
-      "region": "Global",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1779652685591-3",
-      "fetchedAt": "2026-05-24T19:58:05.591Z",
-      "headline": "Veda Solar Begins Commercial Production of Modules at 1.5 GW Surat Plant",
-      "summary": "Listen to this article Veda Solar has commenced commercial production of solar modules at its Surat, Gujarat, manufacturing facility, with capacities ranging from 550 MWp",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/veda-solar-begins-commercial-production-of-modules-at-1-5-gw-surat-plant",
-      "searchQuery": "Veda Solar Begins Commercial Production of Modules 2026",
-      "category": "Project Commission",
-      "region": "India",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "tech": [
@@ -624,34 +568,6 @@
       "category": "Policy Update",
       "region": "US",
       "timeAgo": "5h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1779652715833-0",
-      "fetchedAt": "2026-05-24T19:58:35.833Z",
-      "headline": "China invalidates First Solar TOPCon patent in major win for JinkoSolar",
-      "summary": "JinkoSolar has won a key patent invalidation in China against First Solar’s TOPCon-related patent, with the China National Intellectual Property Administration ruling it fully invalid.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/05/22/china-invalidates-first-solar-topcon-patent-in-major-win-for-jinkosolar/",
-      "searchQuery": "China invalidates First Solar TOPCon patent in maj 2026",
-      "category": "Policy Update",
-      "region": "Asia",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Tech-1779652715833-2",
-      "fetchedAt": "2026-05-24T19:58:35.833Z",
-      "headline": "Solar PV to dominate ‘electricity-led era’ of the future &#8211; BloombergNEF",
-      "summary": "The world is entering an ‘electricity-led era’, with solar PV set to become the globe’s largest electricity generation technology by 2032, according to Bloomberg New Energy Finance (BloombergNEF).",
-      "source": "PV Tech",
-      "url": "https://www.pv-tech.org/solar-pv-to-dominate-electricity-led-era-of-the-future-bloombergnef/",
-      "searchQuery": "Solar PV to dominate ‘electricity-led era’ of the  2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
