@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-26T17:49:17.213Z",
-  "nextUpdateAt": "2026-05-26T19:49:17.213Z",
+  "generatedAt": "2026-05-26T19:36:57.616Z",
+  "nextUpdateAt": "2026-05-26T21:36:57.616Z",
   "today": "Tuesday, 26 May 2026",
   "stats": {
     "industryTotal": 29,
-    "techTotal": 15,
+    "techTotal": 17,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -417,6 +417,34 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1779824166980-0",
+      "fetchedAt": "2026-05-26T19:36:06.980Z",
+      "headline": "Why Is There Such A Male Fascination With Fossil Fuels? It&#8217;s Called Petromasculinity",
+      "summary": "Energy, retail, transportation, food, and other corporate sectors are backing away from their original sustainability goals. For example, US automakers have announced tens of billions of dollars in losses attributable to their EV investments, but man",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/05/26/why-is-there-such-a-male-fascination-with-fossil-fuels-its-called-petromasculinity/",
+      "searchQuery": "Why Is There Such A Male Fascination With Fossil F 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Power World-1779824166981-4",
+      "fetchedAt": "2026-05-26T19:36:06.981Z",
+      "headline": "Toyota and Pepsi buy power from 400-MW Sequoia Solar project in Texas",
+      "summary": "The first phase of the Sequoia Solar project in Callahan County, Texas, is now fully operational. The 400-MW first phase will deliver power to partners AT&#38;T, Toyota, PepsiCo and Donaldson Company through long-term PPAs. Project developer Enbridge",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/05/toyota-and-pepsi-buy-power-from-400-mw-sequoia-solar-project-in-texas/",
+      "searchQuery": "Toyota and Pepsi buy power from 400-MW Sequoia Sol 2026",
+      "category": "Project Commission",
+      "region": "US",
+      "timeAgo": "21m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1779817706936-0",
       "fetchedAt": "2026-05-26T17:48:26.936Z",
