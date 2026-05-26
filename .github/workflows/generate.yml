@@ -21,19 +21,10 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Debug - check secret exists
-        env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: |
-          if [ -z "$OPENROUTER_API_KEY" ]; then
-            echo "❌ Secret is empty or not set"
-          else
-            echo "✅ Secret is set (length: ${#OPENROUTER_API_KEY})"
-          fi
-
       - name: Generate news content
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
         run: node scripts/generate.js
 
       - name: Commit and push updated content
