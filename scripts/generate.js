@@ -16,13 +16,19 @@ const path = require('path');
 const https = require('https');
 const http  = require('http');
 
-const API_KEY = process.env.OPENROUTER_API_KEY;
-const API_URL = 'https://openrouter.ai/api/v1/chat/completions';
-const OUTPUT  = path.join(__dirname, '..', 'data', 'content.json');
+const API_KEY      = process.env.OPENROUTER_API_KEY;
+const NEWSAPI_KEY  = process.env.NEWSAPI_KEY;  // Optional — adds ET, Mint, BS, NDTV, Hindu
+const API_URL      = 'https://openrouter.ai/api/v1/chat/completions';
+const NEWSAPI_URL  = 'https://newsapi.org/v2/everything';
+const OUTPUT       = path.join(__dirname, '..', 'data', 'content.json');
 
 if (!API_KEY) {
   console.error('❌ OPENROUTER_API_KEY not set in GitHub Secrets.');
   process.exit(1);
+}
+if (!NEWSAPI_KEY) {
+  console.warn('⚠️  NEWSAPI_KEY not set — skipping Indian newspaper sources.');
+  console.warn('   Get free key at newsapi.org and add as NEWSAPI_KEY secret.');
 }
 
 // ── Date helpers ──────────────────────────────────────────────────────────
@@ -238,6 +244,74 @@ function timeAgo(pubDate) {
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 // ── Fetch all RSS feeds ───────────────────────────────────────────────────
+
+// ── Fetch from NewsAPI (ET, Mint, Business Standard, NDTV, Hindu etc.) ──
+// NewsAPI aggregates 80,000+ sources including all major Indian newspapers
+// Free tier: 100 requests/day. We use 2-4 per day — well within limit.
+async function fetchNewsAPI() {
+  if (!NEWSAPI_KEY) return [];
+
+  const queries = [
+    // India RE news — gets ET, Mint, BS, NDTV, Hindu, HT
+    { q: 'renewable energy india solar wind', tab: 'industry' },
+    { q: 'solar energy india MNRE SECI tender', tab: 'industry' },
+    // Tech innovation
+    { q: 'solar technology battery storage innovation breakthrough', tab: 'tech' },
+  ];
+
+  const allArticles = [];
+  const sevenDaysAgo = new Date(Date.now() - 7*24*60*60*1000).toISOString().split('T')[0];
+
+  for (const q of queries) {
+    try {
+      const params = new URLSearchParams({
+        q:          q.q,
+        from:       sevenDaysAgo,
+        sortBy:     'publishedAt',
+        language:   'en',
+        pageSize:   '10',
+        apiKey:     NEWSAPI_KEY,
+      });
+
+      console.log(`  📡 NewsAPI: "${q.q}"...`);
+      const xml = await fetchUrl(`${NEWSAPI_URL}?${params}`);
+      const data = JSON.parse(xml);
+
+      if (data.status !== 'ok') {
+        console.warn(`     ⚠️  NewsAPI error: ${data.message || data.status}`);
+        continue;
+      }
+
+      const articles = (data.articles || [])
+        .filter(a => a.title && a.url && a.title !== '[Removed]')
+        .map(a => ({
+          title:   a.title,
+          url:     a.url,
+          desc:    (a.description || a.content || '').slice(0, 600),
+          pubDate: a.publishedAt,
+          source:  a.source?.name || 'NewsAPI',
+          feedTab: q.tab,
+        }))
+        .filter(isRE);
+
+      allArticles.push(...articles);
+      console.log(`     ✅ ${articles.length} relevant articles`);
+
+    } catch(e) {
+      console.warn(`     ⚠️  NewsAPI query failed: ${e.message}`);
+    }
+    await sleep(1000); // 1s between NewsAPI calls
+  }
+
+  // Deduplicate by URL
+  const seen = new Set();
+  return allArticles.filter(a => {
+    if (seen.has(a.url)) return false;
+    seen.add(a.url);
+    return true;
+  });
+}
+
 async function fetchAllFeeds() {
   const all = [];
   for (const feed of RSS_FEEDS) {
@@ -253,7 +327,24 @@ async function fetchAllFeeds() {
     }
     await sleep(500);
   }
-  return all;
+  // Also fetch from NewsAPI (Indian newspapers — ET, Mint, BS, NDTV, Hindu)
+  if (NEWSAPI_KEY) {
+    console.log('\n  📰 Fetching from Indian newspapers via NewsAPI...');
+    const newsApiArticles = await fetchNewsAPI();
+    all.push(...newsApiArticles);
+    console.log(`  📊 NewsAPI added ${newsApiArticles.length} articles`);
+  }
+
+  // Deduplicate all articles by URL
+  const seenUrls = new Set();
+  const deduped  = all.filter(a => {
+    if (seenUrls.has(a.url)) return false;
+    seenUrls.add(a.url);
+    return true;
+  });
+
+  console.log(`\n  📊 Total after deduplication: ${deduped.length} articles`);
+  return deduped;
 }
 
 // ── AI summarisation ──────────────────────────────────────────────────────
