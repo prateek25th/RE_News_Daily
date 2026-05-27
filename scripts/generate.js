@@ -348,18 +348,23 @@ async function fetchAllFeeds() {
 }
 
 
-// ── AI call with automatic model fallback ─────────────────────────────────
-// Tries 4 free models in sequence — if one is rate limited, uses the next
-const FREE_MODELS = [
+// ── AI call using OpenRouter free router ──────────────────────────────────
+// 'openrouter/free' automatically picks from all available free models
+// No hardcoded model names — no 404s — always works
+// Fallback: try specific known-good models if router fails
+const FALLBACK_MODELS = [
+  'meta-llama/llama-4-scout:free',
+  'meta-llama/llama-4-maverick:free',
   'meta-llama/llama-3.3-70b-instruct:free',
-  'meta-llama/llama-3.1-8b-instruct:free',
-  'google/gemma-3-4b-it:free',
-  'mistralai/mistral-7b-instruct:free',
+  'deepseek/deepseek-r1:free',
 ];
 
 async function callAI(prompt, temperature = 0.7, max_tokens = 3000) {
-  for (const model of FREE_MODELS) {
+  const modelsToTry = ['openrouter/free', ...FALLBACK_MODELS];
+
+  for (const model of modelsToTry) {
     try {
+      console.log(`     🤖 Trying: ${model}...`);
       const res = await fetch(API_URL, {
         method: 'POST',
         headers: {
@@ -377,25 +382,29 @@ async function callAI(prompt, temperature = 0.7, max_tokens = 3000) {
       });
 
       if (res.status === 429) {
-        console.warn(`     ⚠️  ${model} rate limited — trying next model in 3s...`);
-        await sleep(3000);
+        console.warn(`     ⚠️  ${model} rate limited — trying next in 5s...`);
+        await sleep(5000);
         continue;
       }
       if (!res.ok) {
-        console.warn(`     ⚠️  ${model} returned ${res.status} — trying next model...`);
+        const errText = await res.text();
+        console.warn(`     ⚠️  ${model} error ${res.status} — trying next...`);
         continue;
       }
 
       const data = await res.json();
       const text = data?.choices?.[0]?.message?.content || '';
-      if (!text) { console.warn(`     ⚠️  ${model} empty response — trying next...`); continue; }
+      if (!text) {
+        console.warn(`     ⚠️  ${model} returned empty — trying next...`);
+        continue;
+      }
       console.log(`     ✅ Got response from ${model}`);
       return text;
     } catch(e) {
       console.warn(`     ⚠️  ${model} error: ${e.message} — trying next...`);
     }
   }
-  throw new Error('All AI models are currently rate limited. Will retry next run.');
+  throw new Error('All AI models unavailable. Articles saved with raw text. Will retry next run.');
 }
 
 // ── AI summarisation ──────────────────────────────────────────────────────
@@ -430,7 +439,7 @@ Return a JSON array. For each article:
 CRITICAL: Keep exact URLs. Only summarise what is in the articles. JSON array only:`;
 
   try {
-    callAI(prompt, 0.3, 3000);
+    const text   = await callAI(prompt, 0.3, 3000);
     const parsed = parseJSON(text);
     if (!parsed?.length) throw new Error('Could not parse summarisation');
 
