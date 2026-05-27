@@ -347,6 +347,57 @@ async function fetchAllFeeds() {
   return deduped;
 }
 
+
+// ── AI call with automatic model fallback ─────────────────────────────────
+// Tries 4 free models in sequence — if one is rate limited, uses the next
+const FREE_MODELS = [
+  'meta-llama/llama-3.3-70b-instruct:free',
+  'meta-llama/llama-3.1-8b-instruct:free',
+  'google/gemma-3-4b-it:free',
+  'mistralai/mistral-7b-instruct:free',
+];
+
+async function callAI(prompt, temperature = 0.7, max_tokens = 3000) {
+  for (const model of FREE_MODELS) {
+    try {
+      const res = await fetch(API_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type':  'application/json',
+          'Authorization': `Bearer ${API_KEY}`,
+          'HTTP-Referer':  'https://repower.news',
+          'X-Title':       'REPower News',
+        },
+        body: JSON.stringify({
+          model,
+          messages:    [{ role: 'user', content: prompt }],
+          temperature,
+          max_tokens,
+        }),
+      });
+
+      if (res.status === 429) {
+        console.warn(`     ⚠️  ${model} rate limited — trying next model in 3s...`);
+        await sleep(3000);
+        continue;
+      }
+      if (!res.ok) {
+        console.warn(`     ⚠️  ${model} returned ${res.status} — trying next model...`);
+        continue;
+      }
+
+      const data = await res.json();
+      const text = data?.choices?.[0]?.message?.content || '';
+      if (!text) { console.warn(`     ⚠️  ${model} empty response — trying next...`); continue; }
+      console.log(`     ✅ Got response from ${model}`);
+      return text;
+    } catch(e) {
+      console.warn(`     ⚠️  ${model} error: ${e.message} — trying next...`);
+    }
+  }
+  throw new Error('All AI models are currently rate limited. Will retry next run.');
+}
+
 // ── AI summarisation ──────────────────────────────────────────────────────
 async function summarise(articles, label) {
   if (!articles.length) return [];
@@ -379,25 +430,7 @@ Return a JSON array. For each article:
 CRITICAL: Keep exact URLs. Only summarise what is in the articles. JSON array only:`;
 
   try {
-    const res = await fetch(API_URL, {
-      method: 'POST',
-      headers: {
-        'Content-Type':  'application/json',
-        'Authorization': `Bearer ${API_KEY}`,
-        'HTTP-Referer':  'https://repower.news',
-        'X-Title':       'REPower News',
-      },
-      body: JSON.stringify({
-        model:       'meta-llama/llama-3.3-70b-instruct:free',
-        messages:    [{ role: 'user', content: prompt }],
-        temperature: 0.3,
-        max_tokens:  3000,
-      }),
-    });
-
-    if (!res.ok) throw new Error(`OpenRouter ${res.status}: ${(await res.text()).slice(0,200)}`);
-    const data = await res.json();
-    const text = data?.choices?.[0]?.message?.content || '';
+    callAI(prompt, 0.3, 3000);
     const parsed = parseJSON(text);
     if (!parsed?.length) throw new Error('Could not parse summarisation');
 
@@ -479,24 +512,7 @@ All values must be plain strings. JSON array only. No markdown:`;
   for (let attempt = 1; attempt <= 2; attempt++) {
     try {
       console.log(`  🤖 Generating learning cards (attempt ${attempt})...`);
-      const res = await fetch(API_URL, {
-        method: 'POST',
-        headers: {
-          'Content-Type':  'application/json',
-          'Authorization': `Bearer ${API_KEY}`,
-          'HTTP-Referer':  'https://repower.news',
-          'X-Title':       'REPower News',
-        },
-        body: JSON.stringify({
-          model:       'meta-llama/llama-3.3-70b-instruct:free',
-          messages:    [{ role: 'user', content: prompt }],
-          temperature: 0.65,
-          max_tokens:  4000,
-        }),
-      });
-      if (!res.ok) throw new Error(`OpenRouter ${res.status}: ${(await res.text()).slice(0,200)}`);
-      const data   = await res.json();
-      const text   = data?.choices?.[0]?.message?.content || '';
+      callAI(prompt, 0.65, 4000);
       const parsed = parseJSON(text);
       if (parsed?.length > 0) {
         console.log(`  ✅ Learning cards: ${parsed.length}`);
