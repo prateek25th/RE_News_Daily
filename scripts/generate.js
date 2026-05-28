@@ -353,14 +353,17 @@ async function fetchAllFeeds() {
 // No hardcoded model names — no 404s — always works
 // Fallback: try specific known-good models if router fails
 const FALLBACK_MODELS = [
-  'meta-llama/llama-4-scout:free',
-  'meta-llama/llama-4-maverick:free',
   'meta-llama/llama-3.3-70b-instruct:free',
-  'deepseek/deepseek-r1:free',
+  'meta-llama/llama-3.1-8b-instruct:free',
 ];
 
 async function callAI(prompt, temperature = 0.7, max_tokens = 3000) {
-  const modelsToTry = ['openrouter/free', ...FALLBACK_MODELS];
+  // Try openrouter/free up to 3 times (it sometimes returns empty on first try)
+  // then fall back to specific models
+  const modelsToTry = [
+    'openrouter/free', 'openrouter/free', 'openrouter/free',
+    ...FALLBACK_MODELS,
+  ];
 
   for (const model of modelsToTry) {
     try {
@@ -521,7 +524,7 @@ All values must be plain strings. JSON array only. No markdown:`;
   for (let attempt = 1; attempt <= 2; attempt++) {
     try {
       console.log(`  🤖 Generating learning cards (attempt ${attempt})...`);
-      callAI(prompt, 0.65, 4000);
+      const text   = await callAI(prompt, 0.65, 4000);
       const parsed = parseJSON(text);
       if (parsed?.length > 0) {
         console.log(`  ✅ Learning cards: ${parsed.length}`);
@@ -728,11 +731,11 @@ async function main() {
   // Step 2: Split by tab
   const industryFresh = allArticles
     .filter(a => a.feedTab === 'industry' || a.feedTab === 'both')
-    .slice(0, 10);
+    .slice(0, 6);
 
   const techFresh = allArticles
     .filter(a => (a.feedTab === 'tech' || a.feedTab === 'both') && isTech(a))
-    .slice(0, 10);
+    .slice(0, 6);
 
   // Step 3: Summarise new articles with AI
   let industrySummarised = [], techSummarised = [];
