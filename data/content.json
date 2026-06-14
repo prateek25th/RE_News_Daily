@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T19:55:25.318Z",
-  "nextUpdateAt": "2026-06-14T21:55:25.319Z",
+  "generatedAt": "2026-06-14T23:24:22.869Z",
+  "nextUpdateAt": "2026-06-15T01:24:22.869Z",
   "today": "Sunday, 14 June 2026",
   "stats": {
     "industryTotal": 6,
@@ -96,6 +96,34 @@
   ],
   "tech": [
     {
+      "id": "Solar Power World-1781479201932-4",
+      "fetchedAt": "2026-06-14T23:20:01.932Z",
+      "headline": "Descartes Underwriting Offers Wind Insurance",
+      "summary": "Descartes Underwriting partnered with Nextpower to provide wind insurance using data-driven solutions. The coverage addresses risks from straight-line winds impacting solar plants. The insurance relies on real-time wind speed data from project sites. This initiative aims to protect solar infrastructure from extreme weather events. Descartes combines climate science with risk modeling to offer tailored solutions for renewable energy projects.",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/06/descartes-underwriting-offering-insurance-coverage-for-nextpower-projects/",
+      "searchQuery": "Descartes Underwriting offers wind insurance throu 2026",
+      "category": "Green Finance",
+      "region": "Global",
+      "timeAgo": "4d ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Solar Power World-1781479201932-5",
+      "fetchedAt": "2026-06-14T23:20:01.932Z",
+      "headline": "GM to Manufacture Sodium-Ion Batteries for Peak Energy",
+      "summary": "General Motors will produce sodium-ion battery cells for Peak Energy’s grid storage systems. The partnership involves GM developing cells in Michigan labs with exclusive manufacturing rights. Peak Energy will integrate these cells into its energy storage solutions. This collaboration strengthens U.S. leadership in battery technology. Sodium-ion batteries offer cost-effective alternatives to lithium-ion for large-scale energy storage.",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/06/gm-to-manufacture-sodium-ion-battery-cells-for-peak-energy-bess/",
+      "searchQuery": "GM to manufacture sodium-ion battery cells for Pea 2026",
+      "category": "Battery Innovation",
+      "region": "US",
+      "timeAgo": "4d ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
       "id": "PV Magazine-1781452630868-1",
       "fetchedAt": "2026-06-14T15:57:10.868Z",
       "headline": "Trinasolar launches 620 W TOPCon ‘Shield’ module for North American market",
@@ -176,34 +204,6 @@
       "category": "Green Finance",
       "region": "US",
       "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1781301595326-4",
-      "fetchedAt": "2026-06-12T21:59:55.326Z",
-      "headline": "Descartes Underwriting Partners with Nextpower for Wind Insurance Solutions",
-      "summary": "Descartes Underwriting integrated data-driven wind insurance solutions with Nextpower to protect solar plants from straight-line winds. Coverage uses real-time wind speed data and risk modeling. The post Descartes Underwriting offers wind insurance through Nextpower project network appeared first on Solar Power World.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/06/descartes-underwriting-offering-insurance-coverage-for-nextpower-projects/",
-      "searchQuery": "Descartes Underwriting offers wind insurance throu 2026",
-      "category": "Green Finance",
-      "region": "Global",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1781301595326-5",
-      "fetchedAt": "2026-06-12T21:59:55.326Z",
-      "headline": "GM to Manufacture Sodium-Ion Batteries for Peak Energy's Grid Storage",
-      "summary": "Peak Energy partnered with General Motors to develop sodium-ion battery cells for grid storage. GM will manufacture cells in Michigan, retaining exclusive rights. The post GM to manufacture sodium-ion battery cells for Peak Energy BESS appeared first on Solar Power World.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/06/gm-to-manufacture-sodium-ion-battery-cells-for-peak-energy-bess/",
-      "searchQuery": "GM to manufacture sodium-ion battery cells for Pea 2026",
-      "category": "Battery Innovation",
-      "region": "US",
-      "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
     }
