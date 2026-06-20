@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-20T17:46:25.071Z",
-  "nextUpdateAt": "2026-06-20T19:46:25.071Z",
+  "generatedAt": "2026-06-20T19:55:13.955Z",
+  "nextUpdateAt": "2026-06-20T21:55:13.955Z",
   "today": "Saturday, 20 June 2026",
   "stats": {
     "industryTotal": 11,
-    "techTotal": 8,
+    "techTotal": 7,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -262,20 +262,6 @@
       "timeAgo": "2h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1781807594196-0",
-      "fetchedAt": "2026-06-18T18:33:14.196Z",
-      "headline": "Virginia launches first crop‑based agrivoltaics pilot",
-      "summary": "The Community Farm at Roundabout Meadows in Virginia is hosting the state’s first crop‑based agrivoltaics system, marking the initial step toward integrating solar panels with farmland to preserve the region’s agrarian heritage.",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/06/18/agrivoltaics-virginia-solar-energy-storage-conserve-farmland/",
-      "searchQuery": "Agrivoltaics Gets A Huge Thumbs-Up From A State St 2026",
-      "category": "Agrivoltaics",
-      "region": "US",
-      "timeAgo": "5h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "learn": [
