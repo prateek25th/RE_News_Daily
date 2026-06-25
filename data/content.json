@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-25T16:37:45.495Z",
-  "nextUpdateAt": "2026-06-25T18:37:45.495Z",
+  "generatedAt": "2026-06-25T20:33:39.114Z",
+  "nextUpdateAt": "2026-06-25T22:33:39.114Z",
   "today": "Thursday, 25 June 2026",
   "stats": {
     "industryTotal": 22,
-    "techTotal": 23,
+    "techTotal": 24,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -319,6 +319,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "Solar Power World-1782418586212-0",
+      "fetchedAt": "2026-06-25T20:16:26.212Z",
+      "headline": "Ann Arbor finishes its largest solar project to date",
+      "summary": "A recently built 480-kWAC solar array in southern Ann Arbor, Michigan, is now the city&#8217;s largest PV project. This array at Steere Farm Wells is helping power vital water pumping facilities at one of Ann Arbor’s biggest electricity users. This c",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/06/ann-arbor-finishes-its-largest-solar-project-to-date/",
+      "searchQuery": "Ann Arbor finishes its largest solar project to da 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Solar Power World-1782405345583-0",
       "fetchedAt": "2026-06-25T16:35:45.583Z",
