@@ -1,14 +1,84 @@
 {
-  "generatedAt": "2026-06-29T11:23:26.073Z",
-  "nextUpdateAt": "2026-06-29T13:23:26.073Z",
+  "generatedAt": "2026-06-29T16:06:39.492Z",
+  "nextUpdateAt": "2026-06-29T18:06:39.492Z",
   "today": "Monday, 29 June 2026",
   "stats": {
-    "industryTotal": 12,
-    "techTotal": 7,
+    "industryTotal": 17,
+    "techTotal": 8,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1782748994302-0",
+      "fetchedAt": "2026-06-29T16:03:14.302Z",
+      "headline": "SAEL Begins Construction on 10 GW Solar Cell and Module Manufacturing Unit",
+      "summary": "Listen to this article New Delhi-based SAEL Industries has broken ground on an integrated 5 GW TOPCon solar cell and 5 GW module manufacturing facility in Jewar,",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/sael-begins-construction-on-10-gw-solar-cell-and-module-manufacturing-unit",
+      "searchQuery": "SAEL Begins Construction on 10 GW Solar Cell and M 2026",
+      "category": "Project Commission",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1782748994303-1",
+      "fetchedAt": "2026-06-29T16:03:14.303Z",
+      "headline": "MENA Weekly Round-Up: Yellow Door, ACWA Bid for Bahrain 100 MW Solar Project",
+      "summary": "Yellow Door Energy Projects and ACWA Power, submitted bids for Bahrain’s Electricity and Water Authority’s (EWA) 100 MW Bilaj Al Jazayer solar independent power producer (IPP) project.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/mena-weekly-round-up-yellow-door-acwa-bid-for-bahrain-100-mw-solar-project",
+      "searchQuery": "MENA Weekly Round-Up: Yellow Door, ACWA Bid for Ba 2026",
+      "category": "Solar Tender",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1782748994303-2",
+      "fetchedAt": "2026-06-29T16:03:14.303Z",
+      "headline": "CrossBoundary Access Secures $10 Million Equity Investment from IFC Bank",
+      "summary": "CrossBoundary Access, a company that finances and operates distributed renewable energy projects across Africa, has secured a&#8230;",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/crossboundary-access-secures-10-million-equity-investment",
+      "searchQuery": "CrossBoundary Access Secures $10 Million Equity In 2026",
+      "category": "Green Finance",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1782748994303-3",
+      "fetchedAt": "2026-06-29T16:03:14.303Z",
+      "headline": "Germany Awards 2.5 GW Onshore Wind Projects",
+      "summary": "Germany’s Federal Network Agency (Bundesnetzagentur) has announced the winners of its 2.5 GW onshore wind auction.The winning tariffs ranged from €0.0444 (~$0.052)/kWh to €0.0519 (~$0.060)/kWh. The volume-weighted average winning bid stood at €0.0506",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/germany-awards-2-5-gw-onshore-wind-projects",
+      "searchQuery": "Germany Awards 2.5 GW Onshore Wind Projects 2026",
+      "category": "Project Commission",
+      "region": "Europe",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1782748994303-4",
+      "fetchedAt": "2026-06-29T16:03:14.303Z",
+      "headline": "Matrix Renewables Secures Financing for 859 MW Solar, Storage Portfolio",
+      "summary": "Listen to this article Matrix Renewables, a renewable energy developer and independent power producer focused on solar and battery energy storage systems, has closed construction-to-term",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/matrix-renewables-secures-financing-859-mw-solar-storage-portfolio",
+      "searchQuery": "Matrix Renewables Secures Financing for 859 MW Sol 2026",
+      "category": "Project Commission",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1782731936995-0",
       "fetchedAt": "2026-06-29T11:18:56.995Z",
@@ -179,6 +249,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1782749055049-1",
+      "fetchedAt": "2026-06-29T16:04:15.049Z",
+      "headline": "Wind Power Creeps Up Behind A Sleeping Trump",
+      "summary": "The article highlights the transition from aging wind turbines in the United States to advanced 21st-century technologies, emphasizing efficiency gains and sustainability goals while addressing environmental concerns and energy reliability challenges.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/06/29/kyocera-testing-sekisui-chemicals-perovksite-solar-tech-at-japanese-sites/",
+      "searchQuery": "Kyocera testing Sekisui Chemical&#8217;s perovksit 2026",
+      "category": "Project Commission",
+      "region": "North America",
+      "timeAgo": "6h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Solar Power World-1782708774063-5",
       "fetchedAt": "2026-06-29T04:52:54.063Z",
