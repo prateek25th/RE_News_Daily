@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-29T16:06:39.492Z",
-  "nextUpdateAt": "2026-06-29T18:06:39.492Z",
+  "generatedAt": "2026-06-29T20:16:35.518Z",
+  "nextUpdateAt": "2026-06-29T22:16:35.518Z",
   "today": "Monday, 29 June 2026",
   "stats": {
     "industryTotal": 17,
-    "techTotal": 8,
+    "techTotal": 10,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -250,6 +250,62 @@
   ],
   "tech": [
     {
+      "id": "CleanTechnica-1782763907884-0",
+      "fetchedAt": "2026-06-29T20:11:47.884Z",
+      "headline": "Wind Power Creeps Up Behind A Sleeping Trump (Shhh! Don&#8217;t Wake Him Up!)",
+      "summary": "Thousands of old, outdated turbines in the US can be replaced with modern, more efficient 21st century technology. The post Wind Power Creeps Up Behind A Sleeping Trump (Shhh! Don&#8217;t Wake Him Up!) appeared first on CleanTechnica .",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/06/29/us-wind-power-repowering-trump-energy-policy/",
+      "searchQuery": "Wind Power Creeps Up Behind A Sleeping Trump (Shhh 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "8h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Power World-1782763907885-3",
+      "fetchedAt": "2026-06-29T20:11:47.885Z",
+      "headline": "Coyote Valley Casino completes 2.23-MW solar carport project",
+      "summary": "Coyote Valley Casino &#38; Hotel, located on the Coyote Valley Reservation in Redwood Valley, California, has completed a 2.23-MW solar carport system. The system, developed by Watthub Renewables and constructed by SunRenu Solar, has a PPA through Su",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/06/coyote-valley-casino-completes-2-23-mw-solar-carport-project/",
+      "searchQuery": "Coyote Valley Casino completes 2.23-MW solar carpo 2026",
+      "category": "Project Commission",
+      "region": "India",
+      "timeAgo": "4d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Power World-1782763907885-4",
+      "fetchedAt": "2026-06-29T20:11:47.885Z",
+      "headline": "PowerBank brings online NY community solar project built for Honeywell",
+      "summary": "The SB 13-2 community solar project is now online in upstate New York. The 7-MWDC array was developed and constructed by PowerBank for Honeywell International. The project is built on an industrial brownfield owned by Honeywell and regulated by the N",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/06/powerbank-brings-online-ny-community-solar-project-built-for-honeywell/",
+      "searchQuery": "PowerBank brings online NY community solar project 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "4d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Tech-1782763907885-5",
+      "fetchedAt": "2026-06-29T20:11:47.885Z",
+      "headline": "Research points to ‘recyclability of solar panel components’ in Australia",
+      "summary": "Developing more robust PV module recycling methods in Australia could be of economic benefit to the companies involved in recycling.",
+      "source": "PV Tech",
+      "url": "https://www.pv-tech.org/research-points-recyclability-of-solar-panel-components-australia/",
+      "searchQuery": "Research points to ‘recyclability of solar panel c 2026",
+      "category": "Solar Tech",
+      "region": "Global",
+      "timeAgo": "5h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Magazine-1782749055049-1",
       "fetchedAt": "2026-06-29T16:04:15.049Z",
       "headline": "Wind Power Creeps Up Behind A Sleeping Trump",
@@ -332,34 +388,6 @@
       "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1782580868988-4",
-      "fetchedAt": "2026-06-27T17:21:08.988Z",
-      "headline": "Coyote Valley Casino Finishes 2.23-MW Solar Carport",
-      "summary": "Coyote Valley Casino & Hotel in Redwood Valley, California, completed a 2.23-MW solar carport system developed by Watthub Renewables and constructed by SunRenu Solar. The project includes a PPA with Sunrock Distributed Generation, requiring no upfront capital from the Coyote Valley Band of Pomo Indians.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/06/coyote-valley-casino-completes-2-23-mw-solar-carport-project/",
-      "searchQuery": "Coyote Valley Casino completes 2.23-MW solar carpo 2026",
-      "category": "Rooftop Solar",
-      "region": "US",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1782580868988-5",
-      "fetchedAt": "2026-06-27T17:21:08.988Z",
-      "headline": "PowerBank Brings Online 7-MW NY Community Solar Project",
-      "summary": "PowerBank completed the SB 13-2 7-MWDC community solar project in upstate New York for Honeywell International. Built on an industrial brownfield regulated by the New York State Dept. of Environmental Conservation, it is part of a three-project portfolio developed by PowerBank for Honeywell.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/06/powerbank-brings-online-ny-community-solar-project-built-for-honeywell/",
-      "searchQuery": "PowerBank brings online NY community solar project 2026",
-      "category": "Community Solar",
-      "region": "US",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "learn": [
