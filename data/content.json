@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-30T20:13:50.889Z",
-  "nextUpdateAt": "2026-06-30T22:13:50.889Z",
+  "generatedAt": "2026-06-30T23:24:43.088Z",
+  "nextUpdateAt": "2026-07-01T01:24:43.088Z",
   "today": "Tuesday, 30 June 2026",
   "stats": {
-    "industryTotal": 21,
-    "techTotal": 15,
+    "industryTotal": 20,
+    "techTotal": 16,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -288,23 +288,23 @@
       "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1782681161352-0",
-      "fetchedAt": "2026-06-28T21:12:41.352Z",
-      "headline": "Ashok Leyland Installs 1.5 MW Rooftop Solar in Lucknow",
-      "summary": "Ashok Leyland has installed a 1.5 MW rooftop solar project at its EV manufacturing facility in Lucknow, Uttar Pradesh. The initiative aims to reduce carbon emissions and dependence on fossil fuel-based grid power, aligning with sustainability targets. The project supports cleaner manufacturing processes for electric vehicles.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/ashok-leylands-ev-factory-goes-green-with-rooftop-solar",
-      "searchQuery": "Ashok Leyland’s EV Factory Goes Green with Rooftop 2026",
-      "category": "Rooftop Solar",
-      "region": "India",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "tech": [
+    {
+      "id": "Solar Power World-1782861663101-5",
+      "fetchedAt": "2026-06-30T23:21:03.101Z",
+      "headline": "Op-ed: Lean construction principles in utility-scale solar",
+      "summary": "As utility-scale solar projects continue to grow in complexity, engineering, procurement and construction teams are under increasing pressure to deliver projects safely, on schedule and within budget. While advancements in technology and equipment ha",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/06/op-ed-lean-construction-principles-in-utility-scale-solar/",
+      "searchQuery": "Op-ed: Lean construction principles in utility-sca 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "10h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Solar Power World-1782850260838-5",
       "fetchedAt": "2026-06-30T20:11:00.838Z",
