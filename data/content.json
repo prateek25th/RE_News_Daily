@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-30T23:24:43.088Z",
-  "nextUpdateAt": "2026-07-01T01:24:43.088Z",
-  "today": "Tuesday, 30 June 2026",
+  "generatedAt": "2026-07-01T05:01:57.368Z",
+  "nextUpdateAt": "2026-07-01T07:01:57.368Z",
+  "today": "Wednesday, 1 July 2026",
   "stats": {
     "industryTotal": 20,
-    "techTotal": 16,
+    "techTotal": 17,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -292,6 +292,34 @@
   ],
   "tech": [
     {
+      "id": "CleanTechnica-1782881774016-0",
+      "fetchedAt": "2026-07-01T04:56:14.016Z",
+      "headline": "The 250-Year History of U.S. Energy Consumption",
+      "summary": "Over the 250-year history of our nation, energy consumption has evolved from wood use in the 18th and 19th centuries to today’s use of modern renewable, hydrocarbon, and nuclear technology. In 2025, total energy used in the United States was 96 quadr",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/06/30/the-250-year-history-of-u-s-energy-consumption/",
+      "searchQuery": "The 250-Year History of U.S. Energy Consumption 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "3h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1782881774017-1",
+      "fetchedAt": "2026-07-01T04:56:14.017Z",
+      "headline": "Solar can outcompete grid power in rural India",
+      "summary": "A new study finds that solar-based distributed renewable energy (DRE) systems can supply electricity in rural India at lower cost than conventional grid power when projects are tailored to local demand, storage, and grid conditions. It recommends Vil",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/07/01/solar-can-outcompete-grid-power-in-rural-india-with-the-right-planning-study/",
+      "searchQuery": "Solar can outcompete grid power in rural India 2026",
+      "category": "Grid Infrastructure",
+      "region": "India",
+      "timeAgo": "21m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "Solar Power World-1782861663101-5",
       "fetchedAt": "2026-06-30T23:21:03.101Z",
       "headline": "Op-ed: Lean construction principles in utility-scale solar",
@@ -498,20 +526,6 @@
       "category": "Project Commission",
       "region": "North America",
       "timeAgo": "6h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1782708774063-5",
-      "fetchedAt": "2026-06-29T04:52:54.063Z",
-      "headline": "94-MW NY solar project uses Piled construction",
-      "summary": "Array Foundation Services manages 77,000 pilings for a 94-MW Moraine Solar project.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/06/commercial-rooftops-have-more-potential-than-the-solar-industry-believes/",
-      "searchQuery": "Commercial rooftops have more potential than the s 2026",
-      "category": "Construction QA",
-      "region": "United States",
-      "timeAgo": "3d ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
     }
