@@ -1,14 +1,42 @@
 {
-  "generatedAt": "2026-07-01T05:01:57.368Z",
-  "nextUpdateAt": "2026-07-01T07:01:57.368Z",
+  "generatedAt": "2026-07-01T10:12:32.894Z",
+  "nextUpdateAt": "2026-07-01T12:12:32.894Z",
   "today": "Wednesday, 1 July 2026",
   "stats": {
-    "industryTotal": 20,
-    "techTotal": 17,
+    "industryTotal": 22,
+    "techTotal": 20,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1782900322954-0",
+      "fetchedAt": "2026-07-01T10:05:22.954Z",
+      "headline": "Funding and M&A Roundup: Terawatt Secures Up to $300 Million Debt Financing",
+      "summary": "Listen to this article From: Mercom Capital Group Terawatt Infrastructure, a charging infrastructure platform for autonomous and electric vehicle fleets, has entered into a five-year",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/funding-ma-roundup-terawatt-secures-300-million-debt-financing",
+      "searchQuery": "Funding and M&A Roundup: Terawatt Secures Up to $3 2026",
+      "category": "Green Finance",
+      "region": "US",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1782900322955-1",
+      "fetchedAt": "2026-07-01T10:05:22.955Z",
+      "headline": "Project Finance Brief: Enlight Secures $2.6 Billion for Arizona Solar and Storage Complex",
+      "summary": "Renewable energy developer and independent power producer Enlight Renewable Energy’s U.S. subsidiary, Clēnera&#8230;",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/project-finance-brief-enlight-secures-2-6-billion-for-arizona-complex",
+      "searchQuery": "Project Finance Brief: Enlight Secures $2.6 Billio 2026",
+      "category": "Green Finance",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1782821918188-0",
       "fetchedAt": "2026-06-30T12:18:38.188Z",
@@ -291,6 +319,48 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1782900513090-1",
+      "fetchedAt": "2026-07-01T10:08:33.090Z",
+      "headline": "German Researchers Set 25.5% Efficiency Record for Tandem Solar Cell",
+      "summary": "German researchers achieved a world record 25.5% efficiency for a perovskite-CIGS tandem solar cell, confirmed by the European Solar Test Installation (ESTI). The breakthrough, reported by PV Magazine, highlights advancements in photovoltaic technology. The result underscores ongoing innovation in solar cell performance optimization.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/07/01/german-researchers-achieve-world-record-25-5-efficiency-for-perovskite-cigs-tandem-solar-cell/",
+      "searchQuery": "German researchers achieve world record 25.5% effi 2026",
+      "category": "Solar Tech",
+      "region": "Europe",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "PV Magazine-1782900513090-2",
+      "fetchedAt": "2026-07-01T10:08:33.090Z",
+      "headline": "Vertical Agrivoltaics Improve Oat Crop Performance in Sweden Study",
+      "summary": "Swedish researchers found oat production under vertical agrivoltaic systems outperformed ground-mounted and open-field conditions during the 2024 growing season. The study, published in PV Magazine, demonstrates dual land use potential. Results suggest agrivoltaics enhance crop performance while generating solar energy.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/07/01/vertical-agrivoltaics-for-oats/",
+      "searchQuery": "Vertical agrivoltaics for oats 2026",
+      "category": "Agrivoltaics",
+      "region": "Europe",
+      "timeAgo": "3h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "PV Magazine-1782900513090-3",
+      "fetchedAt": "2026-07-01T10:08:33.090Z",
+      "headline": "Maxeon and Qcells Resolve Global Patent Dispute Over TOPCon Technology",
+      "summary": "Maxeon Solar Technologies and Qcells settled their global patent dispute, ending litigation over TOPCon solar cell technology. The agreement, reported by PV Magazine, resolves claims related to intellectual property. Both companies will now focus on commercializing the technology without legal conflicts.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/07/01/maxeon-qcells-settle-patent-dispute/",
+      "searchQuery": "Maxeon, Qcells settle patent dispute 2026",
+      "category": "Company Results",
+      "region": "Global",
+      "timeAgo": "3h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "CleanTechnica-1782881774016-0",
       "fetchedAt": "2026-07-01T04:56:14.016Z",
