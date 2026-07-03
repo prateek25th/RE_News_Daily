@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-02T23:22:40.893Z",
-  "nextUpdateAt": "2026-07-03T01:22:40.893Z",
-  "today": "Thursday, 2 July 2026",
+  "generatedAt": "2026-07-03T04:03:21.278Z",
+  "nextUpdateAt": "2026-07-03T06:03:21.278Z",
+  "today": "Friday, 3 July 2026",
   "stats": {
     "industryTotal": 15,
-    "techTotal": 18,
+    "techTotal": 19,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -221,6 +221,34 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1783051264286-0",
+      "fetchedAt": "2026-07-03T04:01:04.286Z",
+      "headline": "Ninth Circuit Upholds SoCal Zero-Emission Boiler Rule",
+      "summary": "The Ninth Circuit Court of Appeals upheld the South Coast Air Quality Management District's zero-emission standard for boilers and water heaters, rejecting an industry challenge. The ruling supports a landmark clean air rule targeting pollution from industrial and commercial equipment. Environmental justice groups supported the decision, which advances emissions reductions in California.",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/07/02/ninth-circuit-rejects-industry-challenge-to-socal-clean-air-rule-for-boilers/",
+      "searchQuery": "Ninth Circuit Rejects Industry Challenge to SoCal  2026",
+      "category": "Regulation",
+      "region": "US",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Solar Power World-1783051264286-5",
+      "fetchedAt": "2026-07-03T04:01:04.286Z",
+      "headline": "ITC Resolves Shoals and Voltage Patent Dispute",
+      "summary": "The U.S. International Trade Commission issued a final decision in a patent infringement case between Shoals Technologies Group and Voltage over trunk bus cable assemblies for solar projects. The ITC determined Voltage infringed Shoals' patents and violated Section 337, leading to a settlement.",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/06/itc-settles-shoals-voltage-patent-dispute/",
+      "searchQuery": "ITC settles Shoals, Voltage patent dispute 2026",
+      "category": "Manufacturing",
+      "region": "US",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "CleanTechnica-1783021536873-0",
       "fetchedAt": "2026-07-02T19:45:36.873Z",
@@ -456,20 +484,6 @@
       "category": "Grid Infrastructure",
       "region": "India",
       "timeAgo": "21m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1782861663101-5",
-      "fetchedAt": "2026-06-30T23:21:03.101Z",
-      "headline": "Op-ed: Lean construction principles in utility-scale solar",
-      "summary": "As utility-scale solar projects continue to grow in complexity, engineering, procurement and construction teams are under increasing pressure to deliver projects safely, on schedule and within budget. While advancements in technology and equipment ha",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/06/op-ed-lean-construction-principles-in-utility-scale-solar/",
-      "searchQuery": "Op-ed: Lean construction principles in utility-sca 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "10h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
