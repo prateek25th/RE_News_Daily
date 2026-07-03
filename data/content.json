@@ -1,14 +1,98 @@
 {
-  "generatedAt": "2026-07-03T10:52:28.694Z",
-  "nextUpdateAt": "2026-07-03T12:52:28.694Z",
+  "generatedAt": "2026-07-03T14:36:14.000Z",
+  "nextUpdateAt": "2026-07-03T16:36:14.000Z",
   "today": "Friday, 3 July 2026",
   "stats": {
-    "industryTotal": 16,
-    "techTotal": 18,
+    "industryTotal": 22,
+    "techTotal": 19,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1783088831696-0",
+      "fetchedAt": "2026-07-03T14:27:11.696Z",
+      "headline": "Coal India Announces 20 MW Floating Solar Project Winner",
+      "summary": "Coal India announced the winner of its auction for a 20 MW floating solar project at Chilwa Taal in Gorakhpur.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/coal-india-announces-winner-of-auction-for-20-mw-floating-solar-project",
+      "searchQuery": "Coal India Announces Winner of Auction for 20 MW F 2026",
+      "category": "Solar Tender",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1783088831696-1",
+      "fetchedAt": "2026-07-03T14:27:11.696Z",
+      "headline": "Nesa Power Secures $9 Million Debt Funding",
+      "summary": "Nesa Power Group secured R150 million ($9 million) in debt funding from Maia Capital Partners.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/nesa-power-secures-9-million-debt-funding-from-maia-capital-partners",
+      "searchQuery": "Nesa Power Secures $9 Million Debt Funding from Ma 2026",
+      "category": "Green Finance",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1783088831696-2",
+      "fetchedAt": "2026-07-03T14:27:11.696Z",
+      "headline": "Maharashtra Invites Bids for 4 GWh Battery Storage Projects",
+      "summary": "MSEDCL invited bids for 2,000 MW/4,000 MWh battery energy storage systems under the VGF program.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/maharashtra-invites-bids-for-4-gwh-battery-energy-storage-projects",
+      "searchQuery": "Maharashtra Invites Bids for 4 GWh Battery Energy  2026",
+      "category": "Energy Storage",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1783088831696-3",
+      "fetchedAt": "2026-07-03T14:27:11.696Z",
+      "headline": "Clean Energy Expansion Boosts Transmission Manufacturing Demand",
+      "summary": "Experts at the Mercom India Renewables Summit 2026 highlighted growing opportunities for domestic transmission equipment manufacturing.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/clean-energy-expansion-spurs-transmission-manufacturing-demand",
+      "searchQuery": "Clean Energy Expansion Spurs Transmission Manufact 2026",
+      "category": "Manufacturing",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1783088831696-4",
+      "fetchedAt": "2026-07-03T14:27:11.696Z",
+      "headline": "StarlinePS Invests $1.6 Billion in Celloraa’s 1.2 GW Solar Cell Facility",
+      "summary": "StarlinePS Enterprises announced a ₹1.6 billion (~$17 million) investment in Celloraa Energy’s 1.2 GW solar cell facility.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/starlineps-to-invest-1-6-billion-in-celloraas-1-2-gw-solar-cell-facility",
+      "searchQuery": "StarlinePS to Invest $1.6 Billion in Celloraa’s 1. 2026",
+      "category": "Manufacturing",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1783088831696-5",
+      "fetchedAt": "2026-07-03T14:27:11.696Z",
+      "headline": "Manufacturing, Storage Draw Capital as Clean Energy Financing Matures",
+      "summary": "Panelists noted capital shifting toward manufacturing, grid infrastructure, and battery storage as India’s clean energy financing matures.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/manufacturing-storage-draw-capital-as-clean-energy-financing-matures",
+      "searchQuery": "Manufacturing, Storage Draw Capital as Clean Energ 2026",
+      "category": "Market Analysis",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Mercom India-1783075698477-0",
       "fetchedAt": "2026-07-03T10:48:18.477Z",
@@ -235,6 +319,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "Solar Power World-1783088971822-5",
+      "fetchedAt": "2026-07-03T14:29:31.822Z",
+      "headline": "Op-ed: Lean construction principles in utility-scale solar",
+      "summary": "As utility-scale solar projects continue to grow in complexity, engineering, procurement and construction teams are under increasing pressure to deliver projects safely, on schedule and within budget. While advancements in technology and equipment ha",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/06/op-ed-lean-construction-principles-in-utility-scale-solar/",
+      "searchQuery": "Op-ed: Lean construction principles in utility-sca 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "3d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1783075771135-1",
       "fetchedAt": "2026-07-03T10:49:31.135Z",
