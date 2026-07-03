@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-03T19:51:36.547Z",
-  "nextUpdateAt": "2026-07-03T21:51:36.547Z",
+  "generatedAt": "2026-07-03T21:23:21.701Z",
+  "nextUpdateAt": "2026-07-03T23:23:21.701Z",
   "today": "Friday, 3 July 2026",
   "stats": {
     "industryTotal": 21,
-    "techTotal": 19,
+    "techTotal": 20,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -305,6 +305,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Tech-1783113592944-5",
+      "fetchedAt": "2026-07-03T21:19:52.944Z",
+      "headline": "Researchers develop framework to optimise 2D perovskite solar cell design",
+      "summary": "Researchers have developed a predictive framework for 2D perovskite design to enable more efficient, stable solar cells.",
+      "source": "PV Tech",
+      "url": "https://www.pv-tech.org/researchers-develop-framework-to-optimise-2d-perovskite-solar-cell-design/",
+      "searchQuery": "Researchers develop framework to optimise 2D perov 2026",
+      "category": "Solar Tech",
+      "region": "Global",
+      "timeAgo": "9h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Solar Power World-1783100528238-3",
       "fetchedAt": "2026-07-03T17:42:08.238Z",
