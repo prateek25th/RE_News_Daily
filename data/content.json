@@ -1,14 +1,28 @@
 {
-  "generatedAt": "2026-07-04T15:19:27.932Z",
-  "nextUpdateAt": "2026-07-04T17:19:27.932Z",
+  "generatedAt": "2026-07-04T17:20:38.103Z",
+  "nextUpdateAt": "2026-07-04T19:20:38.103Z",
   "today": "Saturday, 4 July 2026",
   "stats": {
-    "industryTotal": 12,
-    "techTotal": 15,
+    "industryTotal": 11,
+    "techTotal": 14,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1783185312776-3",
+      "fetchedAt": "2026-07-04T17:15:12.776Z",
+      "headline": "Eku Energy Acquires 400 MW Battery Energy Storage Project in Germany",
+      "summary": "Listen to this article Eku Energy, a company that develops, builds, and manages energy storage assets, has entered the German market with its first project, the 400",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/eku-energy-acquires-400-mw-energy-storage-project-germany",
+      "searchQuery": "Eku Energy Acquires 400 MW Battery Energy Storage  2026",
+      "category": "Project Commission",
+      "region": "Europe",
+      "timeAgo": "23h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1783100484290-0",
       "fetchedAt": "2026-07-03T17:41:24.290Z",
@@ -144,34 +158,6 @@
       "url": "https://www.mercomindia.com/daily-news-wrap-up-prahlad-joshi-calls-for-circular-economy-in-renewables-sector",
       "searchQuery": "Daily News Wrap-Up: Prahlad Joshi Calls for Circul 2026",
       "category": "Policy Update",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1783008570238-0",
-      "fetchedAt": "2026-07-02T16:09:30.238Z",
-      "headline": "NLC India Invites Bids for 3,000 Acres Solar Lease in Rajasthan",
-      "summary": "NLC India has invited bids to lease 3,000 acres in Rajasthan for solar project development. The initiative aims to expand renewable energy capacity in the region.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/nlc-india-invites-bids-to-lease-3000-acres-in-rajasthan-for-solar-projects",
-      "searchQuery": "NLC India Invites Bids to Lease 3,000 Acres in Raj 2026",
-      "category": "Solar Tender",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1783008570238-1",
-      "fetchedAt": "2026-07-02T16:09:30.238Z",
-      "headline": "Bankable Storage Ecosystem Requires Market Design, Local Manufacturing",
-      "summary": "India's battery energy storage market needs improved market design, domestic manufacturing, and policy support to build a bankable ecosystem for renewable energy expansion, according to Mercom India's Renewable Energy Summit 2026 panelists.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/a-bankable-storage-ecosystem-needs-better-market-design-local-manufacturing",
-      "searchQuery": "A Bankable Storage Ecosystem Needs Better Market D 2026",
-      "category": "Energy Storage",
       "region": "India",
       "timeAgo": "Just now",
       "validity": 9,
@@ -374,20 +360,6 @@
       "timeAgo": "7h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1783008608436-3",
-      "fetchedAt": "2026-07-02T16:10:08.436Z",
-      "headline": "Southeast Missouri Smelter Plans Restart",
-      "summary": "The smelter intends to restart operations by year-end in New Madrid, Missouri.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/07/02/atmoce-releases-stackable-ac-coupled-storage-system-for-ci-solar/",
-      "searchQuery": "Atmoce releases stackable AC-coupled storage syste 2026",
-      "category": "Industrial Manufacturing",
-      "region": "USA",
-      "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "learn": [
