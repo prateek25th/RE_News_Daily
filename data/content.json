@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-04T13:58:45.181Z",
-  "nextUpdateAt": "2026-07-04T15:58:45.181Z",
+  "generatedAt": "2026-07-04T15:19:27.932Z",
+  "nextUpdateAt": "2026-07-04T17:19:27.932Z",
   "today": "Saturday, 4 July 2026",
   "stats": {
     "industryTotal": 12,
-    "techTotal": 14,
+    "techTotal": 15,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -179,6 +179,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1783178141803-0",
+      "fetchedAt": "2026-07-04T15:15:41.803Z",
+      "headline": "Agrivoltaics Combines Farming and Solar Generation",
+      "summary": "Agrivoltaics integrates solar panels with farming, addressing land-use conflicts by enabling simultaneous crop production and electricity generation. This dual-purpose approach allows farms to maintain agricultural output while panels generate power, creating a sustainable synergy between food and energy production.",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/07/04/agrivoltaics-works-where-shade-does-farm-work/",
+      "searchQuery": "Agrivoltaics Works When Solar Panels Do Farm Work 2026",
+      "category": "Agrivoltaics",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "CleanTechnica-1783173376529-0",
       "fetchedAt": "2026-07-04T13:56:16.529Z",
