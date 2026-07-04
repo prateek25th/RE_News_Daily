@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-04T19:29:46.731Z",
-  "nextUpdateAt": "2026-07-04T21:29:46.732Z",
+  "generatedAt": "2026-07-04T21:09:55.023Z",
+  "nextUpdateAt": "2026-07-04T23:09:55.023Z",
   "today": "Saturday, 4 July 2026",
   "stats": {
     "industryTotal": 11,
-    "techTotal": 14,
+    "techTotal": 11,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -318,48 +318,6 @@
       "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "CleanTechnica-1783021536873-0",
-      "fetchedAt": "2026-07-02T19:45:36.873Z",
-      "headline": "Mount Sinai School District To Get Energy Upgrades, Including Solar Power",
-      "summary": "Leading energy infrastructure solutions provider Ameresco recently announced a comprehensive energy project with Mount Sinai School District in New York. Rooftop solar PV arrays will be installed at the schools, along with other measures such as repl",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/07/02/mount-sinai-school-district-to-get-energy-upgrades-including-solar-power/",
-      "searchQuery": "Mount Sinai School District To Get Energy Upgrades 2026",
-      "category": "Policy Update",
-      "region": "US",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1783021536873-1",
-      "fetchedAt": "2026-07-02T19:45:36.873Z",
-      "headline": "Volkswagen Group Shows Leadership With Elli V2G Service Launch",
-      "summary": "Last week, Volkswagen Group’s Elli launched its V2G service in Germany. Vehicle to Grid (V2G) means that an EV can charge off the grid and also feed energy back into the grid when needed. I had briefly mentioned the launch in key takeaways from Inter",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/07/02/volkswagen-group-shows-leadership-with-elli-v2g-service-launch/",
-      "searchQuery": "Volkswagen Group Shows Leadership With Elli V2G Se 2026",
-      "category": "Leadership Change",
-      "region": "Europe",
-      "timeAgo": "2h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1783021536873-2",
-      "fetchedAt": "2026-07-02T19:45:36.873Z",
-      "headline": "New &#8220;Air&#8221; Battery Makes Larger Electric Aircraft Possible",
-      "summary": "A new solid state, lithium-air battery is on its way to pilot-scale production, offering less weight and higher energy density for electric aircraft. The post New &#8220;Air&#8221; Battery Makes Larger Electric Aircraft Possible appeared first on Cle",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/07/02/electric-aircraft-new-battery-lithium-air-solid-state/",
-      "searchQuery": "New &#8220;Air&#8221; Battery Makes Larger Electri 2026",
-      "category": "Energy Storage",
-      "region": "Global",
-      "timeAgo": "7h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "learn": [
