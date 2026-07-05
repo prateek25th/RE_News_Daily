@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-05T04:18:28.845Z",
-  "nextUpdateAt": "2026-07-05T06:18:28.845Z",
+  "generatedAt": "2026-07-05T09:21:36.068Z",
+  "nextUpdateAt": "2026-07-05T11:21:36.068Z",
   "today": "Sunday, 5 July 2026",
   "stats": {
-    "industryTotal": 11,
-    "techTotal": 10,
+    "industryTotal": 10,
+    "techTotal": 8,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -148,23 +148,23 @@
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1783063964012-0",
-      "fetchedAt": "2026-07-03T07:32:44.012Z",
-      "headline": "India Needs Circular Economy for Clean Energy Sector: Joshi",
-      "summary": "Union Minister for New and Renewable Energy Pralhad Joshi emphasized the importance of India developing a circular economy for clean energy. He highlighted the need for sustainable practices in the renewable energy sector to ensure long-term growth and environmental protection.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/daily-news-wrap-up-prahlad-joshi-calls-for-circular-economy-in-renewables-sector",
-      "searchQuery": "Daily News Wrap-Up: Prahlad Joshi Calls for Circul 2026",
-      "category": "Policy Update",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1783243193010-3",
+      "fetchedAt": "2026-07-05T09:19:53.010Z",
+      "headline": "Agrivoltaic Cold Frame System",
+      "summary": "A new system combines controlled microclimates with solar panels to boost crop yields. Field trials showed increased lettuce production alongside solar electricity generation, demonstrating synergistic benefits for both agriculture and renewable energy in controlled environments.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/07/03/agrivoltaic-cold-frame-system-for-controlled-environment-crop-cultivation/",
+      "searchQuery": "Agrivoltaic cold frame system for controlled-envir 2026",
+      "category": "Rooftop Solar",
+      "region": "Europe",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Solar Power World-1783224831992-5",
       "fetchedAt": "2026-07-05T04:13:51.992Z",
@@ -260,48 +260,6 @@
       "category": "Solar Tech",
       "region": "Asia",
       "timeAgo": "2h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1783064000230-1",
-      "fetchedAt": "2026-07-03T07:33:20.230Z",
-      "headline": "Ninth Circuit Rejects Industry Challenge",
-      "summary": "SCAQMD zero-emission standard for boilers upheld; industry challenge denied.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/07/03/agrivoltaic-cold-frame-system-for-controlled-environment-crop-cultivation/",
-      "searchQuery": "Agrivoltaic cold frame system for controlled-envir 2026",
-      "category": "Regulation",
-      "region": "US",
-      "timeAgo": "4m ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1783064000230-2",
-      "fetchedAt": "2026-07-03T07:33:20.230Z",
-      "headline": "Agrivoltaic cold frame system developed",
-      "summary": "Integrated PV modules boost lettuce yields and generate on-site solar power.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/07/03/chinese-pv-industry-brief-tcl-zhonghuan-completes-acquisition-of-das-solar/",
-      "searchQuery": "Chinese PV Industry Brief: TCL Zhonghuan completes 2026",
-      "category": "Solar Technology",
-      "region": "Canada",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1783064000230-3",
-      "fetchedAt": "2026-07-03T07:33:20.230Z",
-      "headline": "Chinese PV Industry Updates",
-      "summary": "TCL Zhonghuan acquires Das Solar for 20 GW capacity.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/07/03/powering-fertiliser-production-with-agrivoltaics/",
-      "searchQuery": "Powering fertilizer production with agrivoltaics 2026",
-      "category": "Solar Manufacturing",
-      "region": "China",
-      "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
     }
