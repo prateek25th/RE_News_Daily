@@ -1,14 +1,56 @@
 {
-  "generatedAt": "2026-07-08T06:40:17.104Z",
-  "nextUpdateAt": "2026-07-08T08:40:17.104Z",
+  "generatedAt": "2026-07-08T10:34:14.438Z",
+  "nextUpdateAt": "2026-07-08T12:34:14.438Z",
   "today": "Wednesday, 8 July 2026",
   "stats": {
-    "industryTotal": 25,
-    "techTotal": 17,
+    "industryTotal": 28,
+    "techTotal": 18,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1783506504672-0",
+      "fetchedAt": "2026-07-08T10:28:24.672Z",
+      "headline": "SBI Proposes Raising Renewable Energy Loan Limits",
+      "summary": "State Bank of India (SBI) has proposed increasing loan limits for renewable energy entities under priority sector lending. The bank aims to support the growth of clean energy projects through enhanced financial provisions. This move aligns with India's renewable energy expansion goals and regulatory support for sustainable energy initiatives.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/sbi-proposes-raising-loan-limits-for-renewables-under-priority-sector-lending",
+      "searchQuery": "SBI Proposes Raising Loan Limits for Renewables Un 2026",
+      "category": "Policy Update",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1783506504672-1",
+      "fetchedAt": "2026-07-08T10:28:24.672Z",
+      "headline": "Maharashtra Tenders 59 MW Floating Solar Project",
+      "summary": "The Maharashtra Krishna Valley Development Corporation (MKVDC) has invited expressions of interest for a 59 MW floating solar project with 29 MW/59 MWh battery storage at Ekrukh reservoir in Solapur district. The project will be developed under a public-private partnership model. The initiative represents Maharashtra's push toward innovative solar energy solutions and grid stability.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/maharashtra-tenders-59-mw-floating-solar-plus-59-mwh-battery-storage-project",
+      "searchQuery": "Maharashtra Tenders 59 MW Floating Solar Plus 59 M 2026",
+      "category": "Solar Tender",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1783506504672-2",
+      "fetchedAt": "2026-07-08T10:28:24.672Z",
+      "headline": "Skilling and R&D to Drive Solar Manufacturing Growth",
+      "summary": "India's solar cell manufacturing industry is entering a decisive phase with the implementation of ALMM List-II mandate. Industry leaders emphasize that success will depend on cost competitiveness, investment in research and development, skilled manpower, and deeper integration across the solar value chain. The focus is on building domestic manufacturing capabilities to reduce import dependence and strengthen energy security.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/daily-new-wrap-up-skills-rd-to-drive-solar-cell-manufacturing-growth",
+      "searchQuery": "Daily News Wrap-Up: Skilling, R&D to Drive Solar C 2026",
+      "category": "Manufacturing",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Mercom India-1783492522056-0",
       "fetchedAt": "2026-07-08T06:35:22.056Z",
@@ -361,6 +403,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1783506584568-2",
+      "fetchedAt": "2026-07-08T10:29:44.568Z",
+      "headline": "Water-Jet Delamination Technology Recycles Solar Modules with 97% Silver Purity",
+      "summary": "Scientists have developed water-jet delamination recycling technology for solar modules. The process separates glass from other components, achieving 97% silver purity. This advancement improves recycling efficiency and material recovery in the solar industry.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/07/08/water-jet-delamination-for-solar-module-recycling/",
+      "searchQuery": "Water-jet delamination for solar module recycling 2026",
+      "category": "Solar Tech",
+      "region": "Global",
+      "timeAgo": "3h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "CleanTechnica-1783481800298-0",
       "fetchedAt": "2026-07-08T03:36:40.298Z",
