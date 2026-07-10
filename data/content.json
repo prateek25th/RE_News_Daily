@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-09T23:26:55.127Z",
-  "nextUpdateAt": "2026-07-10T01:26:55.127Z",
-  "today": "Thursday, 9 July 2026",
+  "generatedAt": "2026-07-10T04:10:25.054Z",
+  "nextUpdateAt": "2026-07-10T06:10:25.054Z",
+  "today": "Friday, 10 July 2026",
   "stats": {
     "industryTotal": 22,
-    "techTotal": 15,
+    "techTotal": 14,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -320,6 +320,20 @@
   ],
   "tech": [
     {
+      "id": "CleanTechnica-1783656355082-0",
+      "fetchedAt": "2026-07-10T04:05:55.082Z",
+      "headline": "ComEd Adds Substations to Unlock 550MW Wind Energy",
+      "summary": "ComEd energized two 345 kV substations in LaSalle and Woodford Counties, enabling up to 550MW of wind energy interconnection and improving grid reliability for local communities.",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/07/09/comed-commissions-two-new-substations-unlocking-up-to-550mw-of-wind-energy-to-the-grid/",
+      "searchQuery": "ComEd Commissions Two New Substations, Unlocking U 2026",
+      "category": "Grid Infrastructure",
+      "region": "US",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
       "id": "Electrek-1783627239640-5",
       "fetchedAt": "2026-07-09T20:00:39.640Z",
       "headline": "China&#8217;s giant Gobi solar plant runs after dark on salt, not batteries",
@@ -497,34 +511,6 @@
       "searchQuery": "Water-jet delamination for solar module recycling 2026",
       "category": "Solar Tech",
       "region": "Global",
-      "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "CleanTechnica-1783481800298-0",
-      "fetchedAt": "2026-07-08T03:36:40.298Z",
-      "headline": "Floating Solar PV Survives 3.5m Waves",
-      "summary": "Floating solar PV systems are gaining mainstream adoption, with innovative designs addressing extreme conditions like 3.5-meter waves. CleanTechnica highlights advancements in climate-specific technologies, noting the shift from niche to broader market acceptance. The article emphasizes scalability and resilience in challenging environments.",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/07/07/floating-solar-pv-to-survive-3-5-meter-waves/",
-      "searchQuery": "Floating Solar PV &#8230; To Survive 3.5 Meter Wav 2026",
-      "category": "Solar Tech",
-      "region": "Global",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "CleanTechnica-1783481800298-1",
-      "fetchedAt": "2026-07-08T03:36:40.298Z",
-      "headline": "Vertical Solar PV in Snowy Norway",
-      "summary": "A Norwegian company developed vertical photovoltaic (PV) systems tailored for snowy climates. CleanTechnica reports this innovation aims to optimize solar efficiency in regions with heavy snowfall, contrasting with tropical approaches. The system’s design addresses unique geographical challenges.",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/07/07/vertical-solar-pv-yes-says-vancouver/",
-      "searchQuery": "Vertical Solar PV? Yes, Says Vancouver 2026",
-      "category": "Solar Tech",
-      "region": "Europe",
       "timeAgo": "3h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
