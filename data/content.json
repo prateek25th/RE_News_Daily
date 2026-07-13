@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-13T21:16:48.902Z",
-  "nextUpdateAt": "2026-07-13T23:16:48.902Z",
+  "generatedAt": "2026-07-13T23:07:59.325Z",
+  "nextUpdateAt": "2026-07-14T01:07:59.325Z",
   "today": "Monday, 13 July 2026",
   "stats": {
     "industryTotal": 20,
-    "techTotal": 11,
+    "techTotal": 12,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -291,6 +291,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "Solar Power World-1783983873266-5",
+      "fetchedAt": "2026-07-13T23:04:33.266Z",
+      "headline": "Peak Energy launches 4-GWh sodium-ion ESS plant",
+      "summary": "Peak Energy will establish a 4-GWh sodium-ion energy storage manufacturing facility in Sacramento, California. The 183,000-ft² site in Metro Air Park will support annual production and shipments. With 6 GWh of customer commitments, the facility aims to meet growing demand for grid-scale energy storage solutions in the US.",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/07/peak-energy-to-start-4-gwh-sodium-ion-ess-manufacturing-facility-in-sacramento/",
+      "searchQuery": "Peak Energy to start 4-GWh sodium-ion ESS manufact 2026",
+      "category": "Energy Storage",
+      "region": "US",
+      "timeAgo": "4d ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Electrek-1783965781877-3",
       "fetchedAt": "2026-07-13T18:03:01.877Z",
