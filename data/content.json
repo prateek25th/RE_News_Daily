@@ -1,14 +1,28 @@
 {
-  "generatedAt": "2026-07-13T14:59:21.220Z",
-  "nextUpdateAt": "2026-07-13T16:59:21.220Z",
+  "generatedAt": "2026-07-13T18:05:35.417Z",
+  "nextUpdateAt": "2026-07-13T20:05:35.417Z",
   "today": "Monday, 13 July 2026",
   "stats": {
-    "industryTotal": 19,
-    "techTotal": 10,
+    "industryTotal": 20,
+    "techTotal": 11,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1783965730887-0",
+      "fetchedAt": "2026-07-13T18:02:10.887Z",
+      "headline": "EV Platform Milo Drive Raises $2.4 Million in Seed Funding",
+      "summary": "Gurugram-based EV mobility platform Milo Drive raised $2.4 million (~₹228.59 million) in a seed funding round led by Caret Capital. Other investors include Antler, Alteria Capital, IAN Capital, Climate Angels, and Aureolis Capital. Funds will strengthen ride demand network, onboard fleet operators, and expand automated charging software.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/ev-platform-milo-drive-raises-2-4-million-in-seed-funding-round",
+      "searchQuery": "EV Platform Milo Drive Raises $2.4 Million in Seed 2026",
+      "category": "EV Technology",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Mercom India-1783954487862-0",
       "fetchedAt": "2026-07-13T14:54:47.862Z",
@@ -278,6 +292,34 @@
   ],
   "tech": [
     {
+      "id": "Electrek-1783965781877-3",
+      "fetchedAt": "2026-07-13T18:03:01.877Z",
+      "headline": "Tesla Semi adds another fleet as Paper Transport starts Chicago pilot",
+      "summary": "Paper Transport (PTI) announced today that it is evaluating the Tesla Semi Long Range in dedicated operations in the Chicago market, becoming the latest fleet to put Tesla’s electric Class 8 truck to work in daily freight. The Wisconsin-based carrier",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/07/13/paper-transport-tesla-semi-chicago-pilot/",
+      "searchQuery": "Tesla Semi adds another fleet as Paper Transport s 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Power World-1783965781877-4",
+      "fetchedAt": "2026-07-13T18:03:01.877Z",
+      "headline": "Energy storage brand merger: Stryten to acquire C&#038;D Trojan",
+      "summary": "Energy storage solutions provider Stryten Energy announced it would acquire C&#38;D Trojan, another American battery brand with a storied history. The transaction is anticipated to close in Q3 2026, and the combined company will continue to be led by",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/07/energy-storage-brand-merger-stryten-to-acquire-cd-trojan/",
+      "searchQuery": "Energy storage brand merger: Stryten to acquire C& 2026",
+      "category": "M&A Deal",
+      "region": "US",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "CleanTechnica-1783954578302-0",
       "fetchedAt": "2026-07-13T14:56:18.302Z",
       "headline": "Perovskite Solar Cells Will Make Solar Power Even Cheaper",
@@ -402,20 +444,6 @@
       "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1783789760179-3",
-      "fetchedAt": "2026-07-11T17:09:20.179Z",
-      "headline": "Peak Energy to build 4-GWh sodium-ion ESS plant in Sacramento",
-      "summary": "Peak Energy will establish a grid-scale sodium-ion energy storage manufacturing facility in Sacramento, California, with a 4-GWh annual capacity. The company has secured over 6 GWh in customer commitments and plans to begin production and shipments soon.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/07/peak-energy-to-start-4-gwh-sodium-ion-ess-manufacturing-facility-in-sacramento/",
-      "searchQuery": "Peak Energy to start 4-GWh sodium-ion ESS manufact 2026",
-      "category": "Energy Storage",
-      "region": "US",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "learn": [
