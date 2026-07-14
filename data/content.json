@@ -1,14 +1,42 @@
 {
-  "generatedAt": "2026-07-14T06:22:53.794Z",
-  "nextUpdateAt": "2026-07-14T08:22:53.794Z",
+  "generatedAt": "2026-07-14T10:13:24.454Z",
+  "nextUpdateAt": "2026-07-14T12:13:24.454Z",
   "today": "Tuesday, 14 July 2026",
   "stats": {
-    "industryTotal": 22,
-    "techTotal": 14,
+    "industryTotal": 24,
+    "techTotal": 15,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1784023589003-0",
+      "fetchedAt": "2026-07-14T10:06:29.003Z",
+      "headline": "UPERC Approves Tariffs for 110 MW Solar Projects",
+      "summary": "The Uttar Pradesh Electricity Regulatory Commission (UPERC) approved two 25-year power purchase agreements (PPAs) and set tariffs at ₹2.65/kWh for 110 MW solar projects in Kanpur. The decision aims to support solar energy expansion in the region. Specific figures include the project capacity and tariff rate. The approval reflects regulatory efforts to promote renewable energy adoption.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/uttar-pradesh-regulator-approves-tariffs-for-110-mw-solar-projects-in-kanpur",
+      "searchQuery": "Uttar Pradesh Regulator Approves Tariffs for 110 M 2026",
+      "category": "Solar Tech",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1784023589003-1",
+      "fetchedAt": "2026-07-14T10:06:29.003Z",
+      "headline": "Renewable Talent Gaps Require Industry-Academia Collaboration",
+      "summary": "India’s renewable energy sector is growing rapidly, but job-ready talent lags behind demand, as highlighted at the Mercom India Renewables Summit 2026. Panelists emphasized the need for stronger partnerships between industry and academia to address skill shortages. The issue impacts sectoral growth and workforce readiness. No specific figures were provided beyond the summit’s context.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/daily-news-wrap-up-industry-academia-must-fill-renewable-energy-talent-gaps",
+      "searchQuery": "Daily News Wrap-Up: Industry, Academia Must Fill R 2026",
+      "category": "Market Analysis",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Mercom India-1784009961002-0",
       "fetchedAt": "2026-07-14T06:19:21.002Z",
@@ -320,6 +348,34 @@
   ],
   "tech": [
     {
+      "id": "PV Magazine-1784023829675-0",
+      "fetchedAt": "2026-07-14T10:10:29.675Z",
+      "headline": "Intertek CEA says 587Ah cells could drive down BESS costs through 2027",
+      "summary": "US research firm Intertek CEA says wider adoption of 587Ah battery cells could lower the cost of standard battery energy storage system (BESS) containers through 2027, even as lithium carbonate prices have risen sharply. The post Intertek CEA says 58",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/07/14/intertek-cea-says-587ah-cells-could-drive-down-bess-costs-through-2027/",
+      "searchQuery": "Intertek CEA says 587Ah cells could drive down BES 2026",
+      "category": "Energy Storage",
+      "region": "US",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1784023829676-1",
+      "fetchedAt": "2026-07-14T10:10:29.676Z",
+      "headline": "Three-source heat pump system for cold climates",
+      "summary": "Chinese and Spanish researchers have developed a multi-source heat pump system combining air, water, and ground heat sources for improved performance in cold climates. The hybrid system achieves coefficient of performance values of up to 2.74 and use",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/07/14/three-source-heat-pump-system-for-cold-climates/",
+      "searchQuery": "Three-source heat pump system for cold climates 2026",
+      "category": "Policy Update",
+      "region": "Asia",
+      "timeAgo": "3h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Magazine-1784010003508-0",
       "fetchedAt": "2026-07-14T06:20:03.508Z",
       "headline": "Hydraulic Storage Outperforms Batteries for Solar Irrigation Systems",
@@ -500,20 +556,6 @@
       "timeAgo": "4d ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1783850461784-2",
-      "fetchedAt": "2026-07-12T10:01:01.784Z",
-      "headline": "EU publishes draft terms of 4th hydrogen auction",
-      "summary": "The European Commission has published draft terms and conditions for the fourth European Hydrogen Bank auction, planned for end-2026 with a €500 million budget. The procurement exercise will maintain competitive bidding and fixed-premium support whil",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/07/10/eu-publishes-draft-terms-of-4th-hydrogen-auction/",
-      "searchQuery": "EU publishes draft terms of 4th hydrogen auction 2026",
-      "category": "Solar Tender",
-      "region": "Europe",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "learn": [
