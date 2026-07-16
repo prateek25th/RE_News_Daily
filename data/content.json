@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-16T17:33:27.195Z",
-  "nextUpdateAt": "2026-07-16T19:33:27.195Z",
+  "generatedAt": "2026-07-16T19:30:33.227Z",
+  "nextUpdateAt": "2026-07-16T21:30:33.227Z",
   "today": "Thursday, 16 July 2026",
   "stats": {
     "industryTotal": 26,
-    "techTotal": 20,
+    "techTotal": 21,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -375,6 +375,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "Solar Power World-1784230077259-4",
+      "fetchedAt": "2026-07-16T19:27:57.259Z",
+      "headline": "Sol Systems Starts 123-MW Illinois Solar Portfolio Construction",
+      "summary": "Sol Systems will soon start construction on a 123-MWAC solar portfolio in Illinois after successfully closing on financing. The projects will be built in Knox, Tazewell, and Peoria Counties on more than 900 acres, reflecting the company's ability to move high-quality projects from development into construction with capital structure and execution discipline.",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/07/sol-systems-developing-123-mw-solar-portfolio-in-illinois/",
+      "searchQuery": "Sol Systems developing 123-MW solar portfolio in I 2026",
+      "category": "Project Commission",
+      "region": "US",
+      "timeAgo": "19m ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "CleanTechnica-1784211339228-0",
       "fetchedAt": "2026-07-16T14:15:39.228Z",
