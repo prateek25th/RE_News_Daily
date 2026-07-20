@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-20T18:22:50.185Z",
-  "nextUpdateAt": "2026-07-20T20:22:50.185Z",
+  "generatedAt": "2026-07-20T21:21:52.053Z",
+  "nextUpdateAt": "2026-07-20T23:21:52.053Z",
   "today": "Monday, 20 July 2026",
   "stats": {
     "industryTotal": 20,
-    "techTotal": 13,
+    "techTotal": 12,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -455,20 +455,6 @@
       "searchQuery": "Siemens to unite energy businesses under new brand 2026",
       "category": "Leadership Change",
       "region": "Global",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1784408560561-5",
-      "fetchedAt": "2026-07-18T21:02:40.561Z",
-      "headline": "Sol Systems Launches 123-MW Solar Project in Illinois",
-      "summary": "Sol Systems began construction on a 123-MWAC solar portfolio in Illinois after securing financing. The projects span Knox, Tazewell, and Peoria Counties across 900+ acres. This development reflects the company's capacity to execute large-scale solar initiatives with stable capital structures. Specific timelines or community impacts are not detailed, but the focus is on expanding renewable energy capacity in the region.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/07/sol-systems-developing-123-mw-solar-portfolio-in-illinois/",
-      "searchQuery": "Sol Systems developing 123-MW solar portfolio in I 2026",
-      "category": "Solar Tech",
-      "region": "US",
       "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
