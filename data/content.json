@@ -1,14 +1,56 @@
 {
-  "generatedAt": "2026-07-22T03:41:28.528Z",
-  "nextUpdateAt": "2026-07-22T05:41:28.528Z",
+  "generatedAt": "2026-07-22T06:46:02.072Z",
+  "nextUpdateAt": "2026-07-22T08:46:02.072Z",
   "today": "Wednesday, 22 July 2026",
   "stats": {
-    "industryTotal": 29,
-    "techTotal": 21,
+    "industryTotal": 32,
+    "techTotal": 23,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1784702276819-0",
+      "fetchedAt": "2026-07-22T06:37:56.819Z",
+      "headline": "Solar Module and Cell Capacity Expansion in 2025",
+      "summary": "In 2025, 119 GW of solar modules and over 9 GW of solar cell manufacturing capacity were added globally.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/clean-energy-meets-key-expanding-market-access-and-industry-connect",
+      "searchQuery": "Clean Energy Meets Key to Expanding Market Access  2026",
+      "category": "Solar Tech",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1784702276819-1",
+      "fetchedAt": "2026-07-22T06:37:56.819Z",
+      "headline": "Fidra Secures $312M for 500 MW Energy Storage Project",
+      "summary": "Fidra Energy secured $312 million for its 500 MW/1.1 GWh West Burton energy storage project.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/project-finance-brief-fidra-secures-312-million-for-energy-storage-project",
+      "searchQuery": "Project Finance Brief: Fidra Secures $312 Million  2026",
+      "category": "Energy Storage",
+      "region": "Europe",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1784702276819-2",
+      "fetchedAt": "2026-07-22T06:37:56.819Z",
+      "headline": "PureSky Closes $62M Credit Financing",
+      "summary": "PureSky Energy, a Denver-based developer, closed $62 million in credit financing.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/funding-ma-roundup-puresky-62-million-financing",
+      "searchQuery": "Funding and M&A Roundup: PureSky Closes $62 Millio 2026",
+      "category": "Green Finance",
+      "region": "US",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Mercom India-1784663064075-0",
       "fetchedAt": "2026-07-21T19:44:24.075Z",
@@ -417,6 +459,34 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1784702358712-0",
+      "fetchedAt": "2026-07-22T06:39:18.712Z",
+      "headline": "Perovskite Solar Cell Innovation Enables See-Through Solar Windows",
+      "summary": "Perovskite solar cells are emerging as a new wave of 21st century materials poised to boost solar power beyond traditional silicon. This innovation includes the development of see-through solar windows, representing a significant shift from the silicon-based technology that has been the industry standard since 1954. These materials aim to take solar power to the next level.",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/07/22/perovskite-solar-cells-invisible-solar-power-window-glass/",
+      "searchQuery": "The Next Wave Of Perovskite Solar Cell Innovation: 2026",
+      "category": "Solar Tech",
+      "region": "Global",
+      "timeAgo": "4m ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "PV Magazine-1784702358712-1",
+      "fetchedAt": "2026-07-22T06:39:18.712Z",
+      "headline": "Halocell Energy Partners with MSWay for Flexible Perovskite Production",
+      "summary": "Halocell Energy, an Australian clean technology company, is teaming with South Korean manufacturer MSWay to scale production. This partnership aims to fast-track the commercialisation of Halocell's lightweight, flexible perovskite solar cells. The collaboration focuses on utilizing MSWay's expertise in flexible transparent electrode manufacturing to advance their lightweight solar technology.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/07/22/halocell-teams-with-south-korean-company-to-scale-flexible-perovskite-solar-cell-production/",
+      "searchQuery": "Halocell teams with South Korean company to scale  2026",
+      "category": "Manufacturing",
+      "region": "Global",
+      "timeAgo": "27m ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "CleanTechnica-1784663119272-0",
       "fetchedAt": "2026-07-21T19:45:19.272Z",
