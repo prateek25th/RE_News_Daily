@@ -1,14 +1,42 @@
 {
-  "generatedAt": "2026-07-23T14:29:10.706Z",
-  "nextUpdateAt": "2026-07-23T16:29:10.706Z",
+  "generatedAt": "2026-07-23T17:43:47.926Z",
+  "nextUpdateAt": "2026-07-23T19:43:47.926Z",
   "today": "Thursday, 23 July 2026",
   "stats": {
-    "industryTotal": 19,
+    "industryTotal": 21,
     "techTotal": 15,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1784828370371-0",
+      "fetchedAt": "2026-07-23T17:39:30.371Z",
+      "headline": "Navitas Solar, Caelux Partner to Make 5 GW Tandem Solar Modules in India",
+      "summary": "Surat-based solar module manufacturer Navitas Solar has entered into a five-year partnership with California-based perovskite technology company Caelux Corporation to develop and manufacture 5 GW of hybrid tandem solar modules in India.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/navitas-solar-caelux-partner-to-make-5-gw-tandem-solar-modules-in-india",
+      "searchQuery": "Navitas Solar, Caelux Partner to Make 5 GW Tandem  2026",
+      "category": "Project Commission",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1784828370372-1",
+      "fetchedAt": "2026-07-23T17:39:30.372Z",
+      "headline": "Standalone Solar Module Makers Seek 18-Month ALMM List-II Extension",
+      "summary": "The All India Solar Module Manufacturers (AISMM) has urged Union Minister for New and Renewable Energy (MNRE) Pralhad Joshi to provide an 18-month, output-linked transition for the mandatory use of solar cells listed under the Approved List of Models",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/standalone-solar-module-makers-seek-18-month-almm-list-ii-extension",
+      "searchQuery": "Standalone Solar Module Makers Seek 18-Month ALMM  2026",
+      "category": "Policy Update",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1784802723037-0",
       "fetchedAt": "2026-07-23T10:32:03.037Z",
@@ -278,6 +306,34 @@
   ],
   "tech": [
     {
+      "id": "Solar Power World-1784828426294-2",
+      "fetchedAt": "2026-07-23T17:40:26.294Z",
+      "headline": "SC judge determines solar manufacturing needs &#8216;heavy industrial&#8217; zoning Silfab Solar can continue work in &#039;light industrial&#039; zone due to prior approval.",
+      "summary": "A recent ruling on zoning requirements in York County, South Carolina, has determined that solar manufacturing is only allowed in heavy industrial zones. Despite that decision, Silfab Solar&#8217;s silicon cell and panel manufacturing operation in Fo",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/07/sc-judge-determines-solar-manufacturing-needs-heavy-industrial-zoning/",
+      "searchQuery": "SC judge determines solar manufacturing needs &#82 2026",
+      "category": "Manufacturing",
+      "region": "Global",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Power World-1784828426295-3",
+      "fetchedAt": "2026-07-23T17:40:26.295Z",
+      "headline": "Massachusetts open to bidirectional EV and V2G setups",
+      "summary": "Eversource, National Grid, EnergyHub, Sunrun and The Mobility House announced a joint effort to test vehicle-to-grid (V2G) capabilities in Massachusetts. Under this effort, qualifying residential customers of Eversource and National Grid in Massachus",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/07/massachusetts-open-to-bidirectional-ev-and-v2g-setups/",
+      "searchQuery": "Massachusetts open to bidirectional EV and V2G set 2026",
+      "category": "Solar Tender",
+      "region": "Global",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Tech-1784816694590-5",
       "fetchedAt": "2026-07-23T14:24:54.590Z",
       "headline": "Caelux links up with Rayzon, Navitas on 10GW perovskite PV ‘commercialisation’ deals in India",
@@ -458,34 +514,6 @@
       "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1784655568955-1",
-      "fetchedAt": "2026-07-21T17:39:28.955Z",
-      "headline": "rPlus advances two utility-scale solar projects in Idaho",
-      "summary": "rPlus Energies has commissioned the 125-MW Pleasant Valley Solar 2 project and begun construction on the 400-MW Blacks Creek Energy Center, both in Idaho. Including projects already in operation, currently under construction or under contract, rPlus ",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/07/rplus-advances-two-utility-scale-solar-projects-in-idaho/",
-      "searchQuery": "rPlus advances two utility-scale solar projects in 2026",
-      "category": "Policy Update",
-      "region": "US",
-      "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Tech-1784655568955-3",
-      "fetchedAt": "2026-07-21T17:39:28.955Z",
-      "headline": "Perovskites are moving beyond &#8216;demonstration era&#8217;, says Sofab Inks as it raises US$6 million in seed funding",
-      "summary": "Sofab Inks has today announced that it has secured US$6 million in to expand its tin-based ETL solution for use in perovskite solar cells.",
-      "source": "PV Tech",
-      "url": "https://www.pv-tech.org/perovskites-moving-beyond-demonstration-era-sofab-inks/",
-      "searchQuery": "Perovskites are moving beyond &#8216;demonstration 2026",
-      "category": "Green Finance",
-      "region": "Global",
-      "timeAgo": "2h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "learn": [
