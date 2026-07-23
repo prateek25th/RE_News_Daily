@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-22T23:15:24.940Z",
-  "nextUpdateAt": "2026-07-23T01:15:24.940Z",
-  "today": "Wednesday, 22 July 2026",
+  "generatedAt": "2026-07-23T03:42:12.725Z",
+  "nextUpdateAt": "2026-07-23T05:42:12.725Z",
+  "today": "Thursday, 23 July 2026",
   "stats": {
     "industryTotal": 24,
-    "techTotal": 20,
+    "techTotal": 21,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -347,6 +347,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1784777811865-0",
+      "fetchedAt": "2026-07-23T03:36:51.865Z",
+      "headline": "SEIA Report Prioritizes Cybersecurity in Solar Manufacturing",
+      "summary": "The Solar Energy Industries Association (SEIA) released a report focusing on cybersecurity and expanding U.S. domestic manufacturing of solar and storage tech. The U.S. is now the world's second-largest inverter manufacturer, highlighting growth in solar infrastructure. The report emphasizes securing solar systems while scaling production, aligning with rising global manufacturing rankings.",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/07/22/new-report-outlines-priorities-for-a-cybersecure-american-made-solar-storage-industry/",
+      "searchQuery": "New Report Outlines Priorities for a Cybersecure,  2026",
+      "category": "Manufacturing",
+      "region": "US",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "PV Magazine-1784729861788-1",
       "fetchedAt": "2026-07-22T14:17:41.788Z",
