@@ -1,14 +1,28 @@
 {
-  "generatedAt": "2026-07-24T06:38:49.236Z",
-  "nextUpdateAt": "2026-07-24T08:38:49.236Z",
+  "generatedAt": "2026-07-24T10:32:35.080Z",
+  "nextUpdateAt": "2026-07-24T12:32:35.080Z",
   "today": "Friday, 24 July 2026",
   "stats": {
-    "industryTotal": 23,
+    "industryTotal": 21,
     "techTotal": 18,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1784888770468-0",
+      "fetchedAt": "2026-07-24T10:26:10.468Z",
+      "headline": "India Solar Open Access Capacity Grows 55% in Q1 2026",
+      "summary": "India added 2.7 GW of solar open access capacity in Q1 2026, up 55% quarter-over-quarter, supported by favorable policies, growing consumer interest, and improved project execution.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/open-access-will-drive-large-scale-ci-renewable-adoption-interview",
+      "searchQuery": "Open Access Will Drive Large-Scale C&I Renewable A 2026",
+      "category": "Market Analysis",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Mercom India-1784874855814-0",
       "fetchedAt": "2026-07-24T06:34:15.814Z",
@@ -288,51 +302,37 @@
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1784702276819-0",
-      "fetchedAt": "2026-07-22T06:37:56.819Z",
-      "headline": "Solar Module and Cell Capacity Expansion in 2025",
-      "summary": "In 2025, 119 GW of solar modules and over 9 GW of solar cell manufacturing capacity were added globally.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/clean-energy-meets-key-expanding-market-access-and-industry-connect",
-      "searchQuery": "Clean Energy Meets Key to Expanding Market Access  2026",
-      "category": "Solar Tech",
-      "region": "Global",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1784702276819-1",
-      "fetchedAt": "2026-07-22T06:37:56.819Z",
-      "headline": "Fidra Secures $312M for 500 MW Energy Storage Project",
-      "summary": "Fidra Energy secured $312 million for its 500 MW/1.1 GWh West Burton energy storage project.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/project-finance-brief-fidra-secures-312-million-for-energy-storage-project",
-      "searchQuery": "Project Finance Brief: Fidra Secures $312 Million  2026",
-      "category": "Energy Storage",
-      "region": "Europe",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1784702276819-2",
-      "fetchedAt": "2026-07-22T06:37:56.819Z",
-      "headline": "PureSky Closes $62M Credit Financing",
-      "summary": "PureSky Energy, a Denver-based developer, closed $62 million in credit financing.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/funding-ma-roundup-puresky-62-million-financing",
-      "searchQuery": "Funding and M&A Roundup: PureSky Closes $62 Millio 2026",
-      "category": "Green Finance",
-      "region": "US",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1784888861979-0",
+      "fetchedAt": "2026-07-24T10:27:41.979Z",
+      "headline": "Cylindrical solar tubes may still fit BIPV market",
+      "summary": "Japanese scientists report that cylindrical CIGS solar tubes, despite Solyndra’s past failure, enhance cooling, lower temperature‑related losses, and provide more stable energy harvesting under optimized urban installation conditions, offering advantages for building‑integrated photovoltaic market integration, which reduces reliance on conventional rooftop panels and supports higher overall system efficiency in dense city environments while maintaining lower operating costs.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/07/24/despite-historical-failure-cylindrical-solar-tubes-may-still-find-a-place-in-bipv-market-say-japanese-scientists/",
+      "searchQuery": "Despite historical failure, cylindrical solar tube 2026",
+      "category": "Solar Tech",
+      "region": "Asia",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "PV Magazine-1784888861979-1",
+      "fetchedAt": "2026-07-24T10:27:41.979Z",
+      "headline": "Superhydrophobic coating boosts PV output 16%",
+      "summary": "Indian research team demonstrates that a transparent nanocomposite coating makes solar panels superhydrophobic, enabling self‑cleaning; six months of outdoor testing shows coated panels generate 16% more power than dusty panels and 7% more than manually cleaned panels, while also lowering temperature and improving stability, the coating maintains performance under high dust exposure and reduces cleaning labor.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/07/24/superhydrophobic-nanocomposite-coating-boosts-pv-power-output-by-16-outperforms-manual-cleaning/",
+      "searchQuery": "Superhydrophobic nanocomposite coating boosts PV p 2026",
+      "category": "Solar Tech",
+      "region": "India",
+      "timeAgo": "3h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "PV Magazine-1784874958646-0",
       "fetchedAt": "2026-07-24T06:35:58.646Z",
@@ -556,34 +556,6 @@
       "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1784702358712-0",
-      "fetchedAt": "2026-07-22T06:39:18.712Z",
-      "headline": "Perovskite Solar Cell Innovation Enables See-Through Solar Windows",
-      "summary": "Perovskite solar cells are emerging as a new wave of 21st century materials poised to boost solar power beyond traditional silicon. This innovation includes the development of see-through solar windows, representing a significant shift from the silicon-based technology that has been the industry standard since 1954. These materials aim to take solar power to the next level.",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/07/22/perovskite-solar-cells-invisible-solar-power-window-glass/",
-      "searchQuery": "The Next Wave Of Perovskite Solar Cell Innovation: 2026",
-      "category": "Solar Tech",
-      "region": "Global",
-      "timeAgo": "4m ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1784702358712-1",
-      "fetchedAt": "2026-07-22T06:39:18.712Z",
-      "headline": "Halocell Energy Partners with MSWay for Flexible Perovskite Production",
-      "summary": "Halocell Energy, an Australian clean technology company, is teaming with South Korean manufacturer MSWay to scale production. This partnership aims to fast-track the commercialisation of Halocell's lightweight, flexible perovskite solar cells. The collaboration focuses on utilizing MSWay's expertise in flexible transparent electrode manufacturing to advance their lightweight solar technology.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/07/22/halocell-teams-with-south-korean-company-to-scale-flexible-perovskite-solar-cell-production/",
-      "searchQuery": "Halocell teams with South Korean company to scale  2026",
-      "category": "Manufacturing",
-      "region": "Global",
-      "timeAgo": "27m ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "learn": [
