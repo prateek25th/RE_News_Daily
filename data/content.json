@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-26T17:16:14.555Z",
-  "nextUpdateAt": "2026-07-26T19:16:14.555Z",
+  "generatedAt": "2026-07-26T19:28:53.873Z",
+  "nextUpdateAt": "2026-07-26T21:28:53.873Z",
   "today": "Sunday, 26 July 2026",
   "stats": {
     "industryTotal": 6,
@@ -9,6 +9,34 @@
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1785093836688-0",
+      "fetchedAt": "2026-07-26T19:23:56.688Z",
+      "headline": "RECPDCL Announces Winner of 4.5 GW Transmission Project",
+      "summary": "REC Power Development and Consultancy (RECPDCL) announced the winner of its auction to establish a 4.5 GW interstate transmission system (ISTS) project. The transmission system aims to enhance grid infrastructure connectivity across states. The project was awarded through a competitive bidding process to strengthen India's power transmission network.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/recpdcl-announces-winner-of-4-5-gw-transmission-project",
+      "searchQuery": "RECPDCL Announces Winner of 4.5 GW Transmission Pr 2026",
+      "category": "Grid Infrastructure",
+      "region": "India",
+      "timeAgo": "1d ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1785093836688-1",
+      "fetchedAt": "2026-07-26T19:23:56.688Z",
+      "headline": "SAS and URECO Form US Joint Venture for 1 GW Solar Plant",
+      "summary": "Sino-American Silicon Products (SAS) and United Renewable Energy (URECO) established a U.S.-based joint venture to build a 1 GW solar module manufacturing facility. The project involves a $40 million investment, with SAS holding 51% equity and URECO 49%. The facility will support U.S. solar manufacturing growth.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/sas-ureco-form-us-joint-venture-to-build-1-gw-solar-module-plant",
+      "searchQuery": "SAS, URECO Form US Joint Venture to Build 1 GW Sol 2026",
+      "category": "Manufacturing",
+      "region": "US",
+      "timeAgo": "1d ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Mercom India-1785078867590-2",
       "fetchedAt": "2026-07-26T15:14:27.590Z",
@@ -62,34 +90,6 @@
       "category": "Policy Update",
       "region": "Asia",
       "timeAgo": "1d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1784915121642-0",
-      "fetchedAt": "2026-07-24T17:45:21.642Z",
-      "headline": "RECPDCL Announces Winner of 4.5 GW Transmission Project",
-      "summary": "Listen to this article REC Power Development and Consultancy (RECPDCL) has announced the winner of its auction to set up an interstate transmission system (ISTS) to",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/recpdcl-announces-winner-of-4-5-gw-transmission-project",
-      "searchQuery": "RECPDCL Announces Winner of 4.5 GW Transmission Pr 2026",
-      "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1784915121642-1",
-      "fetchedAt": "2026-07-24T17:45:21.642Z",
-      "headline": "SAS, URECO Form US Joint Venture to Build 1 GW Solar Module Plant",
-      "summary": "Sino-American Silicon Products (SAS), a Taiwan-based manufacturer of semiconductor and renewable energy materials, and United Renewable Energy (URECO), a Taiwanese solar cell and module manufacturer, have established a U.S.-based joint venture to set",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/sas-ureco-form-us-joint-venture-to-build-1-gw-solar-module-plant",
-      "searchQuery": "SAS, URECO Form US Joint Venture to Build 1 GW Sol 2026",
-      "category": "Project Commission",
-      "region": "US",
-      "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
