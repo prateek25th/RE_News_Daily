@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-29T19:42:28.724Z",
-  "nextUpdateAt": "2026-07-29T21:42:28.724Z",
+  "generatedAt": "2026-07-29T21:14:41.991Z",
+  "nextUpdateAt": "2026-07-29T23:14:41.991Z",
   "today": "Wednesday, 29 July 2026",
   "stats": {
     "industryTotal": 26,
-    "techTotal": 17,
+    "techTotal": 18,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -375,6 +375,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1785359214252-0",
+      "fetchedAt": "2026-07-29T21:06:54.252Z",
+      "headline": "China Gives Strong Signal on Connected &#038; Autonomous New Energy Vehicles",
+      "summary": "It should come as a surprise to no one that the Chinese government is intent on leading continuing to lead on connected vehicles and electric vehicles, but the industry got a strong indication of support this week from the head of the Ministry of Ind",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/07/29/china-gives-strong-signal-on-connected-autonomous-new-energy-vehicles/",
+      "searchQuery": "China Gives Strong Signal on Connected &#038; Auto 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "27m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "CleanTechnica-1785353855155-0",
       "fetchedAt": "2026-07-29T19:37:35.155Z",
