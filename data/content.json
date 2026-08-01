@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-01T17:20:25.151Z",
-  "nextUpdateAt": "2026-08-01T19:20:25.151Z",
+  "generatedAt": "2026-08-01T19:27:26.260Z",
+  "nextUpdateAt": "2026-08-01T21:27:26.260Z",
   "today": "Saturday, 1 August 2026",
   "stats": {
-    "industryTotal": 16,
+    "industryTotal": 14,
     "techTotal": 7,
     "learnTotal": 6,
     "windowHours": 48
@@ -204,34 +204,6 @@
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1785433492428-0",
-      "fetchedAt": "2026-07-30T17:44:52.428Z",
-      "headline": "HESCOM Floats Tender for 303.5 MW Solar Projects",
-      "summary": "Hubballi Electricity Supply Company (HESCOM) has invited bids to develop 303.5 MW of distributed solar projects to solarize agricultural feeders under Karnataka's Chief Minister's Solar Krishi Yojana (CM-SKY).",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/hescom-floats-tender-for-303-5-mw-of-feeder-level-solar-projects-under-cm-sky",
-      "searchQuery": "HESCOM Floats Tender for 303.5 MW of Feeder-Level  2026",
-      "category": "Solar Tender",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1785433492428-1",
-      "fetchedAt": "2026-07-30T17:44:52.428Z",
-      "headline": "Bhopal Civic Body Floats Tender for 2 MW Rooftop Solar",
-      "summary": "Bhopal Municipal Corporation (BMC) has issued a tender to set up grid-connected rooftop solar projects with an aggregate capacity of 2 MW.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/bhopal-civic-body-floats-tender-for-2-mw-rooftop-solar-projects",
-      "searchQuery": "Bhopal Civic Body Floats Tender for 2 MW Rooftop S 2026",
-      "category": "Rooftop Solar",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "tech": [
