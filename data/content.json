@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-02T17:13:39.548Z",
-  "nextUpdateAt": "2026-08-02T19:13:39.548Z",
+  "generatedAt": "2026-08-02T19:26:47.733Z",
+  "nextUpdateAt": "2026-08-02T21:26:47.733Z",
   "today": "Sunday, 2 August 2026",
   "stats": {
     "industryTotal": 6,
@@ -96,6 +96,20 @@
   ],
   "tech": [
     {
+      "id": "Naturalnews.com-1785698697645-4",
+      "fetchedAt": "2026-08-02T19:24:57.645Z",
+      "headline": "ESS Tech, Juniper Energy Plan 500 MWh Sodium-Ion Storage Partnership",
+      "summary": "Sodium-ion battery storage is gaining ground in the United States as ESS Tech Inc. and Juniper Energy LLC announced a long-term partnership for at least 500 MWh of deployment by 2032, according to company statements. The plan begins with a 10 MW / 80",
+      "source": "Naturalnews.com",
+      "url": "https://www.naturalnews.com/2026-07-28-ess-tech-juniper-energy-sodium-ion-storage-partnership.html",
+      "searchQuery": "ESS Tech, Juniper Energy Plan 500 MWh Sodium-Ion S 2026",
+      "category": "Energy Storage",
+      "region": "US",
+      "timeAgo": "5d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "Solar Power World-1785683588895-1",
       "fetchedAt": "2026-08-02T15:13:08.895Z",
       "headline": "Origis nears 1-GW milestone on sprawling Rockhound Solar complex in Texas",
@@ -162,20 +176,6 @@
       "category": "Green Finance",
       "region": "US",
       "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Naturalnews.com-1785520289061-4",
-      "fetchedAt": "2026-07-31T17:51:29.061Z",
-      "headline": "ESS Tech and Juniper Energy partner for sodium-ion storage",
-      "summary": "ESS Tech Inc. and Juniper Energy LLC have announced a long-term partnership for the deployment of at least 500 MWh of sodium-ion battery storage by 2032. The deployment plan begins with a 10 MW / 80 MWh system. This partnership highlights the growing ground for sodium-ion technology in the United States.",
-      "source": "Naturalnews.com",
-      "url": "https://www.naturalnews.com/2026-07-28-ess-tech-juniper-energy-sodium-ion-storage-partnership.html",
-      "searchQuery": "ESS Tech, Juniper Energy Plan 500 MWh Sodium-Ion S 2026",
-      "category": "Battery Innovation",
-      "region": "US",
-      "timeAgo": "3d ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
     }
