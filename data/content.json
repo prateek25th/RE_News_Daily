@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-08T07:17:05.808Z",
-  "nextUpdateAt": "2026-08-08T09:17:05.808Z",
+  "generatedAt": "2026-08-08T08:56:17.345Z",
+  "nextUpdateAt": "2026-08-08T10:56:17.345Z",
   "today": "Saturday, 8 August 2026",
   "stats": {
     "industryTotal": 27,
-    "techTotal": 17,
+    "techTotal": 18,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -389,6 +389,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1786179211854-0",
+      "fetchedAt": "2026-08-08T08:53:31.854Z",
+      "headline": "Huawei Expands EV Platform Deliveries and Automated Driving Partnerships",
+      "summary": "Huawei Technologies Co. scaled sales across its smart vehicle alliance in July, integrating automated driving software into major automotive manufacturing groups. Operating as a Tier 1 supplier rather than assembling vehicles under its own brand, the company expanded its foothold in the electric vehicle sector through these partnerships.",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/08/08/huawei-scales-ev-platform-deliveries-as-automated-driving-partnerships-expand-across-china/",
+      "searchQuery": "Huawei Scales EV Platform Deliveries As Automated  2026",
+      "category": "EV Technology",
+      "region": "Asia",
+      "timeAgo": "25m ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Solar Power World-1786135911805-2",
       "fetchedAt": "2026-08-07T20:51:51.805Z",
