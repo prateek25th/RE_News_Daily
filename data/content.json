@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-08T08:56:17.345Z",
-  "nextUpdateAt": "2026-08-08T10:56:17.345Z",
+  "generatedAt": "2026-08-08T10:47:11.702Z",
+  "nextUpdateAt": "2026-08-08T12:47:11.702Z",
   "today": "Saturday, 8 August 2026",
   "stats": {
     "industryTotal": 27,
-    "techTotal": 18,
+    "techTotal": 19,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -389,6 +389,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1786185791803-0",
+      "fetchedAt": "2026-08-08T10:43:11.803Z",
+      "headline": "World&#8217;s Largest 12.8 GWh Battery Storage Cluster Activated in China",
+      "summary": "CLEAN energy technology developer Envision Group just completed the final stages of the incorporation of an artificial intelligence (AI) management system into the 12.8-gigawatt-hour battery storage network in northern China it brought online last Fe",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/08/08/worlds-largest-12-8-gwh-battery-storage-cluster-activated-in-china/",
+      "searchQuery": "World&#8217;s Largest 12.8 GWh Battery Storage Clu 2026",
+      "category": "Energy Storage",
+      "region": "Asia",
+      "timeAgo": "31m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "CleanTechnica-1786179211854-0",
       "fetchedAt": "2026-08-08T08:53:31.854Z",
