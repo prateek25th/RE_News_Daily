@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-10T13:45:29.030Z",
-  "nextUpdateAt": "2026-08-10T15:45:29.030Z",
+  "generatedAt": "2026-08-10T15:11:23.334Z",
+  "nextUpdateAt": "2026-08-10T17:11:23.334Z",
   "today": "Monday, 10 August 2026",
   "stats": {
     "industryTotal": 17,
-    "techTotal": 11,
+    "techTotal": 12,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -249,6 +249,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "Solar Power World-1786374467225-5",
+      "fetchedAt": "2026-08-10T15:07:47.225Z",
+      "headline": "US Inverter Manufacturing Expansion Could Meet Domestic Solar Demand",
+      "summary": "Wood Mackenzie analysis shows over 100 GWAC of new solar inverter manufacturing capacity planned before 2028. If completed, this expansion could satisfy U.S. solar demand following federal restrictions on foreign inverter imports.",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/08/woodmac-new-domestic-inverter-manufacturing-could-meet-us-solar-demand/",
+      "searchQuery": "WoodMac: New domestic inverter manufacturing could 2026",
+      "category": "Manufacturing",
+      "region": "US",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "PV Magazine-1786368549799-1",
       "fetchedAt": "2026-08-10T13:29:09.799Z",
