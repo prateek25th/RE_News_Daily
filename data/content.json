@@ -1,14 +1,42 @@
 {
-  "generatedAt": "2026-08-11T05:22:36.762Z",
-  "nextUpdateAt": "2026-08-11T07:22:36.762Z",
+  "generatedAt": "2026-08-11T07:24:26.595Z",
+  "nextUpdateAt": "2026-08-11T09:24:26.595Z",
   "today": "Tuesday, 11 August 2026",
   "stats": {
-    "industryTotal": 21,
+    "industryTotal": 23,
     "techTotal": 14,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1786432894330-0",
+      "fetchedAt": "2026-08-11T07:21:34.330Z",
+      "headline": "Energy storage funding falls 2% YoY in 1H 2026",
+      "summary": "Corporate funding for energy storage companies totaled $8.9 billion across 73 deals in the first half of 2026, down 2% year‑over‑year from $9.1 billion across 55 deals in 1H 2025, with deal activity increasing 33%. The Mercom Capital Group report indicates the funding drop and increased deal count. Overall, the sector saw a modest contraction despite higher transaction volume.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/daily-news-wrap-up-energy-storage-funding-drops-2-yoy-in-1h-2026",
+      "searchQuery": "Daily News Wrap-Up: Energy Storage Funding Drops 2 2026",
+      "category": "Energy Storage",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1786432894330-1",
+      "fetchedAt": "2026-08-11T07:21:34.330Z",
+      "headline": "FTC Solar revenue jumps 31% in Q2 2026",
+      "summary": "FTC Solar reported Q2 2026 revenue of $26.2 million, a 31% year‑over‑year increase from $20 million, beating analyst expectations by $1.77 million; product revenue rose 41% to $22.4 million while services revenue fell 9% to $3.75 million. The U.S.-based tracker firm entered the Indian market during the quarter, expanding its presence amid strong demand. Revenue growth was driven by higher product sales and a rebound in service offerings.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/tracker-firm-ftc-solar-enters-indian-market-amid-31-revenue-jump-in-q2",
+      "searchQuery": "Tracker Firm FTC Solar Enters Indian Market Amid 3 2026",
+      "category": "Solar Tech",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Mercom India-1786425375330-0",
       "fetchedAt": "2026-08-11T05:16:15.330Z",
@@ -306,6 +334,20 @@
   ],
   "tech": [
     {
+      "id": "PV Magazine-1786432967433-1",
+      "fetchedAt": "2026-08-11T07:22:47.433Z",
+      "headline": "‘Biosolar’ design boosts rooftop PV performance by 23.25%",
+      "summary": "Research shows ‘biosolar’ technology can increase the performance of PV panels, with a New South Wales study finding that integrating rooftop gardens with solar panels increased PV energy generation by up to 23.25%. The post ‘Biosolar’ design boosts ",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/08/11/biosolar-design-boosts-rooftop-pv-performance-by-23-25/",
+      "searchQuery": "‘Biosolar’ design boosts rooftop PV performance by 2026",
+      "category": "Rooftop Solar",
+      "region": "Global",
+      "timeAgo": "47m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "CleanTechnica-1786414751795-0",
       "fetchedAt": "2026-08-11T02:19:11.795Z",
       "headline": "SolarAnywhere® Supports Solar PV &#038; Unmanned Flight!",
@@ -484,20 +526,6 @@
       "category": "Manufacturing",
       "region": "India",
       "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "CleanTechnica-1786259663538-0",
-      "fetchedAt": "2026-08-09T07:14:23.538Z",
-      "headline": "Grid Flexibility Plans Outpace Actual Delivery in Power Systems",
-      "summary": "Power systems are seeing an increase in flexibility plans, such as battery announcements, new ancillary-service products, capacity auctions, pumped-hydro programs, and demand-response targets. However, these various activities do not necessarily answer the harder question of whether these plans will successfully result in truly flexible grids, as plans are currently outpacing actual delivery.",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/08/09/grid-flexibility-plans-outpacing-delivery/",
-      "searchQuery": "Power Systems Have More Flexibility Plans Than Fle 2026",
-      "category": "Market Analysis",
-      "region": "Global",
-      "timeAgo": "34m ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
     }
