@@ -1,14 +1,42 @@
 {
-  "generatedAt": "2026-08-11T13:30:09.955Z",
-  "nextUpdateAt": "2026-08-11T15:30:09.955Z",
+  "generatedAt": "2026-08-11T15:25:23.677Z",
+  "nextUpdateAt": "2026-08-11T17:25:23.677Z",
   "today": "Tuesday, 11 August 2026",
   "stats": {
-    "industryTotal": 31,
+    "industryTotal": 30,
     "techTotal": 17,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1786460780689-0",
+      "fetchedAt": "2026-08-11T15:06:20.689Z",
+      "headline": "NTPC Mining Invites EoIs for 40 MW Solar Power Projects",
+      "summary": "NTPC Mining has invited expressions of interest (EoIs) to develop a cumulative capacity of 40 MW of ground-mounted solar power projects at two locations in Jharkhand and Chhattisgarh under the renewable energy service company (RESCO) mode.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/ntpc-mining-invites-eois-for-40-mw-solar-power-projects",
+      "searchQuery": "NTPC Mining Invites EoIs for 40 MW Solar Power Pro 2026",
+      "category": "Project Commission",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1786460780689-1",
+      "fetchedAt": "2026-08-11T15:06:20.689Z",
+      "headline": "Bihar Draft Grid Code Proposes Primary Frequency Response for Renewables",
+      "summary": "The Bihar Electricity Regulatory Commission (BERC) has proposed that wind and solar projects with battery energy storage systems (BESS), with capacities above 10 MW and connected at 33 kV or higher, must be capable of increasing their output to at le",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/bihar-draft-grid-code-proposes-primary-frequency-response-for-renewables",
+      "searchQuery": "Bihar Draft Grid Code Proposes Primary Frequency R 2026",
+      "category": "Grid Infrastructure",
+      "region": "US",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1786454793411-0",
       "fetchedAt": "2026-08-11T13:26:33.411Z",
@@ -400,48 +428,6 @@
       "timeAgo": "1d ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1786286615639-3",
-      "fetchedAt": "2026-08-09T14:43:35.639Z",
-      "headline": "Heelstone Acquires 188 MW Development-Stage Solar Project in Texas",
-      "summary": "Listen to this article Heelstone Renewable Energy, an independent power producer and a Qualitas Energy company, has acquired the development-stage Cypress Pointe Solar project in",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/heelstone-acquires-188mw-development-stage-solar-project-texas",
-      "searchQuery": "Heelstone Acquires 188 MW Development-Stage Solar  2026",
-      "category": "Project Commission",
-      "region": "US",
-      "timeAgo": "1d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1786286615639-4",
-      "fetchedAt": "2026-08-09T14:43:35.639Z",
-      "headline": "Surge in Cell, Module Production Boosts Premier Energies’ Q1 Revenue by 35%",
-      "summary": "Listen to this article Solar module and cell manufacturer Premier Energies has reported a revenue of ₹24.63 billion (~$258.6 million) in the first quarter (Q1) of the",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/surge-in-cell-module-production-boosts-premier-energies-q1-revenue-by-35",
-      "searchQuery": "Surge in Cell, Module Production Boosts Premier En 2026",
-      "category": "Manufacturing",
-      "region": "India",
-      "timeAgo": "1d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1786286615639-5",
-      "fetchedAt": "2026-08-09T14:43:35.639Z",
-      "headline": "Enpal Sells Majority Stake in Subsidiaries for $75 Million",
-      "summary": "Listen to this article Enpal, a solar PV and battery leasing solutions company, is selling a majority stake in several of its subsidiaries that hold",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/enpal-sells-majority-stake-in-subsidiaries-for-75-million",
-      "searchQuery": "Enpal Sells Majority Stake in Subsidiaries for $75 2026",
-      "category": "M&A Deal",
-      "region": "Global",
-      "timeAgo": "1d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "tech": [
