@@ -1,14 +1,28 @@
 {
-  "generatedAt": "2026-08-13T13:50:44.721Z",
-  "nextUpdateAt": "2026-08-13T15:50:44.721Z",
+  "generatedAt": "2026-08-13T15:19:44.325Z",
+  "nextUpdateAt": "2026-08-13T17:19:44.325Z",
   "today": "Thursday, 13 August 2026",
   "stats": {
-    "industryTotal": 29,
+    "industryTotal": 28,
     "techTotal": 18,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1786634031545-0",
+      "fetchedAt": "2026-08-13T15:13:51.545Z",
+      "headline": "Rajasthan Floats Consultancy Tender for 45 MW Renewable Energy Projects",
+      "summary": "Rajasthan Renewable Energy Corporation (RRECL) has invited bids to select an agency to prepare detailed project reports (DPRs) for 45 MW of renewable energy projects in the state.The projects will have indicative capacities of 30 MW at Mathania in Jo",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/rajasthan-floats-consultancy-tender-for-45-mw-renewable-energy-projects",
+      "searchQuery": "Rajasthan Floats Consultancy Tender for 45 MW Rene 2026",
+      "category": "Solar Tender",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1786628142852-0",
       "fetchedAt": "2026-08-13T13:35:42.852Z",
@@ -383,34 +397,6 @@
       "searchQuery": "MENA Weekly Round-Up: BYD Energy Wins 5.2 GW Solar 2026",
       "category": "Project Commission",
       "region": "Middle East",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1786460780689-0",
-      "fetchedAt": "2026-08-11T15:06:20.689Z",
-      "headline": "NTPC Mining Invites EoIs for 40 MW Solar Power Projects",
-      "summary": "NTPC Mining has invited expressions of interest (EoIs) to develop a cumulative capacity of 40 MW of ground-mounted solar power projects at two locations in Jharkhand and Chhattisgarh under the renewable energy service company (RESCO) mode.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/ntpc-mining-invites-eois-for-40-mw-solar-power-projects",
-      "searchQuery": "NTPC Mining Invites EoIs for 40 MW Solar Power Pro 2026",
-      "category": "Project Commission",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1786460780689-1",
-      "fetchedAt": "2026-08-11T15:06:20.689Z",
-      "headline": "Bihar Draft Grid Code Proposes Primary Frequency Response for Renewables",
-      "summary": "The Bihar Electricity Regulatory Commission (BERC) has proposed that wind and solar projects with battery energy storage systems (BESS), with capacities above 10 MW and connected at 33 kV or higher, must be capable of increasing their output to at le",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/bihar-draft-grid-code-proposes-primary-frequency-response-for-renewables",
-      "searchQuery": "Bihar Draft Grid Code Proposes Primary Frequency R 2026",
-      "category": "Grid Infrastructure",
-      "region": "US",
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article from publication"
