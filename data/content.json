@@ -1,14 +1,56 @@
 {
-  "generatedAt": "2026-08-13T05:59:28.132Z",
-  "nextUpdateAt": "2026-08-13T07:59:28.132Z",
+  "generatedAt": "2026-08-13T08:01:36.123Z",
+  "nextUpdateAt": "2026-08-13T10:01:36.123Z",
   "today": "Thursday, 13 August 2026",
   "stats": {
-    "industryTotal": 30,
-    "techTotal": 18,
+    "industryTotal": 31,
+    "techTotal": 17,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1786607184407-0",
+      "fetchedAt": "2026-08-13T07:46:24.407Z",
+      "headline": "India Adds Record 27 GW Solar Capacity in First Half of 2026",
+      "summary": "India added a record 27 GW of solar capacity during the first half of 2026. According to Mercom India Research, this represents a 51% year-over-year increase from the 18 GW recorded in the previous period. The data was released in the Q2 and 1H 2026 India Solar Market Update, highlighting significant growth in the sector.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/india-adds-record-27-gw-of-solar-capacity-in-first-half-of-2026",
+      "searchQuery": "India Adds Record 27 GW of Solar Capacity in First 2026",
+      "category": "Market Analysis",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1786607184407-1",
+      "fetchedAt": "2026-08-13T07:46:24.407Z",
+      "headline": "DCR Push Triggers Solar Module Supply Crunch in India",
+      "summary": "The widening price gap between DCR-compliant and non-DCR modules is reshaping procurement and investment decisions across India’s solar industry. Higher module prices, constrained domestic cell availability, and longer delivery timelines are increasing project costs, delaying financial closures, compressing installer margins, and slowing project execution across the residential, commercial and industrial, and utility-scale segments of the market.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/daily-news-wrap-up-dcr-push-triggers-a-solar-module-supply-crunch",
+      "searchQuery": "Daily News Wrap-Up: DCR Push Triggers a Solar Modu 2026",
+      "category": "Market Analysis",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1786607184407-2",
+      "fetchedAt": "2026-08-13T07:46:24.407Z",
+      "headline": "Gujarat Tenders 1 GW/4 GWh Standalone Battery Storage Projects",
+      "summary": "Gujarat Urja Vikas Nigam (GUVNL) has invited bids to set up 1,000 MW/4,000 MWh of standalone battery energy storage systems (BESS) in the state. This initiative, known as Phase-X, aims to establish significant standalone battery storage capacity through the competitive bidding process initiated by the state utility.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/gujarat-tenders-1-gw-4-gwh-standalone-battery-storage-projects",
+      "searchQuery": "Gujarat Tenders 1 GW/4 GWh Standalone Battery Stor 2026",
+      "category": "Solar Tender",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Mercom India-1786600115264-0",
       "fetchedAt": "2026-08-13T05:48:35.264Z",
@@ -400,34 +442,6 @@
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1786432894330-0",
-      "fetchedAt": "2026-08-11T07:21:34.330Z",
-      "headline": "Energy storage funding falls 2% YoY in 1H 2026",
-      "summary": "Corporate funding for energy storage companies totaled $8.9 billion across 73 deals in the first half of 2026, down 2% year‑over‑year from $9.1 billion across 55 deals in 1H 2025, with deal activity increasing 33%. The Mercom Capital Group report indicates the funding drop and increased deal count. Overall, the sector saw a modest contraction despite higher transaction volume.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/daily-news-wrap-up-energy-storage-funding-drops-2-yoy-in-1h-2026",
-      "searchQuery": "Daily News Wrap-Up: Energy Storage Funding Drops 2 2026",
-      "category": "Energy Storage",
-      "region": "Global",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1786432894330-1",
-      "fetchedAt": "2026-08-11T07:21:34.330Z",
-      "headline": "FTC Solar revenue jumps 31% in Q2 2026",
-      "summary": "FTC Solar reported Q2 2026 revenue of $26.2 million, a 31% year‑over‑year increase from $20 million, beating analyst expectations by $1.77 million; product revenue rose 41% to $22.4 million while services revenue fell 9% to $3.75 million. The U.S.-based tracker firm entered the Indian market during the quarter, expanding its presence amid strong demand. Revenue growth was driven by higher product sales and a rebound in service offerings.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/tracker-firm-ftc-solar-enters-indian-market-amid-31-revenue-jump-in-q2",
-      "searchQuery": "Tracker Firm FTC Solar Enters Indian Market Amid 3 2026",
-      "category": "Solar Tech",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "tech": [
@@ -666,20 +680,6 @@
       "category": "Policy Update",
       "region": "Middle East",
       "timeAgo": "53m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1786432967433-1",
-      "fetchedAt": "2026-08-11T07:22:47.433Z",
-      "headline": "‘Biosolar’ design boosts rooftop PV performance by 23.25%",
-      "summary": "Research shows ‘biosolar’ technology can increase the performance of PV panels, with a New South Wales study finding that integrating rooftop gardens with solar panels increased PV energy generation by up to 23.25%. The post ‘Biosolar’ design boosts ",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/08/11/biosolar-design-boosts-rooftop-pv-performance-by-23-25/",
-      "searchQuery": "‘Biosolar’ design boosts rooftop PV performance by 2026",
-      "category": "Rooftop Solar",
-      "region": "Global",
-      "timeAgo": "47m ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
