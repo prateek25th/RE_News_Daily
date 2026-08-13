@@ -1,14 +1,56 @@
 {
-  "generatedAt": "2026-08-13T08:01:36.123Z",
-  "nextUpdateAt": "2026-08-13T10:01:36.123Z",
+  "generatedAt": "2026-08-13T09:24:43.599Z",
+  "nextUpdateAt": "2026-08-13T11:24:43.599Z",
   "today": "Thursday, 13 August 2026",
   "stats": {
-    "industryTotal": 31,
-    "techTotal": 17,
+    "industryTotal": 32,
+    "techTotal": 18,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1786612813791-0",
+      "fetchedAt": "2026-08-13T09:20:13.791Z",
+      "headline": "APTEL Upholds Capacity-Based Wheeling Charges for Captive Wind Project",
+      "summary": "APTEL has upheld the decision by Ajmer Vidyut Vitran Nigam (AVVNL) to levy wheeling charges based on capacity for a captive wind project. This ruling maintains the existing charge structure for the project, confirming the regulatory stance regarding how these specific wheeling charges are applied to the wind energy installation in question.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/aptel-upholds-capacity-based-wheeling-charges-for-captive-wind-project",
+      "searchQuery": "APTEL Upholds Capacity-Based Wheeling Charges for  2026",
+      "category": "Regulation",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1786612813791-1",
+      "fetchedAt": "2026-08-13T09:20:13.791Z",
+      "headline": "Bihar Approves ₹10,000/kW Rooftop Solar Subsidy Top-up",
+      "summary": "The Bihar government has approved additional financial assistance of ₹10,000 (~$105)/kW for residential consumers. This subsidy top-up is specifically for those installing rooftop solar systems under the PM Surya Ghar: Muft Bijli Yojana. The initiative aims to provide extra support to residents adopting solar technology under this national scheme.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/bihar-offers-rooftop-solar-subsidy-top-up-of-₹10000-kw-under-pm-surya-ghar",
+      "searchQuery": "Bihar Offers Rooftop Solar Subsidy Top-up of ₹10,0 2026",
+      "category": "Rooftop Solar",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1786612813791-2",
+      "fetchedAt": "2026-08-13T09:20:13.791Z",
+      "headline": "Insolation Energy Q1 Revenue Surges 105% Due to Solar Demand",
+      "summary": "Insolation Energy reported a revenue of ₹7.41 billion (~$77.6 million) in the first quarter of the financial year 2026-27. This represents a 104.7% year-over-year increase compared to the ₹3.62 billion recorded in the previous year. The growth is driven by strong demand for solar modules by the Jaipur-based manufacturer.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/strong-solar-module-demand-drives-insolation-energys-q1-revenue-up-105",
+      "searchQuery": "Strong Solar Module Demand Drives Insolation Energ 2026",
+      "category": "Company Results",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Mercom India-1786607184407-0",
       "fetchedAt": "2026-08-13T07:46:24.407Z",
@@ -414,37 +456,37 @@
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1786439271299-0",
-      "fetchedAt": "2026-08-11T09:07:51.299Z",
-      "headline": "Energy Storage-Backed Renewable Tenders Dominate Procurement in 1H 2026",
-      "summary": "Agencies in India issued 44 GW of tenders and auctioned 16 GW of capacity across energy storage, hybrid, large-scale solar, wind, manufacturing, and rooftop solar projects in the first half (1H) of 2026, according to Mercom India&#8217;s newly releas",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/energy-storage-renewable-tenders-dominate-procurement-1h-2026",
-      "searchQuery": "Energy Storage-Backed Renewable Tenders Dominate P 2026",
-      "category": "Solar Tender",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1786439271300-1",
-      "fetchedAt": "2026-08-11T09:07:51.300Z",
-      "headline": "Andhra Pradesh Allows Consumers to Install Up to 5 kW Rooftop Solar Systems",
-      "summary": "The Andhra Pradesh Electricity Regulatory Commission (APERC) has allowed consumers with single-phase low-tension connections to install rooftop solar systems of up to 5 kW.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/andhra-pradesh-allows-consumers-to-install-up-to-5-kw-rooftop-solar-systems",
-      "searchQuery": "Andhra Pradesh Allows Consumers to Install Up to 5 2026",
-      "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1786612846449-1",
+      "fetchedAt": "2026-08-13T09:20:46.449Z",
+      "headline": "Mass-scale reuse pilot project finds 15% of second-life solar modules fail to meet safety requirements",
+      "summary": "Researchers in Australia identified two scalable routes for electrical safety qualification of second-life PV modules: silicone backsheet repair and faster parallel wet-leakage testing. A Queensland pilot found that 15% of 2,200 reuse-ready modules f",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/08/13/mass-scale-reuse-pilot-project-finds-15-of-second-life-solar-modules-fail-to-meet-safety-requirements/",
+      "searchQuery": "Mass-scale reuse pilot project finds 15% of second 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Tech-1786612846450-5",
+      "fetchedAt": "2026-08-13T09:20:46.450Z",
+      "headline": "European Energy secures US$270 million financing for 225MW agriPV project in Italy",
+      "summary": "European Energy has reached financial close on €234.1 million (US$270 million) for its 225MW agrivoltaic project in Vizzini, Sicily, Italy.",
+      "source": "PV Tech",
+      "url": "https://www.pv-tech.org/european-energy-secures-agripv-project-financing-italy/",
+      "searchQuery": "European Energy secures US$270 million financing f 2026",
+      "category": "Project Commission",
+      "region": "Europe",
+      "timeAgo": "23h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "CleanTechnica-1786600356208-0",
       "fetchedAt": "2026-08-13T05:52:36.208Z",
@@ -666,20 +708,6 @@
       "category": "Solar Tech",
       "region": "US",
       "timeAgo": "16m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1786439375115-1",
-      "fetchedAt": "2026-08-11T09:09:35.115Z",
-      "headline": "Scientists demonstrate outdoor operability of reflector-assisted spherical photovoltaic modules",
-      "summary": "Researchers in Qatar developed a 450-cell, 0.70 m-diameter spherical PV prototype with a hemispherical aluminium reflector that substantially improves energy capture. The system, however, demonstrates mainly directional/seasonal benefits rather than ",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/08/11/scientists-demonstrate-outdoor-operability-of-reflector-assisted-spherical-photovoltaic-modules/",
-      "searchQuery": "Scientists demonstrate outdoor operability of refl 2026",
-      "category": "Policy Update",
-      "region": "Middle East",
-      "timeAgo": "53m ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
