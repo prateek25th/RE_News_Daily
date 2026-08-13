@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-13T21:00:17.972Z",
-  "nextUpdateAt": "2026-08-13T23:00:17.972Z",
+  "generatedAt": "2026-08-13T22:54:42.933Z",
+  "nextUpdateAt": "2026-08-14T00:54:42.933Z",
   "today": "Thursday, 13 August 2026",
   "stats": {
     "industryTotal": 28,
-    "techTotal": 19,
+    "techTotal": 18,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -652,20 +652,6 @@
       "category": "Energy Storage",
       "region": "US",
       "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "CleanTechnica-1786481965746-0",
-      "fetchedAt": "2026-08-11T20:59:25.746Z",
-      "headline": "ACMobility Launches Public Transport Chargers in Philippines",
-      "summary": "ACMobility, the Ayala Group's mobility unit, has expanded its electric vehicle infrastructure in the Philippines by partnering with Basic Energy Corporation and Grab Philippines. The company is deploying physical charging stations along major traffic corridors and launching digital fleet management technology to support electric buses.",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/08/11/acmobility-sets-up-chargers-supporting-public-transport-in-the-philippines/",
-      "searchQuery": "ACMobility Sets Up Chargers Supporting Public Tran 2026",
-      "category": "EV Technology",
-      "region": "Asia",
-      "timeAgo": "21m ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
     }
