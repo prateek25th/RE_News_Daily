@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-14T11:17:34.721Z",
-  "nextUpdateAt": "2026-08-14T13:17:34.721Z",
+  "generatedAt": "2026-08-14T13:25:52.605Z",
+  "nextUpdateAt": "2026-08-14T15:25:52.605Z",
   "today": "Friday, 14 August 2026",
   "stats": {
     "industryTotal": 25,
-    "techTotal": 17,
+    "techTotal": 19,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -361,6 +361,34 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1786713854239-0",
+      "fetchedAt": "2026-08-14T13:24:14.239Z",
+      "headline": "Neom's 2.2 GW Hydrogen Project Begins Commissioning in Saudi Arabia",
+      "summary": "Neom's 2.2 GW hydrogen project in Saudi Arabia begins commissioning, alongside Germany's HyScale 100 cancellation, Power to Hydrogen's 500 kW installation in Antwerp, Hystar-BHEL partnership in India, and Italy's €400 million hydrogen scheme.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/08/14/the-hydrogen-stream-commissioning-begins-for-2-2-gw-neom-h2-project-in-saudi-arabia/",
+      "searchQuery": "The Hydrogen Stream: Commissioning begins for 2.2  2026",
+      "category": "Green Hydrogen",
+      "region": "Middle East",
+      "timeAgo": "40m ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "PV Magazine-1786713854239-1",
+      "fetchedAt": "2026-08-14T13:24:14.239Z",
+      "headline": "KIT Develops Hybrid Solar System with Radiative Cooling",
+      "summary": "KIT researchers developed a hybrid solar system combining photovoltaics and radiative cooling, achieving 6.5°C cooling, 60.6 W/m² power, and 110.8°C heat in a prototype.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/08/14/kit-develops-hybrid-solar-system-with-radiative-cooling/",
+      "searchQuery": "KIT develops hybrid solar system with radiative co 2026",
+      "category": "Solar Tech",
+      "region": "Global",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "PV Magazine-1786705742094-0",
       "fetchedAt": "2026-08-14T11:09:02.094Z",
