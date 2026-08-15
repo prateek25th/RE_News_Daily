@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-14T22:33:25.272Z",
-  "nextUpdateAt": "2026-08-15T00:33:25.272Z",
-  "today": "Friday, 14 August 2026",
+  "generatedAt": "2026-08-15T01:50:13.223Z",
+  "nextUpdateAt": "2026-08-15T03:50:13.223Z",
+  "today": "Saturday, 15 August 2026",
   "stats": {
     "industryTotal": 20,
-    "techTotal": 15,
+    "techTotal": 14,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -486,20 +486,6 @@
       "timeAgo": "3h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1786575533431-4",
-      "fetchedAt": "2026-08-12T22:58:53.431Z",
-      "headline": "What is a sodium-ion battery, and why is everyone talking about it?",
-      "summary": "Sodium-based batteries aren&#8217;t new to the energy storage market, but interest in their technology began growing in the early 2020s as the industry explores alternatives to lithium. Sodium-ion batteries behave and can be manufactured similarly to",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/08/what-is-a-sodium-ion-battery-and-why-is-everyone-talking-about-it/",
-      "searchQuery": "What is a sodium-ion battery, and why is everyone  2026",
-      "category": "Energy Storage",
-      "region": "Global",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "learn": [
