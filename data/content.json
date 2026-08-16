@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-16T04:44:26.952Z",
-  "nextUpdateAt": "2026-08-16T06:44:26.952Z",
+  "generatedAt": "2026-08-16T06:56:41.127Z",
+  "nextUpdateAt": "2026-08-16T08:56:41.127Z",
   "today": "Sunday, 16 August 2026",
   "stats": {
     "industryTotal": 8,
@@ -124,6 +124,20 @@
   ],
   "tech": [
     {
+      "id": "PV Tech-1786863306920-5",
+      "fetchedAt": "2026-08-16T06:55:06.920Z",
+      "headline": "Comstock and OnePlanet Achieve Solar Recycling Milestones",
+      "summary": "Comstock has advanced its industry‑scale PV recycling line, reaching testing and engineering milestones, while Florida‑based OnePlanet launched its PRISM system to recover valuable materials from end‑of‑life solar modules, marking progress in US solar recycling. The milestones demonstrate feasibility of large‑scale module dismantling and material recovery, supporting circular economy goals for the solar industry for future deployment.",
+      "source": "PV Tech",
+      "url": "https://www.pv-tech.org/comstock-oneplanet-reach-testing-and-engineering-milestones-on-us-solar-recycling-lines/",
+      "searchQuery": "Comstock, OnePlanet reach testing and engineering  2026",
+      "category": "Solar Tech",
+      "region": "US",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
       "id": "Solar Power World-1786826239261-4",
       "fetchedAt": "2026-08-15T20:37:19.261Z",
       "headline": "What can Tesla really make in a $10 billion solar factory?",
@@ -234,20 +248,6 @@
       "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Tech-1786686297131-5",
-      "fetchedAt": "2026-08-14T05:44:57.131Z",
-      "headline": "Comstock, OnePlanet reach testing and engineering milestones on US solar recycling lines",
-      "summary": "Comstock has advanced its industry-scale PV recycling line, while Florida-based OnePlanet has launched its 'PRISM' system to recover valuable materials from end-of-life solar modules.",
-      "source": "PV Tech",
-      "url": "https://www.pv-tech.org/comstock-oneplanet-reach-testing-and-engineering-milestones-on-us-solar-recycling-lines/",
-      "searchQuery": "Comstock, OnePlanet reach testing and engineering  2026",
-      "category": "Policy Update",
-      "region": "US",
-      "timeAgo": "17h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "learn": [
