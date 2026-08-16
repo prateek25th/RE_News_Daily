@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-16T20:35:15.607Z",
-  "nextUpdateAt": "2026-08-16T22:35:15.607Z",
+  "generatedAt": "2026-08-16T22:34:28.630Z",
+  "nextUpdateAt": "2026-08-17T00:34:28.630Z",
   "today": "Sunday, 16 August 2026",
   "stats": {
     "industryTotal": 6,
@@ -96,6 +96,20 @@
   ],
   "tech": [
     {
+      "id": "Solar Power World-1786919587576-4",
+      "fetchedAt": "2026-08-16T22:33:07.576Z",
+      "headline": "Field lessons from a multi-platform solar portfolio",
+      "summary": "In commercial and industrial solar PV work, the mounting surface is rarely the engineer&#8217;s choice. Factors of geometry, land availability, shading and budget affect that determination, and the design team inherits the result. But the harder task",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/08/field-lessons-from-a-multi-platform-solar-portfolio/",
+      "searchQuery": "Field lessons from a multi-platform solar portfoli 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "4d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Magazine-1786891138091-0",
       "fetchedAt": "2026-08-16T14:38:58.091Z",
       "headline": "Commissioning begins for 2.2 GW Neom hydrogen project",
@@ -176,20 +190,6 @@
       "category": "Manufacturing",
       "region": "Asia",
       "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1786739918736-4",
-      "fetchedAt": "2026-08-14T20:38:38.736Z",
-      "headline": "Field lessons from a multi-platform solar portfolio",
-      "summary": "In commercial and industrial solar PV work, the mounting surface is rarely the engineer&#8217;s choice. Factors of geometry, land availability, shading and budget affect that determination, and the design team inherits the result. But the harder task",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/08/field-lessons-from-a-multi-platform-solar-portfolio/",
-      "searchQuery": "Field lessons from a multi-platform solar portfoli 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
