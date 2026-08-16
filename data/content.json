@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-16T12:58:17.374Z",
-  "nextUpdateAt": "2026-08-16T14:58:17.374Z",
+  "generatedAt": "2026-08-16T14:48:09.278Z",
+  "nextUpdateAt": "2026-08-16T16:48:09.278Z",
   "today": "Sunday, 16 August 2026",
   "stats": {
     "industryTotal": 6,
@@ -96,6 +96,34 @@
   ],
   "tech": [
     {
+      "id": "PV Magazine-1786891138091-0",
+      "fetchedAt": "2026-08-16T14:38:58.091Z",
+      "headline": "Commissioning begins for 2.2 GW Neom hydrogen project",
+      "summary": "Neom has begun commissioning its 2.2 GW hydrogen project in Saudi Arabia, while the Schleswig‑Holstein Ministry cancelled the 2.1 GW HyScale 100 electrolyzer at a German refinery due to planning uncertainty. Power to Hydrogen installs a 500 kW AEM electrolyzer in Antwerp, Hystar and BHEL partner on PEM manufacturing in India, and Italy launches a €400 million annual renewable hydrogen support scheme.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/08/14/the-hydrogen-stream-commissioning-begins-for-2-2-gw-neom-h2-project-in-saudi-arabia/",
+      "searchQuery": "The Hydrogen Stream: Commissioning begins for 2.2  2026",
+      "category": "Green Hydrogen",
+      "region": "Middle East",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "PV Magazine-1786891138091-1",
+      "fetchedAt": "2026-08-16T14:38:58.091Z",
+      "headline": "KIT prototype combines PV and radiative cooling for electricity, heat, cooling",
+      "summary": "KIT researchers developed a hybrid photovoltaic‑radiative cooling system that combines photovoltaics and passive radiative cooling on a single surface to simultaneously generate electricity, provide heat and achieve cooling, with a prototype delivering up to 6.5 °C below ambient temperature, 60.6 W/m² electrical power density and heat temperatures of 110.8 °C. The system demonstrates integrated energy conversion, enabling combined power production and thermal management without additional equipment.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/08/14/kit-develops-hybrid-solar-system-with-radiative-cooling/",
+      "searchQuery": "KIT develops hybrid solar system with radiative co 2026",
+      "category": "Solar Tech",
+      "region": "Global",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
       "id": "PV Magazine-1786884885078-2",
       "fetchedAt": "2026-08-16T12:54:45.078Z",
       "headline": "Longi Plans 100 MW Perovskite-Silicon Tandem Pilot Line",
@@ -164,34 +192,6 @@
       "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1786713854239-0",
-      "fetchedAt": "2026-08-14T13:24:14.239Z",
-      "headline": "Neom's 2.2 GW Hydrogen Project Begins Commissioning in Saudi Arabia",
-      "summary": "Neom's 2.2 GW hydrogen project in Saudi Arabia begins commissioning, alongside Germany's HyScale 100 cancellation, Power to Hydrogen's 500 kW installation in Antwerp, Hystar-BHEL partnership in India, and Italy's €400 million hydrogen scheme.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/08/14/the-hydrogen-stream-commissioning-begins-for-2-2-gw-neom-h2-project-in-saudi-arabia/",
-      "searchQuery": "The Hydrogen Stream: Commissioning begins for 2.2  2026",
-      "category": "Green Hydrogen",
-      "region": "Middle East",
-      "timeAgo": "40m ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1786713854239-1",
-      "fetchedAt": "2026-08-14T13:24:14.239Z",
-      "headline": "KIT Develops Hybrid Solar System with Radiative Cooling",
-      "summary": "KIT researchers developed a hybrid solar system combining photovoltaics and radiative cooling, achieving 6.5°C cooling, 60.6 W/m² power, and 110.8°C heat in a prototype.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/08/14/kit-develops-hybrid-solar-system-with-radiative-cooling/",
-      "searchQuery": "KIT develops hybrid solar system with radiative co 2026",
-      "category": "Solar Tech",
-      "region": "Global",
-      "timeAgo": "2h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "learn": [
