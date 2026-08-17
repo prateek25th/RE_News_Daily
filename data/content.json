@@ -1,14 +1,42 @@
 {
-  "generatedAt": "2026-08-17T13:10:02.263Z",
-  "nextUpdateAt": "2026-08-17T15:10:02.263Z",
+  "generatedAt": "2026-08-17T14:42:21.937Z",
+  "nextUpdateAt": "2026-08-17T16:42:21.937Z",
   "today": "Monday, 17 August 2026",
   "stats": {
-    "industryTotal": 17,
+    "industryTotal": 19,
     "techTotal": 10,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1786977341715-0",
+      "fetchedAt": "2026-08-17T14:35:41.715Z",
+      "headline": "Agastya Green Energy to Invest ₹78 Billion in 12 GW Solar Ingot, Wafer Plant",
+      "summary": "Agastya Green Energy, a renewable energy solutions provider, will invest approximately ₹78 billion (~$816.48 million) to establish 12 GW each of solar ingot and wafer manufacturing capacity in Andhra Pradesh.Agastya Green Energy is the green arm of e",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/agastya-green-energy-to-invest-₹78-billion-in-12-gw-solar-ingot-wafer-plant",
+      "searchQuery": "Agastya Green Energy to Invest ₹78 Billion in 12 G 2026",
+      "category": "Project Commission",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1786977341715-1",
+      "fetchedAt": "2026-08-17T14:35:41.715Z",
+      "headline": "Tesla Proposes $10.1 Billion Solar Cell Manufacturing Facility in Texas",
+      "summary": "Electric vehicle maker Tesla is evaluating the development of a $10.1 billion solar cell manufacturing facility in Fort Bend County, Texas, according to an application filed under the state’s Jobs, Energy, Technology and Innovation (JETI) program.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/tesla-proposes-10-1-billion-solar-cell-manufacturing-facility-in-texas",
+      "searchQuery": "Tesla Proposes $10.1 Billion Solar Cell Manufactur 2026",
+      "category": "Manufacturing",
+      "region": "US",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1786971561367-0",
       "fetchedAt": "2026-08-17T12:59:21.367Z",
