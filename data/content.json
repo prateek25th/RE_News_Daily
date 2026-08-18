@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-18T13:06:55.647Z",
-  "nextUpdateAt": "2026-08-18T15:06:55.647Z",
+  "generatedAt": "2026-08-18T14:57:11.881Z",
+  "nextUpdateAt": "2026-08-18T16:57:11.881Z",
   "today": "Tuesday, 18 August 2026",
   "stats": {
     "industryTotal": 26,
-    "techTotal": 18,
+    "techTotal": 16,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -598,34 +598,6 @@
       "timeAgo": "4d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1786891138091-0",
-      "fetchedAt": "2026-08-16T14:38:58.091Z",
-      "headline": "Commissioning begins for 2.2 GW Neom hydrogen project",
-      "summary": "Neom has begun commissioning its 2.2 GW hydrogen project in Saudi Arabia, while the Schleswig‑Holstein Ministry cancelled the 2.1 GW HyScale 100 electrolyzer at a German refinery due to planning uncertainty. Power to Hydrogen installs a 500 kW AEM electrolyzer in Antwerp, Hystar and BHEL partner on PEM manufacturing in India, and Italy launches a €400 million annual renewable hydrogen support scheme.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/08/14/the-hydrogen-stream-commissioning-begins-for-2-2-gw-neom-h2-project-in-saudi-arabia/",
-      "searchQuery": "The Hydrogen Stream: Commissioning begins for 2.2  2026",
-      "category": "Green Hydrogen",
-      "region": "Middle East",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1786891138091-1",
-      "fetchedAt": "2026-08-16T14:38:58.091Z",
-      "headline": "KIT prototype combines PV and radiative cooling for electricity, heat, cooling",
-      "summary": "KIT researchers developed a hybrid photovoltaic‑radiative cooling system that combines photovoltaics and passive radiative cooling on a single surface to simultaneously generate electricity, provide heat and achieve cooling, with a prototype delivering up to 6.5 °C below ambient temperature, 60.6 W/m² electrical power density and heat temperatures of 110.8 °C. The system demonstrates integrated energy conversion, enabling combined power production and thermal management without additional equipment.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/08/14/kit-develops-hybrid-solar-system-with-radiative-cooling/",
-      "searchQuery": "KIT develops hybrid solar system with radiative co 2026",
-      "category": "Solar Tech",
-      "region": "Global",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "learn": [
