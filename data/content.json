@@ -1,14 +1,28 @@
 {
-  "generatedAt": "2026-08-18T08:51:28.363Z",
-  "nextUpdateAt": "2026-08-18T10:51:28.363Z",
+  "generatedAt": "2026-08-18T10:50:51.836Z",
+  "nextUpdateAt": "2026-08-18T12:50:51.836Z",
   "today": "Tuesday, 18 August 2026",
   "stats": {
-    "industryTotal": 22,
+    "industryTotal": 23,
     "techTotal": 17,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1787049593495-0",
+      "fetchedAt": "2026-08-18T10:39:53.495Z",
+      "headline": "Rooftop Solar Project to Help Textile Facility Save ₹63 Million Annually",
+      "summary": "Solar power solutions can help textile manufacturing facilities meet high daytime electricity demand by tapping into their extensive roof areas to set up solar installations and limit grid electricity purchases.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/rooftop-solar-project-to-help-textile-facility-save-₹63-million-annually",
+      "searchQuery": "Rooftop Solar Project to Help Textile Facility Sav 2026",
+      "category": "Rooftop Solar",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1787036188829-0",
       "fetchedAt": "2026-08-18T06:56:28.829Z",
