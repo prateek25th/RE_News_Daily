@@ -1,14 +1,70 @@
 {
-  "generatedAt": "2026-08-19T13:06:35.583Z",
-  "nextUpdateAt": "2026-08-19T15:06:35.583Z",
+  "generatedAt": "2026-08-19T14:59:36.174Z",
+  "nextUpdateAt": "2026-08-19T16:59:36.174Z",
   "today": "Wednesday, 19 August 2026",
   "stats": {
-    "industryTotal": 25,
-    "techTotal": 17,
+    "industryTotal": 27,
+    "techTotal": 18,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1787150685815-0",
+      "fetchedAt": "2026-08-19T14:44:45.815Z",
+      "headline": "SJVN Green Energy Floats EPC Tender for 1 GW Solar Projects",
+      "summary": "SJVN Green Energy (SGEL) has invited bids for an engineering, procurement, and construction (EPC) package. This tender includes land for developing up to 1,000 MW of solar projects located in Punjab and Rajasthan. The package aims to facilitate the development of these large-scale solar installations across the specified Indian states.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/sjvn-green-energy-floats-epc-tender-for-1-gw-solar-projects",
+      "searchQuery": "SJVN Green Energy Floats EPC Tender for 1 GW Solar 2026",
+      "category": "Solar Tender",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1787150685815-1",
+      "fetchedAt": "2026-08-19T14:44:45.815Z",
+      "headline": "Translucent Solar Ramps Up Production at 1.2 GW South Carolina Plant",
+      "summary": "Translucent Solar, a U.S.-based solar module manufacturer, has begun ramping up production at its 1.2 GW solar module manufacturing facility in Summerville, South Carolina. The company expects the facility to become fully operational by the end of 2026. This production increase marks a significant step for the manufacturer's South Carolina operations.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/translucent-solar-ramps-up-production-at-1-2-gw-south-carolina-plant",
+      "searchQuery": "Translucent Solar Ramps Up Production at 1.2 GW So 2026",
+      "category": "Manufacturing",
+      "region": "US",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1787150685815-2",
+      "fetchedAt": "2026-08-19T14:44:45.815Z",
+      "headline": "APERC Removes Permission Requirements for Behind-the-Meter Rooftop Solar",
+      "summary": "Andhra Pradesh Electricity Regulatory Commission (APERC) has clarified that consumers installing behind-the-meter rooftop solar systems for captive consumption do not require prior permission, feasibility approval, or line clearance from distribution companies. This regulatory clarification simplifies the process for consumers looking to install these specific types of rooftop solar systems.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/aperc-allows-multiple-interconnections-for-behind-the-meter-rooftop-solar",
+      "searchQuery": "APERC Allows Multiple Interconnections for Behind- 2026",
+      "category": "Regulation",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1787150685815-3",
+      "fetchedAt": "2026-08-19T14:44:45.815Z",
+      "headline": "Chennai Data Center Uses 974 kW BIPV to Cut Power Bills",
+      "summary": "A Chennai data center is using 974 kW of building-integrated solar (BIPV) to cut power bills. As data center capacity expands in India, operators are increasingly exploring renewable energy to reduce dependence on conventional grid electricity, manage power costs, and lower emissions. This installation helps manage the high power intensity of computing infrastructure.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/chennai-data-center-cuts-power-bills-974-kw-bipv",
+      "searchQuery": "Chennai Data Center to Cut Power Bills With 974 kW 2026",
+      "category": "Solar Tech",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Mercom India-1787135768208-0",
       "fetchedAt": "2026-08-19T10:36:08.208Z",
@@ -330,37 +386,23 @@
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1786977341715-0",
-      "fetchedAt": "2026-08-17T14:35:41.715Z",
-      "headline": "Agastya Green Energy to Invest ₹78 Billion in 12 GW Solar Ingot, Wafer Plant",
-      "summary": "Agastya Green Energy, a renewable energy solutions provider, will invest approximately ₹78 billion (~$816.48 million) to establish 12 GW each of solar ingot and wafer manufacturing capacity in Andhra Pradesh.Agastya Green Energy is the green arm of e",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/agastya-green-energy-to-invest-₹78-billion-in-12-gw-solar-ingot-wafer-plant",
-      "searchQuery": "Agastya Green Energy to Invest ₹78 Billion in 12 G 2026",
-      "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1786977341715-1",
-      "fetchedAt": "2026-08-17T14:35:41.715Z",
-      "headline": "Tesla Proposes $10.1 Billion Solar Cell Manufacturing Facility in Texas",
-      "summary": "Electric vehicle maker Tesla is evaluating the development of a $10.1 billion solar cell manufacturing facility in Fort Bend County, Texas, according to an application filed under the state’s Jobs, Energy, Technology and Innovation (JETI) program.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/tesla-proposes-10-1-billion-solar-cell-manufacturing-facility-in-texas",
-      "searchQuery": "Tesla Proposes $10.1 Billion Solar Cell Manufactur 2026",
-      "category": "Manufacturing",
-      "region": "US",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1787150764806-1",
+      "fetchedAt": "2026-08-19T14:46:04.806Z",
+      "headline": "Crops Adapt to Agrivoltaic Shading",
+      "summary": "A study found barley, maize, and other crops can physiologically adapt to partial shading in agrivoltaic systems, though this does not necessarily increase yields. Research by the University of Hohenheim challenges prior assumptions about shade tolerance.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/08/19/study-finds-arable-crops-adapt-surprisingly-well-to-agrivoltaic-shading/",
+      "searchQuery": "Study finds arable crops adapt surprisingly well t 2026",
+      "category": "Agrivoltaics",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Solar Power World-1787144493851-4",
       "fetchedAt": "2026-08-19T13:01:33.851Z",
