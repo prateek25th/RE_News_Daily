@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-19T20:38:30.792Z",
-  "nextUpdateAt": "2026-08-19T22:38:30.792Z",
+  "generatedAt": "2026-08-19T22:34:18.575Z",
+  "nextUpdateAt": "2026-08-20T00:34:18.575Z",
   "today": "Wednesday, 19 August 2026",
   "stats": {
     "industryTotal": 26,
-    "techTotal": 17,
+    "techTotal": 16,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -596,20 +596,6 @@
       "category": "Offshore Wind",
       "region": "Europe",
       "timeAgo": "26m ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1786999425873-3",
-      "fetchedAt": "2026-08-17T20:43:45.873Z",
-      "headline": "New Jersey Approves 16 Agrivoltaics Projects on Local Farms",
-      "summary": "The New Jersey Board of Public Utilities (NJBPU) voted to award 16 agrivoltaics projects totaling 52.06 MW. This first solicitation of the Dual-Use Pilot Agrivoltaics program aims to support New Jersey farmers in making operations more profitable while simultaneously adding capacity to the state's grid.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/08/new-jersey-greenlights-16-agrivoltaics-projects-on-local-farms/",
-      "searchQuery": "New Jersey greenlights 16 agrivoltaics projects on 2026",
-      "category": "Agrivoltaics",
-      "region": "US",
-      "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
     }
