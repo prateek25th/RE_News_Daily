@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-19T22:34:18.575Z",
-  "nextUpdateAt": "2026-08-20T00:34:18.575Z",
-  "today": "Wednesday, 19 August 2026",
+  "generatedAt": "2026-08-20T01:46:28.271Z",
+  "nextUpdateAt": "2026-08-20T03:46:28.271Z",
+  "today": "Thursday, 20 August 2026",
   "stats": {
     "industryTotal": 26,
-    "techTotal": 16,
+    "techTotal": 17,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -375,6 +375,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1787190261259-0",
+      "fetchedAt": "2026-08-20T01:44:21.259Z",
+      "headline": "16 Agrivoltaic Projects on Local Farms Move Forward in New Jersey",
+      "summary": "16 agrivoltaic projects in the state of New Jersey have just gotten approval to move forward by the New Jersey Board of Public Utilities (NJBPU). Together, the projects aren&#8217;t huge, but they do total 52.06 more megawatts of clean, renewable ene",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/08/19/16-agrivoltaic-projects-on-local-farms-move-forward-in-new-jersey/",
+      "searchQuery": "16 Agrivoltaic Projects on Local Farms Move Forwar 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Electrek-1787165402341-4",
       "fetchedAt": "2026-08-19T18:50:02.341Z",
