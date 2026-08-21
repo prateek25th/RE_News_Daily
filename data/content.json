@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-21T16:48:47.451Z",
-  "nextUpdateAt": "2026-08-21T18:48:47.451Z",
+  "generatedAt": "2026-08-21T19:02:43.167Z",
+  "nextUpdateAt": "2026-08-21T21:02:43.167Z",
   "today": "Friday, 21 August 2026",
   "stats": {
     "industryTotal": 27,
-    "techTotal": 16,
+    "techTotal": 15,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -596,20 +596,6 @@
       "category": "Policy Update",
       "region": "Global",
       "timeAgo": "2h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Electrek-1787165402341-4",
-      "fetchedAt": "2026-08-19T18:50:02.341Z",
-      "headline": "Surprise! London&#8217;s tax on polluting cars made everyone much healthier (updated)",
-      "summary": "The city of London has released a report showing drastic drops in air pollution since it expanded its Ultra Low Emission Zone, an area within the city where polluting vehicles must pay a fee to visit. ( Update 8/19/26, original article 5/15/25: A new",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/08/19/surprise-taxing-polluting-vehicles-in-london-made-everyone-much-healthier/",
-      "searchQuery": "Surprise! London&#8217;s tax on polluting cars mad 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
