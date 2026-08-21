@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-20T22:37:41.333Z",
-  "nextUpdateAt": "2026-08-21T00:37:41.333Z",
-  "today": "Thursday, 20 August 2026",
+  "generatedAt": "2026-08-21T02:03:37.349Z",
+  "nextUpdateAt": "2026-08-21T04:03:37.349Z",
+  "today": "Friday, 21 August 2026",
   "stats": {
     "industryTotal": 29,
-    "techTotal": 17,
+    "techTotal": 19,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -417,6 +417,34 @@
     }
   ],
   "tech": [
+    {
+      "id": "Solar Power World-1787277394509-3",
+      "fetchedAt": "2026-08-21T01:56:34.509Z",
+      "headline": "SunShare and CSolPower launch two New Mexico community solar gardens",
+      "summary": "SunShare and CSolPower completed two community solar gardens in New Mexico, including a 6‑MW Juniper Sol Garden on 31 acres in Santa Fe that uses agrivoltaic native pollinator habitats, with half of its subscribers income‑qualified, the project aims to provide clean energy to local residents while supporting biodiversity and offering subscription options for low‑income households access benefits",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/08/sunshare-energizes-two-community-solar-gardens-in-new-mexico/",
+      "searchQuery": "SunShare energizes two community solar gardens in  2026",
+      "category": "Agrivoltaics",
+      "region": "US",
+      "timeAgo": "11h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "PV Tech-1787277394509-5",
+      "fetchedAt": "2026-08-21T01:56:34.509Z",
+      "headline": "Freyr Energy launches 3kW and 5kW SiC residential solar inverters",
+      "summary": "Freyr Energy launched a range of single‑phase residential solar PV inverters in India, offering 3kW and 5kW models that employ silicon carbide (SiC) technology to improve efficiency and performance for home solar installations, the new inverters are designed for durability and lower heat loss, supporting India's growing rooftop solar market and lower maintenance requirements for commercial and residential use",
+      "source": "PV Tech",
+      "url": "https://www.pv-tech.org/freyr-energy-launches-3kw-and-5kw-sic-residential-solar-inverters-in-india/",
+      "searchQuery": "Freyr Energy launches 3kW and 5kW SiC residential  2026",
+      "category": "Solar Tech",
+      "region": "India",
+      "timeAgo": "13h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Solar Power World-1787251964685-5",
       "fetchedAt": "2026-08-20T18:52:44.685Z",
