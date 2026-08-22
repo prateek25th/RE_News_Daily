@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-22T06:57:36.703Z",
-  "nextUpdateAt": "2026-08-22T08:57:36.703Z",
+  "generatedAt": "2026-08-22T08:42:29.957Z",
+  "nextUpdateAt": "2026-08-22T10:42:29.957Z",
   "today": "Saturday, 22 August 2026",
   "stats": {
-    "industryTotal": 28,
-    "techTotal": 13,
+    "industryTotal": 26,
+    "techTotal": 10,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -372,34 +372,6 @@
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1787209072980-0",
-      "fetchedAt": "2026-08-20T06:57:52.980Z",
-      "headline": "Uttarakhand Proposes Stricter Deviation Settlement Charges for Solar Projects",
-      "summary": "The Uttarakhand Electricity Regulatory Commission (UERC) has proposed reducing deviation settlement tolerance bands to ±5% for solar and hybrid projects and ±10% for wind projects, aligning with CERC guidelines. Under the draft UERC (Deviation Settlement Mechanism and Related Matters) Regulations, 2026, the regulator aims to enforce grid discipline through commercial mechanisms for settling differences between scheduled and actual electricity injection or drawal.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/uttarakhand-proposes-steep-deviation-settlement-charges-for-solar-projects",
-      "searchQuery": "Uttarakhand Proposes Steep Deviation Settlement Ch 2026",
-      "category": "Regulation",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1787209072981-1",
-      "fetchedAt": "2026-08-20T06:57:52.981Z",
-      "headline": "Rooftop Solar Growth Stalled by Distribution Infrastructure in Southern States",
-      "summary": "India’s rooftop solar market continues to attract consumer interest, but installations are being hindered by inadequate distribution infrastructure and utility-level processes rather than lack of demand. The issue is especially pronounced in Karnataka, where installers across South India report that distribution-side bottlenecks are the primary constraint on rooftop solar deployment.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/daily-news-wrap-up-why-rooftop-solar-is-stalling-in-southern-states",
-      "searchQuery": "Daily News Wrap-Up: Why Rooftop Solar is Stalling  2026",
-      "category": "Market Analysis",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "tech": [
@@ -539,48 +511,6 @@
       "searchQuery": "Even at 100 meters, PV makes neighbours more likel 2026",
       "category": "Policy Update",
       "region": "Global",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1787209163655-0",
-      "fetchedAt": "2026-08-20T06:59:23.655Z",
-      "headline": "2 GW HVDC Is Becoming Standard. The Rest Of The Grid Isn’t.",
-      "summary": "High-voltage direct current transmission used to look like a specialist technology reserved for unusually long lines, subsea links or awkward grid problems. That is changing. In a recent Redefining Energy conversation, Cornelis Plet, CTO of Grid Syst",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/08/20/2-gw-hvdc-standard-grid-controls/",
-      "searchQuery": "2 GW HVDC Is Becoming Standard. The Rest Of The Gr 2026",
-      "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "27m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1787209163656-3",
-      "fetchedAt": "2026-08-20T06:59:23.656Z",
-      "headline": "Researchers build 9%-efficient semitransparent organic PV modules with 210 cm² aperture area",
-      "summary": "Fraunhofer ISE-led researchers fabricated 210.25 cm² semitransparent organic photovoltaic modules by slot-die coating. The best module achieved 9.3% power conversion efficiency, 43.2% average visible transmittance, and 4.0% light-utilization efficien",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/08/20/researchers-build-9-efficient-semitransparent-organic-pv-modules-with-210-cm%c2%b2-aperture-area/",
-      "searchQuery": "Researchers build 9%-efficient semitransparent org 2026",
-      "category": "Solar Tech",
-      "region": "Global",
-      "timeAgo": "56m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1787209163656-4",
-      "fetchedAt": "2026-08-20T06:59:23.656Z",
-      "headline": "Blocked BESS in Britain: Clearstone’s appeal fails for 150 MW site at Axminster",
-      "summary": "Clearstone Energy’s proposed 150 MW Axminster Energy Hub BESS appeal was dismissed by planning inspector Helen Heward on August 13, 2026, despite the developer’s compliance with relevant fire-safety guidance and use of Wärtsilä Quantum 1 technology. ",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/08/20/blocked-bess-in-britain-clearstones-appeal-fails-for-150-mw-site-at-axminster/",
-      "searchQuery": "Blocked BESS in Britain: Clearstone’s appeal fails 2026",
-      "category": "Project Commission",
-      "region": "Europe",
       "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
