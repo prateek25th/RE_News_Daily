@@ -1,14 +1,28 @@
 {
-  "generatedAt": "2026-08-22T04:47:50.507Z",
-  "nextUpdateAt": "2026-08-22T06:47:50.507Z",
+  "generatedAt": "2026-08-22T06:57:36.703Z",
+  "nextUpdateAt": "2026-08-22T08:57:36.703Z",
   "today": "Saturday, 22 August 2026",
   "stats": {
-    "industryTotal": 27,
-    "techTotal": 15,
+    "industryTotal": 28,
+    "techTotal": 13,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1787381583239-0",
+      "fetchedAt": "2026-08-22T06:53:03.239Z",
+      "headline": "SECI Announces Winners of 6 GWh Peak Power Supply Auction",
+      "summary": "The Solar Energy Corporation of India (SECI) has announced the winners of its auction to select developers for the assured peak supply of 6,000 MWh (1,500 MW X 4 hours) of firm and dispatchable renewable energy from interstate transmission system (IS",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/seci-announces-winners-of-6-gwh-peak-power-supply-auction",
+      "searchQuery": "SECI Announces Winners of 6 GWh Peak Power Supply  2026",
+      "category": "Solar Tender",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1787323377951-0",
       "fetchedAt": "2026-08-21T14:42:57.951Z",
@@ -568,34 +582,6 @@
       "category": "Project Commission",
       "region": "Europe",
       "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1787201184577-0",
-      "fetchedAt": "2026-08-20T04:46:24.577Z",
-      "headline": "SolarAnywhere® Supports Solar PV &#038; Unmanned Flight!",
-      "summary": "SolarAnywhere® is often associated with utility-scale or distributed PV, but our solar irradiance data powers a lot more than solar plants. A great example: Piotr Lichota at the Warsaw University of Technology is using SolarAnywhere to figure out whe",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/08/19/solaranywhere-supports-solar-pv-unmanned-flight-2/",
-      "searchQuery": "SolarAnywhere® Supports Solar PV &#038; Unmanned F 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "56m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1787201184578-2",
-      "fetchedAt": "2026-08-20T04:46:24.578Z",
-      "headline": "New materials in the frame",
-      "summary": "Solar cells, encapsulants, glass, backsheets, and virtually every PV module component have seen rapid changes and improvements over the past 10 years. During that time, module frames have seen relatively little innovation and remain a simple piece of",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/08/20/new-materials-in-the-frame/",
-      "searchQuery": "New materials in the frame 2026",
-      "category": "Policy Update",
-      "region": "US",
-      "timeAgo": "46m ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
