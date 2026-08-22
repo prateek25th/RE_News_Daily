@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-21T22:34:22.460Z",
-  "nextUpdateAt": "2026-08-22T00:34:22.460Z",
-  "today": "Friday, 21 August 2026",
+  "generatedAt": "2026-08-22T01:46:02.813Z",
+  "nextUpdateAt": "2026-08-22T03:46:02.813Z",
+  "today": "Saturday, 22 August 2026",
   "stats": {
     "industryTotal": 27,
-    "techTotal": 15,
+    "techTotal": 16,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -389,6 +389,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1787362985359-0",
+      "fetchedAt": "2026-08-22T01:43:05.359Z",
+      "headline": "Cleveland-Cliffs Redirects Half a Billion Dollars in Clean Steel Funding to Coal at Middletown Works",
+      "summary": "MIDDLETOWN, OH — Cleveland-Cliffs and the Department of Energy announced plans to continue the use of coal at Cleveland-Cliffs’ Middletown Works steel mill today, abandoning previously announced plans to transition toward clean energy. The company wa",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/08/21/cleveland-cliffs-redirects-half-a-billion-dollars-in-clean-steel-funding-to-coal-at-middletown-works/",
+      "searchQuery": "Cleveland-Cliffs Redirects Half a Billion Dollars  2026",
+      "category": "Green Finance",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1787317523476-0",
       "fetchedAt": "2026-08-21T13:05:23.476Z",
