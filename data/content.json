@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-23T02:02:29.036Z",
-  "nextUpdateAt": "2026-08-23T04:02:29.036Z",
+  "generatedAt": "2026-08-23T03:15:02.023Z",
+  "nextUpdateAt": "2026-08-23T05:15:02.023Z",
   "today": "Sunday, 23 August 2026",
   "stats": {
     "industryTotal": 13,
-    "techTotal": 8,
+    "techTotal": 7,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -194,6 +194,20 @@
   ],
   "tech": [
     {
+      "id": "Solar Power World-1787454781767-3",
+      "fetchedAt": "2026-08-23T03:13:01.767Z",
+      "headline": "SunShare energizes two community solar gardens in New Mexico",
+      "summary": "SunShare and CSolPower, a local community solar company, have completed two community solar gardens in New Mexico. The 6-MW Juniper Sol Community Solar Garden is sited on 31 acres in Santa Fe and will incorporate agrivoltaic practices, including nati",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/08/sunshare-energizes-two-community-solar-gardens-in-new-mexico/",
+      "searchQuery": "SunShare energizes two community solar gardens in  2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "Solar Power World-1787430805494-3",
       "fetchedAt": "2026-08-22T20:33:25.494Z",
       "headline": "Nextpower&#8217;s eBOS trunk bus receives patent",
@@ -274,34 +288,6 @@
       "category": "Solar Tech",
       "region": "India",
       "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1787277394509-3",
-      "fetchedAt": "2026-08-21T01:56:34.509Z",
-      "headline": "SunShare and CSolPower launch two New Mexico community solar gardens",
-      "summary": "SunShare and CSolPower completed two community solar gardens in New Mexico, including a 6‑MW Juniper Sol Garden on 31 acres in Santa Fe that uses agrivoltaic native pollinator habitats, with half of its subscribers income‑qualified, the project aims to provide clean energy to local residents while supporting biodiversity and offering subscription options for low‑income households access benefits",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/08/sunshare-energizes-two-community-solar-gardens-in-new-mexico/",
-      "searchQuery": "SunShare energizes two community solar gardens in  2026",
-      "category": "Agrivoltaics",
-      "region": "US",
-      "timeAgo": "11h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Tech-1787277394509-5",
-      "fetchedAt": "2026-08-21T01:56:34.509Z",
-      "headline": "Freyr Energy launches 3kW and 5kW SiC residential solar inverters",
-      "summary": "Freyr Energy launched a range of single‑phase residential solar PV inverters in India, offering 3kW and 5kW models that employ silicon carbide (SiC) technology to improve efficiency and performance for home solar installations, the new inverters are designed for durability and lower heat loss, supporting India's growing rooftop solar market and lower maintenance requirements for commercial and residential use",
-      "source": "PV Tech",
-      "url": "https://www.pv-tech.org/freyr-energy-launches-3kw-and-5kw-sic-residential-solar-inverters-in-india/",
-      "searchQuery": "Freyr Energy launches 3kW and 5kW SiC residential  2026",
-      "category": "Solar Tech",
-      "region": "India",
-      "timeAgo": "13h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
     }
