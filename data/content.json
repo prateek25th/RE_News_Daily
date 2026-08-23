@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-23T13:02:01.433Z",
-  "nextUpdateAt": "2026-08-23T15:02:01.433Z",
+  "generatedAt": "2026-08-23T14:37:03.166Z",
+  "nextUpdateAt": "2026-08-23T16:37:03.166Z",
   "today": "Sunday, 23 August 2026",
   "stats": {
-    "industryTotal": 7,
+    "industryTotal": 6,
     "techTotal": 6,
     "learnTotal": 6,
     "windowHours": 48
@@ -92,23 +92,51 @@
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1787317491265-0",
-      "fetchedAt": "2026-08-21T13:04:51.265Z",
-      "headline": "PFC Consulting Wins 14 GW Gujarat Renewables Transmission Project",
-      "summary": "PFC Consulting secured the auction for a common transmission system to evacuate 14 GW of renewable power from Lakadia, Jam Khambhaliya, and Jamnagar in Gujarat.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/pfc-consulting-awards-project-to-evacuate-14-gw-of-renewables-in-gujarat",
-      "searchQuery": "PFC Consulting Awards Project to Evacuate 14 GW of 2026",
-      "category": "Grid Infrastructure",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1787495524572-0",
+      "fetchedAt": "2026-08-23T14:32:04.572Z",
+      "headline": "Jiangsu province hits 100 GW solar capacity",
+      "summary": "Jiangsu Province in China achieved 100 GW installed solar PV capacity, with distributed solar contributing nearly 70%. The province aims to expand further by 2030 and 2035 while upgrading grids, storage, and digital systems to manage solar growth and enhance renewable utilization. This milestone marks the first provincial-level region in China to reach this capacity.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/08/21/chinas-jiangsu-province-crosses-100-gw-solar-milestone-as-distributed-pv-drives-growth/",
+      "searchQuery": "China’s Jiangsu province crosses 100 GW solar mile 2026",
+      "category": "Solar Tech",
+      "region": "Asia",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "PV Magazine-1787495524572-1",
+      "fetchedAt": "2026-08-23T14:32:04.572Z",
+      "headline": "Silicon dioxide coating improves PV performance",
+      "summary": "A research team developed a porous silicon dioxide coating for PV cover glass, achieving 91.0% solar transmittance and 90% mid-infrared emissivity. The coating combines anti-reflection with passive radiative cooling. Researchers plan module-level outdoor testing and studies on scalability and durability for large-area applications.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/08/21/silicon-dioxide-coating-boosts-pv-module-light-transmission-thermal-performance/",
+      "searchQuery": "Silicon dioxide coating boosts PV module light tra 2026",
+      "category": "Solar Tech",
+      "region": "Global",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Solar Power World-1787495524572-4",
+      "fetchedAt": "2026-08-23T14:32:04.572Z",
+      "headline": "EVO Power partners with Ranial for energy services",
+      "summary": "EVO Power USA and Ranial Systems launched a nationwide service combining EVO's battery energy storage systems with Ranial's AI-enabled energy management software. The partnership targets commercial and industrial customers, aiming to optimize energy storage and management through integrated AI-driven operations.",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/08/evo-power-and-ranial-start-nationwide-battery-and-energy-management-service/",
+      "searchQuery": "EVO Power and Ranial start nationwide battery and  2026",
+      "category": "Energy Storage",
+      "region": "US",
+      "timeAgo": "4d ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Solar Power World-1787454781767-3",
       "fetchedAt": "2026-08-23T03:13:01.767Z",
@@ -148,48 +176,6 @@
       "category": "Green Finance",
       "region": "Global",
       "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1787317523476-0",
-      "fetchedAt": "2026-08-21T13:05:23.476Z",
-      "headline": "China’s Jiangsu province crosses 100 GW solar milestone",
-      "summary": "Jiangsu Province in eastern China has surpassed 100 GW of installed solar PV capacity, becoming the country’s first provincial-level region to reach the milestone, with distributed solar accounting for nearly 70% of capacity. The province plans furth",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/08/21/chinas-jiangsu-province-crosses-100-gw-solar-milestone-as-distributed-pv-drives-growth/",
-      "searchQuery": "China’s Jiangsu province crosses 100 GW solar mile 2026",
-      "category": "Project Commission",
-      "region": "Asia",
-      "timeAgo": "25m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1787317523477-1",
-      "fetchedAt": "2026-08-21T13:05:23.477Z",
-      "headline": "Silicon dioxide coating boosts PV module light transmission, thermal performance",
-      "summary": "An international research team developed a porous silicon dioxide coating for PV cover glass that combines anti-reflection with passive radiative cooling, increasing solar transmittance while enhancing mid-infrared emissivity. The coating achieved 91",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/08/21/silicon-dioxide-coating-boosts-pv-module-light-transmission-thermal-performance/",
-      "searchQuery": "Silicon dioxide coating boosts PV module light tra 2026",
-      "category": "Grid Infrastructure",
-      "region": "US",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1787317523478-4",
-      "fetchedAt": "2026-08-21T13:05:23.478Z",
-      "headline": "EVO Power and Ranial start nationwide battery and energy management service",
-      "summary": "Energy storage company EVO Power USA and Ranial Systems, an energy management systems provider, are combining their services to serve commercial and industrial customers nationwide. The partnership will leverage EVO&#8217;s integrated battery energy ",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/08/evo-power-and-ranial-start-nationwide-battery-and-energy-management-service/",
-      "searchQuery": "EVO Power and Ranial start nationwide battery and  2026",
-      "category": "Energy Storage",
-      "region": "US",
-      "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
