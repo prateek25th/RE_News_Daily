@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-24T19:05:19.720Z",
-  "nextUpdateAt": "2026-08-24T21:05:19.720Z",
+  "generatedAt": "2026-08-24T20:44:44.543Z",
+  "nextUpdateAt": "2026-08-24T22:44:44.543Z",
   "today": "Monday, 24 August 2026",
   "stats": {
     "industryTotal": 21,
-    "techTotal": 11,
+    "techTotal": 12,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -306,6 +306,34 @@
   ],
   "tech": [
     {
+      "id": "Solar Power World-1787604146708-3",
+      "fetchedAt": "2026-08-24T20:42:26.708Z",
+      "headline": "Clean energy investments fall dramatically in Appalachia",
+      "summary": "The Keystone Research Center and ReImagine Appalachia are reporting that a recent fall in clean energy investments in Appalachia has dramatically impacted the region&#8217;s employment numbers and manufacturing output. &#8220;The manufacturing invest",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/08/clean-energy-investments-fall-dramatically-in-appalachia/",
+      "searchQuery": "Clean energy investments fall dramatically in Appa 2026",
+      "category": "Green Finance",
+      "region": "US",
+      "timeAgo": "40m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Power World-1787604146708-5",
+      "fetchedAt": "2026-08-24T20:42:26.708Z",
+      "headline": "Nextpower&#8217;s eBOS trunk bus receives patent",
+      "summary": "Nextpower was issued a patent for its NX PowerMerge, a trunk bus that consolidates multiple field connections on ground-mounted solar projects onto one device. In utility-scale solar plants, DC collection systems connect power from multiple solar pan",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/08/nextpowers-ebos-trunk-bus-receives-patent/",
+      "searchQuery": "Nextpower&#8217;s eBOS trunk bus receives patent 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "4d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "Solar Power World-1787590158316-3",
       "fetchedAt": "2026-08-24T16:49:18.316Z",
       "headline": "Eos, Wattmore link on zinc-based battery controls",
@@ -441,20 +469,6 @@
       "searchQuery": "SunShare energizes two community solar gardens in  2026",
       "category": "Policy Update",
       "region": "Global",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1787430805494-3",
-      "fetchedAt": "2026-08-22T20:33:25.494Z",
-      "headline": "Nextpower&#8217;s eBOS trunk bus receives patent",
-      "summary": "Nextpower was issued a patent for its NX PowerMerge, a trunk bus that consolidates multiple field connections on ground-mounted solar projects onto one device. In utility-scale solar plants, DC collection systems connect power from multiple solar pan",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/08/nextpowers-ebos-trunk-bus-receives-patent/",
-      "searchQuery": "Nextpower&#8217;s eBOS trunk bus receives patent 2026",
-      "category": "Policy Update",
-      "region": "US",
       "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
