@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-25T13:10:00.038Z",
-  "nextUpdateAt": "2026-08-25T15:10:00.038Z",
+  "generatedAt": "2026-08-25T15:02:49.625Z",
+  "nextUpdateAt": "2026-08-25T17:02:49.625Z",
   "today": "Tuesday, 25 August 2026",
   "stats": {
     "industryTotal": 28,
-    "techTotal": 17,
+    "techTotal": 14,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -596,48 +596,6 @@
       "category": "Solar Tender",
       "region": "India",
       "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1787495524572-0",
-      "fetchedAt": "2026-08-23T14:32:04.572Z",
-      "headline": "Jiangsu province hits 100 GW solar capacity",
-      "summary": "Jiangsu Province in China achieved 100 GW installed solar PV capacity, with distributed solar contributing nearly 70%. The province aims to expand further by 2030 and 2035 while upgrading grids, storage, and digital systems to manage solar growth and enhance renewable utilization. This milestone marks the first provincial-level region in China to reach this capacity.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/08/21/chinas-jiangsu-province-crosses-100-gw-solar-milestone-as-distributed-pv-drives-growth/",
-      "searchQuery": "China’s Jiangsu province crosses 100 GW solar mile 2026",
-      "category": "Solar Tech",
-      "region": "Asia",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1787495524572-1",
-      "fetchedAt": "2026-08-23T14:32:04.572Z",
-      "headline": "Silicon dioxide coating improves PV performance",
-      "summary": "A research team developed a porous silicon dioxide coating for PV cover glass, achieving 91.0% solar transmittance and 90% mid-infrared emissivity. The coating combines anti-reflection with passive radiative cooling. Researchers plan module-level outdoor testing and studies on scalability and durability for large-area applications.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/08/21/silicon-dioxide-coating-boosts-pv-module-light-transmission-thermal-performance/",
-      "searchQuery": "Silicon dioxide coating boosts PV module light tra 2026",
-      "category": "Solar Tech",
-      "region": "Global",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1787495524572-4",
-      "fetchedAt": "2026-08-23T14:32:04.572Z",
-      "headline": "EVO Power partners with Ranial for energy services",
-      "summary": "EVO Power USA and Ranial Systems launched a nationwide service combining EVO's battery energy storage systems with Ranial's AI-enabled energy management software. The partnership targets commercial and industrial customers, aiming to optimize energy storage and management through integrated AI-driven operations.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/08/evo-power-and-ranial-start-nationwide-battery-and-energy-management-service/",
-      "searchQuery": "EVO Power and Ranial start nationwide battery and  2026",
-      "category": "Energy Storage",
-      "region": "US",
-      "timeAgo": "4d ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
     }
