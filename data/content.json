@@ -1,14 +1,42 @@
 {
-  "generatedAt": "2026-08-25T04:52:59.312Z",
-  "nextUpdateAt": "2026-08-25T06:52:59.312Z",
+  "generatedAt": "2026-08-25T07:06:56.909Z",
+  "nextUpdateAt": "2026-08-25T09:06:56.909Z",
   "today": "Tuesday, 25 August 2026",
   "stats": {
-    "industryTotal": 21,
-    "techTotal": 11,
+    "industryTotal": 23,
+    "techTotal": 12,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1787641211271-0",
+      "fetchedAt": "2026-08-25T07:00:11.271Z",
+      "headline": "Flux Power Q4 Revenue Drops 51% on Lower Sales Volume",
+      "summary": "Flux Power reported Q4 FY 2026 revenue of $8.25 million, down 50.7% YoY from $16.74 million. The lithium-ion storage solutions provider cited lower sales volume as the primary driver for the significant revenue decline.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/lower-sales-volume-pushes-flux-powers-revenue-down-51-in-q4-fy-2026",
+      "searchQuery": "Lower Sales Volume Pushes Flux Power’s Revenue Dow 2026",
+      "category": "Company Results",
+      "region": "US",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1787641211271-1",
+      "fetchedAt": "2026-08-25T07:00:11.271Z",
+      "headline": "US Lawmakers Request Update on Delayed Wind, Solar Reviews",
+      "summary": "U.S. lawmakers have asked the Department of the Interior to provide updated information on wind and solar projects under federal review and to comply with congressional reporting requirements on energy projects.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/us-lawmakers-seek-update-on-delayed-wind-and-solar-project-reviews",
+      "searchQuery": "US Lawmakers Seek Update on Delayed Wind and Solar 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Mercom India-1787583126447-0",
       "fetchedAt": "2026-08-24T14:52:06.447Z",
@@ -305,6 +333,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1787641275403-0",
+      "fetchedAt": "2026-08-25T07:01:15.403Z",
+      "headline": "Australia's 40 GW renewable pipeline aims to ensure grid reliability",
+      "summary": "Australia has a pipeline of approximately 40 GW of grid-scale renewable generation and energy storage projects. The market operator indicates this pipeline could maintain electricity reliability as coal-fired power stations retire. However, the operator warns the transition's success depends on projects being delivered, not merely announced.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/08/25/40-gw-project-pipeline-has-australias-energy-transition-on-track/",
+      "searchQuery": "40 GW project pipeline has Australia’s energy tran 2026",
+      "category": "Project Commission",
+      "region": "Global",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Solar Power World-1787604146708-3",
       "fetchedAt": "2026-08-24T20:42:26.708Z",
