@@ -1,14 +1,28 @@
 {
-  "generatedAt": "2026-08-25T10:52:34.364Z",
-  "nextUpdateAt": "2026-08-25T12:52:34.364Z",
+  "generatedAt": "2026-08-25T13:10:00.038Z",
+  "nextUpdateAt": "2026-08-25T15:10:00.038Z",
   "today": "Tuesday, 25 August 2026",
   "stats": {
-    "industryTotal": 27,
-    "techTotal": 15,
+    "industryTotal": 28,
+    "techTotal": 17,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1787663156113-0",
+      "fetchedAt": "2026-08-25T13:05:56.113Z",
+      "headline": "MNRE Asks Wind Turbine OEMs to Prove Cybersecurity Compliance by August 31",
+      "summary": "The Ministry of New and Renewable Energy (MNRE) has directed original equipment manufacturers (OEMs) listed under the Approved List of Models and Manufacturers (ALMM) for wind turbines to submit their cybersecurity compliance status by August 31, 202",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/mnre-asks-wind-turbine-oems-to-prove-cybersecurity-compliance-by-august-31",
+      "searchQuery": "MNRE Asks Wind Turbine OEMs to Prove Cybersecurity 2026",
+      "category": "Policy Update",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1787654545331-0",
       "fetchedAt": "2026-08-25T10:42:25.331Z",
@@ -389,6 +403,34 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1787663290227-0",
+      "fetchedAt": "2026-08-25T13:08:10.227Z",
+      "headline": "Residential PV can trigger rebound effects under South Korea’s tiered electricity tariffs",
+      "summary": "Research finds households in South Korea moving into lower tariff tiers after installing PV systems can offset 11% to 22% of expected energy savings, while net metering can further amplify the rebound effect. The post Residential PV can trigger rebou",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/08/25/residential-pv-can-trigger-rebound-effects-under-south-koreas-tiered-electricity-tariffs/",
+      "searchQuery": "Residential PV can trigger rebound effects under S 2026",
+      "category": "Rooftop Solar",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1787663290228-1",
+      "fetchedAt": "2026-08-25T13:08:10.228Z",
+      "headline": "Silver prices rebound as AI, data centers add to industrial demand",
+      "summary": "Silver prices have resumed their upward trend amid a broader precious-metals rally, while the market heads toward a sixth consecutive annual structural deficit. Growing demand from AI, data centers and electrification is emerging alongside photovolta",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/08/25/silver-prices-rebound-as-ai-data-centers-add-to-industrial-demand/",
+      "searchQuery": "Silver prices rebound as AI, data centers add to i 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1787647953437-0",
       "fetchedAt": "2026-08-25T08:52:33.437Z",
