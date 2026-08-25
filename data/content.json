@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-25T03:26:25.071Z",
-  "nextUpdateAt": "2026-08-25T05:26:25.071Z",
+  "generatedAt": "2026-08-25T04:52:59.312Z",
+  "nextUpdateAt": "2026-08-25T06:52:59.312Z",
   "today": "Tuesday, 25 August 2026",
   "stats": {
     "industryTotal": 21,
-    "techTotal": 12,
+    "techTotal": 11,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -458,20 +458,6 @@
       "timeAgo": "4d ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1787454781767-3",
-      "fetchedAt": "2026-08-23T03:13:01.767Z",
-      "headline": "SunShare energizes two community solar gardens in New Mexico",
-      "summary": "SunShare and CSolPower, a local community solar company, have completed two community solar gardens in New Mexico. The 6-MW Juniper Sol Community Solar Garden is sited on 31 acres in Santa Fe and will incorporate agrivoltaic practices, including nati",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/08/sunshare-energizes-two-community-solar-gardens-in-new-mexico/",
-      "searchQuery": "SunShare energizes two community solar gardens in  2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "learn": [
