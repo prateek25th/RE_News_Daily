@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-01T16:35:19.303Z",
-  "nextUpdateAt": "2026-09-01T18:35:19.303Z",
+  "generatedAt": "2026-09-01T21:11:33.160Z",
+  "nextUpdateAt": "2026-09-01T23:11:33.160Z",
   "today": "Tuesday, 1 September 2026",
   "stats": {
     "industryTotal": 21,
-    "techTotal": 18,
+    "techTotal": 19,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -305,6 +305,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "Solar Power World-1788296233798-4",
+      "fetchedAt": "2026-09-01T20:57:13.798Z",
+      "headline": "Encore RE Commissions 2.2-MW Solar Project on New Hampshire Landfill",
+      "summary": "A 2.25-MW solar array atop a closed and capped municipal landfill in Derry, New Hampshire, is now online. Developed by Encore Renewable Energy, the project is expected to save Derry taxpayers an estimated $4 million in electricity costs over the next 25 years.",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/09/encore-re-installs-2-2-mw-solar-project-atop-new-hampshire-capped-landfill/",
+      "searchQuery": "Encore RE installs 2.2-MW solar project atop New H 2026",
+      "category": "Project Commission",
+      "region": "US",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Solar Power World-1788280294169-4",
       "fetchedAt": "2026-09-01T16:31:34.169Z",
