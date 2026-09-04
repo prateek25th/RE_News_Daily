@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-04T00:02:15.869Z",
-  "nextUpdateAt": "2026-09-04T02:02:15.869Z",
-  "today": "Thursday, 3 September 2026",
+  "generatedAt": "2026-09-04T04:26:30.129Z",
+  "nextUpdateAt": "2026-09-04T06:26:30.129Z",
+  "today": "Friday, 4 September 2026",
   "stats": {
     "industryTotal": 18,
-    "techTotal": 12,
+    "techTotal": 11,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -414,20 +414,6 @@
       "category": "Policy Update",
       "region": "US",
       "timeAgo": "8h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Electrek-1788322741848-3",
-      "fetchedAt": "2026-09-02T04:19:01.848Z",
-      "headline": "E-quipment highlight: iPad-sized 70 kW electric PTO by Windrose",
-      "summary": "Electric semi truck brand Windrose has developed an all-electric power take-off (PTO) that puts out up to 70 kW of power without burning a drop of diesel – and it could give his big BEV a real market advantage. more…",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/09/01/e-quipment-highlight-ipad-sized-70-kw-electric-pto-by-windrose/",
-      "searchQuery": "E-quipment highlight: iPad-sized 70 kW electric PT 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "3h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
