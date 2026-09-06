@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-05T22:03:36.030Z",
-  "nextUpdateAt": "2026-09-06T00:03:36.030Z",
-  "today": "Saturday, 5 September 2026",
+  "generatedAt": "2026-09-06T04:23:22.478Z",
+  "nextUpdateAt": "2026-09-06T06:23:22.478Z",
+  "today": "Sunday, 6 September 2026",
   "stats": {
     "industryTotal": 12,
-    "techTotal": 15,
+    "techTotal": 12,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -346,48 +346,6 @@
       "timeAgo": "3h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1788479881089-2",
-      "fetchedAt": "2026-09-03T23:58:01.089Z",
-      "headline": "Illinois 346-MW Solar Project Uses Terrain-Following Trackers and Robots",
-      "summary": "The 346-MW Gibson City Solar Project in Illinois, developed by Earthrise Energy and built by Burns & McDonnell, reached commercial operation. The project connects through an adjacent gas-fired plant's existing switchyard, leveraging surplus interconnection capacity to accelerate grid access.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/09/illinois-solar-project-connects-to-grid-through-existing-switchyard-for-gas-fired-plant/",
-      "searchQuery": "Illinois solar project uses terrain-following trac 2026",
-      "category": "Project Commission",
-      "region": "US",
-      "timeAgo": "5h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1788479881089-3",
-      "fetchedAt": "2026-09-03T23:58:01.089Z",
-      "headline": "Encore RE Completes 2.2-MW Solar Array on New Hampshire Landfill",
-      "summary": "Encore Renewable Energy commissioned a 2.25-MW solar array atop a capped municipal landfill in Derry, New Hampshire. The project is expected to save Derry taxpayers an estimated $4 million in electricity costs over 25 years.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/09/encore-re-installs-2-2-mw-solar-project-atop-new-hampshire-capped-landfill/",
-      "searchQuery": "Encore RE installs 2.2-MW solar project atop New H 2026",
-      "category": "Project Commission",
-      "region": "US",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1788479881089-4",
-      "fetchedAt": "2026-09-03T23:58:01.089Z",
-      "headline": "ARRAY Technologies Acquires Affordable Wire Management",
-      "summary": "Solar tracker company ARRAY Technologies has acquired Affordable Wire Management (AWM), a provider of wiring, cable protection and balance-of-system solutions for utility-scale solar and energy storage projects. ARRAY stated the deal expands its integrated portfolio.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/09/array-technologies-has-acquired-affordable-wire-management/",
-      "searchQuery": "ARRAY Technologies has acquired Affordable Wire Ma 2026",
-      "category": "International Deal",
-      "region": "US",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "learn": [
