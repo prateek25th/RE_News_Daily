@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-06T18:33:26.979Z",
-  "nextUpdateAt": "2026-09-06T20:33:26.979Z",
+  "generatedAt": "2026-09-06T22:07:27.367Z",
+  "nextUpdateAt": "2026-09-07T00:07:27.367Z",
   "today": "Sunday, 6 September 2026",
   "stats": {
     "industryTotal": 6,
@@ -96,6 +96,20 @@
   ],
   "tech": [
     {
+      "id": "CleanTechnica-1788732327100-0",
+      "fetchedAt": "2026-09-06T22:05:27.100Z",
+      "headline": "US Lobby Freight Rail Electrification Study Asked Wrong Question",
+      "summary": "CleanTechnica critiques a $1.1 trillion US lobby study on freight rail electrification for framing the issue as whether electric freight rail can work. The article argues direct electric freight rail already operates in large railway systems moving heavy freight, so the real question is where catenary, batteries, or dual-mode locomotives should be deployed.",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/09/06/freight-rail-electrification-study-wrong-question/",
+      "searchQuery": "US Lobby&#8217;s $1.1 Trillion Freight Rail Electr 2026",
+      "category": "Regulation",
+      "region": "US",
+      "timeAgo": "3h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
       "id": "PV Magazine-1788718664739-1",
       "fetchedAt": "2026-09-06T18:17:44.739Z",
       "headline": "South Korea doubles 2027 farm solar and agrivoltaics budget",
@@ -178,20 +192,6 @@
       "timeAgo": "4h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1788554483304-4",
-      "fetchedAt": "2026-09-04T20:41:23.304Z",
-      "headline": "Utility-scale solar has no effect on nearby residential property values, Indiana research finds",
-      "summary": "A new research brief from Ball State University’s Center for Business and Economic Research (CBER) finds no statistically significant negative effects on residential property values associated with proximity to large wind or utility-scale solar proje",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/09/utility-scale-solar-has-no-effect-on-nearby-residential-property-values-indiana-research-finds/",
-      "searchQuery": "Utility-scale solar has no effect on nearby reside 2026",
-      "category": "Rooftop Solar",
-      "region": "India",
-      "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "learn": [
