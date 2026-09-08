@@ -1,14 +1,70 @@
 {
-  "generatedAt": "2026-09-08T11:15:34.676Z",
-  "nextUpdateAt": "2026-09-08T13:15:34.676Z",
+  "generatedAt": "2026-09-08T16:40:44.570Z",
+  "nextUpdateAt": "2026-09-08T18:40:44.570Z",
   "today": "Tuesday, 8 September 2026",
   "stats": {
-    "industryTotal": 21,
-    "techTotal": 14,
+    "industryTotal": 25,
+    "techTotal": 16,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1788885224565-0",
+      "fetchedAt": "2026-09-08T16:33:44.565Z",
+      "headline": "WBPDCL Tenders Consultancy for BESS at Kolaghat Thermal Plant",
+      "summary": "West Bengal Power Development Corporation (WBPDCL) has invited bids to choose a consultancy firm that will conduct a feasibility study and prepare a detailed project report for a battery energy storage system (BESS) at the Kolaghat Thermal Power Station in Purba Medinipur district. The tender aims to assess technical and economic viability for integrating storage into the existing thermal generation infrastructure.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/west-bengal-floats-consultancy-tender-for-battery-storage-project",
+      "searchQuery": "West Bengal Floats Consultancy Tender for Battery  2026",
+      "category": "Energy Storage",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1788885224565-1",
+      "fetchedAt": "2026-09-08T16:33:44.565Z",
+      "headline": "ENERPARC Files Insolvency Petition, Solar Ops Continue",
+      "summary": "Germany-based solar project developer ENERPARC has filed a petition with the Hamburg Local Court to open insolvency proceedings, while stating that its solar power operations will continue uninterrupted during the legal process. The company emphasized that the filing does not affect its ongoing projects, and it intends to resolve its financial challenges while maintaining service delivery to customers.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/germanys-enerparc-files-for-insolvency-says-solar-operations-to-continue",
+      "searchQuery": "Germany’s ENERPARC Files for Insolvency, Says Sola 2026",
+      "category": "Regulation",
+      "region": "Europe",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1788885224565-2",
+      "fetchedAt": "2026-09-08T16:33:44.565Z",
+      "headline": "Anesco Secures Lombard Funding for 69.5 MW Solar, 100 MWh Storage",
+      "summary": "UK renewable energy developer Anesco has obtained project financing from Lombard for three solar and battery storage projects, comprising 69.5 megawatts of solar capacity and 100 megawatt-hours of storage, enabling the deployment of clean energy assets across the United Kingdom. The financing supports Anesco's expansion strategy to increase its renewable portfolio and meet UK net-zero targets.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/anesco-secures-financing-69-5mw-solar-100mwh-storage-projects",
+      "searchQuery": "Anesco Secures Financing for 69.5 MW Solar and 100 2026",
+      "category": "Green Finance",
+      "region": "Europe",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1788885224565-3",
+      "fetchedAt": "2026-09-08T16:33:44.565Z",
+      "headline": "Qualitas Energy Agrees to Acquire Cero Generation European Platform",
+      "summary": "Qualitas Energy, an investment firm focused on renewable energy and sustainable infrastructure, has signed a definitive agreement to acquire Cero Generation's core European platform, expanding its renewable asset base and strengthening its position in the European clean energy market. The acquisition includes solar, wind and storage assets across multiple European countries, enhancing Qualitas's portfolio and providing long-term value to investors.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/qualitas-energy-acquires-cero-generations-core-european-platform",
+      "searchQuery": "Qualitas Energy Acquires Cero Generation’s Core Eu 2026",
+      "category": "International Deal",
+      "region": "Europe",
+      "timeAgo": "47m ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Mercom India-1788865601854-0",
       "fetchedAt": "2026-09-08T11:06:41.854Z",
@@ -305,6 +361,34 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1788885349348-0",
+      "fetchedAt": "2026-09-08T16:35:49.348Z",
+      "headline": "HiNa Battery scales Korean sodium-ion partnership from 15 MWh to 10 GWh",
+      "summary": "HiNa Battery signed a five-year deal to supply South Korea’s Volta with 10 GWh of sodium-ion batteries, expanding an earlier 15 MWh storage partnership. The agreement highlights sodium-ion technology’s shift toward GWh-scale energy storage deployment",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/09/08/hina-battery-scales-korean-sodium-ion-partnership-from-15-mwh-to-10-gwh/",
+      "searchQuery": "HiNa Battery scales Korean sodium-ion partnership  2026",
+      "category": "Energy Storage",
+      "region": "Global",
+      "timeAgo": "4h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Power World-1788885349348-1",
+      "fetchedAt": "2026-09-08T16:35:49.348Z",
+      "headline": "SolarEdge develops power control system for C&#038;I solar market",
+      "summary": "SolarEdge Technologies has introduced its UL 3141-certified Power Control System (PCS), which is designed to simplify utility interconnection while expanding on-site solar generation for designed U.S. commercial and industrial solar developers and in",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/09/solaredge-develops-power-control-system-for-ci-solar-market/",
+      "searchQuery": "SolarEdge develops power control system for C&#038 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1788865823303-0",
       "fetchedAt": "2026-09-08T11:10:23.303Z",
