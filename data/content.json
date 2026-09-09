@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-09T17:58:50.856Z",
-  "nextUpdateAt": "2026-09-09T19:58:50.856Z",
+  "generatedAt": "2026-09-09T21:01:59.266Z",
+  "nextUpdateAt": "2026-09-09T23:01:59.266Z",
   "today": "Wednesday, 9 September 2026",
   "stats": {
-    "industryTotal": 20,
-    "techTotal": 12,
+    "industryTotal": 17,
+    "techTotal": 13,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -246,51 +246,23 @@
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1788806505487-0",
-      "fetchedAt": "2026-09-07T18:41:45.487Z",
-      "headline": "Ola Electric Board Approves ₹15 Billion Fundraise Plan",
-      "summary": "Electric vehicle manufacturer Ola Electric Mobility’s board of directors has approved a resolution to raise up to ₹15 billion (~$158.84 million) through the issuance of equity shares and other securities.The company may raise the funds by issuing equ",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/ola-electric-board-approves-₹15-billion-fundraise-plan",
-      "searchQuery": "Ola Electric Board Approves ₹15 Billion Fundraise  2026",
-      "category": "Green Finance",
-      "region": "US",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1788806505487-1",
-      "fetchedAt": "2026-09-07T18:41:45.487Z",
-      "headline": "Tunisia Awards 455 MW of Solar Projects in Sixth Authorization Round",
-      "summary": "Listen to this article Tunisia’s Ministry of Industry, Mines and Energy has awarded contracts to developers for 309 solar projects, with a cumulative capacity of",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/tunisia-awards-455-mw-of-solar-projects-in-sixth-authorization-round",
-      "searchQuery": "Tunisia Awards 455 MW of Solar Projects in Sixth A 2026",
-      "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "2m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1788806505487-2",
-      "fetchedAt": "2026-09-07T18:41:45.487Z",
-      "headline": "Shilpa Medicare to Source Solar Power from NeoGreen’s 13 MW Project",
-      "summary": "Listen to this article Pharmaceutical company Shilpa Medicare will source 13 MW of solar power from NeoGreen Power in a group captive arrangement for its",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/shilpa-medicare-to-source-solar-power-from-neogreens-13-mw-project",
-      "searchQuery": "Shilpa Medicare to Source Solar Power from NeoGree 2026",
-      "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "tech": [
+    {
+      "id": "Solar Power World-1788987587225-3",
+      "fetchedAt": "2026-09-09T20:59:47.225Z",
+      "headline": "GameChange Energy responds to Nextpower lawsuit with another lawsuit",
+      "summary": "The world&#8217;s two largest solar tracker manufacturers have issued one another separate patent infringement lawsuits within three months of each other. GameChange Energy sued Nextpower today alleging that its NX Horizon with Hail Pro tracker&#8217",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/09/gamechange-energy-responds-to-nextpower-lawsuit-with-another-lawsuit/",
+      "searchQuery": "GameChange Energy responds to Nextpower lawsuit wi 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "58m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1788975946964-0",
       "fetchedAt": "2026-09-09T17:45:46.964Z",
