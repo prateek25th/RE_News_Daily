@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-12T17:03:34.220Z",
-  "nextUpdateAt": "2026-09-12T19:03:34.220Z",
+  "generatedAt": "2026-09-12T20:32:37.575Z",
+  "nextUpdateAt": "2026-09-12T22:32:37.575Z",
   "today": "Saturday, 12 September 2026",
   "stats": {
-    "industryTotal": 15,
-    "techTotal": 14,
+    "industryTotal": 11,
+    "techTotal": 13,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -159,62 +159,6 @@
       "searchQuery": "Sonnedix Secures $1.3 Billion Refinancing for 1 GW 2026",
       "category": "Project Commission",
       "region": "Global",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1789062011573-0",
-      "fetchedAt": "2026-09-10T17:40:11.573Z",
-      "headline": "APTEL Extends Commissioning Date for 20 MW Solar Project in Karnataka",
-      "summary": "The Appellate Tribunal for Electricity (APTEL) has extended the scheduled commercial operation date (SCOD) for a renewable energy project developer’s 20 MW solar project in Karnataka from November 3, 2019, to May 30, 2020.The Tribunal ruled that the ",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/aptel-extends-commissioning-date-for-20-mw-solar-project-in-karnataka",
-      "searchQuery": "APTEL Extends Commissioning Date for 20 MW Solar P 2026",
-      "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1789062011573-1",
-      "fetchedAt": "2026-09-10T17:40:11.573Z",
-      "headline": "Bihar Invites Bids for 500 MWh Standalone Battery Storage Project",
-      "summary": "Bihar State Power Generation Company (BSPGCL) has invited bids to develop a 125 MW/500 MWh standalone battery energy storage system (BESS) at Kajra in Lakhisarai district, Bihar.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/bihar-invites-bids-for-500-mwh-standalone-battery-storage-project",
-      "searchQuery": "Bihar Invites Bids for 500 MWh Standalone Battery  2026",
-      "category": "Solar Tender",
-      "region": "Global",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1789062011574-2",
-      "fetchedAt": "2026-09-10T17:40:11.574Z",
-      "headline": "France’s Installed Solar Capacity Reaches 34 GW during 1H 2026",
-      "summary": "France’s installed solar capacity reached 34 GW during the first half (1H) of 2026, according to the country’s Statistical Data and Studies Department (SDES). The country added 3 GW during the period, slightly higher than the 2.9 GW installed in the ",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/frances-installed-solar-capacity-reaches-34-gw-during-1h-2026",
-      "searchQuery": "France’s Installed Solar Capacity Reaches 34 GW du 2026",
-      "category": "Project Commission",
-      "region": "Europe",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1789062011574-3",
-      "fetchedAt": "2026-09-10T17:40:11.574Z",
-      "headline": "China Rolls Out New Mandatory Solar Module, Energy Efficiency Standards",
-      "summary": "China’s Ministry of Industry and Information Technology (MIIT) has issued clarifications on mandatory national standards covering solar photovoltaic module safety, labeling, energy efficiency, and energy consumption in silicon manufacturing.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/china-rolls-out-new-mandatory-solar-module-energy-efficiency-standards",
-      "searchQuery": "China Rolls Out New Mandatory Solar Module, Energy 2026",
-      "category": "Solar Tech",
-      "region": "Asia",
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article from publication"
@@ -400,20 +344,6 @@
       "category": "Policy Update",
       "region": "Global",
       "timeAgo": "7h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1789062070301-0",
-      "fetchedAt": "2026-09-10T17:41:10.301Z",
-      "headline": "What the 2026 ETS Review Means for Transport",
-      "summary": "The proposal to review the EU Emissions Trading System (EU ETS) comes at a pivotal moment for Europe&#8217;s climate, industrial and economic policy. Since its launch in 2005, the EU ETS has become the EU&#8217;s flagship climate instrument, helping ",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/09/10/what-the-2026-ets-review-means-for-transport/",
-      "searchQuery": "What the 2026 ETS Review Means for Transport 2026",
-      "category": "Policy Update",
-      "region": "Europe",
-      "timeAgo": "3h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
