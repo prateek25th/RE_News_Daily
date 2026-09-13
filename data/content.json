@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T20:32:37.575Z",
-  "nextUpdateAt": "2026-09-12T22:32:37.575Z",
+  "generatedAt": "2026-09-13T00:01:18.617Z",
+  "nextUpdateAt": "2026-09-13T02:01:18.617Z",
   "today": "Saturday, 12 September 2026",
   "stats": {
     "industryTotal": 11,
@@ -166,6 +166,20 @@
   ],
   "tech": [
     {
+      "id": "Solar Power World-1789257421601-5",
+      "fetchedAt": "2026-09-12T23:57:01.601Z",
+      "headline": "SOL Components issued patent for mounting rail used on solar trackers",
+      "summary": "Solar tracker manufacturer SOL Components was issued a patent by the U.S. Patent and Trademark Office on Sept. 1 for QuickGrip, a device used for mounting modules on single-axis tracker systems. “This patent reflects the ingenuity and dedication of o",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/09/sol-components-issued-patent-for-mounting-rail-used-on-solar-trackers/",
+      "searchQuery": "SOL Components issued patent for mounting rail use 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "Electrek-1789232248388-4",
       "fetchedAt": "2026-09-12T16:57:28.388Z",
       "headline": "New fleet of battery electric trains promises faster, more reliable UK travel",
@@ -330,20 +344,6 @@
       "category": "Energy Storage",
       "region": "Global",
       "timeAgo": "23h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1789073299254-5",
-      "fetchedAt": "2026-09-10T20:48:19.254Z",
-      "headline": "SOL Components issued patent for mounting rail used on solar trackers",
-      "summary": "Solar tracker manufacturer SOL Components was issued a patent by the U.S. Patent and Trademark Office on Sept. 1 for QuickGrip, a device used for mounting modules on single-axis tracker systems. “This patent reflects the ingenuity and dedication of o",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/09/sol-components-issued-patent-for-mounting-rail-used-on-solar-trackers/",
-      "searchQuery": "SOL Components issued patent for mounting rail use 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "7h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
