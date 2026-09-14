@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-14T15:04:30.055Z",
-  "nextUpdateAt": "2026-09-14T17:04:30.055Z",
+  "generatedAt": "2026-09-14T20:22:01.946Z",
+  "nextUpdateAt": "2026-09-14T22:22:01.946Z",
   "today": "Monday, 14 September 2026",
   "stats": {
     "industryTotal": 6,
@@ -96,6 +96,20 @@
   ],
   "tech": [
     {
+      "id": "Solar Power World-1789417134364-4",
+      "fetchedAt": "2026-09-14T20:18:54.364Z",
+      "headline": "UL launches program for vehicle-to-grid certification",
+      "summary": "UL Solutions announced its new certification program for vehicle-to-grid (V2G) technologies, helping advance the use of electric vehicles as a resource for the electric power grid. Utilities are looking for new ways to manage rising electricity deman",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/09/ul-launches-program-for-vehicle-to-grid-certification/",
+      "searchQuery": "UL launches program for vehicle-to-grid certificat 2026",
+      "category": "Grid Infrastructure",
+      "region": "Global",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Magazine-1789398140288-0",
       "fetchedAt": "2026-09-14T15:02:20.288Z",
       "headline": "Nova Scotia seeks 350 MW of new renewable capacity",
@@ -176,20 +190,6 @@
       "category": "Policy Update",
       "region": "Global",
       "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Electrek-1789232248388-4",
-      "fetchedAt": "2026-09-12T16:57:28.388Z",
-      "headline": "New fleet of battery electric trains promises faster, more reliable UK travel",
-      "summary": "A new fleet of British-designed and built battery electric trains has been announced, promising thousands of new jobs, faster and more reliable rail service, and significant reductions in carbon emissions across northern England. more…",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/09/12/new-fleet-of-battery-electric-trains-promises-faster-more-reliable-uk-travel/",
-      "searchQuery": "New fleet of battery electric trains promises fast 2026",
-      "category": "Energy Storage",
-      "region": "Europe",
-      "timeAgo": "2h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
