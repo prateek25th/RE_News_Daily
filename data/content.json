@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-14T00:14:12.774Z",
-  "nextUpdateAt": "2026-09-14T02:14:12.774Z",
+  "generatedAt": "2026-09-14T07:55:11.909Z",
+  "nextUpdateAt": "2026-09-14T09:55:11.909Z",
   "today": "Monday, 14 September 2026",
   "stats": {
     "industryTotal": 6,
@@ -96,6 +96,20 @@
   ],
   "tech": [
     {
+      "id": "PV Magazine-1789372412164-0",
+      "fetchedAt": "2026-09-14T07:53:32.164Z",
+      "headline": "Georgia Tech and Bert Thin Films achieve 24.3% efficient copper TOPCon cell",
+      "summary": "Georgia Tech and Bert Thin Films created a n‑TOPCon solar cell with screen‑printed rear copper contacts using LECO, reaching 24.3% efficiency, just below a 24.5% silver‑contacted reference. The method lowered contact resistance and limited copper diffusion, promising reduced silver use and lower manufacturing costs. The approach also maintains cell performance while decreasing material expenses and simplifying production processes.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/09/14/georgia-tech-bert-thin-films-build-24-3-efficient-copper-contacted-topcon-solar-cell-via-leco/",
+      "searchQuery": "Georgia Tech, Bert Thin Films build 24.3%-efficien 2026",
+      "category": "Solar Tech",
+      "region": "Global",
+      "timeAgo": "16m ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
       "id": "Electrek-1789332094831-3",
       "fetchedAt": "2026-09-13T20:41:34.831Z",
       "headline": "GoSun built a practical electric tractor that charges itself with solar panels [video]",
@@ -190,20 +204,6 @@
       "category": "Manufacturing",
       "region": "Global",
       "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1789171658812-4",
-      "fetchedAt": "2026-09-12T00:07:38.812Z",
-      "headline": "GameChange Energy responds to Nextpower lawsuit with another lawsuit",
-      "summary": "The world&#8217;s two largest solar tracker manufacturers have issued one another separate patent infringement lawsuits within three months of each other. GameChange Energy sued Nextpower today alleging that its NX Horizon with Hail Pro tracker&#8217",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/09/gamechange-energy-responds-to-nextpower-lawsuit-with-another-lawsuit/",
-      "searchQuery": "GameChange Energy responds to Nextpower lawsuit wi 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
