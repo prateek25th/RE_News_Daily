@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-15T00:37:18.192Z",
-  "nextUpdateAt": "2026-09-15T02:37:18.192Z",
+  "generatedAt": "2026-09-15T07:40:00.833Z",
+  "nextUpdateAt": "2026-09-15T09:40:00.833Z",
   "today": "Tuesday, 15 September 2026",
   "stats": {
     "industryTotal": 6,
-    "techTotal": 7,
+    "techTotal": 8,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -95,6 +95,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1789457895741-0",
+      "fetchedAt": "2026-09-15T07:38:15.741Z",
+      "headline": "GameChange sues Nextpower in expanding solar tracker patent war",
+      "summary": "Solar tracking rivals are now locked in dueling federal lawsuits over proprietary hardware and control software. The post GameChange sues Nextpower in expanding solar tracker patent war appeared first on pv magazine Global .",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/09/15/gamechange-countersues-nextpower-in-expanding-solar-tracker-patent-war/",
+      "searchQuery": "GameChange sues Nextpower in expanding solar track 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Solar Power World-1789432419202-5",
       "fetchedAt": "2026-09-15T00:33:39.202Z",
