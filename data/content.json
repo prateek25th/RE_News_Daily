@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-16T16:47:44.571Z",
-  "nextUpdateAt": "2026-09-16T18:47:44.571Z",
+  "generatedAt": "2026-09-16T21:18:23.149Z",
+  "nextUpdateAt": "2026-09-16T23:18:23.149Z",
   "today": "Wednesday, 16 September 2026",
   "stats": {
     "industryTotal": 20,
-    "techTotal": 14,
+    "techTotal": 13,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -470,20 +470,6 @@
       "category": "Policy Update",
       "region": "Global",
       "timeAgo": "4d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1789417134364-4",
-      "fetchedAt": "2026-09-14T20:18:54.364Z",
-      "headline": "UL launches program for vehicle-to-grid certification",
-      "summary": "UL Solutions announced its new certification program for vehicle-to-grid (V2G) technologies, helping advance the use of electric vehicles as a resource for the electric power grid. Utilities are looking for new ways to manage rising electricity deman",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/09/ul-launches-program-for-vehicle-to-grid-certification/",
-      "searchQuery": "UL launches program for vehicle-to-grid certificat 2026",
-      "category": "Grid Infrastructure",
-      "region": "Global",
-      "timeAgo": "2h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
