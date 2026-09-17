@@ -1,14 +1,56 @@
 {
-  "generatedAt": "2026-09-17T07:52:24.253Z",
-  "nextUpdateAt": "2026-09-17T09:52:24.253Z",
+  "generatedAt": "2026-09-17T13:29:46.505Z",
+  "nextUpdateAt": "2026-09-17T15:29:46.505Z",
   "today": "Thursday, 17 September 2026",
   "stats": {
-    "industryTotal": 23,
-    "techTotal": 16,
+    "industryTotal": 26,
+    "techTotal": 19,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1789651267388-0",
+      "fetchedAt": "2026-09-17T13:21:07.388Z",
+      "headline": "West Bengal Regulator Clears ₹20 Billion Floating Solar-Storage Project",
+      "summary": "The West Bengal Electricity Regulatory Commission (WBERC) has allowed West Bengal Power Development Corporation (WBPDCL) to incur expenditure of ₹20.14 billion (~$210.48 million) for installing and commissioning a 200 MW floating solar project integr",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/west-bengal-regulator-clears-₹20-billion-floating-solar-storage-project",
+      "searchQuery": "West Bengal Regulator Clears ₹20 Billion Floating  2026",
+      "category": "Energy Storage",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1789651267389-1",
+      "fetchedAt": "2026-09-17T13:21:07.389Z",
+      "headline": "GREW Solar, Caelux Sign 4 GW Perovskite Solar Technology Deal",
+      "summary": "Gujarat-based solar manufacturer GREW Solar has signed a five-year commercialization agreement with Caelux Corporation to produce high efficiency modules by using up to 4 GW of the U.S.-based company’s perovskite energy-producing glass.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/grew-solar-caelux-sign-4-gw-perovskite-solar-technology-deal",
+      "searchQuery": "GREW Solar, Caelux Sign 4 GW Perovskite Solar Tech 2026",
+      "category": "Project Commission",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1789651267389-2",
+      "fetchedAt": "2026-09-17T13:21:07.389Z",
+      "headline": "Maharashtra Clarifies Mandatory Energy Storage Rules for Renewable Projects",
+      "summary": "The Maharashtra Government has clarified that all new renewable energy projects with a capacity or connectivity of more than 100 kW must install energy storage under the state&#8217;s Renewable Energy and Energy Storage Policy 2025 to 2036.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/maharashtra-clarifies-mandatory-energy-storage-rules-for-renewable-projects",
+      "searchQuery": "Maharashtra Clarifies Mandatory Energy Storage Rul 2026",
+      "category": "Policy Update",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1789631174010-0",
       "fetchedAt": "2026-09-17T07:46:14.010Z",
@@ -333,6 +375,48 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1789651361868-2",
+      "fetchedAt": "2026-09-17T13:22:41.868Z",
+      "headline": "First Solar drops TOPCon patent complaint",
+      "summary": "The thin-film manufacturer withdrew its Section 337 filing before the USITC following new Section 232 import restrictions, while federal court patent battles against domestic and foreign manufacturers move forward. The post First Solar drops TOPCon p",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/09/17/first-solar-drops-topcon-patent-complaint/",
+      "searchQuery": "First Solar drops TOPCon patent complaint 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "47m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1789651361868-3",
+      "fetchedAt": "2026-09-17T13:22:41.868Z",
+      "headline": "South Korea&#8217;s new agrivoltaics law sets 30-year permit ceiling",
+      "summary": "South Korea has enacted its first dedicated agrivoltaics law, extending the maximum project period to 30 years from a previously reported 23-year framework, but key technical requirements remain undecided pending additional regulations. The post Sout",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/09/17/south-koreas-new-agrivoltaics-law-sets-30-year-permit-ceiling/",
+      "searchQuery": "South Korea&#8217;s new agrivoltaics law sets 30-y 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1789651361868-4",
+      "fetchedAt": "2026-09-17T13:22:41.868Z",
+      "headline": "Scientists build 17%-efficient semi-transparent perovskite solar cell based on sputter-resistant aluminum oxide layer",
+      "summary": "Researchers replaced the conventional 20 nm SnOₓ buffer layer with just 3 nm of ALD-deposited AlOₓ, which protected inverted perovskite cells from ITO sputtering damage while maintaining efficient charge extraction. The resulting devices achieved eff",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/09/17/scientists-build-17-efficient-semi-transparent-perovskite-solar-cell-based-on-sputter-resistant-aluminum-oxide-layer/",
+      "searchQuery": "Scientists build 17%-efficient semi-transparent pe 2026",
+      "category": "Solar Tech",
+      "region": "Global",
+      "timeAgo": "4h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "CleanTechnica-1789631234715-0",
       "fetchedAt": "2026-09-17T07:47:14.715Z",
