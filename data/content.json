@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-21T15:15:50.024Z",
-  "nextUpdateAt": "2026-09-21T17:15:50.024Z",
+  "generatedAt": "2026-09-21T20:36:02.902Z",
+  "nextUpdateAt": "2026-09-21T22:36:02.902Z",
   "today": "Monday, 21 September 2026",
   "stats": {
     "industryTotal": 18,
-    "techTotal": 13,
+    "techTotal": 14,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -263,6 +263,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1790022867208-0",
+      "fetchedAt": "2026-09-21T20:34:27.208Z",
+      "headline": "Silicon evolution",
+      "summary": "China’s policy cracking down on oversupply and cheap, low-quality products, due to come into effect in 2027, sets higher minimum standards and is expected to push module manufacturers to advance their R&#38;D efforts. Some manufacturers are already u",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/09/21/silicon-evolution/",
+      "searchQuery": "Silicon evolution 2026",
+      "category": "Policy Update",
+      "region": "Asia",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1790003233732-0",
       "fetchedAt": "2026-09-21T15:07:13.732Z",
