@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-21T20:36:02.902Z",
-  "nextUpdateAt": "2026-09-21T22:36:02.902Z",
-  "today": "Monday, 21 September 2026",
+  "generatedAt": "2026-09-22T00:49:31.747Z",
+  "nextUpdateAt": "2026-09-22T02:49:31.747Z",
+  "today": "Tuesday, 22 September 2026",
   "stats": {
     "industryTotal": 18,
-    "techTotal": 14,
+    "techTotal": 15,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -263,6 +263,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1790037813410-0",
+      "fetchedAt": "2026-09-22T00:43:33.410Z",
+      "headline": "Tackling Contrails Could Avoid 10 Years of Aviation-Related Climate Warming — New Research",
+      "summary": "Contrails, the white lines left by planes, contribute to global warming at a similar level to aviation’s CO₂ emissions, despite being produced by only a small share of flights. A new report by Klima Consulting, commissioned by T&#38;E and authored by",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/09/21/tackling-contrails-could-avoid-10-years-of-aviation-related-climate-warming-new-research/",
+      "searchQuery": "Tackling Contrails Could Avoid 10 Years of Aviatio 2026",
+      "category": "Solar Tech",
+      "region": "Global",
+      "timeAgo": "27m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1790022867208-0",
       "fetchedAt": "2026-09-21T20:34:27.208Z",
