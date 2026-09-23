@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T17:10:59.058Z",
-  "nextUpdateAt": "2026-09-23T19:10:59.058Z",
+  "generatedAt": "2026-09-23T21:31:30.144Z",
+  "nextUpdateAt": "2026-09-23T23:31:30.144Z",
   "today": "Wednesday, 23 September 2026",
   "stats": {
     "industryTotal": 28,
@@ -404,6 +404,20 @@
   ],
   "tech": [
     {
+      "id": "Solar Power World-1790198947759-3",
+      "fetchedAt": "2026-09-23T21:29:07.759Z",
+      "headline": "NYSERDA approves 1.7 GW of new state renewable energy projects",
+      "summary": "The New York State Energy Research and Development Authority (NYSERDA) is initiating eight new bulk energy storage projects and 13 large-scale renewable energy projects in the state. Combined, these projects are expected to provide 1.7 GW of new larg",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/09/nyserda-approves-new-state-renewable-energy-projects/",
+      "searchQuery": "NYSERDA approves 1.7 GW of new state renewable ene 2026",
+      "category": "Project Commission",
+      "region": "US",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "CleanTechnica-1790182672402-0",
       "fetchedAt": "2026-09-23T16:57:52.402Z",
       "headline": "Leaked EU Hydrogen Draft Moves From Quotas To Credits",
@@ -596,20 +610,6 @@
       "category": "Solar Tech",
       "region": "Global",
       "timeAgo": "27m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1790022867208-0",
-      "fetchedAt": "2026-09-21T20:34:27.208Z",
-      "headline": "Silicon evolution",
-      "summary": "China’s policy cracking down on oversupply and cheap, low-quality products, due to come into effect in 2027, sets higher minimum standards and is expected to push module manufacturers to advance their R&#38;D efforts. Some manufacturers are already u",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/09/21/silicon-evolution/",
-      "searchQuery": "Silicon evolution 2026",
-      "category": "Policy Update",
-      "region": "Asia",
-      "timeAgo": "2h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
