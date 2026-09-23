@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-22T23:13:38.126Z",
-  "nextUpdateAt": "2026-09-23T01:13:38.126Z",
-  "today": "Tuesday, 22 September 2026",
+  "generatedAt": "2026-09-23T04:37:48.410Z",
+  "nextUpdateAt": "2026-09-23T06:37:48.410Z",
+  "today": "Wednesday, 23 September 2026",
   "stats": {
     "industryTotal": 29,
-    "techTotal": 18,
+    "techTotal": 19,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -417,6 +417,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Tech-1790138051420-5",
+      "fetchedAt": "2026-09-23T04:34:11.420Z",
+      "headline": "Kelag International buys 64.4MW Italian agrivoltaics portfolio",
+      "summary": "Austrian renewable energy company Kelag International has acquired a 64.4MWp portfolio of agrivoltaics projects in Italy.",
+      "source": "PV Tech",
+      "url": "https://www.pv-tech.org/kelag-international-buys-64-4mw-italian-agrivoltaics-portfolio/",
+      "searchQuery": "Kelag International buys 64.4MW Italian agrivoltai 2026",
+      "category": "Project Commission",
+      "region": "Global",
+      "timeAgo": "14h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "CleanTechnica-1790100519535-0",
       "fetchedAt": "2026-09-22T18:08:39.535Z",
