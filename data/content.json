@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-24T18:27:31.134Z",
-  "nextUpdateAt": "2026-09-24T20:27:31.134Z",
+  "generatedAt": "2026-09-24T23:13:08.659Z",
+  "nextUpdateAt": "2026-09-25T01:13:08.659Z",
   "today": "Thursday, 24 September 2026",
   "stats": {
     "industryTotal": 25,
-    "techTotal": 14,
+    "techTotal": 15,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -361,6 +361,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1790291478619-0",
+      "fetchedAt": "2026-09-24T23:11:18.619Z",
+      "headline": "Sierra Club Welcomes NYC Comptroller’s $5B Private-Market Climate Investment Proposal",
+      "summary": "New focus aims to strengthen real-world impact of pensions’ climate-solutions investment strategy NEW YORK, NY — New York City Comptroller Mark Levine announced Wednesday that the Bureau of Asset Management expects to present a total of $5 billion in",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/09/24/sierra-club-welcomes-nyc-comptrollers-5b-private-market-climate-investment-proposal/",
+      "searchQuery": "Sierra Club Welcomes NYC Comptroller’s $5B Private 2026",
+      "category": "Green Finance",
+      "region": "US",
+      "timeAgo": "11m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Solar Power World-1790274260951-5",
       "fetchedAt": "2026-09-24T18:24:20.951Z",
