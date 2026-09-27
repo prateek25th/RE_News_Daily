@@ -1,14 +1,28 @@
 {
-  "generatedAt": "2026-09-27T14:01:10.293Z",
-  "nextUpdateAt": "2026-09-27T16:01:10.293Z",
+  "generatedAt": "2026-09-27T18:20:23.218Z",
+  "nextUpdateAt": "2026-09-27T20:20:23.218Z",
   "today": "Sunday, 27 September 2026",
   "stats": {
     "industryTotal": 6,
-    "techTotal": 11,
+    "techTotal": 10,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1790532945121-0",
+      "fetchedAt": "2026-09-27T18:15:45.121Z",
+      "headline": "Solapur Factory Trims Annual Power Costs by ₹5 Million with Rooftop Solar",
+      "summary": "For energy-intensive industries, electricity costs can account for a significant share of operating expenses, making rooftop solar an attractive option to reduce dependence on grid power and lower energy bills.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/solapur-factory-trims-annual-power-costs-by-₹5-million-with-rooftop-solar",
+      "searchQuery": "Solapur Factory Trims Annual Power Costs by ₹5 Mil 2026",
+      "category": "Rooftop Solar",
+      "region": "Global",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1790517150133-1",
       "fetchedAt": "2026-09-27T13:52:30.133Z",
@@ -78,23 +92,65 @@
       "timeAgo": "1d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1790355770783-0",
-      "fetchedAt": "2026-09-25T17:02:50.783Z",
-      "headline": "Solapur Factory Trims Annual Power Costs by ₹5 Million with Rooftop Solar",
-      "summary": "For energy-intensive industries, electricity costs can account for a significant share of operating expenses, making rooftop solar an attractive option to reduce dependence on grid power and lower energy bills.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/solapur-factory-trims-annual-power-costs-by-₹5-million-with-rooftop-solar",
-      "searchQuery": "Solapur Factory Trims Annual Power Costs by ₹5 Mil 2026",
-      "category": "Rooftop Solar",
-      "region": "Global",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1790533088736-2",
+      "fetchedAt": "2026-09-27T18:18:08.736Z",
+      "headline": "EWS reports 14% higher winter wheat yield at Austrian agrivoltaic site",
+      "summary": "Austrian agrivoltaics provider EWS has reported a 14% increase in winter wheat yield at its Sonnenfeld research site in Bruck an der Leitha compared with a control area without PV modules. The company attributes the result partly to shading and chang",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/09/25/ews-reports-14-higher-winter-wheat-yield-at-austrian-agrivoltaic-site/",
+      "searchQuery": "EWS reports 14% higher winter wheat yield at Austr 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1790533088736-3",
+      "fetchedAt": "2026-09-27T18:18:08.736Z",
+      "headline": "Solar panel waste silver turned into catalyst for carbon monoxide production",
+      "summary": "South Korean researchers have recovered high-purity silver from end-of-life silicon solar panels and used it to produce electrocatalysts for converting carbon dioxide into carbon monoxide. The recycled-silver electrode sustained CO production for mor",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/09/25/solar-panel-waste-silver-turned-into-catalyst-for-carbon-monoxide-production/",
+      "searchQuery": "Solar panel waste silver turned into catalyst for  2026",
+      "category": "Manufacturing",
+      "region": "Global",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1790533088736-4",
+      "fetchedAt": "2026-09-27T18:18:08.736Z",
+      "headline": "Inclusive leadership: turning diverse perspectives into innovation and impact",
+      "summary": "At Solar &#38; Storage Live UK 2026, Women in Solar+ Europe (WiSEu) explored the leadership behaviours that help diverse teams contribute, challenge ideas and drive innovation. A Solar+ Leaders panel extended the conversation to the trust and respons",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/09/25/inclusive-leadership-turning-diverse-perspectives-into-innovation-and-impact/",
+      "searchQuery": "Inclusive leadership: turning diverse perspectives 2026",
+      "category": "Leadership Change",
+      "region": "Europe",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1790533088736-5",
+      "fetchedAt": "2026-09-27T18:18:08.736Z",
+      "headline": "The Hydrogen Stream: Germany, Austria and Luxembourg launch €2.12 billion program for sustainable aviation fuel",
+      "summary": "In other news, African green hydrogen projects secure new funding and Mauritania advances the Aman project. Moreover, Ansaldo Green Tech is expands electrolyzer manufacturing, as Toyota, Iveco and Hyster advances hydrogen-powered heavy-duty transport",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/09/25/the-hydrogen-stream-germany-austria-and-luxembourg-launch-e2-12-billion-program-for-sustainable-aviation-fuel/",
+      "searchQuery": "The Hydrogen Stream: Germany, Austria and Luxembou 2026",
+      "category": "Green Hydrogen",
+      "region": "Europe",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "CleanTechnica-1790517334262-0",
       "fetchedAt": "2026-09-27T13:55:34.262Z",
@@ -178,76 +234,6 @@
       "timeAgo": "2h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1790355817413-1",
-      "fetchedAt": "2026-09-25T17:03:37.413Z",
-      "headline": "Austrian Agrivoltaic Site Shows 14% Higher Winter Wheat Yield",
-      "summary": "Austrian agrivoltaics provider EWS reported a 14% increase in winter wheat yield at its Sonnenfeld research site in Bruck an der Leitha compared to a control area without PV modules. The company attributes the result partly to shading and microclimate changes beneath tracking PV arrays.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/09/25/ews-reports-14-higher-winter-wheat-yield-at-austrian-agrivoltaic-site/",
-      "searchQuery": "EWS reports 14% higher winter wheat yield at Austr 2026",
-      "category": "Agrivoltaics",
-      "region": "Europe",
-      "timeAgo": "4h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1790355817413-2",
-      "fetchedAt": "2026-09-25T17:03:37.413Z",
-      "headline": "Recycled Solar Panel Silver Used as Catalyst for CO Production",
-      "summary": "South Korean researchers recovered high-purity silver from end-of-life silicon solar panels and used it to produce electrocatalysts for converting carbon dioxide into carbon monoxide. The recycled-silver electrode sustained CO production for over 600 hours, with its rough surface preventing electrolyzer flooding.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/09/25/solar-panel-waste-silver-turned-into-catalyst-for-carbon-monoxide-production/",
-      "searchQuery": "Solar panel waste silver turned into catalyst for  2026",
-      "category": "Solar Tech",
-      "region": "Asia",
-      "timeAgo": "5h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1790355817413-3",
-      "fetchedAt": "2026-09-25T17:03:37.413Z",
-      "headline": "Inclusive Leadership Discussed at Solar & Storage Live UK 2026",
-      "summary": "At Solar & Storage Live UK 2026, Women in Solar+ Europe (WiSEu) explored leadership behaviors that help diverse teams contribute, challenge ideas, and drive innovation. A Solar+ Leaders panel emphasized trust and responsibility needed for lasting impact in the sector.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/09/25/inclusive-leadership-turning-diverse-perspectives-into-innovation-and-impact/",
-      "searchQuery": "Inclusive leadership: turning diverse perspectives 2026",
-      "category": "Leadership Change",
-      "region": "Europe",
-      "timeAgo": "5h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1790355817413-4",
-      "fetchedAt": "2026-09-25T17:03:37.413Z",
-      "headline": "Germany, Austria, Luxembourg Launch €2.12B Sustainable Aviation Fuel Program",
-      "summary": "Germany, Austria, and Luxembourg launched a €2.12 billion program for sustainable aviation fuel. Additional developments include African green hydrogen projects securing funding, Mauritania advancing the Aman project, and Ansaldo Green Tech expanding electrolyzer manufacturing. Toyota, Iveco, and Hyster are advancing hydrogen-powered heavy-duty transport.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/09/25/the-hydrogen-stream-germany-austria-and-luxembourg-launch-e2-12-billion-program-for-sustainable-aviation-fuel/",
-      "searchQuery": "The Hydrogen Stream: Germany, Austria and Luxembou 2026",
-      "category": "Green Hydrogen",
-      "region": "Europe",
-      "timeAgo": "5h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Electrek-1790355817413-5",
-      "fetchedAt": "2026-09-25T17:03:37.413Z",
-      "headline": "Green Water & Power Deploys 10,000th EV Charger in Three Years",
-      "summary": "Green Water & Power celebrated deploying its 10,000th electric vehicle charging port in just three years. The milestone highlights rapid expansion in EV charging infrastructure, with the latest charger energized this month.",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/09/25/green-water-power-powers-up-its-10000th-ev-charger-in-just-3-years/",
-      "searchQuery": "Green Water &#038; Power powers up its 10,000th EV 2026",
-      "category": "EV Technology",
-      "region": "US",
-      "timeAgo": "4h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "learn": [
