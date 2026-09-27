@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-26T21:06:26.915Z",
-  "nextUpdateAt": "2026-09-26T23:06:26.915Z",
-  "today": "Saturday, 26 September 2026",
+  "generatedAt": "2026-09-27T00:32:05.204Z",
+  "nextUpdateAt": "2026-09-27T02:32:05.204Z",
+  "today": "Sunday, 27 September 2026",
   "stats": {
     "industryTotal": 7,
     "techTotal": 11,
@@ -109,6 +109,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Tech-1790468975193-3",
+      "fetchedAt": "2026-09-27T00:29:35.193Z",
+      "headline": "To track or not to track: Part II",
+      "summary": "Henner Jahnke of Jurchen Technology examines whether high-density east-west systems can outperform trackers under today’s solar economics.",
+      "source": "PV Tech",
+      "url": "https://www.pv-tech.org/to-track-or-not-to-track-2/",
+      "searchQuery": "To track or not to track: Part II 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "CleanTechnica-1790456410559-0",
       "fetchedAt": "2026-09-26T21:00:10.559Z",
@@ -248,20 +262,6 @@
       "timeAgo": "3h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "CleanTechnica-1790291478619-0",
-      "fetchedAt": "2026-09-24T23:11:18.619Z",
-      "headline": "Sierra Club Welcomes NYC Comptroller’s $5B Private-Market Climate Investment Proposal",
-      "summary": "New focus aims to strengthen real-world impact of pensions’ climate-solutions investment strategy NEW YORK, NY — New York City Comptroller Mark Levine announced Wednesday that the Bureau of Asset Management expects to present a total of $5 billion in",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/09/24/sierra-club-welcomes-nyc-comptrollers-5b-private-market-climate-investment-proposal/",
-      "searchQuery": "Sierra Club Welcomes NYC Comptroller’s $5B Private 2026",
-      "category": "Green Finance",
-      "region": "US",
-      "timeAgo": "11m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "learn": [
