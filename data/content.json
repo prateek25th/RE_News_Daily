@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-27T18:20:23.218Z",
-  "nextUpdateAt": "2026-09-27T20:20:23.218Z",
+  "generatedAt": "2026-09-27T23:02:18.879Z",
+  "nextUpdateAt": "2026-09-28T01:02:18.879Z",
   "today": "Sunday, 27 September 2026",
   "stats": {
     "industryTotal": 6,
-    "techTotal": 10,
+    "techTotal": 9,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -218,20 +218,6 @@
       "category": "Project Commission",
       "region": "US",
       "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1790371832553-0",
-      "fetchedAt": "2026-09-25T21:30:32.553Z",
-      "headline": "Harvard Study Predicts 32 Percent Of US New Car Sales In US In 2030 Will Be EVs",
-      "summary": "A study by the Salata Institute for Climate and Sustainability at Harvard University comes to a rather startling conclusion. Despite all the roadblocks put in the way of the EV revolution by the present US administration, the researchers predict EV s",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/09/25/harvard-study-predicts-32-percent-of-us-new-car-sales-in-us-in-2030-will-be-evs/",
-      "searchQuery": "Harvard Study Predicts 32 Percent Of US New Car Sa 2026",
-      "category": "Policy Update",
-      "region": "US",
-      "timeAgo": "2h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
