@@ -1,14 +1,56 @@
 {
-  "generatedAt": "2026-09-28T14:09:23.978Z",
-  "nextUpdateAt": "2026-09-28T16:09:23.978Z",
+  "generatedAt": "2026-09-28T20:33:27.362Z",
+  "nextUpdateAt": "2026-09-28T22:33:27.362Z",
   "today": "Monday, 28 September 2026",
   "stats": {
-    "industryTotal": 12,
-    "techTotal": 11,
+    "industryTotal": 15,
+    "techTotal": 13,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1790627363559-0",
+      "fetchedAt": "2026-09-28T20:29:23.559Z",
+      "headline": "MENA Weekly Round-Up: EWEC to Scale Abu Dhabi’s Solar Power to 35 GW",
+      "summary": "Emirates Water and Electricity Company (EWEC) plans to scale Abu Dhabi’s solar power capacity to more than 35 GW by 2035 and deploy up to 15 GW of battery energy storage as electricity demand rises across the Emirates. EWEC has increased its 2030 sol",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/mena-weekly-round-up-ewec-to-scale-abu-dhabis-solar-power-to-35-gw",
+      "searchQuery": "MENA Weekly Round-Up: EWEC to Scale Abu Dhabi’s So 2026",
+      "category": "Policy Update",
+      "region": "Middle East",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1790627363560-1",
+      "fetchedAt": "2026-09-28T20:29:23.560Z",
+      "headline": "IRFC Lends ₹42 Billion to DVC for Renewable Energy Projects",
+      "summary": "Listen to this article The Indian Railway Finance Corporation (IRFC) has signed a ₹42 billion (~$420 million) term loan agreement with Damodar Valley Corporation (DVC)",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/irfc-lends-₹42-billion-to-dvc-for-renewable-energy-projects",
+      "searchQuery": "IRFC Lends ₹42 Billion to DVC for Renewable Energy 2026",
+      "category": "Policy Update",
+      "region": "India",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1790627363560-2",
+      "fetchedAt": "2026-09-28T20:29:23.560Z",
+      "headline": "NTPC Green Seeks Qualified Coordinating Agency for Its Solar Projects",
+      "summary": "NTPC Green Energy (NGEL) has invited bids to hire a Qualified Coordinating Agency (QCA) for forecasting and scheduling services for its two solar projects in Rajasthan.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/ntpc-green-seeks-qualified-coordinating-agency-solar-projects",
+      "searchQuery": "NTPC Green Seeks Qualified Coordinating Agency for 2026",
+      "category": "Leadership Change",
+      "region": "India",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1790602797488-0",
       "fetchedAt": "2026-09-28T13:39:57.488Z",
@@ -180,6 +222,48 @@
   ],
   "tech": [
     {
+      "id": "CleanTechnica-1790627494386-0",
+      "fetchedAt": "2026-09-28T20:31:34.386Z",
+      "headline": "Leipzig’s Hydrogen Garbage Trucks Fail The Tuesday Test",
+      "summary": "Garbage collection is not a technology demonstration. Municipalities need trucks that leave the depot every working morning, finish predictable routes, operate compactors through hundreds of stops and come back ready to do it again. That is why refus",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/09/28/leipzig-hydrogen-garbage-trucks-availability/",
+      "searchQuery": "Leipzig’s Hydrogen Garbage Trucks Fail The Tuesday 2026",
+      "category": "Green Hydrogen",
+      "region": "Global",
+      "timeAgo": "6h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Power World-1790627494386-2",
+      "fetchedAt": "2026-09-28T20:31:34.386Z",
+      "headline": "Cleveland to install solar on two city-owned landfills",
+      "summary": "Two more landfills in the Cleveland, Ohio, area are going solar, as recently announced by the City of Cleveland Mayor&#8217;s Office of Sustainability, Department of Public Utilities and Department of Port Control. A 7-MW project is being designed fo",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/09/cleveland-to-install-solar-on-two-city-owned-landfills/",
+      "searchQuery": "Cleveland to install solar on two city-owned landf 2026",
+      "category": "Project Commission",
+      "region": "Global",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "The Guardian-1790627494386-3",
+      "fetchedAt": "2026-09-28T20:31:34.386Z",
+      "headline": "Trump administration to slash clean car rules aimed at cutting climate emissions",
+      "summary": "<p>Environmentalists decry move that relaxes requirements on automakers to control pollution from gas-powered cars</p><p>The Trump administration on Monday announced it was slashing clean car rules that had been aimed at reducing planet-heating emiss",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/sep/28/trump-administration-slashes-clean-car-rules",
+      "searchQuery": "Trump administration to slash clean car rules aime 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "4h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Magazine-1790603055882-1",
       "fetchedAt": "2026-09-28T13:44:15.882Z",
       "headline": "Chinese Researchers Show Linear Air Flow Boosts Compressed Air Storage Efficiency",
@@ -316,20 +400,6 @@
       "category": "Offshore Wind",
       "region": "Global",
       "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1790444796373-4",
-      "fetchedAt": "2026-09-26T17:46:36.373Z",
-      "headline": "B2U and LGES Partner on Battery Repurposing for Grid-Scale Applications",
-      "summary": "Battery repurposing company B2U Storage Solutions is partnering with LG Energy Solution to explore business opportunities in the battery energy storage systems (BESS) space across the United States. The partners plan to use B2U Storage Solutions’ patented technologies to repurpose LG Energy Solution EV batteries for grid-scale energy storage.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/09/b2u-lges-partner-on-battery-repurposing-for-grid-scale-applications/",
-      "searchQuery": "B2U, LGES partner on battery repurposing for grid- 2026",
-      "category": "Energy Storage",
-      "region": "US",
-      "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
     }
