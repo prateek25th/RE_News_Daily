@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-27T23:02:18.879Z",
-  "nextUpdateAt": "2026-09-28T01:02:18.879Z",
-  "today": "Sunday, 27 September 2026",
+  "generatedAt": "2026-09-28T05:12:33.678Z",
+  "nextUpdateAt": "2026-09-28T07:12:33.678Z",
+  "today": "Monday, 28 September 2026",
   "stats": {
     "industryTotal": 6,
-    "techTotal": 9,
+    "techTotal": 10,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -95,6 +95,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1790572145502-1",
+      "fetchedAt": "2026-09-28T05:09:05.502Z",
+      "headline": "UV-Induced Solar Panel Degradation Proven Reversible and Preventable",
+      "summary": "Testing by the Renewable Energy Test Center (RETC) confirms ultraviolet-induced degradation in solar modules is real, partially reversible, and entirely preventable. Cherif Kedir presented findings at Solar & Storage Live UK 2026, highlighting lab-tested degradation effects.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/09/28/shedding-light-on-ultraviolet-induced-degradation/",
+      "searchQuery": "Shedding light on ultraviolet-induced degradation 2026",
+      "category": "Solar Tech",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "PV Magazine-1790533088736-2",
       "fetchedAt": "2026-09-27T18:18:08.736Z",
