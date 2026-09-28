@@ -1,14 +1,98 @@
 {
-  "generatedAt": "2026-09-28T05:12:33.678Z",
-  "nextUpdateAt": "2026-09-28T07:12:33.678Z",
+  "generatedAt": "2026-09-28T14:09:23.978Z",
+  "nextUpdateAt": "2026-09-28T16:09:23.978Z",
   "today": "Monday, 28 September 2026",
   "stats": {
-    "industryTotal": 6,
-    "techTotal": 10,
+    "industryTotal": 12,
+    "techTotal": 11,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1790602797488-0",
+      "fetchedAt": "2026-09-28T13:39:57.488Z",
+      "headline": "NTPC Green Seeks Qualified Coordinating Agency for Its Solar Projects",
+      "summary": "NTPC Green Energy (NGEL) has invited bids to hire a Qualified Coordinating Agency (QCA) for forecasting and scheduling services for its two solar projects in Rajasthan.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/ntpc-green-seeks-qualified-coordinating-agency-for-its-solar-projects",
+      "searchQuery": "NTPC Green Seeks Qualified Coordinating Agency for 2026",
+      "category": "Leadership Change",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1790602797489-1",
+      "fetchedAt": "2026-09-28T13:39:57.489Z",
+      "headline": "Power Ministry Taps Captive Thermal Plants to Bridge Non-Solar Hour Shortage",
+      "summary": "On September 9, 2026, India’s total energy shortage during non-solar hours shot up to 7,717 MW while the daytime demand of over 267 GW was successfully met. Solar might have saved the day during daylight hours this month but come sundown, shortages h",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/power-ministry-taps-captive-thermal-plants-to-bridge-non-solar-hour-shortage",
+      "searchQuery": "Power Ministry Taps Captive Thermal Plants to Brid 2026",
+      "category": "Policy Update",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1790602797489-2",
+      "fetchedAt": "2026-09-28T13:39:57.489Z",
+      "headline": "SMT Energy Raises Up to $268 Million From Climate Adaptive Infrastructure",
+      "summary": "SMT Energy, a developer, owner, and operator of battery energy storage projects, has entered into an equity partnership with&#8230;",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/smt-energy-raises-up-to-268-million-from-climate-adaptive-infrastructure",
+      "searchQuery": "SMT Energy Raises Up to $268 Million From Climate  2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1790602797489-3",
+      "fetchedAt": "2026-09-28T13:39:57.489Z",
+      "headline": "NTPC Invites Bids for 400 MWh Battery Storage System in Maharashtra",
+      "summary": "NTPC has invited bids for the engineering, procurement, and construction (EPC) of a 200 MW/400 MWh battery energy storage system (BESS) in Nagpur, Maharashtra.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/ntpc-invites-bids-400-mwh-battery-storage-system-maharashtra",
+      "searchQuery": "NTPC Invites Bids for 400 MWh Battery Storage Syst 2026",
+      "category": "Solar Tender",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1790602797489-4",
+      "fetchedAt": "2026-09-28T13:39:57.489Z",
+      "headline": "NLC India Renewables Floats Consultancy Tender for Pumped Storage Project",
+      "summary": "NLC India Renewables (NIRL), a wholly owned subsidiary of NLC India, has invited bids to appoint an engineering consultant to prepare the detailed project report (DPR) for a pumped storage project in Odisha.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/nlc-india-renewables-floats-consultancy-tender-for-pumped-storage-project",
+      "searchQuery": "NLC India Renewables Floats Consultancy Tender for 2026",
+      "category": "Solar Tender",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1790602797489-5",
+      "fetchedAt": "2026-09-28T13:39:57.489Z",
+      "headline": "CERC Allows Project More Time for 38 MW Infirm Solar Power Injection",
+      "summary": "The Central Electricity Regulatory Commission (CERC) has allowed a solar power generator an additional 45 days to inject infirm power for the balance 38.1 MW capacity of its 250 MW solar project in Barmer, Rajasthan.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/cerc-allows-project-more-time-for-38-mw-infirm-solar-power-injection",
+      "searchQuery": "CERC Allows Project More Time for 38 MW Infirm Sol 2026",
+      "category": "Project Commission",
+      "region": "India",
+      "timeAgo": "44m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1790532945121-0",
       "fetchedAt": "2026-09-27T18:15:45.121Z",
@@ -95,6 +179,34 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1790603055882-1",
+      "fetchedAt": "2026-09-28T13:44:15.882Z",
+      "headline": "Chinese Researchers Show Linear Air Flow Boosts Compressed Air Storage Efficiency",
+      "summary": "Chinese researchers demonstrated that a linearly increasing air flow rate in compressed air energy storage caverns raises the energy storage efficiency from 85.5% to 87.5% compared with constant‑rate injection. The study examined various injection strategies and quantified heat loss reductions, showing the linear increase improves overall system performance. These findings suggest optimized air injection can enhance storage capacity and reduce operational costs for energy facilities.",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/09/28/rising-air-injection-rates-boost-compressed-air-energy-storage-efficiency/",
+      "searchQuery": "Rising air injection rates boost compressed air en 2026",
+      "category": "Energy Storage",
+      "region": "Asia",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Solar Power World-1790603055882-3",
+      "fetchedAt": "2026-09-28T13:44:15.882Z",
+      "headline": "NYSERDA Approves 1.7 GW of New Renewable Projects",
+      "summary": "NYSERDA approved 1.7 GW of new large‑scale renewable energy projects, including eight bulk storage and thirteen renewable installations, which will create over 1,000 family‑supporting jobs and attract more than $3.7 billion in private investment. The authority is initiating eight new bulk energy storage projects and 13 large‑scale renewable projects across New York State and will significantly boost the state’s clean energy capacity.",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/09/nyserda-approves-new-state-renewable-energy-projects/",
+      "searchQuery": "NYSERDA approves 1.7 GW of new state renewable ene 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "4d ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "PV Magazine-1790572145502-1",
       "fetchedAt": "2026-09-28T05:09:05.502Z",
@@ -220,20 +332,6 @@
       "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1790427502270-5",
-      "fetchedAt": "2026-09-26T12:58:22.270Z",
-      "headline": "NYSERDA approves 1.7 GW of new state renewable energy projects",
-      "summary": "The New York State Energy Research and Development Authority (NYSERDA) is initiating eight new bulk energy storage projects and 13 large-scale renewable energy projects in the state. Combined, these projects are expected to provide 1.7 GW of new larg",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/09/nyserda-approves-new-state-renewable-energy-projects/",
-      "searchQuery": "NYSERDA approves 1.7 GW of new state renewable ene 2026",
-      "category": "Project Commission",
-      "region": "US",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "learn": [
