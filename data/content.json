@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-29T16:45:01.740Z",
-  "nextUpdateAt": "2026-09-29T18:45:01.740Z",
+  "generatedAt": "2026-09-29T22:13:35.109Z",
+  "nextUpdateAt": "2026-09-30T00:13:35.109Z",
   "today": "Tuesday, 29 September 2026",
   "stats": {
-    "industryTotal": 22,
-    "techTotal": 19,
+    "industryTotal": 21,
+    "techTotal": 15,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -302,20 +302,6 @@
       "timeAgo": "44m ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1790532945121-0",
-      "fetchedAt": "2026-09-27T18:15:45.121Z",
-      "headline": "Solapur Factory Trims Annual Power Costs by ₹5 Million with Rooftop Solar",
-      "summary": "For energy-intensive industries, electricity costs can account for a significant share of operating expenses, making rooftop solar an attractive option to reduce dependence on grid power and lower energy bills.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/solapur-factory-trims-annual-power-costs-by-₹5-million-with-rooftop-solar",
-      "searchQuery": "Solapur Factory Trims Annual Power Costs by ₹5 Mil 2026",
-      "category": "Rooftop Solar",
-      "region": "Global",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "tech": [
@@ -528,62 +514,6 @@
       "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1790533088736-2",
-      "fetchedAt": "2026-09-27T18:18:08.736Z",
-      "headline": "EWS reports 14% higher winter wheat yield at Austrian agrivoltaic site",
-      "summary": "Austrian agrivoltaics provider EWS has reported a 14% increase in winter wheat yield at its Sonnenfeld research site in Bruck an der Leitha compared with a control area without PV modules. The company attributes the result partly to shading and chang",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/09/25/ews-reports-14-higher-winter-wheat-yield-at-austrian-agrivoltaic-site/",
-      "searchQuery": "EWS reports 14% higher winter wheat yield at Austr 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1790533088736-3",
-      "fetchedAt": "2026-09-27T18:18:08.736Z",
-      "headline": "Solar panel waste silver turned into catalyst for carbon monoxide production",
-      "summary": "South Korean researchers have recovered high-purity silver from end-of-life silicon solar panels and used it to produce electrocatalysts for converting carbon dioxide into carbon monoxide. The recycled-silver electrode sustained CO production for mor",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/09/25/solar-panel-waste-silver-turned-into-catalyst-for-carbon-monoxide-production/",
-      "searchQuery": "Solar panel waste silver turned into catalyst for  2026",
-      "category": "Manufacturing",
-      "region": "Global",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1790533088736-4",
-      "fetchedAt": "2026-09-27T18:18:08.736Z",
-      "headline": "Inclusive leadership: turning diverse perspectives into innovation and impact",
-      "summary": "At Solar &#38; Storage Live UK 2026, Women in Solar+ Europe (WiSEu) explored the leadership behaviours that help diverse teams contribute, challenge ideas and drive innovation. A Solar+ Leaders panel extended the conversation to the trust and respons",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/09/25/inclusive-leadership-turning-diverse-perspectives-into-innovation-and-impact/",
-      "searchQuery": "Inclusive leadership: turning diverse perspectives 2026",
-      "category": "Leadership Change",
-      "region": "Europe",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1790533088736-5",
-      "fetchedAt": "2026-09-27T18:18:08.736Z",
-      "headline": "The Hydrogen Stream: Germany, Austria and Luxembourg launch €2.12 billion program for sustainable aviation fuel",
-      "summary": "In other news, African green hydrogen projects secure new funding and Mauritania advances the Aman project. Moreover, Ansaldo Green Tech is expands electrolyzer manufacturing, as Toyota, Iveco and Hyster advances hydrogen-powered heavy-duty transport",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/09/25/the-hydrogen-stream-germany-austria-and-luxembourg-launch-e2-12-billion-program-for-sustainable-aviation-fuel/",
-      "searchQuery": "The Hydrogen Stream: Germany, Austria and Luxembou 2026",
-      "category": "Green Hydrogen",
-      "region": "Europe",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "learn": [
