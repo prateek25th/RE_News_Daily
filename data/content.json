@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-29T22:13:35.109Z",
-  "nextUpdateAt": "2026-09-30T00:13:35.109Z",
-  "today": "Tuesday, 29 September 2026",
+  "generatedAt": "2026-09-30T05:24:13.414Z",
+  "nextUpdateAt": "2026-09-30T07:24:13.414Z",
+  "today": "Wednesday, 30 September 2026",
   "stats": {
     "industryTotal": 21,
     "techTotal": 15,
@@ -306,6 +306,20 @@
   ],
   "tech": [
     {
+      "id": "PV Tech-1790745603227-5",
+      "fetchedAt": "2026-09-30T05:20:03.227Z",
+      "headline": "Germany awards 480MW of solar-plus-storage in latest tender",
+      "summary": "The German government has awarded contracts to 480MW worth of solar-plus-storage capacity in its latest public \"innovation\" tender.",
+      "source": "PV Tech",
+      "url": "https://www.pv-tech.org/germany-awards-480mw-of-solar-plus-storage-in-latest-tender/",
+      "searchQuery": "Germany awards 480MW of solar-plus-storage in late 2026",
+      "category": "Solar Tender",
+      "region": "Europe",
+      "timeAgo": "14h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Magazine-1790699591620-1",
       "fetchedAt": "2026-09-29T16:33:11.620Z",
       "headline": "Germany wraps up solar-plus-storage tender with average price of €0.0514/kWh",
@@ -498,20 +512,6 @@
       "category": "Policy Update",
       "region": "US",
       "timeAgo": "4d ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1790572145502-1",
-      "fetchedAt": "2026-09-28T05:09:05.502Z",
-      "headline": "UV-Induced Solar Panel Degradation Proven Reversible and Preventable",
-      "summary": "Testing by the Renewable Energy Test Center (RETC) confirms ultraviolet-induced degradation in solar modules is real, partially reversible, and entirely preventable. Cherif Kedir presented findings at Solar & Storage Live UK 2026, highlighting lab-tested degradation effects.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/09/28/shedding-light-on-ultraviolet-induced-degradation/",
-      "searchQuery": "Shedding light on ultraviolet-induced degradation 2026",
-      "category": "Solar Tech",
-      "region": "Global",
-      "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
     }
