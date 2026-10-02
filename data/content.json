@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-01T23:54:49.960Z",
-  "nextUpdateAt": "2026-10-02T01:54:49.960Z",
-  "today": "Thursday, 1 October 2026",
+  "generatedAt": "2026-10-02T05:29:57.811Z",
+  "nextUpdateAt": "2026-10-02T07:29:57.811Z",
+  "today": "Friday, 2 October 2026",
   "stats": {
     "industryTotal": 20,
     "techTotal": 13,
@@ -292,6 +292,20 @@
   ],
   "tech": [
     {
+      "id": "PV Magazine-1790918584001-0",
+      "fetchedAt": "2026-10-02T05:23:04.001Z",
+      "headline": "Age awareness for BESS",
+      "summary": "As the use cases for battery energy storage systems (BESS) evolve, so does the way the batteries are operated. How these changes affect BESS lifetime and reliability is a question the industry needs answered, and one the International Energy Agency’s",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/10/02/age-awareness-for-bess/",
+      "searchQuery": "Age awareness for BESS 2026",
+      "category": "Energy Storage",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "Solar Power World-1790883254912-2",
       "fetchedAt": "2026-10-01T19:34:14.912Z",
       "headline": "Northern Colorado’s Largest Solar Project Goes Online",
@@ -458,20 +472,6 @@
       "timeAgo": "37m ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Tech-1790745603227-5",
-      "fetchedAt": "2026-09-30T05:20:03.227Z",
-      "headline": "Germany awards 480MW of solar-plus-storage in latest tender",
-      "summary": "The German government has awarded contracts to 480MW worth of solar-plus-storage capacity in its latest public \"innovation\" tender.",
-      "source": "PV Tech",
-      "url": "https://www.pv-tech.org/germany-awards-480mw-of-solar-plus-storage-in-latest-tender/",
-      "searchQuery": "Germany awards 480MW of solar-plus-storage in late 2026",
-      "category": "Solar Tender",
-      "region": "Europe",
-      "timeAgo": "14h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "learn": [
