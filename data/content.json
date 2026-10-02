@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-02T05:29:57.811Z",
-  "nextUpdateAt": "2026-10-02T07:29:57.811Z",
+  "generatedAt": "2026-10-02T12:30:13.310Z",
+  "nextUpdateAt": "2026-10-02T14:30:13.310Z",
   "today": "Friday, 2 October 2026",
   "stats": {
     "industryTotal": 20,
-    "techTotal": 13,
+    "techTotal": 18,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -291,6 +291,76 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1790943733096-0",
+      "fetchedAt": "2026-10-02T12:22:13.096Z",
+      "headline": "Spain’s first pre-commercial marine solar demonstrator enters testing",
+      "summary": "BlueNewables has installed a 1 MW offshore floating solar demonstrator at the Port of Valencia, Spain, and has begun testing the system. The project comprises two 500 kW PV-bos platforms designed to assess the technology’s performance, operation and ",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/10/02/spains-first-pre-commercial-marine-solar-demonstrator-enters-testing/",
+      "searchQuery": "Spain’s first pre-commercial marine solar demonstr 2026",
+      "category": "Policy Update",
+      "region": "Europe",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1790943733096-1",
+      "fetchedAt": "2026-10-02T12:22:13.096Z",
+      "headline": "The Hydrogen Stream: PV-driven H2 plant commissioned in southern Italy",
+      "summary": "In other news, Oregon State University researchers demonstrated photocatalytic hydrogen production without a cocatalyst, while Spain and Germany advanced hydrogen infrastructure and funding programs. Plug Power signed a 280 MW electrolyzer deal for a",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/10/02/the-hydrogen-stream-pv-driven-h2-plant-commissioned-in-southern-italy/",
+      "searchQuery": "The Hydrogen Stream: PV-driven H2 plant commission 2026",
+      "category": "Project Commission",
+      "region": "Europe",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1790943733097-2",
+      "fetchedAt": "2026-10-02T12:22:13.097Z",
+      "headline": "Italian startup unveils double-layer PV system prototype for space-constrained applications",
+      "summary": "Italian startup AMPS has developed a double-layer PV system that dynamically manages two overlapping module surfaces to increase solar-energy capture without expanding the installation footprint. The company says initial field tests showed short-circ",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/10/02/italian-startup-unveils-double-layer-pv-system-prototype-for-space-constrained-applications/",
+      "searchQuery": "Italian startup unveils double-layer PV system pro 2026",
+      "category": "Manufacturing",
+      "region": "Global",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1790943733097-3",
+      "fetchedAt": "2026-10-02T12:22:13.097Z",
+      "headline": "Agrivoltaics improve grapevine growth, biodiversity in hot Mediterranean climates",
+      "summary": "Researchers studying an agrivoltaic vineyard in southern Italy have found that shading from PV modules can promote grapevine growth, increase bunch weight and support spontaneous plant biodiversity, while also moderating vineyard temperatures. The re",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/10/02/agrivoltaics-improve-grapevine-growth-biodiversity-in-hot-mediterranean-climates/",
+      "searchQuery": "Agrivoltaics improve grapevine growth, biodiversit 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "3h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1790943733097-4",
+      "fetchedAt": "2026-10-02T12:22:13.097Z",
+      "headline": "Hybrid PV cooling system boosts electrical efficiency by 26%, provides building ventilation",
+      "summary": "Researchers have developed a hybrid PV cooling system that combines rear-side evaporative cooling with intermittent front-side water spraying, increasing electrical efficiency by up to 26%. The system also produces precooled ventilation air, offering",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/10/02/hybrid-pv-cooling-system-boosts-electrical-efficiency-by-26-provides-precooled-ventilation-air/",
+      "searchQuery": "Hybrid PV cooling system boosts electrical efficie 2026",
+      "category": "Leadership Change",
+      "region": "Global",
+      "timeAgo": "4h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1790918584001-0",
       "fetchedAt": "2026-10-02T05:23:04.001Z",
