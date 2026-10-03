@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-03T16:14:39.868Z",
-  "nextUpdateAt": "2026-10-03T18:14:39.868Z",
+  "generatedAt": "2026-10-03T21:01:55.045Z",
+  "nextUpdateAt": "2026-10-03T23:01:55.045Z",
   "today": "Saturday, 3 October 2026",
   "stats": {
     "industryTotal": 6,
@@ -95,6 +95,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1791061076592-0",
+      "fetchedAt": "2026-10-03T20:57:56.592Z",
+      "headline": "Australia Hits 100 Community Batteries, Expands Home Electrification",
+      "summary": "The Australian Renewable Energy Agency (ARENA) has reached a milestone of 100 community batteries installed and is supporting home conversions from gas to electric. The Cheaper Home Battery scheme now covers up to 100 kWh installations, reflecting Australia's accelerating renewable energy transition.",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/10/03/australian-government-accelerates-renewable-energy-transition/",
+      "searchQuery": "Australian Government Accelerates Renewable Energy 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "49m ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "PV Magazine-1791027229314-0",
       "fetchedAt": "2026-10-03T11:33:49.314Z",
@@ -206,20 +220,6 @@
       "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1790883254912-2",
-      "fetchedAt": "2026-10-01T19:34:14.912Z",
-      "headline": "Northern Colorado’s Largest Solar Project Goes Online",
-      "summary": "ContourGlobal completed the 324 MW Black Hollow Sun solar project in Colorado for Platte River Power Authority, with the second phase now operational after project selection in 2019.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/10/northern-colorados-largest-solar-project-comes-online/",
-      "searchQuery": "Northern Colorado&#8217;s largest solar project co 2026",
-      "category": "Project Commission",
-      "region": "US",
-      "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "learn": [
