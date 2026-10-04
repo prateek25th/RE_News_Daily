@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-04T15:21:03.780Z",
-  "nextUpdateAt": "2026-10-04T17:21:03.780Z",
+  "generatedAt": "2026-10-04T19:33:54.850Z",
+  "nextUpdateAt": "2026-10-04T21:33:54.850Z",
   "today": "Sunday, 4 October 2026",
   "stats": {
     "industryTotal": 6,
-    "techTotal": 10,
+    "techTotal": 9,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -218,20 +218,6 @@
       "category": "Solar Tech",
       "region": "Asia",
       "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1790968213826-5",
-      "fetchedAt": "2026-10-02T19:10:13.826Z",
-      "headline": "Six Flags Magic Mountain Energizes 12.37 MW Solar Carport",
-      "summary": "Six Flags Magic Mountain in California completed a 12.37 MW solar project with Solar Optimum, the largest solar carport in the state and one of the largest single-site commercial installations in the U.S. The project offsets 100% of the park's energy consumption.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/10/six-flags-brings-new-meaning-to-solarcoaster-with-completed-pv-project/",
-      "searchQuery": "Six Flags brings new meaning to &#8216;solarcoaste 2026",
-      "category": "Project Commission",
-      "region": "US",
-      "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
     }
