@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-04T00:34:46.868Z",
-  "nextUpdateAt": "2026-10-04T02:34:46.868Z",
+  "generatedAt": "2026-10-04T08:35:45.435Z",
+  "nextUpdateAt": "2026-10-04T10:35:45.435Z",
   "today": "Sunday, 4 October 2026",
   "stats": {
     "industryTotal": 6,
-    "techTotal": 12,
+    "techTotal": 11,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -246,20 +246,6 @@
       "category": "Leadership Change",
       "region": "Global",
       "timeAgo": "4h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1790918584001-0",
-      "fetchedAt": "2026-10-02T05:23:04.001Z",
-      "headline": "Age awareness for BESS",
-      "summary": "As the use cases for battery energy storage systems (BESS) evolve, so does the way the batteries are operated. How these changes affect BESS lifetime and reliability is a question the industry needs answered, and one the International Energy Agency’s",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/10/02/age-awareness-for-bess/",
-      "searchQuery": "Age awareness for BESS 2026",
-      "category": "Energy Storage",
-      "region": "Global",
-      "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
