@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-08T20:01:36.955Z",
-  "nextUpdateAt": "2026-10-08T22:01:36.955Z",
-  "today": "Thursday, 8 October 2026",
+  "generatedAt": "2026-10-09T00:23:01.576Z",
+  "nextUpdateAt": "2026-10-09T02:23:01.576Z",
+  "today": "Friday, 9 October 2026",
   "stats": {
     "industryTotal": 19,
-    "techTotal": 16,
+    "techTotal": 15,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -486,20 +486,6 @@
       "timeAgo": "3h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1791320308352-2",
-      "fetchedAt": "2026-10-06T20:58:28.352Z",
-      "headline": "Tesla Adds Vehicle-to-Home Backup to Model 3 and Model Y",
-      "summary": "Tesla announced AC bidirectional charging for new Model 3 and Model Y vehicles with Powerwall 3, enabling the Powershare Home Backup program to draw power from the car to the home, a capability previously limited to Cybertruck owners. The feature allows homeowners to use vehicle battery capacity as a backup source during outages, supporting up to 10 kW of power output.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/10/teslas-full-ev-lineup-can-now-also-provide-home-backup-energy/",
-      "searchQuery": "Tesla&#8217;s full EV lineup can now also provide  2026",
-      "category": "EV Technology",
-      "region": "US",
-      "timeAgo": "2h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "learn": [
