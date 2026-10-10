@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-10T18:32:14.972Z",
-  "nextUpdateAt": "2026-10-10T20:32:14.972Z",
+  "generatedAt": "2026-10-10T23:37:31.573Z",
+  "nextUpdateAt": "2026-10-11T01:37:31.573Z",
   "today": "Saturday, 10 October 2026",
   "stats": {
-    "industryTotal": 10,
-    "techTotal": 11,
+    "industryTotal": 8,
+    "techTotal": 8,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -120,34 +120,6 @@
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1791488979062-0",
-      "fetchedAt": "2026-10-08T19:49:39.062Z",
-      "headline": "Kanpur Packaging Manufacturer Installs Rooftop Solar to Cut Power Costs",
-      "summary": "Rising costs and the need for a reliable power supply are prompting industrial consumers to adopt rooftop solar to cut operating expenses and reduce dependence on grid power. For energy-intensive manufacturing businesses, on-site solar generation off",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/kanpur-packaging-manufacturer-installs-rooftop-solar-to-cut-power-costs",
-      "searchQuery": "Kanpur Packaging Manufacturer Installs Rooftop Sol 2026",
-      "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1791488979062-1",
-      "fetchedAt": "2026-10-08T19:49:39.062Z",
-      "headline": "TERI Announces Winner of 115 MWh Battery Storage Auction",
-      "summary": "The Energy and Resources Institute (TERI) has announced the winner of the auction to develop 57.5 MW/115 MWh of battery energy storage systems (BESS) across four 66/11 kV grid stations in Delhi.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/teri-announces-winner-of-115-mwh-battery-storage-auction",
-      "searchQuery": "TERI Announces Winner of 115 MWh Battery Storage A 2026",
-      "category": "Solar Tender",
-      "region": "India",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "tech": [
@@ -260,48 +232,6 @@
       "category": "Grid Infrastructure",
       "region": "Global",
       "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Tech-1791489099046-3",
-      "fetchedAt": "2026-10-08T19:51:39.046Z",
-      "headline": "Researchers find almost 8,000 European solar energy systems exposed to internet cyberattacks",
-      "summary": "A joint Dutch team of researchers shows commercial solar power assets are internet-accessible, creating a dangerous threat to infrastructure.",
-      "source": "PV Tech",
-      "url": "https://www.pv-tech.org/researchers-almost-8000-european-solar-energy-systems-exposed-cyberattacks/",
-      "searchQuery": "Researchers find almost 8,000 European solar energ 2026",
-      "category": "Solar Tech",
-      "region": "Europe",
-      "timeAgo": "7h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Tech-1791489099046-4",
-      "fetchedAt": "2026-10-08T19:51:39.046Z",
-      "headline": "Tata Power, Ocean Sun to pilot membrane-based floating solar technology in India",
-      "summary": "Tata Power has partnered with Norway’s Ocean Sun to test membrane-based floating solar technology at its Maharashtra reservoir.",
-      "source": "PV Tech",
-      "url": "https://www.pv-tech.org/tata-power-ocean-sun-to-pilot-membrane-based-floating-solar-technology-in-india/",
-      "searchQuery": "Tata Power, Ocean Sun to pilot membrane-based floa 2026",
-      "category": "Policy Update",
-      "region": "India",
-      "timeAgo": "8h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Tech-1791489099046-5",
-      "fetchedAt": "2026-10-08T19:51:39.046Z",
-      "headline": "South Korea picks solar, battery and EVs as key sectors in US$747 billion Green Industrial Plan",
-      "summary": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy.",
-      "source": "PV Tech",
-      "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
-      "searchQuery": "South Korea picks solar, battery and EVs as key se 2026",
-      "category": "Energy Storage",
-      "region": "Global",
-      "timeAgo": "10h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
