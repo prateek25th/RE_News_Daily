@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-11T05:39:39.505Z",
-  "nextUpdateAt": "2026-10-11T07:39:39.505Z",
+  "generatedAt": "2026-10-11T12:41:38.115Z",
+  "nextUpdateAt": "2026-10-11T14:41:38.115Z",
   "today": "Sunday, 11 October 2026",
   "stats": {
-    "industryTotal": 8,
-    "techTotal": 8,
+    "industryTotal": 6,
+    "techTotal": 7,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -90,34 +90,6 @@
       "category": "Policy Update",
       "region": "US",
       "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1791535864656-0",
-      "fetchedAt": "2026-10-09T08:51:04.656Z",
-      "headline": "EU Solar-Storage Jobs Near 1 Million Mark, Manufacturing Employment Dips",
-      "summary": "The European Union&#8217;s (EU) solar and battery energy storage sectors supported approximately 982,000 full-time equivalent (FTE) jobs in 2025, driven by continued solar installations and growing battery storage deployment, according to SolarPower ",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/eu-solar-storage-jobs-near-1-million-mark-manufacturing-employment-dips",
-      "searchQuery": "EU Solar-Storage Jobs Near 1 Million Mark, Manufac 2026",
-      "category": "Energy Storage",
-      "region": "Europe",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1791535864656-1",
-      "fetchedAt": "2026-10-09T08:51:04.656Z",
-      "headline": "PetroGreen Subsidiaries Secure $20 Million for 40 MW Solar Project",
-      "summary": "Listen to this article PetroGreen Energy Corporation (PGEC), the renewable energy arm of publicly listed PetroEnergy Resources Corporation, through its subsidiaries Rizal Green Energy Corporation",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/petrogreen-subsidiaries-secure-20-million-40-mw-solar-project",
-      "searchQuery": "PetroGreen Subsidiaries Secure $20 Million for 40  2026",
-      "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
@@ -220,20 +192,6 @@
       "timeAgo": "5h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1791536001713-0",
-      "fetchedAt": "2026-10-09T08:53:21.713Z",
-      "headline": "Thermal energy storage delivers industrial heat but can solve grid issues too",
-      "summary": "A recent IEA report proposed a 35% global electrification target by 2035 was in “striking distance” thanks to existing commercial technologies such as electric vehicles and battery storage systems but the electrification of heat-dependent industry si",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/10/09/thermal-energy-storage-delivers-industrial-heat-but-can-solve-grid-issues-too/",
-      "searchQuery": "Thermal energy storage delivers industrial heat bu 2026",
-      "category": "Grid Infrastructure",
-      "region": "Global",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "learn": [
