@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-11T23:45:12.203Z",
-  "nextUpdateAt": "2026-10-12T01:45:12.203Z",
-  "today": "Sunday, 11 October 2026",
+  "generatedAt": "2026-10-12T05:47:35.530Z",
+  "nextUpdateAt": "2026-10-12T07:47:35.530Z",
+  "today": "Monday, 12 October 2026",
   "stats": {
     "industryTotal": 6,
-    "techTotal": 4,
+    "techTotal": 6,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -96,6 +96,62 @@
   ],
   "tech": [
     {
+      "id": "CleanTechnica-1791783780727-0",
+      "fetchedAt": "2026-10-12T05:43:00.727Z",
+      "headline": "Trump Must Absolutely Love Solar Panels, Because They Help Farmers",
+      "summary": "The agrivoltaic movement combines solar panels with agriculture, providing farmers with new opportunities to improve their financial situation at a time of skyrocketing fuel costs. The post Trump Must Absolutely Love Solar Panels, Because They Help F",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/10/11/mammoth-solar-panels-agrivoltaic-us-energy-policy-farmers-diesel/",
+      "searchQuery": "Trump Must Absolutely Love Solar Panels, Because T 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "6h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "CleanTechnica-1791783780727-1",
+      "fetchedAt": "2026-10-12T05:43:00.727Z",
+      "headline": "China &#038; EU Make Deal to Cut Flood of Hybrids into EU",
+      "summary": "Over the course of a few years, China became the absolute juggernaut of the world&#8217;s electric vehicle industry. That includes full electrics (BEVs) and plugin hybrids (PHEVs). Regarding the latter, Chinese companies added a lot more battery capa",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/10/10/china-eu-make-deal-to-cut-flood-of-hybrids-into-eu/",
+      "searchQuery": "China &#038; EU Make Deal to Cut Flood of Hybrids  2026",
+      "category": "Policy Update",
+      "region": "Asia",
+      "timeAgo": "1d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1791783780727-4",
+      "fetchedAt": "2026-10-12T05:43:00.727Z",
+      "headline": "Australia backs goal of 150 million new rooftop solar systems globally by 2030",
+      "summary": "Australia has endorsed a global plan to double the number of homes in the world with rooftop solar, from 150 to 300 million by 2030 via the Global Rooftop Solar Declaration announced at the 2026 Pacific Pre-COP meeting in Fiji. The post Australia bac",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/10/10/australia-backs-goal-of-150-million-new-rooftop-solar-systems-globally-by-2030/",
+      "searchQuery": "Australia backs goal of 150 million new rooftop so 2026",
+      "category": "Rooftop Solar",
+      "region": "Global",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1791783780728-5",
+      "fetchedAt": "2026-10-12T05:43:00.728Z",
+      "headline": "Can Beijing end the race to the bottom?",
+      "summary": "China is tightening the rules of solar competition through cost accounting, mandatory efficiency standards, tax changes and capacity controls. The real test is not whether prices rise, but whether excess capacity is removed and the industry can retur",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/10/10/can-beijing-end-the-race-to-the-bottom/",
+      "searchQuery": "Can Beijing end the race to the bottom? 2026",
+      "category": "Policy Update",
+      "region": "Asia",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Magazine-1791634942727-0",
       "fetchedAt": "2026-10-10T12:22:22.727Z",
       "headline": "Sunbooster Wins EU Patent for Bifacial Solar Fences",
@@ -122,34 +178,6 @@
       "timeAgo": "5h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1791610564305-0",
-      "fetchedAt": "2026-10-10T05:36:04.305Z",
-      "headline": "Australia backs goal of 150 million new rooftop solar systems globally by 2030",
-      "summary": "Australia has endorsed a global plan to double the number of homes in the world with rooftop solar, from 150 to 300 million by 2030 via the Global Rooftop Solar Declaration announced at the 2026 Pacific Pre-COP meeting in Fiji. The post Australia bac",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/10/10/australia-backs-goal-of-150-million-new-rooftop-solar-systems-globally-by-2030/",
-      "searchQuery": "Australia backs goal of 150 million new rooftop so 2026",
-      "category": "Rooftop Solar",
-      "region": "Global",
-      "timeAgo": "36m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1791610564306-1",
-      "fetchedAt": "2026-10-10T05:36:04.306Z",
-      "headline": "Can Beijing end the race to the bottom?",
-      "summary": "China is tightening the rules of solar competition through cost accounting, mandatory efficiency standards, tax changes and capacity controls. The real test is not whether prices rise, but whether excess capacity is removed and the industry can retur",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/10/10/can-beijing-end-the-race-to-the-bottom/",
-      "searchQuery": "Can Beijing end the race to the bottom? 2026",
-      "category": "Policy Update",
-      "region": "Asia",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "learn": [
