@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-13T16:01:57.994Z",
-  "nextUpdateAt": "2026-10-13T18:01:57.994Z",
+  "generatedAt": "2026-10-13T21:25:15.175Z",
+  "nextUpdateAt": "2026-10-13T23:25:15.175Z",
   "today": "Tuesday, 13 October 2026",
   "stats": {
-    "industryTotal": 24,
+    "industryTotal": 18,
     "techTotal": 11,
     "learnTotal": 6,
     "windowHours": 48
@@ -260,90 +260,6 @@
       "timeAgo": "11m ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1791744608836-0",
-      "fetchedAt": "2026-10-11T18:50:08.836Z",
-      "headline": "Surat Housing Complex Eyes ₹5 Million Annual Savings with Rooftop Solar",
-      "summary": "Supported by subsidies under the PM Surya Ghar: Muft Bijli Yojana, rooftop solar adoption in India has gained significant momentum, particularly in the residential segment, as households increasingly turn to solar power to reduce electricity costs. A",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/surat-housing-complex-eyes-₹5-million-annual-savings-with-rooftop-solar",
-      "searchQuery": "Surat Housing Complex Eyes ₹5 Million Annual Savin 2026",
-      "category": "Rooftop Solar",
-      "region": "India",
-      "timeAgo": "1d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1791744608836-1",
-      "fetchedAt": "2026-10-11T18:50:08.836Z",
-      "headline": "POWERGRID Commissions Project to Evacuate 2.5 GW Solar Energy in Karnataka",
-      "summary": "The Power Grid Corporation of India (POWERGRID) has commissioned the transmission project for the 2,500 MW solar energy zone in Bidar, Karnataka, on October 5, 2026. The project was entrusted to POWERGRID Bidar Transmission, a wholly owned subsidiary",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/powergrid-commissions-project-to-evacuate-2-5-gw-solar-energy-in-karnataka",
-      "searchQuery": "POWERGRID Commissions Project to Evacuate 2.5 GW S 2026",
-      "category": "Project Commission",
-      "region": "India",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1791744608836-2",
-      "fetchedAt": "2026-10-11T18:50:08.836Z",
-      "headline": "RECPDCL Invited Bids for Rooftop Solar Projects at ICAR Institutes",
-      "summary": "REC Power Development and Consultancy (RECPDCL) has invited bids for engineering, procurement, and construction (EPC) of grid-connected rooftop solar projects at Indian Council of Agricultural Research (ICAR) Institutes under the PM Surya Ghar Muft B",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/recpdcl-invited-bids-for-rooftop-solar-projects-at-icar-institutes",
-      "searchQuery": "RECPDCL Invited Bids for Rooftop Solar Projects at 2026",
-      "category": "Solar Tender",
-      "region": "India",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1791744608836-3",
-      "fetchedAt": "2026-10-11T18:50:08.836Z",
-      "headline": "MNRE Adds 402 MW of Solar Cell Capacity to ALMM, Total Nears 38 GW",
-      "summary": "The Ministry of New and Renewable Energy (MNRE) has added 402 MW of solar cell manufacturing capacity to the Approved List of Models and Manufacturers (ALMM) List-II, taking the total enlisted capacity to 37.8 GW.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/mnre-adds-402-mw-of-solar-cell-capacity-to-almm-total-nears-38-gw",
-      "searchQuery": "MNRE Adds 402 MW of Solar Cell Capacity to ALMM, T 2026",
-      "category": "Project Commission",
-      "region": "India",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1791744608836-4",
-      "fetchedAt": "2026-10-11T18:50:08.836Z",
-      "headline": "Bihar Proposes 500 kW Cap for Rooftop Solar Net Metering",
-      "summary": "The Bihar Electricity Regulatory Commission (BERC) has proposed amendments to its rooftop solar regulations, limiting the capacity of net metering systems to up to 500 kW and revising the compensation mechanism for surplus electricity injected into t",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/bihar-proposes-500-kw-cap-for-rooftop-solar-net-metering",
-      "searchQuery": "Bihar Proposes 500 kW Cap for Rooftop Solar Net Me 2026",
-      "category": "Rooftop Solar",
-      "region": "US",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1791744608837-5",
-      "fetchedAt": "2026-10-11T18:50:08.837Z",
-      "headline": "Soleos Energy Files Draft Papers for Initial Public Offering",
-      "summary": "Ahmedabad-based renewable energy solutions provider Soleos Energy has filed a draft red herring prospectus (DRHP) for an initial public offering (IPO).The IPO will comprise a fresh issue of up to 11 million equity shares and an offer for sale of up t",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/soleos-energy-files-draft-papers-for-initial-public-offering",
-      "searchQuery": "Soleos Energy Files Draft Papers for Initial Publi 2026",
-      "category": "Policy Update",
-      "region": "US",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "tech": [
