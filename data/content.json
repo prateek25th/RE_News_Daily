@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-14T18:36:58.628Z",
-  "nextUpdateAt": "2026-10-14T20:36:58.628Z",
+  "generatedAt": "2026-10-14T23:18:47.577Z",
+  "nextUpdateAt": "2026-10-15T01:18:47.577Z",
   "today": "Wednesday, 14 October 2026",
   "stats": {
     "industryTotal": 26,
-    "techTotal": 9,
+    "techTotal": 11,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -375,6 +375,34 @@
     }
   ],
   "tech": [
+    {
+      "id": "Electrek-1792019323932-2",
+      "fetchedAt": "2026-10-14T23:08:43.932Z",
+      "headline": "Tesla Powerwalls supply most of record 745 MW California grid dispatch",
+      "summary": "Tesla Powerwalls did most of the heavy lifting as California’s home batteries set a new grid record last week. On October 6, more than 85,000 Powerwall owners sent over 600 MW to the grid, the bulk of a combined 745 MW dispatch that Sunrun announced ",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/10/14/tesla-powerwall-sunrun-record-745-mw-california-grid-dispatch/",
+      "searchQuery": "Tesla Powerwalls supply most of record 745 MW Cali 2026",
+      "category": "Project Commission",
+      "region": "US",
+      "timeAgo": "8h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Power World-1792019323932-3",
+      "fetchedAt": "2026-10-14T23:08:43.932Z",
+      "headline": "Adelphi University covers sports facility with new roof and solar project",
+      "summary": "A 295-kW rooftop solar system is now producing power at Adelphi University in Long Island, New York. Along with its commercial operation, the school announced a new solar energy initiative for its 75-acre main campus. This solar system was built on A",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/10/adelphi-university-covers-sports-facility-with-new-roof-and-solar-project/",
+      "searchQuery": "Adelphi University covers sports facility with new 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "5h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1791985047845-0",
       "fetchedAt": "2026-10-14T13:37:27.845Z",
