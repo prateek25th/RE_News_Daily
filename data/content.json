@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-16T18:13:29.653Z",
-  "nextUpdateAt": "2026-10-16T20:13:29.653Z",
+  "generatedAt": "2026-10-16T21:01:26.831Z",
+  "nextUpdateAt": "2026-10-16T23:01:26.831Z",
   "today": "Friday, 16 October 2026",
   "stats": {
-    "industryTotal": 22,
+    "industryTotal": 20,
     "techTotal": 17,
     "learnTotal": 6,
     "windowHours": 48
@@ -285,34 +285,6 @@
       "searchQuery": "IIT Palakkad Invites Bids for 1.25 MW Rooftop Sola 2026",
       "category": "Solar Tender",
       "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1792002519980-0",
-      "fetchedAt": "2026-10-14T18:28:39.980Z",
-      "headline": "Zetwerk Files Draft Papers for ₹50.12 Billion Initial Public Offering",
-      "summary": "Bengaluru-based energy infrastructure solutions provider, Zetwerk Manufacturing Businesses, has filed a red herring prospectus (RHP) for a ₹50.12 billion (~$526.36 million) initial public offering ().The company&#8217;s product portfolio includes sol",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/zetwerk-files-draft-papers-for-₹50-12-billion-initial-public-offering",
-      "searchQuery": "Zetwerk Files Draft Papers for ₹50.12 Billion Init 2026",
-      "category": "Policy Update",
-      "region": "US",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1792002519980-1",
-      "fetchedAt": "2026-10-14T18:28:39.980Z",
-      "headline": "MENA Weekly Round-Up: Algeria Floats 200 MW Wind Projects Tender",
-      "summary": "Algerian state-owned electricity and gas utility Sonelgaz floated a tender to develop two wind projects totaling 200 MW. The tender covers two 100 MW wind farms, with one planned in Laghouat province in central Algeria and the other in Djelfa provinc",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/mena-weekly-round-up-algeria-floats-200-mw-wind-projects-tender",
-      "searchQuery": "MENA Weekly Round-Up: Algeria Floats 200 MW Wind P 2026",
-      "category": "Solar Tender",
-      "region": "Global",
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article from publication"
