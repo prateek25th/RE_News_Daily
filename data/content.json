@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-18T04:29:43.245Z",
-  "nextUpdateAt": "2026-10-18T06:29:43.245Z",
+  "generatedAt": "2026-10-18T10:57:32.576Z",
+  "nextUpdateAt": "2026-10-18T12:57:32.576Z",
   "today": "Sunday, 18 October 2026",
   "stats": {
-    "industryTotal": 9,
-    "techTotal": 10,
+    "industryTotal": 6,
+    "techTotal": 9,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -89,48 +89,6 @@
       "searchQuery": "Ampyr Solar Europe Sells 49% Stake in 157 MW Solar 2026",
       "category": "Project Commission",
       "region": "Europe",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1792134116271-0",
-      "fetchedAt": "2026-10-16T07:01:56.271Z",
-      "headline": "NTPC Tenders Floating Solar Project with Battery Storage in Mauritius",
-      "summary": "NTPC, on behalf of NTPC (Mauritius) Energy, has invited bids for an engineering, procurement, and construction (EPC) package to develop a floating solar project integrated with a battery energy storage system (BESS) at Tamarind Falls Reservoir in Mau",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/ntpc-tenders-floating-solar-project-with-battery-storage-in-mauritius",
-      "searchQuery": "NTPC Tenders Floating Solar Project with Battery S 2026",
-      "category": "Solar Tender",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1792134116271-1",
-      "fetchedAt": "2026-10-16T07:01:56.271Z",
-      "headline": "Daily News Wrap-Up: Solar Growth Exposes Talent Readiness Gap",
-      "summary": "India’s rapidly expanding solar industry is facing a growing workforce readiness gap, with employers across utility-scale project development, manufacturing, rooftop solar installation, and engineering, procurement, and construction reporting that fr",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/daily-news-wrap-up-solar-growth-exposes-talent-readiness-gap",
-      "searchQuery": "Daily News Wrap-Up: Solar Growth Exposes Talent Re 2026",
-      "category": "Policy Update",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1792134116272-2",
-      "fetchedAt": "2026-10-16T07:01:56.272Z",
-      "headline": "Banks Offer Longer Loan Tenures and Flexible Repayments for MSME Solar Projects",
-      "summary": "Listen to this article Financial institutions are offering micro, small, and medium enterprises (MSMEs) longer loan tenures, flexible repayment structures, and specialized financing products to",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/banks-offer-longer-loan-tenures-and-flexible-repayments-for-msme-solar-projects",
-      "searchQuery": "Banks Offer Longer Loan Tenures and Flexible Repay 2026",
-      "category": "Green Finance",
-      "region": "Global",
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article from publication"
@@ -262,20 +220,6 @@
       "timeAgo": "1d ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1792134302686-2",
-      "fetchedAt": "2026-10-16T07:05:02.686Z",
-      "headline": "Texas to account for almost half of domestic U.S. silicon module production in 2027",
-      "summary": "Texas is projected to produce over 45% of U.S. silicon-based solar modules in 2027 within 100 miles of the I-45 corridor, driven by rapid multi-gigawatt facility deployment and pro-business incentives according to Terawatt PV Research. The post Texas",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/10/16/texas-to-account-for-almost-half-of-domestic-u-s-silicon-module-production-in-2027/",
-      "searchQuery": "Texas to account for almost half of domestic U.S.  2026",
-      "category": "Manufacturing",
-      "region": "US",
-      "timeAgo": "53m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "learn": [
