@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-18T10:57:32.576Z",
-  "nextUpdateAt": "2026-10-18T12:57:32.576Z",
+  "generatedAt": "2026-10-18T15:58:57.771Z",
+  "nextUpdateAt": "2026-10-18T17:58:57.771Z",
   "today": "Sunday, 18 October 2026",
   "stats": {
     "industryTotal": 6,
-    "techTotal": 9,
+    "techTotal": 7,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
     {
-      "id": "Mercom India-1792156212305-0",
-      "fetchedAt": "2026-10-16T13:10:12.305Z",
+      "id": "Mercom India-1792338398576-0",
+      "fetchedAt": "2026-10-18T15:46:38.576Z",
       "headline": "GRIDCO Seeks Consultant for Floating Solar Project with Battery Storage",
       "summary": "GRIDCO has invited bids for consultancy services to assess the environmental and social impact of the Upper Indravati floating solar and battery energy storage project, including evacuation infrastructure and associated transmission lines.",
       "source": "Mercom India",
@@ -19,13 +19,13 @@
       "searchQuery": "GRIDCO Seeks Consultant for Floating Solar Project 2026",
       "category": "Grid Infrastructure",
       "region": "Global",
-      "timeAgo": "Just now",
+      "timeAgo": "1d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     },
     {
-      "id": "Mercom India-1792156212306-1",
-      "fetchedAt": "2026-10-16T13:10:12.306Z",
+      "id": "Mercom India-1792338398577-1",
+      "fetchedAt": "2026-10-18T15:46:38.577Z",
       "headline": "NTPC Renewable Energy Invites Bids for Solar Projects in Maharashtra",
       "summary": "NTPC Renewable Energy (NTPC REL) has invited bids for the engineering, procurement, and construction (EPC) of interstate transmission system (ISTS)-connected solar projects near its Dhule Solar Project in Maharashtra.",
       "source": "Mercom India",
@@ -33,13 +33,13 @@
       "searchQuery": "NTPC Renewable Energy Invites Bids for Solar Proje 2026",
       "category": "Solar Tender",
       "region": "India",
-      "timeAgo": "Just now",
+      "timeAgo": "1d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     },
     {
-      "id": "Mercom India-1792156212306-2",
-      "fetchedAt": "2026-10-16T13:10:12.306Z",
+      "id": "Mercom India-1792338398577-2",
+      "fetchedAt": "2026-10-18T15:46:38.577Z",
       "headline": "Solar EPC Firm Grace Renewable Energy Files Draft Papers for IPO",
       "summary": "Listen to this article Ahmedabad-based solar engineering, procurement, and construction (EPC) company Grace Renewable Energy has filed its draft red herring prospectus (DRHP) with the",
       "source": "Mercom India",
@@ -47,13 +47,13 @@
       "searchQuery": "Solar EPC Firm Grace Renewable Energy Files Draft  2026",
       "category": "Policy Update",
       "region": "US",
-      "timeAgo": "Just now",
+      "timeAgo": "1d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     },
     {
-      "id": "Mercom India-1792156212307-3",
-      "fetchedAt": "2026-10-16T13:10:12.307Z",
+      "id": "Mercom India-1792338398577-3",
+      "fetchedAt": "2026-10-18T15:46:38.577Z",
       "headline": "energyRe Secures $815 Million for Solar Projects in South Carolina",
       "summary": "Listen to this article energyRe, a solar, wind, and energy storage project developer, has secured $815 million in financing for five utility-scale solar projects totaling",
       "source": "Mercom India",
@@ -61,13 +61,13 @@
       "searchQuery": "energyRe Secures $815 Million for Solar Projects i 2026",
       "category": "Policy Update",
       "region": "Global",
-      "timeAgo": "Just now",
+      "timeAgo": "1d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     },
     {
-      "id": "Mercom India-1792156212307-4",
-      "fetchedAt": "2026-10-16T13:10:12.307Z",
+      "id": "Mercom India-1792338398577-4",
+      "fetchedAt": "2026-10-18T15:46:38.577Z",
       "headline": "Sterling and Wilson’s Q2 Revenue Down 12.6% Due to Weak EPC Project Execution",
       "summary": "Sterling and Wilson Renewable Energy (SWREL) reported revenue of ₹15.28 billion (~$161.10 million) in the second quarter (Q2) of the financial year (FY) 2027, down 12.6% year-over-year (YoY) from ₹17.49 billion (~$184.40 million).The company attribut",
       "source": "Mercom India",
@@ -75,13 +75,13 @@
       "searchQuery": "Sterling and Wilson’s Q2 Revenue Down 12.6% Due to 2026",
       "category": "Company Results",
       "region": "Global",
-      "timeAgo": "Just now",
+      "timeAgo": "1d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     },
     {
-      "id": "Mercom India-1792156212307-5",
-      "fetchedAt": "2026-10-16T13:10:12.307Z",
+      "id": "Mercom India-1792338398577-5",
+      "fetchedAt": "2026-10-18T15:46:38.577Z",
       "headline": "Ampyr Solar Europe Sells 49% Stake in 157 MW Solar Project in Germany",
       "summary": "Listen to this article Ampyr Solar Europe (ASE), a solar and battery storage developer, has sold a 49% stake in its 157 MW Elsterheide solar",
       "source": "Mercom India",
@@ -89,12 +89,40 @@
       "searchQuery": "Ampyr Solar Europe Sells 49% Stake in 157 MW Solar 2026",
       "category": "Project Commission",
       "region": "Europe",
-      "timeAgo": "Just now",
+      "timeAgo": "1d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1792338547516-1",
+      "fetchedAt": "2026-10-18T15:49:07.516Z",
+      "headline": "China proposes ban on exports of perovskite, tandem solar manufacturing technology",
+      "summary": "China has proposed banning exports of selected high-efficiency perovskite and tandem solar manufacturing technologies, alongside new restrictions on advanced polysilicon, wafer and crystalline-silicon cell production processes. The proposed measures ",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/10/16/china-proposes-ban-on-exports-of-perovskite-tandem-solar-manufacturing-technology/",
+      "searchQuery": "China proposes ban on exports of perovskite, tande 2026",
+      "category": "Manufacturing",
+      "region": "Asia",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Power World-1792338547516-3",
+      "fetchedAt": "2026-10-18T15:49:07.516Z",
+      "headline": "221 distributed solar policy actions were taken in Q3 all across country",
+      "summary": "The N.C. Clean Energy Technology Center (NCCETC) today released its Q3 2026 edition of &#8220;The 50 States of Solar&#8221; report. The quarterly series provides insights on state regulatory and legislative discussions and actions on distributed sola",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/10/221-distributed-solar-policy-actions-were-taken-in-q3-all-across-country/",
+      "searchQuery": "221 distributed solar policy actions were taken in 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "3d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Tech-1792257216355-5",
       "fetchedAt": "2026-10-17T17:13:36.355Z",
@@ -164,62 +192,6 @@
       "timeAgo": "3h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1792156293025-2",
-      "fetchedAt": "2026-10-16T13:11:33.025Z",
-      "headline": "China Proposes Export Ban on Advanced Solar Manufacturing Technologies",
-      "summary": "China has proposed banning exports of selected high-efficiency perovskite and tandem solar manufacturing technologies, alongside new restrictions on advanced polysilicon, wafer and crystalline-silicon cell production processes. The proposed measures would cover 12 photovoltaic technologies, with public consultation open until Nov. 15, 2026.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/10/16/china-proposes-ban-on-exports-of-perovskite-tandem-solar-manufacturing-technology/",
-      "searchQuery": "China proposes ban on exports of perovskite, tande 2026",
-      "category": "Regulation",
-      "region": "Asia",
-      "timeAgo": "54m ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1792156293025-3",
-      "fetchedAt": "2026-10-16T13:11:33.025Z",
-      "headline": "P2X Sells Renewable Methane to European Markets",
-      "summary": "Europe's renewable hydrogen and e-fuels sector gained momentum with P2X Solutions beginning to sell renewable methane to European markets. Recent developments included e-methane certification and offtake agreements, electrolyser technology advances, large-scale green hydrogen projects, and strategic investments from companies including Stargate Hydrogen, ITM Power, Nel and Hy24.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/10/16/the-hydrogen-stream-p2x-starts-selling-renewable-methane-to-european-markets/",
-      "searchQuery": "The Hydrogen Stream: P2X starts selling renewable  2026",
-      "category": "Green Hydrogen",
-      "region": "Europe",
-      "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1792156293025-4",
-      "fetchedAt": "2026-10-16T13:11:33.025Z",
-      "headline": "China Could Produce Cheapest Green Hydrogen at $120/MWh",
-      "summary": "China could produce green hydrogen at an average cost of $120/MWh, significantly less than Germany, the United States and Japan, according to researchers at the University of Cologne. The analysis highlighted China's cost advantages and supply security risks associated with hydrogen imports from other regions.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/10/16/china-can-produce-the-cheapest-green-hydrogen/",
-      "searchQuery": "China could produce the cheapest green hydrogen 2026",
-      "category": "Green Hydrogen",
-      "region": "Global",
-      "timeAgo": "4h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Solar Power World-1792156293025-5",
-      "fetchedAt": "2026-10-16T13:11:33.025Z",
-      "headline": "221 Distributed Solar Policy Actions Taken Across US in Q3",
-      "summary": "The N.C. Clean Energy Technology Center (NCCETC) released its Q3 2026 edition of 'The 50 States of Solar' report, documenting 221 distributed solar policy actions taken across the country. The quarterly report provides insights on state regulatory and legislative discussions covering net metering, distributed solar valuation, interconnection rules, community solar, residential fixed charges, and residential demand management.",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/10/221-distributed-solar-policy-actions-were-taken-in-q3-all-across-country/",
-      "searchQuery": "221 distributed solar policy actions were taken in 2026",
-      "category": "Policy Update",
-      "region": "US",
-      "timeAgo": "1d ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "learn": [
