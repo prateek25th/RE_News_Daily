@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-18T15:58:57.771Z",
-  "nextUpdateAt": "2026-10-18T17:58:57.771Z",
+  "generatedAt": "2026-10-18T18:45:30.548Z",
+  "nextUpdateAt": "2026-10-18T20:45:30.548Z",
   "today": "Sunday, 18 October 2026",
   "stats": {
     "industryTotal": 6,
-    "techTotal": 7,
+    "techTotal": 5,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -162,34 +162,6 @@
       "category": "Policy Update",
       "region": "US",
       "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1792174112571-0",
-      "fetchedAt": "2026-10-16T18:08:32.571Z",
-      "headline": "Europe Needs Electric Freight Corridors, Not Just Electric Ships",
-      "summary": "Electric ships attract attention because the vessel is the visible technology. Put a large battery into an inland cargo vessel, replace the diesel propulsion system with electric motors, and the decarbonization story appears straightforward. Inland s",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/10/16/china-electric-shipping-freight-infrastructure/",
-      "searchQuery": "Europe Needs Electric Freight Corridors, Not Just  2026",
-      "category": "Policy Update",
-      "region": "Europe",
-      "timeAgo": "4h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1792174112571-5",
-      "fetchedAt": "2026-10-16T18:08:32.571Z",
-      "headline": "Qcells residential solar panels to feature aluminum frames made in Tennessee",
-      "summary": "Qcells announced it will offer new versions of its residential solar panels that feature aluminum frames extruded, anodized and fabricated in Tennessee. Qcells will offer domestic-frame options for its Q.TRON AC and Q.PEAK DUO AC panels in the United",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/10/qcells-residential-solar-panels-to-feature-aluminum-frames-made-in-tennessee/",
-      "searchQuery": "Qcells residential solar panels to feature aluminu 2026",
-      "category": "Rooftop Solar",
-      "region": "US",
-      "timeAgo": "3h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
