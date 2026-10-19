@@ -1,14 +1,42 @@
 {
-  "generatedAt": "2026-10-19T12:59:25.588Z",
-  "nextUpdateAt": "2026-10-19T14:59:25.588Z",
+  "generatedAt": "2026-10-19T19:56:23.775Z",
+  "nextUpdateAt": "2026-10-19T21:56:23.775Z",
   "today": "Monday, 19 October 2026",
   "stats": {
-    "industryTotal": 12,
+    "industryTotal": 14,
     "techTotal": 8,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1792439392664-0",
+      "fetchedAt": "2026-10-19T19:49:52.664Z",
+      "headline": "SolarEra Plans 5 GWh Battery Storage Manufacturing Facility in Pune",
+      "summary": "Pune-based engineering, procurement and construction services company SolarEra Green Renewables has announced plans to establish a 5 GWh annual capacity battery energy storage system manufacturing and integration facility in Talegaon Industrial Area ",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/solarera-plans-5-gwh-battery-storage-manufacturing-facility-in-pune",
+      "searchQuery": "SolarEra Plans 5 GWh Battery Storage Manufacturing 2026",
+      "category": "Energy Storage",
+      "region": "India",
+      "timeAgo": "41m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1792439392665-1",
+      "fetchedAt": "2026-10-19T19:49:52.665Z",
+      "headline": "Howrah PVC Pipe Manufacturer Expects to Save Big with Rooftop Solar System",
+      "summary": "Rising electricity costs are pushing industrial consumers to adopt rooftop solar systems to cut operating expenses and reduce dependence on grid power. Manufacturing facilities with available rooftop space can use solar energy to meet a part of their",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/howrah-pvc-pipe-manufacturer-expects-to-save-big-with-rooftop-solar-system",
+      "searchQuery": "Howrah PVC Pipe Manufacturer Expects to Save Big w 2026",
+      "category": "Rooftop Solar",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1792414469586-0",
       "fetchedAt": "2026-10-19T12:54:29.586Z",
@@ -180,6 +208,20 @@
   ],
   "tech": [
     {
+      "id": "CleanTechnica-1792439467676-0",
+      "fetchedAt": "2026-10-19T19:51:07.676Z",
+      "headline": "Verdox Captured CO₂ From An Aluminum Smelter. Commercial Scale Is A Much Bigger System.",
+      "summary": "Verdox has completed a useful industrial demonstration at Hydro’s Sunndal aluminum smelter in Norway. During a two-month test, its electrochemical process captured carbon dioxide from exhaust containing only about 1% CO₂ and operated in the presence ",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/10/19/verdox-carbon-capture-aluminum-economics/",
+      "searchQuery": "Verdox Captured CO₂ From An Aluminum Smelter. Comm 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "5h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Magazine-1792414622473-0",
       "fetchedAt": "2026-10-19T12:57:02.473Z",
       "headline": "Longi researchers reveal how edge masking reduces recombination losses in solar cells",
@@ -274,20 +316,6 @@
       "category": "Policy Update",
       "region": "US",
       "timeAgo": "3d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Tech-1792257216355-5",
-      "fetchedAt": "2026-10-17T17:13:36.355Z",
-      "headline": "Recurrent Energy begins commercial operations at 200MW Villameca solar project in Spain",
-      "summary": "Recurrent Energy has announced the start of commercial operations at the 200MWp Villameca Project in Castilla y León, Spain.",
-      "source": "PV Tech",
-      "url": "https://www.pv-tech.org/recurrent-energy-begins-commercial-operations-200mw-villameca-solar-project-spain/",
-      "searchQuery": "Recurrent Energy begins commercial operations at 2 2026",
-      "category": "Project Commission",
-      "region": "Europe",
-      "timeAgo": "1d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
