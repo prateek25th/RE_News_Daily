@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-21T18:36:50.042Z",
-  "nextUpdateAt": "2026-10-21T20:36:50.042Z",
+  "generatedAt": "2026-10-21T23:20:56.964Z",
+  "nextUpdateAt": "2026-10-22T01:20:56.964Z",
   "today": "Wednesday, 21 October 2026",
   "stats": {
-    "industryTotal": 13,
-    "techTotal": 17,
+    "industryTotal": 11,
+    "techTotal": 16,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -160,34 +160,6 @@
       "category": "Policy Update",
       "region": "India",
       "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1792439392664-0",
-      "fetchedAt": "2026-10-19T19:49:52.664Z",
-      "headline": "SolarEra Plans 5 GWh Battery Storage Manufacturing Facility in Pune",
-      "summary": "Pune-based engineering, procurement and construction services company SolarEra Green Renewables has announced plans to establish a 5 GWh annual capacity battery energy storage system manufacturing and integration facility in Talegaon Industrial Area ",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/solarera-plans-5-gwh-battery-storage-manufacturing-facility-in-pune",
-      "searchQuery": "SolarEra Plans 5 GWh Battery Storage Manufacturing 2026",
-      "category": "Energy Storage",
-      "region": "India",
-      "timeAgo": "41m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1792439392665-1",
-      "fetchedAt": "2026-10-19T19:49:52.665Z",
-      "headline": "Howrah PVC Pipe Manufacturer Expects to Save Big with Rooftop Solar System",
-      "summary": "Rising electricity costs are pushing industrial consumers to adopt rooftop solar systems to cut operating expenses and reduce dependence on grid power. Manufacturing facilities with available rooftop space can use solar energy to meet a part of their",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/howrah-pvc-pipe-manufacturer-expects-to-save-big-with-rooftop-solar-system",
-      "searchQuery": "Howrah PVC Pipe Manufacturer Expects to Save Big w 2026",
-      "category": "Rooftop Solar",
-      "region": "Global",
-      "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
@@ -414,20 +386,6 @@
       "category": "Energy Storage",
       "region": "Global",
       "timeAgo": "55m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1792439467676-0",
-      "fetchedAt": "2026-10-19T19:51:07.676Z",
-      "headline": "Verdox Captured CO₂ From An Aluminum Smelter. Commercial Scale Is A Much Bigger System.",
-      "summary": "Verdox has completed a useful industrial demonstration at Hydro’s Sunndal aluminum smelter in Norway. During a two-month test, its electrochemical process captured carbon dioxide from exhaust containing only about 1% CO₂ and operated in the presence ",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/10/19/verdox-carbon-capture-aluminum-economics/",
-      "searchQuery": "Verdox Captured CO₂ From An Aluminum Smelter. Comm 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "5h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
