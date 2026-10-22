@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-21T23:20:56.964Z",
-  "nextUpdateAt": "2026-10-22T01:20:56.964Z",
-  "today": "Wednesday, 21 October 2026",
+  "generatedAt": "2026-10-22T04:31:31.446Z",
+  "nextUpdateAt": "2026-10-22T06:31:31.446Z",
+  "today": "Thursday, 22 October 2026",
   "stats": {
     "industryTotal": 11,
     "techTotal": 16,
@@ -165,6 +165,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "Solar Power World-1792643300500-5",
+      "fetchedAt": "2026-10-22T04:28:20.500Z",
+      "headline": "A Q&#038;A with NeoVolta, the latest BESS manufacturer in the United States",
+      "summary": "A new lithium battery energy storage system (BESS) manufacturer opened in the United States in September, and it plans to supply the commercial, industrial and utility-scale markets. NeoVolta Power, a joint-venture between lithium brands NeoVolta and",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/10/a-qa-with-neovolta-the-latest-bess-manufacturer-in-the-united-states/",
+      "searchQuery": "A Q&#038;A with NeoVolta, the latest BESS manufact 2026",
+      "category": "Energy Storage",
+      "region": "US",
+      "timeAgo": "16h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Solar Power World-1792607674142-5",
       "fetchedAt": "2026-10-21T18:34:34.142Z",
@@ -374,20 +388,6 @@
       "timeAgo": "4h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "CleanTechnica-1792452828431-0",
-      "fetchedAt": "2026-10-19T23:33:48.431Z",
-      "headline": "Ultium Cells to Bring LMR Prismatic Battery Cell Production to Tennessee for Future GM EVs",
-      "summary": "Spring Hill, Tennessee is blazing a new trail in battery technology, as Ultium Cells LLC — a joint venture between General Motors and LG Energy Solution — just announced plans to produce lithium manganese rich (LMR) prismatic battery cells at its pla",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/10/19/ultium-cells-to-bring-lmr-prismatic-battery-cell-production-to-tennessee-for-future-gm-evs/",
-      "searchQuery": "Ultium Cells to Bring LMR Prismatic Battery Cell P 2026",
-      "category": "Energy Storage",
-      "region": "Global",
-      "timeAgo": "55m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "learn": [
