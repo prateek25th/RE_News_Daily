@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-22T21:56:28.111Z",
-  "nextUpdateAt": "2026-10-22T23:56:28.111Z",
-  "today": "Thursday, 22 October 2026",
+  "generatedAt": "2026-10-23T00:38:42.420Z",
+  "nextUpdateAt": "2026-10-23T02:38:42.420Z",
+  "today": "Friday, 23 October 2026",
   "stats": {
     "industryTotal": 19,
-    "techTotal": 15,
+    "techTotal": 17,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -277,6 +277,34 @@
     }
   ],
   "tech": [
+    {
+      "id": "Electrek-1792715776559-3",
+      "fetchedAt": "2026-10-23T00:36:16.559Z",
+      "headline": "Tesla Q4 numbers, more product delays, and some REAL EV charging innovation",
+      "summary": "On today’s numerically-infused episode of Quick Charge , we take a look at all the latest product and delivery delays from Tesla’s Q3 earnings call before changing lanes and recapping some of the biggest developments in the world of EV charging innov",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/10/22/tesla-q4-numbers-more-product-delays-and-some-real-ev-charging-innovation/",
+      "searchQuery": "Tesla Q4 numbers, more product delays, and some RE 2026",
+      "category": "Company Results",
+      "region": "Global",
+      "timeAgo": "25m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Electrek-1792715776559-4",
+      "fetchedAt": "2026-10-23T00:36:16.559Z",
+      "headline": "Another megawatt-level charger enters China: 300 miles in 5 minutes",
+      "summary": "Chery has announced a 1.44 megawatt charging system, able to deliver 500km (311 miles) in 5 minutes. And it’s not even the fastest system available in China. more…",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/10/22/another-megawatt-level-charger-enters-china-300-miles-in-5-minutes/",
+      "searchQuery": "Another megawatt-level charger enters China: 300 m 2026",
+      "category": "Project Commission",
+      "region": "Asia",
+      "timeAgo": "29m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1792689165235-0",
       "fetchedAt": "2026-10-22T17:12:45.235Z",
