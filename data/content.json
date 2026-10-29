@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-28T19:35:23.686Z",
-  "nextUpdateAt": "2026-10-28T21:35:23.686Z",
+  "generatedAt": "2026-10-29T00:08:49.849Z",
+  "nextUpdateAt": "2026-10-29T02:08:49.849Z",
   "today": "Wednesday, 28 October 2026",
   "stats": {
-    "industryTotal": 23,
-    "techTotal": 18,
+    "industryTotal": 21,
+    "techTotal": 16,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -302,37 +302,23 @@
       "timeAgo": "41m ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1793044258836-0",
-      "fetchedAt": "2026-10-26T19:50:58.836Z",
-      "headline": "Panasonic Advances Perovskite Solar Mass Production to April 2029",
-      "summary": "Panasonic Holdings Corporation has advanced the start of full-scale mass production of its glass-type perovskite solar cells to April 2029. The Japan-based technology company accelerated its timeline for commercializing the next-generation photovoltaic technology. Panasonic's perovskite cells use a glass substrate design aimed at durability and efficiency improvements over conventional silicon panels.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/panasonic-advances-perovskite-solar-cell-mass-production-to-april-2029",
-      "searchQuery": "Panasonic Advances Perovskite Solar Cell Mass Prod 2026",
-      "category": "Solar Tech",
-      "region": "Global",
-      "timeAgo": "49m ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1793044258836-1",
-      "fetchedAt": "2026-10-26T19:50:58.836Z",
-      "headline": "Akaysha Energy Secures A$1.75 Billion Portfolio Financing",
-      "summary": "Australian battery energy storage developer Akaysha Energy has refinanced its existing project-level debt through an A$1.75 billion portfolio financing facility. The deal covers multiple operational and under-construction battery storage projects across Australia. The financing provides long-term capital structure for Akaysha's growing pipeline of grid-scale energy storage assets supporting renewable energy integration.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/akaysha-energy-secures-1-2-billion-portfolio-financing",
-      "searchQuery": "Akaysha Energy Secures $1.2 Billion Portfolio Fina 2026",
-      "category": "Green Finance",
-      "region": "Global",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "tech": [
+    {
+      "id": "Solar Power World-1793232261199-5",
+      "fetchedAt": "2026-10-29T00:04:21.199Z",
+      "headline": "Maryland state renewables program hopes to fill gap left by OBBBA",
+      "summary": "Gov. Wes Moore announced that the Maryland Energy Administration (MEA) is launching “Megawatts for Maryland,” a $200 million auction program to build new clean energy generation over the next two years and help lower power costs for ratepayers. MEA w",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/10/maryland-state-renewables-program-hopes-to-fill-gap-left-by-obbba/",
+      "searchQuery": "Maryland state renewables program hopes to fill ga 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Solar Power World-1793215757139-4",
       "fetchedAt": "2026-10-28T19:29:17.139Z",
@@ -540,48 +526,6 @@
       "category": "Policy Update",
       "region": "Global",
       "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1793058325137-5",
-      "fetchedAt": "2026-10-26T23:45:25.137Z",
-      "headline": "Maryland state renewables program hopes to fill gap left by OBBBA",
-      "summary": "Gov. Wes Moore announced that the Maryland Energy Administration (MEA) is launching “Megawatts for Maryland,” a $200 million auction program to build new clean energy generation over the next two years and help lower power costs for ratepayers. MEA w",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/10/maryland-state-renewables-program-hopes-to-fill-gap-left-by-obbba/",
-      "searchQuery": "Maryland state renewables program hopes to fill ga 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1793044381454-0",
-      "fetchedAt": "2026-10-26T19:53:01.454Z",
-      "headline": "Germany&#8217;s 300-Meter Wind Tower Faces a 199-Meter Competitor",
-      "summary": "Germany&#8217;s GICON has completed one of the more remarkable wind-turbine construction projects in recent years. Its Schipkau prototype reached a hub height of 300 meters in September, putting the upper blade tip at a reported 365 meters. The latti",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/10/26/germany-300-meter-wind-tower-199-meter-competitor/",
-      "searchQuery": "Germany&#8217;s 300-Meter Wind Tower Faces a 199-M 2026",
-      "category": "Policy Update",
-      "region": "Europe",
-      "timeAgo": "2h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1793044381455-2",
-      "fetchedAt": "2026-10-26T19:53:01.455Z",
-      "headline": "India’s grid capacity puzzle",
-      "summary": "India is adding renewable energy capacity faster than transmission infrastructure can keep pace, and the consequences are now showing up in project economics, writes Vijay CS of Aurora Energy Research. The situation can change greatly from one substa",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/10/26/indias-grid-capacity-puzzle/",
-      "searchQuery": "India’s grid capacity puzzle 2026",
-      "category": "Grid Infrastructure",
-      "region": "India",
-      "timeAgo": "2h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
