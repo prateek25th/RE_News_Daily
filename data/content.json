@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-29T23:58:34.557Z",
-  "nextUpdateAt": "2026-10-30T01:58:34.557Z",
-  "today": "Thursday, 29 October 2026",
+  "generatedAt": "2026-10-30T05:37:21.142Z",
+  "nextUpdateAt": "2026-10-30T07:37:21.142Z",
+  "today": "Friday, 30 October 2026",
   "stats": {
-    "industryTotal": 20,
-    "techTotal": 16,
+    "industryTotal": 19,
+    "techTotal": 15,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -274,20 +274,6 @@
       "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1793164848848-0",
-      "fetchedAt": "2026-10-28T05:20:48.848Z",
-      "headline": "Saatvik Expands Beyond Solar into Inverters, Batteries, and BESS",
-      "summary": "Saatvik is diversifying beyond solar manufacturing into inverters, batteries, battery energy storage systems (BESS), and transformers. India's solar manufacturing sector faces uncertainty due to domestic sourcing requirements, U.S. trade restrictions, and Chinese competition, with solar cell availability becoming critical for module production.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/saatvik-looks-beyond-solar-to-inverters-batteries-bess-and-transformers-interview",
-      "searchQuery": "Saatvik Looks Beyond Solar to Inverters, Batteries 2026",
-      "category": "Manufacturing",
-      "region": "India",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "tech": [
@@ -500,20 +486,6 @@
       "timeAgo": "4h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1793164943547-0",
-      "fetchedAt": "2026-10-28T05:22:23.547Z",
-      "headline": "India's Solar Growth Shifts Focus to Grid Integration",
-      "summary": "India's installed solar capacity has grown from less than 5 GW in 2016 to over 165 GW today, with rooftop solar contributing more than 30 GW as of August 2026. Shantanu Roy of CSTEP expects the next decade to emphasize capacity location, grid interaction, and flexibility, opening opportunities for distributed solar.",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/10/28/distributed-outlook/",
-      "searchQuery": "Distributed outlook 2026",
-      "category": "Market Analysis",
-      "region": "India",
-      "timeAgo": "22m ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "learn": [
