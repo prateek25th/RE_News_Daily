@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-31T18:37:58.536Z",
-  "nextUpdateAt": "2026-10-31T20:37:58.536Z",
+  "generatedAt": "2026-10-31T23:23:49.703Z",
+  "nextUpdateAt": "2026-11-01T01:23:49.703Z",
   "today": "Saturday, 31 October 2026",
   "stats": {
-    "industryTotal": 10,
-    "techTotal": 13,
+    "industryTotal": 6,
+    "techTotal": 10,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -92,62 +92,6 @@
       "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1793302723132-0",
-      "fetchedAt": "2026-10-29T19:38:43.132Z",
-      "headline": "ACME Solar’s Q2 Profit Jumps 134% YoY on Renewable and Storage Growth",
-      "summary": "Gurugram-based independent power producer ACME Solar Holdings reported a total income of ₹10.07 billion (~$100.7 million) in the second quarter (Q2) of the financial year (FY) 2027, up 67.5% year-over-year (YoY) from ₹6.01 billion (~$60.1 million).",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/acme-solars-q2-profit-jumps-134-yoy-on-renewable-and-storage-growth",
-      "searchQuery": "ACME Solar’s Q2 Profit Jumps 134% YoY on Renewable 2026",
-      "category": "Energy Storage",
-      "region": "Global",
-      "timeAgo": "31m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1793302723132-1",
-      "fetchedAt": "2026-10-29T19:38:43.132Z",
-      "headline": "APGENCO Invites Bids to Supply Solar Modules for 400 MW Solar Project",
-      "summary": "Andhra Pradesh Power Generation Corporation (APGENCO) has invited bids to supply solar modules for its 400 MW grid-connected solar power project in Anantapuramu district, Andhra Pradesh.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/apgenco-invites-bids-to-supply-solar-modules-for-400-mw-solar-project",
-      "searchQuery": "APGENCO Invites Bids to Supply Solar Modules for 4 2026",
-      "category": "Solar Tender",
-      "region": "Global",
-      "timeAgo": "36m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1793302723133-2",
-      "fetchedAt": "2026-10-29T19:38:43.133Z",
-      "headline": "UPERC Approves Noida Power’s 300 MW RTC Renewable Power Procurement",
-      "summary": "The Uttar Pradesh Electricity Regulatory Commission (UPERC) has approved Noida Power Company&#8217;s (NPCL) proposal to procure 300 MW of firm and dispatchable renewable energy on a round-the-clock (RE-RTC) basis for 25 years through tariff-based com",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/uperc-approves-noida-powers-300-mw-rtc-renewable-power-procurement",
-      "searchQuery": "UPERC Approves Noida Power’s 300 MW RTC Renewable  2026",
-      "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1793302723133-3",
-      "fetchedAt": "2026-10-29T19:38:43.133Z",
-      "headline": "ENNA Solar to Acquire 166 MW Solar, 612 MWh Battery Storage Project in Romania",
-      "summary": "Listen to this article ENNA Solar, a unit of Croatian-based renewables and logistics company ENNA Group, has signed an agreement to acquire a 166 MW",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/enna-solar-acquire-166mw-solar-612mwh-storage-romania",
-      "searchQuery": "ENNA Solar to Acquire 166 MW Solar, 612 MWh Batter 2026",
-      "category": "Project Commission",
-      "region": "Middle East",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "tech": [
@@ -290,48 +234,6 @@
       "timeAgo": "2h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "PV Magazine-1793302825960-1",
-      "fetchedAt": "2026-10-29T19:40:25.960Z",
-      "headline": "Gallium-doped zinc oxide enables 24.92%-efficient HJT solar cell",
-      "summary": "Researchers have used room-temperature reactive plasma deposition to produce indium-free transparent electrodes for silicon heterojunction solar cells. Optimizing the oxygen content during deposition enabled a conversion efficiency of 24.92%, with si",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/10/29/gallium-doped-zinc-oxide-enables-24-92-efficient-hjt-solar-cell/",
-      "searchQuery": "Gallium-doped zinc oxide enables 24.92%-efficient  2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "2h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1793302825960-2",
-      "fetchedAt": "2026-10-29T19:40:25.960Z",
-      "headline": "Researchers develop molecular locking strategy for organic solar cells",
-      "summary": "Small-area organic solar cells featuring the molecular locking strategy achieved a power conversion efficiency of 20.4%, while larger-area modules reached a record active-area efficiency of 18.8%. The post Researchers develop molecular locking strate",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/10/29/researchers-develop-molecular-locking-strategy-for-organic-solar-cells/",
-      "searchQuery": "Researchers develop molecular locking strategy for 2026",
-      "category": "Solar Tech",
-      "region": "Global",
-      "timeAgo": "6h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Skepticalscience.com-1793302825960-5",
-      "fetchedAt": "2026-10-29T19:40:25.960Z",
-      "headline": "Skeptical Science New Research for Week #43 2026",
-      "summary": "Open access notables\nRapid Increase in Geogenic CO2 Emissions from Antarctic Permafrost, Ruggiero et al., Global Biogeochemical Cycles\n\nAntarctic permafrost and ice-free soils are generally assumed to make only a minor contribution to the global carb",
-      "source": "Skepticalscience.com",
-      "url": "https://skepticalscience.com/new_research_2026_43.html",
-      "searchQuery": "Skeptical Science New Research for Week #43 2026 2026",
-      "category": "Solar Tech",
-      "region": "Global",
-      "timeAgo": "This week",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "learn": [
