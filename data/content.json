@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-01T18:59:56.479Z",
-  "nextUpdateAt": "2026-11-01T20:59:56.479Z",
+  "generatedAt": "2026-11-01T23:36:44.554Z",
+  "nextUpdateAt": "2026-11-02T01:36:44.554Z",
   "today": "Sunday, 1 November 2026",
   "stats": {
     "industryTotal": 6,
@@ -96,6 +96,48 @@
   ],
   "tech": [
     {
+      "id": "PV Magazine-1793575979994-0",
+      "fetchedAt": "2026-11-01T23:32:59.994Z",
+      "headline": "The Hydrogen Stream: Finnish researchers increase voltage in alkaline systems to cut costs by 10-15%",
+      "summary": "Recent developments across the global green hydrogen sector highlight growing efforts to improve production efficiency, reduce costs, strengthen international supply chains and accelerate investment in renewable hydrogen infrastructure, with new adva",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/10/30/the-hydrogen-stream-finnish-researchers-increase-voltage-in-alkaline-systems-to-cut-costs-by-10-15/",
+      "searchQuery": "The Hydrogen Stream: Finnish researchers increase  2026",
+      "category": "Solar Tech",
+      "region": "Europe",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1793575979994-1",
+      "fetchedAt": "2026-11-01T23:32:59.994Z",
+      "headline": "New framework identifies key costs in PV panel recycling",
+      "summary": "Researchers have proposed a decision-support framework for assessing the costs of recycling end-of-life solar panels. An expert panel assigned the highest relative importance to operations and production, followed closely by infrastructure and facili",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/10/30/new-framework-identifies-key-costs-in-pv-panel-recycling/",
+      "searchQuery": "New framework identifies key costs in PV panel rec 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Power World-1793575979994-2",
+      "fetchedAt": "2026-11-01T23:32:59.994Z",
+      "headline": "SEG Solar plans HJT cell plant next to existing Texas facilities",
+      "summary": "SEG Solar, a global solar manufacturer, has signed a land agreement for a planned $950 million, 4-GW heterojunction (HJT) solar cell plant at the Tomball Industrial Campus in the greater Houston area. The facility is expected to create more than 700 ",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/10/seg-solar-plans-hjt-cell-plant-next-to-existing-texas-facilities/",
+      "searchQuery": "SEG Solar plans HJT cell plant next to existing Te 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Tech-1793559265502-5",
       "fetchedAt": "2026-11-01T18:54:25.502Z",
       "headline": "Solarcentury Africa to build 112MWp Zambian solar PV project",
@@ -148,48 +190,6 @@
       "category": "Policy Update",
       "region": "US",
       "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1793387431394-0",
-      "fetchedAt": "2026-10-30T19:10:31.394Z",
-      "headline": "The Hydrogen Stream: Finnish researchers increase voltage in alkaline systems to cut costs by 10-15%",
-      "summary": "Recent developments across the global green hydrogen sector highlight growing efforts to improve production efficiency, reduce costs, strengthen international supply chains and accelerate investment in renewable hydrogen infrastructure, with new adva",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/10/30/the-hydrogen-stream-finnish-researchers-increase-voltage-in-alkaline-systems-to-cut-costs-by-10-15/",
-      "searchQuery": "The Hydrogen Stream: Finnish researchers increase  2026",
-      "category": "Solar Tech",
-      "region": "Europe",
-      "timeAgo": "5h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1793387431395-1",
-      "fetchedAt": "2026-10-30T19:10:31.395Z",
-      "headline": "New framework identifies key costs in PV panel recycling",
-      "summary": "Researchers have proposed a decision-support framework for assessing the costs of recycling end-of-life solar panels. An expert panel assigned the highest relative importance to operations and production, followed closely by infrastructure and facili",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/10/30/new-framework-identifies-key-costs-in-pv-panel-recycling/",
-      "searchQuery": "New framework identifies key costs in PV panel rec 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "6h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1793387431395-2",
-      "fetchedAt": "2026-10-30T19:10:31.395Z",
-      "headline": "SEG Solar plans HJT cell plant next to existing Texas facilities",
-      "summary": "SEG Solar, a global solar manufacturer, has signed a land agreement for a planned $950 million, 4-GW heterojunction (HJT) solar cell plant at the Tomball Industrial Campus in the greater Houston area. The facility is expected to create more than 700 ",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/10/seg-solar-plans-hjt-cell-plant-next-to-existing-texas-facilities/",
-      "searchQuery": "SEG Solar plans HJT cell plant next to existing Te 2026",
-      "category": "Policy Update",
-      "region": "US",
-      "timeAgo": "5h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
