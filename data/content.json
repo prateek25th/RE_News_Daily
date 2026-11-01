@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-01T13:15:36.728Z",
-  "nextUpdateAt": "2026-11-01T15:15:36.728Z",
+  "generatedAt": "2026-11-01T18:59:56.479Z",
+  "nextUpdateAt": "2026-11-01T20:59:56.479Z",
   "today": "Sunday, 1 November 2026",
   "stats": {
     "industryTotal": 6,
-    "techTotal": 6,
+    "techTotal": 7,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -95,6 +95,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Tech-1793559265502-5",
+      "fetchedAt": "2026-11-01T18:54:25.502Z",
+      "headline": "Solarcentury Africa to build 112MWp Zambian solar PV project",
+      "summary": "Solarcentury Africa has announced a collaboration with First Quantum Minerals (FQM) to develop the 112MWp Kusoka Solar Plant in Zambia.",
+      "source": "PV Tech",
+      "url": "https://www.pv-tech.org/solarcentury-africa-build-112mw-zambian-solar-pv-project/",
+      "searchQuery": "Solarcentury Africa to build 112MWp Zambian solar  2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Tech-1793538612226-5",
       "fetchedAt": "2026-11-01T13:10:12.226Z",
