@@ -1,14 +1,42 @@
 {
-  "generatedAt": "2026-11-01T23:36:44.554Z",
-  "nextUpdateAt": "2026-11-02T01:36:44.554Z",
-  "today": "Sunday, 1 November 2026",
+  "generatedAt": "2026-11-02T06:01:59.172Z",
+  "nextUpdateAt": "2026-11-02T08:01:59.172Z",
+  "today": "Monday, 2 November 2026",
   "stats": {
-    "industryTotal": 6,
-    "techTotal": 7,
+    "industryTotal": 8,
+    "techTotal": 6,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1793598400275-0",
+      "fetchedAt": "2026-11-02T05:46:40.275Z",
+      "headline": "LEAPTING Crosses 10 GW Milestone in India as Solar Cleaning Robot Demand Grows",
+      "summary": "Solar cleaning robot manufacturer LEAPTING has crossed the 10 GW milestone in India, supplying more than 50,000 robots to solar developers and engineering, procurement, and construction (EPC) contractors.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/leapting-crosses-10-gw-milestone-in-india-as-solar-cleaning-robot-demand-grows",
+      "searchQuery": "LEAPTING Crosses 10 GW Milestone in India as Solar 2026",
+      "category": "Project Commission",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1793598400276-1",
+      "fetchedAt": "2026-11-02T05:46:40.276Z",
+      "headline": "First Solar Cuts 2026 Guidance as Q3 Revenue Falls 23% YoY",
+      "summary": "U.S.-based solar module manufacturer First Solar reported net sales of $1.23 billion in the third quarter (Q3) of 2026, a 22.8% year-over-year (YoY) decline from $1.59 billion. Revenue missed analysts&#8217; expectations by $57.62 million.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/first-solar-cuts-2026-guidance-as-q3-revenue-falls-23-yoy",
+      "searchQuery": "First Solar Cuts 2026 Guidance as Q3 Revenue Falls 2026",
+      "category": "Company Results",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1793538519288-0",
       "fetchedAt": "2026-11-01T13:08:39.288Z",
@@ -96,6 +124,20 @@
   ],
   "tech": [
     {
+      "id": "Solar Power World-1793598514056-3",
+      "fetchedAt": "2026-11-02T05:48:34.056Z",
+      "headline": "Mach debuts autonomous mowing platform for solar project sites",
+      "summary": "Autonomous technology developer Mach is launching a platform for adapting commercial lawn mowers for autonomous deployment on solar project sites. This technology factory integrates with major commercial mowers. &#8220;Utility-scale solar sites prese",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/10/mach-debuts-autonomous-mowing-platform-for-solar-project-sites/",
+      "searchQuery": "Mach debuts autonomous mowing platform for solar p 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "4d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Magazine-1793575979994-0",
       "fetchedAt": "2026-11-01T23:32:59.994Z",
       "headline": "The Hydrogen Stream: Finnish researchers increase voltage in alkaline systems to cut costs by 10-15%",
@@ -160,34 +202,6 @@
       "url": "https://www.pv-tech.org/dte-energy-starts-commercial-operations-132mw-fish-creek-solar-park-michigan/",
       "searchQuery": "DTE Energy starts commercial operations at 132MW F 2026",
       "category": "Project Commission",
-      "region": "US",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1793424072501-0",
-      "fetchedAt": "2026-10-31T05:21:12.501Z",
-      "headline": "Electric Vehicle Council Celebrating 10 Years of EV Progress in Australia",
-      "summary": "The Electric Vehicle Council has been tracking the progress of electric vehicle uptake in Australia over the last ten years. Their latest report is a celebration of achievements. It is 144 pages long, and you can read the entire report here. I will j",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/10/30/electric-vehicle-council-celebrating-10-years-of-ev-progress-in-australia/",
-      "searchQuery": "Electric Vehicle Council Celebrating 10 Years of E 2026",
-      "category": "EV Technology",
-      "region": "Global",
-      "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1793403619587-3",
-      "fetchedAt": "2026-10-30T23:40:19.587Z",
-      "headline": "Mach debuts autonomous mowing platform for solar project sites",
-      "summary": "Autonomous technology developer Mach is launching a platform for adapting commercial lawn mowers for autonomous deployment on solar project sites. This technology factory integrates with major commercial mowers. &#8220;Utility-scale solar sites prese",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/10/mach-debuts-autonomous-mowing-platform-for-solar-project-sites/",
-      "searchQuery": "Mach debuts autonomous mowing platform for solar p 2026",
-      "category": "Policy Update",
       "region": "US",
       "timeAgo": "2d ago",
       "validity": 9,
