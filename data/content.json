@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-03T16:11:40.020Z",
-  "nextUpdateAt": "2026-11-03T18:11:40.020Z",
+  "generatedAt": "2026-11-03T23:18:57.851Z",
+  "nextUpdateAt": "2026-11-04T01:18:57.851Z",
   "today": "Tuesday, 3 November 2026",
   "stats": {
     "industryTotal": 19,
-    "techTotal": 13,
+    "techTotal": 15,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -278,6 +278,48 @@
   ],
   "tech": [
     {
+      "id": "Solar Power World-1793747625542-0",
+      "fetchedAt": "2026-11-03T23:13:45.542Z",
+      "headline": "Participation in Sunrun&#8217;s Puerto Rico VPP program doubled in 2026",
+      "summary": "Sunrun announced that participation in its Puerto Rico distributed power plant has doubled to more than 60,000 customers, representing nearly 70,000 home batteries. The distributed power plant frequently and reliably delivers 45 MW of dispatchable po",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/11/participation-in-sunruns-puerto-rico-vpp-program-doubled-in-2026/",
+      "searchQuery": "Participation in Sunrun&#8217;s Puerto Rico VPP pr 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "3h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Tech-1793747625542-3",
+      "fetchedAt": "2026-11-03T23:13:45.542Z",
+      "headline": "Innovations in solar module technologies outpace testing work",
+      "summary": "'Technology is moving way faster than our ability to evaluate it,' said KIWA PI Berlin's Elene Garciandia at PV ModuleTech Europe.",
+      "source": "PV Tech",
+      "url": "https://www.pv-tech.org/innovations-solar-module-technologies-testing-work/",
+      "searchQuery": "Innovations in solar module technologies outpace t 2026",
+      "category": "Policy Update",
+      "region": "Europe",
+      "timeAgo": "7h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Tech-1793747625542-4",
+      "fetchedAt": "2026-11-03T23:13:45.542Z",
+      "headline": "Leading manufacturers considering wide range of module technologies at PV ModuleTech Europe",
+      "summary": "Trina Solar, Tongwei and TCL Solar announced that they are exploring a wide range of module technologies at PV ModuleTech Europe conference.",
+      "source": "PV Tech",
+      "url": "https://www.pv-tech.org/leading-manufacturers-range-module-technologies-pv-moduletech-europe/",
+      "searchQuery": "Leading manufacturers considering wide range of mo 2026",
+      "category": "Manufacturing",
+      "region": "Europe",
+      "timeAgo": "7h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "Electrek-1793722010097-0",
       "fetchedAt": "2026-11-03T16:06:50.097Z",
       "headline": "Maximo milestone: friendly robot robot has completed 300,000 tasks",
@@ -441,20 +483,6 @@
       "searchQuery": "SEG Solar plans HJT cell plant next to existing Te 2026",
       "category": "Policy Update",
       "region": "US",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Tech-1793559265502-5",
-      "fetchedAt": "2026-11-01T18:54:25.502Z",
-      "headline": "Solarcentury Africa to build 112MWp Zambian solar PV project",
-      "summary": "Solarcentury Africa has announced a collaboration with First Quantum Minerals (FQM) to develop the 112MWp Kusoka Solar Plant in Zambia.",
-      "source": "PV Tech",
-      "url": "https://www.pv-tech.org/solarcentury-africa-build-112mw-zambian-solar-pv-project/",
-      "searchQuery": "Solarcentury Africa to build 112MWp Zambian solar  2026",
-      "category": "Policy Update",
-      "region": "Global",
       "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
