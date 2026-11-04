@@ -1,14 +1,98 @@
 {
-  "generatedAt": "2026-11-04T06:08:12.773Z",
-  "nextUpdateAt": "2026-11-04T08:08:12.773Z",
+  "generatedAt": "2026-11-04T14:26:35.295Z",
+  "nextUpdateAt": "2026-11-04T16:26:35.295Z",
   "today": "Wednesday, 4 November 2026",
   "stats": {
-    "industryTotal": 17,
-    "techTotal": 13,
+    "industryTotal": 23,
+    "techTotal": 14,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1793802069519-0",
+      "fetchedAt": "2026-11-04T14:21:09.519Z",
+      "headline": "Government Approves ₹28 Billion Program for Lithium and Nickel Processing",
+      "summary": "The Union Cabinet has approved a ₹28.14 billion (~$297.06 million) capital expenditure (CAPEX) support program to promote domestic processing of lithium, nickel and other critical minerals.These minerals find use in sectors such as electric mobility,",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/government-approves-₹28-billion-program-for-lithium-and-nickel-processing",
+      "searchQuery": "Government Approves ₹28 Billion Program for Lithiu 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1793802069520-1",
+      "fetchedAt": "2026-11-04T14:21:09.520Z",
+      "headline": "Cabinet Approves ₹145 Billion Viability Gap Funding for 92 GWh Energy Storage",
+      "summary": "The Union Cabinet has approved a ₹145 billion (~$1.53 billion) viability gap funding (VGF) program to support the development of 92 GWh of grid-scale energy storage capacity across India between the financial years (FY) 2027 and 2031.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/cabinet-approves-₹145-billion-viability-gap-funding-for-92-gwh-energy-storage",
+      "searchQuery": "Cabinet Approves ₹145 Billion Viability Gap Fundin 2026",
+      "category": "Green Finance",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1793802069520-2",
+      "fetchedAt": "2026-11-04T14:21:09.520Z",
+      "headline": "CERC Rules 81% Wind Share Does Not Exempt Project from Hybrid DSM Regulations",
+      "summary": "The Central Electricity Regulatory Commission (CERC) has rejected a petition seeking to classify a 160 MW blended wind and solar power project in Karnataka as a wind generating station for calculating deviation settlement charges.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/cerc-rules-81-wind-share-does-not-exempt-project-from-hybrid-dsm-regulations",
+      "searchQuery": "CERC Rules 81% Wind Share Does Not Exempt Project  2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1793802069520-3",
+      "fetchedAt": "2026-11-04T14:21:09.520Z",
+      "headline": "Month in a Minute: Top Headlines from the Indian Renewable Sector in October 2026",
+      "summary": "Listen to this article Solar continued to dominate India’s renewable energy capacity additions in the third quarter (Q3) of 2026. India’s installed solar capacity reached",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/month-in-a-minute-top-headlines-from-the-indian-renewable-sector-in-october-2026",
+      "searchQuery": "Month in a Minute: Top Headlines from the Indian R 2026",
+      "category": "Policy Update",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1793802069520-4",
+      "fetchedAt": "2026-11-04T14:21:09.520Z",
+      "headline": "Türkiye Awards 785 MW of Solar Capacity in YEKA Auction",
+      "summary": "Türkiye’s Ministry of Energy and Natural Resources has awarded 785 MW of solar capacity across 11 projects under the Yenilenebilir Enerji Kaynak Alanları (YEKA GES) 2026 solar auctions.The projects are located across Denizli, Ankara, Konya, Kahramanm",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/turkiye-awards-785-mw-of-solar-capacity-in-yeka-auction",
+      "searchQuery": "Türkiye Awards 785 MW of Solar Capacity in YEKA Au 2026",
+      "category": "Solar Tender",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1793802069520-5",
+      "fetchedAt": "2026-11-04T14:21:09.520Z",
+      "headline": "CleanMax Q2 Profit Surges 82% YoY as Renewable Portfolio Expands",
+      "summary": "Clean energy solutions provider Clean Max Enviro Energy Solutions reported revenue from operations of ₹7.28 billion (~$80.08 million) in the second quarter (Q2) of the financial year (FY) 2027, a 37% year-over-year (YoY) increase from ₹5.31 billion (",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/cleanmax-q2-profit-surges-82-yoy-as-renewable-portfolio-expands",
+      "searchQuery": "CleanMax Q2 Profit Surges 82% YoY as Renewable Por 2026",
+      "category": "Company Results",
+      "region": "Global",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1793721883936-0",
       "fetchedAt": "2026-11-03T16:04:43.936Z",
@@ -249,6 +333,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Tech-1793802129040-4",
+      "fetchedAt": "2026-11-04T14:22:09.040Z",
+      "headline": "Renewable energy stocks rally as Democrats seize control of Congress",
+      "summary": "Numerous solar technology and installation companies globally have seen their stocks surge off the back of the Democrats' victories in the US midterm elections.",
+      "source": "PV Tech",
+      "url": "https://www.pv-tech.org/solar-stocks-rise-democrat-victory-us-midterms/",
+      "searchQuery": "Renewable energy stocks rally as Democrats seize c 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "12m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "CleanTechnica-1793772100386-0",
       "fetchedAt": "2026-11-04T06:01:40.386Z",
