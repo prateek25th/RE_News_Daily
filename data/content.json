@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-04T21:54:43.216Z",
-  "nextUpdateAt": "2026-11-04T23:54:43.216Z",
-  "today": "Wednesday, 4 November 2026",
+  "generatedAt": "2026-11-05T02:16:59.388Z",
+  "nextUpdateAt": "2026-11-05T04:16:59.388Z",
+  "today": "Thursday, 5 November 2026",
   "stats": {
     "industryTotal": 17,
-    "techTotal": 13,
+    "techTotal": 11,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -400,34 +400,6 @@
       "category": "Policy Update",
       "region": "US",
       "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1793662081211-0",
-      "fetchedAt": "2026-11-02T23:28:01.211Z",
-      "headline": "Germany&#8217;s Hydrogen Pipeline Reached Marl. Its Market Still Needs to Add Up.",
-      "summary": "Germany&#8217;s hydrogen backbone achieved a genuine milestone on August 4, 2026. RWE and its partners announced that renewable hydrogen produced during commissioning at Lingen had reached Marl Chemical Park, roughly 120 kilometres away. Electrolyser",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/11/02/germany-hydrogen-backbone-marl-paying-customers/",
-      "searchQuery": "Germany&#8217;s Hydrogen Pipeline Reached Marl. It 2026",
-      "category": "Green Hydrogen",
-      "region": "Europe",
-      "timeAgo": "6h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1793662081211-1",
-      "fetchedAt": "2026-11-02T23:28:01.211Z",
-      "headline": "Equator Renewables Asia unveils 250 kW containerized PV system",
-      "summary": "Singapore-based Equator Renewables Asia has developed a modular, relocatable PV system featuring up to 250 kW of solar capacity in a 40-foot shipping container. The plug-and-play solution uses n-type TOPCon bifacial modules and can be deployed by two",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/11/02/equator-renewables-asia-unveils-250-kw-containerized-pv-system/",
-      "searchQuery": "Equator Renewables Asia unveils 250 kW containeriz 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "7h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
