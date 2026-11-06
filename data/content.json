@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-05T21:06:39.881Z",
-  "nextUpdateAt": "2026-11-05T23:06:39.881Z",
-  "today": "Thursday, 5 November 2026",
+  "generatedAt": "2026-11-06T02:20:34.018Z",
+  "nextUpdateAt": "2026-11-06T04:20:34.018Z",
+  "today": "Friday, 6 November 2026",
   "stats": {
     "industryTotal": 14,
-    "techTotal": 13,
+    "techTotal": 11,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -208,6 +208,20 @@
   ],
   "tech": [
     {
+      "id": "Solar Power World-1793931350094-4",
+      "fetchedAt": "2026-11-06T02:15:50.094Z",
+      "headline": "Faropoint building 1st of 16 New Jersey community solar projects",
+      "summary": "Faropoint, an industrial real estate manager, has started construction on a 1.6-MW community solar installation on the roof of its building in Fair Lawn, New Jersey. The installation is the first of 16 planned Faropoint community solar projects in th",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/11/faropoint-building-1st-of-16-new-jersey-community-solar-projects/",
+      "searchQuery": "Faropoint building 1st of 16 New Jersey community  2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "10h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Magazine-1793912523920-1",
       "fetchedAt": "2026-11-05T21:02:03.920Z",
       "headline": "Enforcement, pricing, and the tax credit window",
@@ -344,48 +358,6 @@
       "category": "Policy Update",
       "region": "US",
       "timeAgo": "4d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1793747625542-0",
-      "fetchedAt": "2026-11-03T23:13:45.542Z",
-      "headline": "Participation in Sunrun&#8217;s Puerto Rico VPP program doubled in 2026",
-      "summary": "Sunrun announced that participation in its Puerto Rico distributed power plant has doubled to more than 60,000 customers, representing nearly 70,000 home batteries. The distributed power plant frequently and reliably delivers 45 MW of dispatchable po",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/11/participation-in-sunruns-puerto-rico-vpp-program-doubled-in-2026/",
-      "searchQuery": "Participation in Sunrun&#8217;s Puerto Rico VPP pr 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Tech-1793747625542-3",
-      "fetchedAt": "2026-11-03T23:13:45.542Z",
-      "headline": "Innovations in solar module technologies outpace testing work",
-      "summary": "'Technology is moving way faster than our ability to evaluate it,' said KIWA PI Berlin's Elene Garciandia at PV ModuleTech Europe.",
-      "source": "PV Tech",
-      "url": "https://www.pv-tech.org/innovations-solar-module-technologies-testing-work/",
-      "searchQuery": "Innovations in solar module technologies outpace t 2026",
-      "category": "Policy Update",
-      "region": "Europe",
-      "timeAgo": "7h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Tech-1793747625542-4",
-      "fetchedAt": "2026-11-03T23:13:45.542Z",
-      "headline": "Leading manufacturers considering wide range of module technologies at PV ModuleTech Europe",
-      "summary": "Trina Solar, Tongwei and TCL Solar announced that they are exploring a wide range of module technologies at PV ModuleTech Europe conference.",
-      "source": "PV Tech",
-      "url": "https://www.pv-tech.org/leading-manufacturers-range-module-technologies-pv-moduletech-europe/",
-      "searchQuery": "Leading manufacturers considering wide range of mo 2026",
-      "category": "Manufacturing",
-      "region": "Europe",
-      "timeAgo": "7h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
