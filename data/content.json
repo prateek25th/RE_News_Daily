@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-06T19:24:44.859Z",
-  "nextUpdateAt": "2026-11-06T21:24:44.859Z",
-  "today": "Friday, 6 November 2026",
+  "generatedAt": "2026-11-07T00:09:22.440Z",
+  "nextUpdateAt": "2026-11-07T02:09:22.440Z",
+  "today": "Saturday, 7 November 2026",
   "stats": {
     "industryTotal": 17,
-    "techTotal": 16,
+    "techTotal": 15,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -250,6 +250,20 @@
   ],
   "tech": [
     {
+      "id": "Solar Power World-1794009933724-5",
+      "fetchedAt": "2026-11-07T00:05:33.724Z",
+      "headline": "New York program funds $13 million in energy storage advancement projects",
+      "summary": "New York State&#8217;s Power Generation and Storage Innovation program has awarded nearly $13 million to 15 projects to support product development and demonstration of scalable long duration and other advanced battery energy storage solutions. “Inve",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/11/new-york-program-funds-13-million-in-energy-storage-advancement-projects/",
+      "searchQuery": "New York program funds $13 million in energy stora 2026",
+      "category": "Green Finance",
+      "region": "US",
+      "timeAgo": "5h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Magazine-1793992728100-1",
       "fetchedAt": "2026-11-06T19:18:48.100Z",
       "headline": "The Hydrogen Stream: H2 turbines can push LCOHS to around $0.62/kg",
@@ -442,34 +456,6 @@
       "category": "Energy Storage",
       "region": "Europe",
       "timeAgo": "2h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1793829023376-0",
-      "fetchedAt": "2026-11-04T21:50:23.376Z",
-      "headline": "Nabrawind&#8217;s Crane-Free Wind Towers Face a Supplier Test",
-      "summary": "Spain&#8217;s Nabrawind has developed a way to install exceptionally tall wind turbine towers without bringing an enormous crawler crane to the site. Its Nabralift system uses a tubular upper tower supported by a three-legged steel structure. Hydraul",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/11/04/nabrawind-crane-free-wind-towers-supplier-risk/",
-      "searchQuery": "Nabrawind&#8217;s Crane-Free Wind Towers Face a Su 2026",
-      "category": "Manufacturing",
-      "region": "Europe",
-      "timeAgo": "22m ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1793829023376-2",
-      "fetchedAt": "2026-11-04T21:50:23.376Z",
-      "headline": "EDP Renewables&#8217; 250-MW Arkansas solar project slated for 2028 completion",
-      "summary": "EDP Renewables North America broke ground on Cypress Knee Solar, a 250-MW solar energy project in Chicot County, Arkansas. The project is supported by a long-term power purchase agreement with Facebook parent company Meta. Cypress Knee Solar is expec",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/11/edp-renewables-250-mw-arkansas-solar-project-slated-for-2028-completion/",
-      "searchQuery": "EDP Renewables&#8217; 250-MW Arkansas solar projec 2026",
-      "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "6h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
