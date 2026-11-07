@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-07T16:23:01.007Z",
-  "nextUpdateAt": "2026-11-07T18:23:01.007Z",
+  "generatedAt": "2026-11-07T21:46:49.168Z",
+  "nextUpdateAt": "2026-11-07T23:46:49.168Z",
   "today": "Saturday, 7 November 2026",
   "stats": {
-    "industryTotal": 11,
-    "techTotal": 17,
+    "industryTotal": 9,
+    "techTotal": 14,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -134,34 +134,6 @@
       "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1793912409924-0",
-      "fetchedAt": "2026-11-05T21:00:09.924Z",
-      "headline": "GERC rejects plea for 4 MW solar project extension",
-      "summary": "The Gujarat Electricity Regulatory Commission (GERC) rejected a petition seeking an extension of the commissioning deadline for its 4 MW solar project in Kheda district, Gujarat. The decision means the project must meet its original timeline without delay.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/gerc-rejects-plea-to-extend-commissioning-time-for-4-mw-solar-project",
-      "searchQuery": "GERC Rejects Plea to Extend Commissioning Time for 2026",
-      "category": "Regulation",
-      "region": "India",
-      "timeAgo": "2h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1793912409924-1",
-      "fetchedAt": "2026-11-05T21:00:09.924Z",
-      "headline": "Kerala textile firm targets 50% electricity savings",
-      "summary": "A textile business in Kerala aims to achieve 50% electricity savings through rooftop solar installations. By generating electricity at their premises, textile companies can offset daytime power consumption while reducing operating costs.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/kerala-textile-firm-targets-50-electricity-savings-with-rooftop-solar",
-      "searchQuery": "Kerala Textile Firm Targets 50% Electricity Saving 2026",
-      "category": "Rooftop Solar",
-      "region": "India",
-      "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "tech": [
@@ -358,48 +330,6 @@
       "category": "Policy Update",
       "region": "Global",
       "timeAgo": "10h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1793912523920-1",
-      "fetchedAt": "2026-11-05T21:02:03.920Z",
-      "headline": "Enforcement, pricing, and the tax credit window",
-      "summary": "Enforcement of the polysilicon Section 232 framework is tightening, module prices are still settling, the window for extending the ITC and 45X credits is real but narrow, and utility-scale project economics are under increasing pressure. Roth Capital",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/11/05/enforcement-pricing-and-the-tax-credit-window/",
-      "searchQuery": "Enforcement, pricing, and the tax credit window 2026",
-      "category": "Policy Update",
-      "region": "US",
-      "timeAgo": "4h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1793912523920-2",
-      "fetchedAt": "2026-11-05T21:02:03.920Z",
-      "headline": "Congo launches energy supply study into economic zones, industries",
-      "summary": "The study plans to establish a pricing benchmark for the Congolese industrial market after the country’s industrial development minister referred to current solar electricity price offers as low as XAF 130 ($0.22)/kWh as ‘opportunistic’. The post Con",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/11/05/congo-launches-energy-supply-study-into-economic-zones-industries/",
-      "searchQuery": "Congo launches energy supply study into economic z 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "5h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Electrek-1793912523921-5",
-      "fetchedAt": "2026-11-05T21:02:03.921Z",
-      "headline": "New Jersey is putting 10 MW of community solar on warehouse roofs",
-      "summary": "Warehouse roofs are prime real estate for solar, and Faropoint is putting more of that underused space to work in New Jersey. The industrial property owner has started construction on the first of 16 community solar projects totaling more than 10 meg",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/11/05/new-jersey-is-putting-10-mw-of-community-solar-on-warehouse-roofs/",
-      "searchQuery": "New Jersey is putting 10 MW of community solar on  2026",
-      "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "4h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
