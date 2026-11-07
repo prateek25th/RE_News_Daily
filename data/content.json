@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-07T00:09:22.440Z",
-  "nextUpdateAt": "2026-11-07T02:09:22.440Z",
+  "generatedAt": "2026-11-07T08:46:03.839Z",
+  "nextUpdateAt": "2026-11-07T10:46:03.839Z",
   "today": "Saturday, 7 November 2026",
   "stats": {
     "industryTotal": 17,
-    "techTotal": 15,
+    "techTotal": 18,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -249,6 +249,48 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1794040917565-0",
+      "fetchedAt": "2026-11-07T08:41:57.565Z",
+      "headline": "Portable solar-powered system produces 1.64 liters of drinking water in 8 hours",
+      "summary": "Researchers at Soochow University in China have developed a portable solar-powered system that converts saline, turbid and contaminated water into drinking water using an electrothermal evaporator and concentrated sunlight. The device produced 1.64 l",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/11/07/portable-solar-powered-system-produces-1-64-liters-of-drinking-water-in-8-hours/",
+      "searchQuery": "Portable solar-powered system produces 1.64 liters 2026",
+      "category": "Policy Update",
+      "region": "Asia",
+      "timeAgo": "11m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1794040917565-1",
+      "fetchedAt": "2026-11-07T08:41:57.565Z",
+      "headline": "Researchers develop 10.56 kW solar-powered pleasure boat",
+      "summary": "Researchers in Canada have designed a solar-powered pleasure boat featuring a 10.56 kW PV array and a 19.68 kWh battery system. Simulations under solar conditions in Cyprus showed that the system could meet propulsion demand while providing a 39.8% s",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/11/07/researchers-unveil-10-56-kw-solar-powered-pleasure-boat/",
+      "searchQuery": "Researchers develop 10.56 kW solar-powered pleasur 2026",
+      "category": "Solar Tech",
+      "region": "US",
+      "timeAgo": "41m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1794040917565-2",
+      "fetchedAt": "2026-11-07T08:41:57.565Z",
+      "headline": "Study finds 0.5-meter spacing between solar module rows improves cooling in floating PV systems",
+      "summary": "A study by Italian researchers has found that 0.5-meter spacing between module rows optimizes cooling in floating PV systems by improving airflow. The findings highlight the importance of row spacing in thermal management, although further research i",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/11/07/study-finds-0-5-meter-spacing-between-solar-module-rows-improves-cooling-in-floating-pv-systems/",
+      "searchQuery": "Study finds 0.5-meter spacing between solar module 2026",
+      "category": "Leadership Change",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Solar Power World-1794009933724-5",
       "fetchedAt": "2026-11-07T00:05:33.724Z",
