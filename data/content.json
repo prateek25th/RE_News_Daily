@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T01:21:15.817Z",
-  "nextUpdateAt": "2026-11-08T03:21:15.817Z",
+  "generatedAt": "2026-11-08T08:59:19.658Z",
+  "nextUpdateAt": "2026-11-08T10:59:19.658Z",
   "today": "Sunday, 8 November 2026",
   "stats": {
     "industryTotal": 9,
@@ -137,6 +137,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "Solar Power World-1794128060290-5",
+      "fetchedAt": "2026-11-08T08:54:20.290Z",
+      "headline": "Faropoint building 1st of 16 New Jersey community solar projects",
+      "summary": "Faropoint, an industrial real estate manager, has started construction on a 1.6-MW community solar installation on the roof of its building in Fair Lawn, New Jersey. The installation is the first of 16 planned Faropoint community solar projects in th",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/11/faropoint-building-1st-of-16-new-jersey-community-solar-projects/",
+      "searchQuery": "Faropoint building 1st of 16 New Jersey community  2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1794068427151-0",
       "fetchedAt": "2026-11-07T16:20:27.151Z",
@@ -316,20 +330,6 @@
       "category": "Policy Update",
       "region": "Global",
       "timeAgo": "4h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1793931350094-4",
-      "fetchedAt": "2026-11-06T02:15:50.094Z",
-      "headline": "Faropoint building 1st of 16 New Jersey community solar projects",
-      "summary": "Faropoint, an industrial real estate manager, has started construction on a 1.6-MW community solar installation on the roof of its building in Fair Lawn, New Jersey. The installation is the first of 16 planned Faropoint community solar projects in th",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/11/faropoint-building-1st-of-16-new-jersey-community-solar-projects/",
-      "searchQuery": "Faropoint building 1st of 16 New Jersey community  2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "10h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
