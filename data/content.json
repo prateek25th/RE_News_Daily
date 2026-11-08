@@ -1,14 +1,56 @@
 {
-  "generatedAt": "2026-11-08T16:43:56.032Z",
-  "nextUpdateAt": "2026-11-08T18:43:56.032Z",
+  "generatedAt": "2026-11-08T22:02:46.621Z",
+  "nextUpdateAt": "2026-11-09T00:02:46.621Z",
   "today": "Sunday, 8 November 2026",
   "stats": {
     "industryTotal": 6,
-    "techTotal": 9,
+    "techTotal": 7,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1794175002304-0",
+      "fetchedAt": "2026-11-08T21:56:42.304Z",
+      "headline": "Avantus Upsizes Corporate Credit Facility to $1.28 Billion",
+      "summary": "Avantus, a developer, owner, and operator of utility-scale solar and energy storage projects, has increased commitments under its&#8230;",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/avantus-upsizes-corporate-credit-facility-to-1-28-billion",
+      "searchQuery": "Avantus Upsizes Corporate Credit Facility to $1.28 2026",
+      "category": "Policy Update",
+      "region": "US",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1794175002305-1",
+      "fetchedAt": "2026-11-08T21:56:42.305Z",
+      "headline": "TREX Energy Commissions Lithium Battery Manufacturing Facility in Hyderabad",
+      "summary": "Hyderabad-based energy storage solutions company TREX Energy has commissioned a lithium battery manufacturing facility at E-City in Hyderabad, Telangana.The company also plans to expand its manufacturing operations with a second facility in Madhya Pr",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/trex-energy-commissions-lithium-battery-manufacturing-facility-in-hyderabad",
+      "searchQuery": "TREX Energy Commissions Lithium Battery Manufactur 2026",
+      "category": "Project Commission",
+      "region": "Global",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1794175002305-2",
+      "fetchedAt": "2026-11-08T21:56:42.305Z",
+      "headline": "Solar Cell Manufacturing Capacity Under ALMM-II Grows to 47 GW",
+      "summary": "Listen to this article The Ministry of New and Renewable Energy (MNRE) has added 2.13 GW of solar cell manufacturing capacity to the Approved List",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/solar-cell-manufacturing-capacity-under-almm-ii-grows-to-47-gw",
+      "searchQuery": "Solar Cell Manufacturing Capacity Under ALMM-II Gr 2026",
+      "category": "Manufacturing",
+      "region": "India",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1794155776754-3",
       "fetchedAt": "2026-11-08T16:36:16.754Z",
@@ -50,48 +92,6 @@
       "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1793992630296-0",
-      "fetchedAt": "2026-11-06T19:17:10.296Z",
-      "headline": "Avantus Upsizes Credit Facility to $1.28 Billion",
-      "summary": "Avantus, a developer, owner, and operator of utility-scale solar and energy storage projects, has increased commitments under its corporate credit facility to $1.28 billion. The upsized facility reflects strong lender confidence in the company's renewable energy asset portfolio across the United States.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/avantus-upsizes-corporate-credit-facility-to-1-28-billion",
-      "searchQuery": "Avantus Upsizes Corporate Credit Facility to $1.28 2026",
-      "category": "Green Finance",
-      "region": "US",
-      "timeAgo": "Just now",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1793992630297-1",
-      "fetchedAt": "2026-11-06T19:17:10.297Z",
-      "headline": "TREX Energy Commissions Hyderabad Battery Plant",
-      "summary": "Hyderabad-based energy storage solutions company TREX Energy has commissioned a lithium battery manufacturing facility at E-City in Hyderabad, Telangana. The company also plans to expand manufacturing operations with a second facility in Madhya Pradesh, for which the state government has allotted four acres of land.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/trex-energy-commissions-lithium-battery-manufacturing-facility-in-hyderabad",
-      "searchQuery": "TREX Energy Commissions Lithium Battery Manufactur 2026",
-      "category": "Manufacturing",
-      "region": "India",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1793992630297-2",
-      "fetchedAt": "2026-11-06T19:17:10.297Z",
-      "headline": "India ALMM-II Solar Cell Capacity Reaches 47 GW",
-      "summary": "The Ministry of New and Renewable Energy has added 2.13 GW of solar cell manufacturing capacity to the Approved List of Models and Manufacturers (ALMM-II), bringing total approved capacity to 47 GW. The update strengthens domestic solar manufacturing under the government's production-linked incentive scheme.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/solar-cell-manufacturing-capacity-under-almm-ii-grows-to-47-gw",
-      "searchQuery": "Solar Cell Manufacturing Capacity Under ALMM-II Gr 2026",
-      "category": "Policy Update",
-      "region": "India",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "tech": [
@@ -190,34 +190,6 @@
       "category": "Green Finance",
       "region": "US",
       "timeAgo": "5h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1793992728100-1",
-      "fetchedAt": "2026-11-06T19:18:48.100Z",
-      "headline": "The Hydrogen Stream: H2 turbines can push LCOHS to around $0.62/kg",
-      "summary": "Australian researchers found that hydrogen gas turbines could provide more cost-effective backup power than fuel cells during periods of low solar availability. Their study highlights how reservoir properties and system design affect the cost and per",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/11/06/the-hydrogen-stream-h2-turbines-can-push-lcohs-to-around-0-62-kg/",
-      "searchQuery": "The Hydrogen Stream: H2 turbines can push LCOHS to 2026",
-      "category": "Green Hydrogen",
-      "region": "Global",
-      "timeAgo": "6h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Electrek-1793992728100-5",
-      "fetchedAt": "2026-11-06T19:18:48.100Z",
-      "headline": "Tesla to end Cybertruck production as sales stall at ~10% of plan",
-      "summary": "Tesla is ending Cybertruck production. CEO Elon Musk announced early Friday that the automaker will “wind down” the electric pickup at Gigafactory Texas around the middle of 2027, about three and a half years after the first deliveries. Musk says it’",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/11/06/tesla-ending-cybertruck-production-sales-10-percent-plan/",
-      "searchQuery": "Tesla to end Cybertruck production as sales stall  2026",
-      "category": "Manufacturing",
-      "region": "US",
-      "timeAgo": "7h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
