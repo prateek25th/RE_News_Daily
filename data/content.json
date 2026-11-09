@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-08T22:02:46.621Z",
-  "nextUpdateAt": "2026-11-09T00:02:46.621Z",
-  "today": "Sunday, 8 November 2026",
+  "generatedAt": "2026-11-09T01:45:47.123Z",
+  "nextUpdateAt": "2026-11-09T03:45:47.123Z",
+  "today": "Monday, 9 November 2026",
   "stats": {
     "industryTotal": 6,
     "techTotal": 7,
@@ -96,6 +96,20 @@
   ],
   "tech": [
     {
+      "id": "Solar Power World-1794188505231-5",
+      "fetchedAt": "2026-11-09T01:41:45.231Z",
+      "headline": "New York program funds $13 million in energy storage advancement projects",
+      "summary": "New York State&#8217;s Power Generation and Storage Innovation program has awarded nearly $13 million to 15 projects to support product development and demonstration of scalable long duration and other advanced battery energy storage solutions. “Inve",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/11/new-york-program-funds-13-million-in-energy-storage-advancement-projects/",
+      "searchQuery": "New York program funds $13 million in energy stora 2026",
+      "category": "Green Finance",
+      "region": "US",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "CleanTechnica-1794155880022-0",
       "fetchedAt": "2026-11-08T16:38:00.022Z",
       "headline": "Even California&#8217;s Biggest Ports Aren&#8217;t Betting On Hydrogen For Ships",
@@ -176,20 +190,6 @@
       "category": "Leadership Change",
       "region": "Global",
       "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1794009933724-5",
-      "fetchedAt": "2026-11-07T00:05:33.724Z",
-      "headline": "New York program funds $13 million in energy storage advancement projects",
-      "summary": "New York State&#8217;s Power Generation and Storage Innovation program has awarded nearly $13 million to 15 projects to support product development and demonstration of scalable long duration and other advanced battery energy storage solutions. “Inve",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/11/new-york-program-funds-13-million-in-energy-storage-advancement-projects/",
-      "searchQuery": "New York program funds $13 million in energy stora 2026",
-      "category": "Green Finance",
-      "region": "US",
-      "timeAgo": "5h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
