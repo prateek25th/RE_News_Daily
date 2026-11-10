@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-09T20:45:08.654Z",
-  "nextUpdateAt": "2026-11-09T22:45:08.654Z",
-  "today": "Monday, 9 November 2026",
+  "generatedAt": "2026-11-10T04:10:16.629Z",
+  "nextUpdateAt": "2026-11-10T06:10:16.629Z",
+  "today": "Tuesday, 10 November 2026",
   "stats": {
     "industryTotal": 18,
-    "techTotal": 9,
+    "techTotal": 10,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -263,6 +263,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1794283513523-0",
+      "fetchedAt": "2026-11-10T04:05:13.523Z",
+      "headline": "Sierra Club Welcomes CalPERS’ $71 Billion Climate-Solutions Investment Milestone, Urges Fund to End Financing of Fossil Fuel Expansion",
+      "summary": "SACRAMENTO, CA — On Monday, the California Public Employees’ Retirement System (CalPERS) reported that the value of investments it classifies as climate solutions reached $71 billion as of June 30, 2026, up from $59.7 billion a year earlier. The incr",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/11/09/sierra-club-welcomes-calpers-71-billion-climate-solutions-investment-milestone-urges-fund-to-end-financing-of-fossil-fuel-expansion/",
+      "searchQuery": "Sierra Club Welcomes CalPERS’ $71 Billion Climate- 2026",
+      "category": "Green Finance",
+      "region": "US",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1794256822110-1",
       "fetchedAt": "2026-11-09T20:40:22.110Z",
