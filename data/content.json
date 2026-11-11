@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-10T21:52:41.775Z",
-  "nextUpdateAt": "2026-11-10T23:52:41.775Z",
-  "today": "Tuesday, 10 November 2026",
+  "generatedAt": "2026-11-11T01:55:56.536Z",
+  "nextUpdateAt": "2026-11-11T03:55:56.536Z",
+  "today": "Wednesday, 11 November 2026",
   "stats": {
-    "industryTotal": 23,
-    "techTotal": 13,
+    "industryTotal": 20,
+    "techTotal": 12,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -288,48 +288,6 @@
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1794175002304-0",
-      "fetchedAt": "2026-11-08T21:56:42.304Z",
-      "headline": "Avantus Upsizes Corporate Credit Facility to $1.28 Billion",
-      "summary": "Avantus, a developer, owner, and operator of utility-scale solar and energy storage projects, has increased commitments under its&#8230;",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/avantus-upsizes-corporate-credit-facility-to-1-28-billion",
-      "searchQuery": "Avantus Upsizes Corporate Credit Facility to $1.28 2026",
-      "category": "Policy Update",
-      "region": "US",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1794175002305-1",
-      "fetchedAt": "2026-11-08T21:56:42.305Z",
-      "headline": "TREX Energy Commissions Lithium Battery Manufacturing Facility in Hyderabad",
-      "summary": "Hyderabad-based energy storage solutions company TREX Energy has commissioned a lithium battery manufacturing facility at E-City in Hyderabad, Telangana.The company also plans to expand its manufacturing operations with a second facility in Madhya Pr",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/trex-energy-commissions-lithium-battery-manufacturing-facility-in-hyderabad",
-      "searchQuery": "TREX Energy Commissions Lithium Battery Manufactur 2026",
-      "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1794175002305-2",
-      "fetchedAt": "2026-11-08T21:56:42.305Z",
-      "headline": "Solar Cell Manufacturing Capacity Under ALMM-II Grows to 47 GW",
-      "summary": "Listen to this article The Ministry of New and Renewable Energy (MNRE) has added 2.13 GW of solar cell manufacturing capacity to the Approved List",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/solar-cell-manufacturing-capacity-under-almm-ii-grows-to-47-gw",
-      "searchQuery": "Solar Cell Manufacturing Capacity Under ALMM-II Gr 2026",
-      "category": "Manufacturing",
-      "region": "India",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "tech": [
@@ -498,20 +456,6 @@
       "category": "Energy Storage",
       "region": "Global",
       "timeAgo": "2h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1794188505231-5",
-      "fetchedAt": "2026-11-09T01:41:45.231Z",
-      "headline": "New York program funds $13 million in energy storage advancement projects",
-      "summary": "New York State&#8217;s Power Generation and Storage Innovation program has awarded nearly $13 million to 15 projects to support product development and demonstration of scalable long duration and other advanced battery energy storage solutions. “Inve",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/11/new-york-program-funds-13-million-in-energy-storage-advancement-projects/",
-      "searchQuery": "New York program funds $13 million in energy stora 2026",
-      "category": "Green Finance",
-      "region": "US",
-      "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
