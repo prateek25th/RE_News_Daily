@@ -1,14 +1,42 @@
 {
-  "generatedAt": "2026-11-13T09:29:59.285Z",
-  "nextUpdateAt": "2026-11-13T11:29:59.285Z",
+  "generatedAt": "2026-11-13T17:44:04.428Z",
+  "nextUpdateAt": "2026-11-13T19:44:04.428Z",
   "today": "Friday, 13 November 2026",
   "stats": {
-    "industryTotal": 19,
-    "techTotal": 18,
+    "industryTotal": 21,
+    "techTotal": 21,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1794591460171-0",
+      "fetchedAt": "2026-11-13T17:37:40.171Z",
+      "headline": "GACL, Fourth Partner Sign 39 MW Hybrid Project Deal",
+      "summary": "Chemical manufacturer Gujarat Alkalies and Chemicals has executed share purchase and shareholders' agreements with Fourth Partner Energy and its special purpose vehicle to develop a 39 MW wind-solar hybrid project, formalizing a structured equity partnership for renewable power supply to the industrial company's operations.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/gujarat-alkalies-fourth-partner-to-develop-39-mw-wind-solar-hybrid-project",
+      "searchQuery": "Gujarat Alkalies, Fourth Partner to Develop 39 MW  2026",
+      "category": "Project Commission",
+      "region": "India",
+      "timeAgo": "21m ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "Mercom India-1794591460171-1",
+      "fetchedAt": "2026-11-13T17:37:40.171Z",
+      "headline": "PM Surya Ghar Reaches 19.6 GW, 67% Target",
+      "summary": "The PM Surya Ghar: Muft Bijli Yojana has achieved 19,639.6 MW of installed residential rooftop solar capacity across 5.66 million systems, reaching 67 percent of its target and establishing the programme as the primary driver of India's distributed solar adoption.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/pm-surya-ghar-achieves-67-of-target-nears-20-gw-capacity",
+      "searchQuery": "PM Surya Ghar Achieves 67% of Target, Nears 20 GW  2026",
+      "category": "Rooftop Solar",
+      "region": "India",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Mercom India-1794561886795-0",
       "fetchedAt": "2026-11-13T09:24:46.795Z",
@@ -277,6 +305,48 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1794591537653-1",
+      "fetchedAt": "2026-11-13T17:38:57.653Z",
+      "headline": "Shinsung E&#038;G unveils 650 W bifacial TOPCon solar modules with 23.25% efficiency",
+      "summary": "South Korean solar manufacturer Shinsung E&#38;G has introduced new n-type TOPCon solar modules for ground-mounted, floating PV and agrivoltaic applications. The bifacial panels feature power outputs ranging from 640 W to 650 W and maximum conversion",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/11/13/shinsung-eg-unveils-650-w-bifacial-topcon-solar-modules-with-23-25-efficiency/",
+      "searchQuery": "Shinsung E&#038;G unveils 650 W bifacial TOPCon so 2026",
+      "category": "Solar Tech",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1794591537654-2",
+      "fetchedAt": "2026-11-13T17:38:57.654Z",
+      "headline": "Sodium-ion batteries close gap with lithium-ion as utility-scale storage opportunities grow",
+      "summary": "Sodium-ion batteries are approaching lithium-ion performance in key areas, with commercial cells reaching energy densities of 175 Wh/kg and offering strong low-temperature performance. Silvia Bodoardo, professor at the Polytechnic University of Turin",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/11/13/sodium-ion-batteries-close-gap-with-lithium-ion-as-utility-scale-storage-opportunities-grow/",
+      "searchQuery": "Sodium-ion batteries close gap with lithium-ion as 2026",
+      "category": "Energy Storage",
+      "region": "Global",
+      "timeAgo": "7h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1794591537654-3",
+      "fetchedAt": "2026-11-13T17:38:57.654Z",
+      "headline": "Sodium-ion pouch cells target cold-climate industrial niche",
+      "summary": "Grepow has launched five sodium-ion pouch cells from 2 Ah to 7 Ah, aimed at industrial equipment and cold-climate applications that need high pulse power. The post Sodium-ion pouch cells target cold-climate industrial niche appeared first on pv magaz",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/11/13/sodium-ion-pouch-cells-target-cold-climate-industrial-niche/",
+      "searchQuery": "Sodium-ion pouch cells target cold-climate industr 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "8h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "CleanTechnica-1794561937356-0",
       "fetchedAt": "2026-11-13T09:25:37.356Z",
