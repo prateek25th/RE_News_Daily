@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-12T18:14:10.623Z",
-  "nextUpdateAt": "2026-11-12T20:14:10.623Z",
-  "today": "Thursday, 12 November 2026",
+  "generatedAt": "2026-11-13T01:07:36.592Z",
+  "nextUpdateAt": "2026-11-13T03:07:36.592Z",
+  "today": "Friday, 13 November 2026",
   "stats": {
-    "industryTotal": 21,
-    "techTotal": 16,
+    "industryTotal": 19,
+    "techTotal": 17,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -274,37 +274,37 @@
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1794347180703-0",
-      "fetchedAt": "2026-11-10T21:46:20.703Z",
-      "headline": "Return Secures $930 Million Financing for Battery Storage in Germany",
-      "summary": "Listen to this article Energy storage solutions provider Return has secured €835 million (~$930 million) in portfolio financing underwritten by Deutsche Bank and Rabobank to",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/return-secures-930-million-financing-battery-storage-in-germany",
-      "searchQuery": "Return Secures $930 Million Financing for Battery  2026",
-      "category": "Energy Storage",
-      "region": "Europe",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1794347180704-1",
-      "fetchedAt": "2026-11-10T21:46:20.704Z",
-      "headline": "Bihar Regulator Approves 300 MW Solar-Plus-Storage Procurement",
-      "summary": "The Bihar Electricity Regulatory Commission (BERC) has approved the procurement of 300 MW of solar power coupled with a 150 MW/600 MWh battery energy storage system (BESS) through NHPC for 25 years.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/bihar-regulator-approves-300-mw-solar-plus-storage-procurement",
-      "searchQuery": "Bihar Regulator Approves 300 MW Solar-Plus-Storage 2026",
-      "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "2h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "tech": [
+    {
+      "id": "Solar Power World-1794531833928-4",
+      "fetchedAt": "2026-11-13T01:03:53.928Z",
+      "headline": "Heliene and Caelux launch hybrid tandem solar module",
+      "summary": "Heliene and Caelux are starting commercial production of their Hybrid-Tandem solar module combining Caelux's perovskite glass with Heliene's silicon N-type cells, placing two energy-generating sources in a single panel. Heliene is producing the modules at its plant in Mountain Iron, Minnesota for commercial deployment.",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/11/heliene-and-caelux-combine-pv-cells-and-solar-glass-for-a-hybrid-module/",
+      "searchQuery": "Heliene and Caelux combine PV cells and solar glas 2026",
+      "category": "Solar Tech",
+      "region": "US",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
+      "id": "PV Tech-1794531833928-5",
+      "fetchedAt": "2026-11-13T01:03:53.928Z",
+      "headline": "NAED Energy unveils US-made tandem cell deposition platform",
+      "summary": "NAED Energy has unveiled the PV-1 PECVD-V, a vertical in-line deposition platform designed for high-volume tandem solar cell production. The US-made platform targets perovskite-HJT tandem cell manufacturing, enabling scalable fabrication of next-generation high-efficiency solar cells for commercial deployment.",
+      "source": "PV Tech",
+      "url": "https://www.pv-tech.org/naed-deposition-platform-tandem-perovskite-hjt-cells/",
+      "searchQuery": "NAED launches US-made deposition platform for tand 2026",
+      "category": "Manufacturing",
+      "region": "US",
+      "timeAgo": "13h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Solar Power World-1794506958864-1",
       "fetchedAt": "2026-11-12T18:09:18.864Z",
@@ -510,20 +510,6 @@
       "url": "https://www.pv-magazine.com/2026/11/11/colombias-144-mw-solar-complex-reaches-full-operation/",
       "searchQuery": "Colombia&#8217;s 144 MW solar complex reaches full 2026",
       "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "1h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1794347364999-4",
-      "fetchedAt": "2026-11-10T21:49:24.999Z",
-      "headline": "Heliene and Caelux combine PV cells and solar glass for a hybrid module",
-      "summary": "Heliene, a solar modules manufacturer, and Caelux Corporation, a perovskite solar technology company, are starting commercial production of their Hybrid-Tandem solar module. This module combines perovskite glass from Caelux and silicon N-type cells f",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/11/heliene-and-caelux-combine-pv-cells-and-solar-glass-for-a-hybrid-module/",
-      "searchQuery": "Heliene and Caelux combine PV cells and solar glas 2026",
-      "category": "Policy Update",
       "region": "Global",
       "timeAgo": "1h ago",
       "validity": 9,
