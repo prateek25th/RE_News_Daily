@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-13T23:44:15.245Z",
-  "nextUpdateAt": "2026-11-14T01:44:15.245Z",
-  "today": "Friday, 13 November 2026",
+  "generatedAt": "2026-11-14T06:11:51.093Z",
+  "nextUpdateAt": "2026-11-14T08:11:51.093Z",
+  "today": "Saturday, 14 November 2026",
   "stats": {
     "industryTotal": 16,
     "techTotal": 16,
@@ -236,6 +236,20 @@
   ],
   "tech": [
     {
+      "id": "PV Magazine-1794636203883-0",
+      "fetchedAt": "2026-11-14T06:03:23.883Z",
+      "headline": "When trackers don’t talk",
+      "summary": "Single-axis trackers rotate throughout the day, continuously reshaping the radio environment that keeps each row of modules communicating with the plant controller. Poor design of these wireless networks leaves reliability and yield on the table. Jér",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/11/14/when-trackers-dont-talk/",
+      "searchQuery": "When trackers don’t talk 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Magazine-1794591537653-1",
       "fetchedAt": "2026-11-13T17:38:57.653Z",
       "headline": "Shinsung E&#038;G unveils 650 W bifacial TOPCon solar modules with 23.25% efficiency",
@@ -444,20 +458,6 @@
       "timeAgo": "18h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1794443455246-0",
-      "fetchedAt": "2026-11-12T00:30:55.246Z",
-      "headline": "Perovskite Solar Cells Advance in US Market",
-      "summary": "Perovskite solar cell development accelerates in the United States as companies Caelux and Heliene advance commercialization efforts. The technology, first demonstrated in Japan in 2009 with 3% efficiency, has attracted thousands of researchers. Perovskite's relatively inexpensive material promises lower-cost solar panels. The article details recent progress toward deploying perovskite cells at scale in the US market.",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/11/11/perovskite-solar-cells-us-caelux-heliene/",
-      "searchQuery": "The Perovskite Solar Cell Kraken Has Been Unleashe 2026",
-      "category": "Solar Tech",
-      "region": "US",
-      "timeAgo": "6h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "learn": [
