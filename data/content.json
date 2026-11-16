@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-15T22:52:38.382Z",
-  "nextUpdateAt": "2026-11-16T00:52:38.382Z",
-  "today": "Sunday, 15 November 2026",
+  "generatedAt": "2026-11-16T06:08:52.520Z",
+  "nextUpdateAt": "2026-11-16T08:08:52.520Z",
+  "today": "Monday, 16 November 2026",
   "stats": {
     "industryTotal": 6,
-    "techTotal": 6,
+    "techTotal": 7,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -96,6 +96,34 @@
   ],
   "tech": [
     {
+      "id": "CleanTechnica-1794809165106-0",
+      "fetchedAt": "2026-11-16T06:06:05.106Z",
+      "headline": "NAED Unveils PV-1 PECVD-V, a U.S.-Engineered Vertical Deposition Platform Built for 96,000-Wafer-per-Hour Tandem Solar Manufacturing",
+      "summary": "Patent-pending vertical PECVD/PVD architecture doubles wafer throughput over NAED&#8217;s previous platform and is designed to produce perovskite/HJT tandem cells targeting 30% efficiency NAED Energy Holding Inc. (&#8220;NAED&#8221;), the U.S. aerosp",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/11/15/naed-unveils-pv-1-pecvd-v-a-u-s-engineered-vertical-deposition-platform-built-for-96000-wafer-per-hour-tandem-solar-manufacturing/",
+      "searchQuery": "NAED Unveils PV-1 PECVD-V, a U.S.-Engineered Verti 2026",
+      "category": "Manufacturing",
+      "region": "US",
+      "timeAgo": "3h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Power World-1794809165107-5",
+      "fetchedAt": "2026-11-16T06:06:05.107Z",
+      "headline": "SOLRITE and sonnen collaborate on integrated VPP breaker",
+      "summary": "SOLRITE and sonnen plan to digitally integrate VPP smart breakers into what the companies are calling the SOLRITE sonnen VPP. The expanded VPP Node combines sonnenHub with ADAPT Energy’s VPP smart breaker technology to manage major household loads. T",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/11/solrite-sonnen-collaborate-on-integrated-vpp-smart-breaker/",
+      "searchQuery": "SOLRITE and sonnen collaborate on integrated VPP b 2026",
+      "category": "Solar Tech",
+      "region": "Global",
+      "timeAgo": "3d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Magazine-1794782927454-5",
       "fetchedAt": "2026-11-15T22:48:47.454Z",
       "headline": "Shinsung E&#038;G unveils 650 W bifacial TOPCon solar modules with 23.25% efficiency",
@@ -162,20 +190,6 @@
       "category": "Solar Tech",
       "region": "Asia",
       "timeAgo": "7h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1794636203883-0",
-      "fetchedAt": "2026-11-14T06:03:23.883Z",
-      "headline": "When trackers don’t talk",
-      "summary": "Single-axis trackers rotate throughout the day, continuously reshaping the radio environment that keeps each row of modules communicating with the plant controller. Poor design of these wireless networks leaves reliability and yield on the table. Jér",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/11/14/when-trackers-dont-talk/",
-      "searchQuery": "When trackers don’t talk 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
