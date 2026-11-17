@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-16T18:29:47.288Z",
-  "nextUpdateAt": "2026-11-16T20:29:47.288Z",
-  "today": "Monday, 16 November 2026",
+  "generatedAt": "2026-11-17T02:59:52.274Z",
+  "nextUpdateAt": "2026-11-17T04:59:52.274Z",
+  "today": "Tuesday, 17 November 2026",
   "stats": {
     "industryTotal": 12,
-    "techTotal": 7,
+    "techTotal": 8,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -179,6 +179,20 @@
     }
   ],
   "tech": [
+    {
+      "id": "CleanTechnica-1794884239641-0",
+      "fetchedAt": "2026-11-17T02:57:19.641Z",
+      "headline": "NAED Energy Holding Inc. Details the Rating of Its PV-1 Tandem Cell Line: 16,000 Wafers per Hour per Line, 4.6 GW from Six Lines",
+      "summary": "NAED Energy Holding Inc. (NAED) just published the rating of PV-1, its production line for T2X perovskite/silicon heterojunction tandem solar cells. Each PV-1 line is rated at 16,000 G12 half-cut wafers per hour: 400 wafers every 90-second index, a r",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/11/16/naed-energy-holding-inc-details-the-rating-of-its-pv-1-tandem-cell-line-16000-wafers-per-hour-per-line-4-6-gw-from-six-lines/",
+      "searchQuery": "NAED Energy Holding Inc. Details the Rating of Its 2026",
+      "category": "Project Commission",
+      "region": "Global",
+      "timeAgo": "59m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1794853479248-1",
       "fetchedAt": "2026-11-16T18:24:39.248Z",
