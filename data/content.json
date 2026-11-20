@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-19T20:32:18.091Z",
-  "nextUpdateAt": "2026-11-19T22:32:18.091Z",
-  "today": "Thursday, 19 November 2026",
+  "generatedAt": "2026-11-20T03:06:07.219Z",
+  "nextUpdateAt": "2026-11-20T05:06:07.219Z",
+  "today": "Friday, 20 November 2026",
   "stats": {
-    "industryTotal": 24,
-    "techTotal": 16,
+    "industryTotal": 20,
+    "techTotal": 15,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -288,62 +288,6 @@
       "timeAgo": "Just now",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1794953427935-0",
-      "fetchedAt": "2026-11-17T22:10:27.935Z",
-      "headline": "Sunsure Energy to Supply 434 MW Wind, Solar Power to Amazon",
-      "summary": "Listen to this article Gurugram-based renewable energy solutions provider Sunsure Energy will supply 434 MW of renewable energy to Amazon from its wind and wind-solar",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/sunsure-energy-to-supply-434-mw-wind-solar-power-to-amazon",
-      "searchQuery": "Sunsure Energy to Supply 434 MW Wind, Solar Power  2026",
-      "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1794953427936-1",
-      "fetchedAt": "2026-11-17T22:10:27.936Z",
-      "headline": "Rajasthan Invites Bids for Battery Storage Projects",
-      "summary": "The Rajasthan Rajya Vidyut Utpadan Nigam (RRVUNL) has invited bids to develop standalone battery energy storage systems (BESS) on a build-own-operate basis in the state.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/rajasthan-invites-bids-for-battery-storage-projects",
-      "searchQuery": "Rajasthan Invites Bids for Battery Storage Project 2026",
-      "category": "Solar Tender",
-      "region": "India",
-      "timeAgo": "3h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1794953427936-2",
-      "fetchedAt": "2026-11-17T22:10:27.936Z",
-      "headline": "SECI Issues Empanelment Tender for Battery Storage Projects",
-      "summary": "Solar Energy Corporation of India (SECI) has invited bids to empanel battery energy storage system suppliers, integrators, and aggregators across capacity tiers for grid-connected battery energy storage system deployments.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/seci-issues-empanelment-tender-for-battery-storage-projects",
-      "searchQuery": "SECI Issues Empanelment Tender for Battery Storage 2026",
-      "category": "Solar Tender",
-      "region": "India",
-      "timeAgo": "4h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Mercom India-1794953427936-3",
-      "fetchedAt": "2026-11-17T22:10:27.936Z",
-      "headline": "NVVN Invites Bids for Rooftop Solar Projects at Government Facilities",
-      "summary": "NTPC Vidyut Vyapar Nigam (NVVN) has invited bids under two separate tenders to develop grid-connected rooftop solar projects at facilities under the Ministry of Home Affairs (MHA).",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/nvvn-invites-bids-for-rooftop-solar-projects-at-government-facilities",
-      "searchQuery": "NVVN Invites Bids for Rooftop Solar Projects at Go 2026",
-      "category": "Solar Tender",
-      "region": "India",
-      "timeAgo": "4h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
     }
   ],
   "tech": [
@@ -554,20 +498,6 @@
       "category": "Policy Update",
       "region": "Global",
       "timeAgo": "7h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1794953522363-3",
-      "fetchedAt": "2026-11-17T22:12:02.363Z",
-      "headline": "Nextnova unveils solar cell manufacturing facility",
-      "summary": "The new state-of-the-art factory in Oklahoma City will create about 300 jobs, strengthen the domestic solar supply chain, and establish a new benchmark for transparency and quality. This month, Nextnova celebrated the official inauguration of its new",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/11/nextnova-unveils-solar-cell-manufacturing-facility/",
-      "searchQuery": "Nextnova unveils solar cell manufacturing facility 2026",
-      "category": "Manufacturing",
-      "region": "Global",
-      "timeAgo": "1h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
