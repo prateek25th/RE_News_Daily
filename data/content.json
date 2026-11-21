@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-20T21:52:02.774Z",
-  "nextUpdateAt": "2026-11-20T23:52:02.774Z",
-  "today": "Friday, 20 November 2026",
+  "generatedAt": "2026-11-21T03:10:45.634Z",
+  "nextUpdateAt": "2026-11-21T05:10:45.634Z",
+  "today": "Saturday, 21 November 2026",
   "stats": {
     "industryTotal": 24,
-    "techTotal": 15,
+    "techTotal": 16,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -348,6 +348,34 @@
   ],
   "tech": [
     {
+      "id": "CleanTechnica-1795230430374-0",
+      "fetchedAt": "2026-11-21T03:07:10.374Z",
+      "headline": "energyRe Agreed to Sell 100% of a Portfolio of Utility-Scale Solar Projects in South Carolina to Enel Green Power North America, Totaling 317 MWdc",
+      "summary": "energyRe Will Continue as Construction Manager Through Commercial Operation; Sale Reflects Strength of the Company&#8217;s South Carolina Development Platform; Transaction Expected to Close in First Quarter of 2027 energyRe today announced that it ha",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/11/20/energyre-agreed-to-sell-100-of-a-portfolio-of-utility-scale-solar-projects-in-south-carolina-to-enel-green-power-north-america-totaling-317-mwdc/",
+      "searchQuery": "energyRe Agreed to Sell 100% of a Portfolio of Uti 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "34m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Power World-1795230430374-3",
+      "fetchedAt": "2026-11-21T03:07:10.374Z",
+      "headline": "Six new ways to simplify solar installs: Top Rack Technology brings mounting innovation to RE+ 2026",
+      "summary": "From smarter waterproofing to 360-degree rail adjustment, Top Rack Technology is putting installer efficiency, rooftop flexibility, and cost control at the center of its latest product lineup. As the solar industry continues to look for ways to reduc",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/11/top-rack-technology-brings-mounting-innovation-to-re-2026/",
+      "searchQuery": "Six new ways to simplify solar installs: Top Rack  2026",
+      "category": "Project Commission",
+      "region": "Global",
+      "timeAgo": "2d ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "Solar Power World-1795211237806-5",
       "fetchedAt": "2026-11-20T21:47:17.806Z",
       "headline": "Nextnova unveils solar cell manufacturing facility",
@@ -540,20 +568,6 @@
       "category": "Policy Update",
       "region": "Global",
       "timeAgo": "2h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1795047298147-4",
-      "fetchedAt": "2026-11-19T00:14:58.147Z",
-      "headline": "Six new ways to simplify solar installs: Top Rack Technology brings mounting innovation to RE+ 2026",
-      "summary": "From smarter waterproofing to 360-degree rail adjustment, Top Rack Technology is putting installer efficiency, rooftop flexibility, and cost control at the center of its latest product lineup. As the solar industry continues to look for ways to reduc",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/11/top-rack-technology-brings-mounting-innovation-to-re-2026/",
-      "searchQuery": "Six new ways to simplify solar installs: Top Rack  2026",
-      "category": "Project Commission",
-      "region": "Global",
-      "timeAgo": "3h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
