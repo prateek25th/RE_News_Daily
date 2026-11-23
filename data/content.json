@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-22T20:45:29.674Z",
-  "nextUpdateAt": "2026-11-22T22:45:29.674Z",
-  "today": "Sunday, 22 November 2026",
+  "generatedAt": "2026-11-23T02:31:42.353Z",
+  "nextUpdateAt": "2026-11-23T04:31:42.353Z",
+  "today": "Monday, 23 November 2026",
   "stats": {
     "industryTotal": 6,
-    "techTotal": 7,
+    "techTotal": 8,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
     {
-      "id": "Mercom India-1795211157181-0",
-      "fetchedAt": "2026-11-20T21:45:57.181Z",
+      "id": "Mercom India-1795400876624-0",
+      "fetchedAt": "2026-11-23T02:27:56.624Z",
       "headline": "SECI Seeks Trading Partner for 65.8 GW Renewable Energy Portfolio",
       "summary": "The Solar Energy Corporation of India (SECI) has invited bids to select a power trading licensee (PTL) to purchase and sell renewable energy from its portfolio.",
       "source": "Mercom India",
@@ -19,13 +19,13 @@
       "searchQuery": "SECI Seeks Trading Partner for 65.8 GW Renewable E 2026",
       "category": "Project Commission",
       "region": "India",
-      "timeAgo": "2h ago",
+      "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     },
     {
-      "id": "Mercom India-1795211157182-1",
-      "fetchedAt": "2026-11-20T21:45:57.182Z",
+      "id": "Mercom India-1795400876624-1",
+      "fetchedAt": "2026-11-23T02:27:56.624Z",
       "headline": "Gujarat Regulator Rejects Deadline Extensions for 16 MW Solar Projects",
       "summary": "The Gujarat Electricity Regulatory Commission (GERC) has rejected petitions from four ceramic tile manufacturers seeking extension of the scheduled commissioning dates (SCOD) for power evacuation infrastructure linked to their captive solar projects ",
       "source": "Mercom India",
@@ -33,13 +33,13 @@
       "searchQuery": "Gujarat Regulator Rejects Deadline Extensions for  2026",
       "category": "Project Commission",
       "region": "India",
-      "timeAgo": "2h ago",
+      "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     },
     {
-      "id": "Mercom India-1795211157182-2",
-      "fetchedAt": "2026-11-20T21:45:57.182Z",
+      "id": "Mercom India-1795400876624-2",
+      "fetchedAt": "2026-11-23T02:27:56.624Z",
       "headline": "West Bengal Approves ₹7 Billion Investment for 100 MW Solar Project",
       "summary": "The West Bengal Electricity Regulatory Commission (WBERC) has accorded in-principle clearance to West Bengal State Electricity Distribution Company (WBSEDCL) to incur an investment of ₹6.99 billion (~$74.89 million) to commission a 100 MW solar proje",
       "source": "Mercom India",
@@ -47,13 +47,13 @@
       "searchQuery": "West Bengal Approves ₹7 Billion Investment for 100 2026",
       "category": "Green Finance",
       "region": "Global",
-      "timeAgo": "2h ago",
+      "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     },
     {
-      "id": "Mercom India-1795211157182-3",
-      "fetchedAt": "2026-11-20T21:45:57.182Z",
+      "id": "Mercom India-1795400876624-3",
+      "fetchedAt": "2026-11-23T02:27:56.624Z",
       "headline": "India Commissions 21.7 GW of Solar Parks, 20 GW More in Pipeline",
       "summary": "Listen to this article India has commissioned 21.70 GW solar projects across solar parks and Ultra Mega Renewable Energy Power Parks (UMREPPs) as of September",
       "source": "Mercom India",
@@ -61,13 +61,13 @@
       "searchQuery": "India Commissions 21.7 GW of Solar Parks, 20 GW Mo 2026",
       "category": "Project Commission",
       "region": "India",
-      "timeAgo": "3h ago",
+      "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     },
     {
-      "id": "Mercom India-1795211157182-4",
-      "fetchedAt": "2026-11-20T21:45:57.182Z",
+      "id": "Mercom India-1795400876624-4",
+      "fetchedAt": "2026-11-23T02:27:56.624Z",
       "headline": "Engineering Projects Invites Bids for Partner to Develop Solar Project in Bihar",
       "summary": "Engineering Projects (India) has invited expressions of interest (EOI) to select a contractor associate through a pre-tender tie-up for an interstate transmission system (ISTS) connected solar project at Gaya, Bihar.",
       "source": "Mercom India",
@@ -75,13 +75,13 @@
       "searchQuery": "Engineering Projects Invites Bids for Partner to D 2026",
       "category": "Solar Tender",
       "region": "India",
-      "timeAgo": "3h ago",
+      "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     },
     {
-      "id": "Mercom India-1795211157182-5",
-      "fetchedAt": "2026-11-20T21:45:57.182Z",
+      "id": "Mercom India-1795400876624-5",
+      "fetchedAt": "2026-11-23T02:27:56.624Z",
       "headline": "Delhi Metro Floats Solar and Battery Storage Power Procurement Tender",
       "summary": "Delhi Metro Rail Corporation (DMRC) has invited bids to procure renewable energy annually from an interstate transmission system (ISTS)-connected solar power project with a co-located battery energy storage system (BESS).",
       "source": "Mercom India",
@@ -89,12 +89,40 @@
       "searchQuery": "Delhi Metro Floats Solar and Battery Storage Power 2026",
       "category": "Solar Tender",
       "region": "India",
-      "timeAgo": "4h ago",
+      "timeAgo": "2d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
   ],
   "tech": [
+    {
+      "id": "Solar Power World-1795400957997-3",
+      "fetchedAt": "2026-11-23T02:29:17.997Z",
+      "headline": "Thornova Solar and Nextpower strengthen strategic cooperation",
+      "summary": "Solar module manufacturer Thornova Solar and Nextpower, a provider of advanced solar tracker and structural solutions, marked a milestone in their growing strategic cooperation with the signing of a Master Supply Agreement (MSA). The agreement, annou",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/11/thornova-solar-and-nextpower-strengthen-strategic-cooperation/",
+      "searchQuery": "Thornova Solar and Nextpower strengthen strategic  2026",
+      "category": "Leadership Change",
+      "region": "Global",
+      "timeAgo": "3h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Solar Power World-1795400957997-4",
+      "fetchedAt": "2026-11-23T02:29:17.997Z",
+      "headline": "DTE Energy plans up to 150 megawatts of Michigan-based solar generation",
+      "summary": "DTE Energy recently announced plans to add up to 150 megawatts of new solar energy in Michigan, a move that will create construction jobs, support local communities, and save customers money on fuel costs, the company said. In addition, because solar",
+      "source": "Solar Power World",
+      "url": "https://www.solarpowerworldonline.com/2026/11/dte-energy-plans-up-to-150-megawatts-of-michigan-based-solar-generation/",
+      "searchQuery": "DTE Energy plans up to 150 megawatts of Michigan-b 2026",
+      "category": "Project Commission",
+      "region": "Global",
+      "timeAgo": "5h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1795380123884-2",
       "fetchedAt": "2026-11-22T20:42:03.884Z",
@@ -176,20 +204,6 @@
       "category": "Project Commission",
       "region": "Global",
       "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1795211237806-5",
-      "fetchedAt": "2026-11-20T21:47:17.806Z",
-      "headline": "Nextnova unveils solar cell manufacturing facility",
-      "summary": "The new state-of-the-art factory in Oklahoma City will create about 300 jobs, strengthen the domestic solar supply chain, and establish a new benchmark for transparency and quality. This month, Nextnova celebrated the official inauguration of its new",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/11/nextnova-unveils-solar-cell-manufacturing-facility/",
-      "searchQuery": "Nextnova unveils solar cell manufacturing facility 2026",
-      "category": "Manufacturing",
-      "region": "Global",
-      "timeAgo": "3d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
