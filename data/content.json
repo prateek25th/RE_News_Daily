@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-23T14:28:46.110Z",
-  "nextUpdateAt": "2026-11-23T16:28:46.110Z",
-  "today": "Monday, 23 November 2026",
+  "generatedAt": "2026-11-24T02:56:48.545Z",
+  "nextUpdateAt": "2026-11-24T04:56:48.545Z",
+  "today": "Tuesday, 24 November 2026",
   "stats": {
     "industryTotal": 12,
     "techTotal": 8,
@@ -180,6 +180,20 @@
   ],
   "tech": [
     {
+      "id": "CleanTechnica-1795488777090-0",
+      "fetchedAt": "2026-11-24T02:52:57.090Z",
+      "headline": "COP 31 Fails to Include Fossil Fuel Phaseout Language",
+      "summary": "COP 31 negotiators failed to agree on including language calling for a transition away from fossil fuels in the final communiqué, language that was included two years ago. The UN climate conference ended this month without the fossil fuel phaseout commitment, drawing criticism for endorsing carbon capture technology instead.",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/11/23/cop-31-plants-a-big-wet-kiss-on-failed-carbon-capture-technology/",
+      "searchQuery": "COP 31 Plants A Big Wet Kiss On Failed Carbon Capt 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "6h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
+    {
       "id": "PV Magazine-1795443812408-0",
       "fetchedAt": "2026-11-23T14:23:32.408Z",
       "headline": "Wind-driven spray system cools, cleans solar panels",
@@ -274,20 +288,6 @@
       "category": "Policy Update",
       "region": "Global",
       "timeAgo": "4d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1795292935551-0",
-      "fetchedAt": "2026-11-21T20:28:55.551Z",
-      "headline": "Jackery &#038; Every Electric Transform Urban Energy Storage With Plug-In VPP",
-      "summary": "Earlier this week, Jackery announced a strategic partnership with Brooklyn-based consumer energy aggregator Every Electric to offer the first plug-in Virtual Power Plant (VPP). The program starts with New York City apartment residents. I went to the ",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/11/21/jackery-every-electric-transform-urban-energy-storage-with-plug-in-vpp/",
-      "searchQuery": "Jackery &#038; Every Electric Transform Urban Ener 2026",
-      "category": "Energy Storage",
-      "region": "US",
-      "timeAgo": "6h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
