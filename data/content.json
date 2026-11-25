@@ -1,14 +1,28 @@
 {
-  "generatedAt": "2026-11-24T14:51:12.009Z",
-  "nextUpdateAt": "2026-11-24T16:51:12.009Z",
-  "today": "Tuesday, 24 November 2026",
+  "generatedAt": "2026-11-25T00:41:27.441Z",
+  "nextUpdateAt": "2026-11-25T02:41:27.441Z",
+  "today": "Wednesday, 25 November 2026",
   "stats": {
-    "industryTotal": 18,
-    "techTotal": 11,
+    "industryTotal": 19,
+    "techTotal": 9,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1795566792961-0",
+      "fetchedAt": "2026-11-25T00:33:12.961Z",
+      "headline": "MNRE Archives Inactive PM Surya Ghar Applications",
+      "summary": "Ministry of New and Renewable Energy announces phased archiving of inactive rooftop solar applications under PM Surya Ghar scheme. The ministry stated this step will streamline the application process for the residential rooftop solar programme by removing dormant applications from the system.",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/mnre-to-archive-inactive-pm-surya-ghar-applications",
+      "searchQuery": "MNRE to Archive Inactive PM Surya Ghar Application 2026",
+      "category": "Rooftop Solar",
+      "region": "India",
+      "timeAgo": "5h ago",
+      "validity": 9,
+      "validityReason": "Real article — AI summarised only"
+    },
     {
       "id": "Mercom India-1795531493342-0",
       "fetchedAt": "2026-11-24T14:44:53.342Z",
@@ -386,34 +400,6 @@
       "category": "Project Commission",
       "region": "Global",
       "timeAgo": "5h ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "PV Magazine-1795380123884-2",
-      "fetchedAt": "2026-11-22T20:42:03.884Z",
-      "headline": "The Hydrogen Stream: China starts operating 195 km hydrogen pipeline",
-      "summary": "In other news, ACME Group has approved a $3.6 billion green ammonia project in India, while researchers in Chile have assessed hydrogen production from curtailed renewable power. Qair has inaugurated a hydrogen plant in France, Plug Power has launche",
-      "source": "PV Magazine",
-      "url": "https://www.pv-magazine.com/2026/11/20/the-hydrogen-stream-china-starts-operating-195-km-hydrogen-pipeline/",
-      "searchQuery": "The Hydrogen Stream: China starts operating 195 km 2026",
-      "category": "Green Hydrogen",
-      "region": "India",
-      "timeAgo": "2d ago",
-      "validity": 9,
-      "validityReason": "Real article from publication"
-    },
-    {
-      "id": "Solar Power World-1795380123884-4",
-      "fetchedAt": "2026-11-22T20:42:03.884Z",
-      "headline": "SolarEdge unveils U.S.-made optimizer for C&#038;I solar",
-      "summary": "SolarEdge’s new Duo Power Optimizer promises to simplify commercial and industrial solar installations with 50% fewer optimizer units, independent module-level power tracking, and enhanced safety features. The commercial and industrial (C&#38;I) sola",
-      "source": "Solar Power World",
-      "url": "https://www.solarpowerworldonline.com/2026/11/solaredge-unveils-u-s-made-optimizer-for-ci-solar/",
-      "searchQuery": "SolarEdge unveils U.S.-made optimizer for C&#038;I 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "4d ago",
       "validity": 9,
       "validityReason": "Real article from publication"
     }
