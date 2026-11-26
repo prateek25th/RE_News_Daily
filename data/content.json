@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-25T21:38:19.200Z",
-  "nextUpdateAt": "2026-11-25T23:38:19.200Z",
-  "today": "Wednesday, 25 November 2026",
+  "generatedAt": "2026-11-26T04:13:16.276Z",
+  "nextUpdateAt": "2026-11-26T06:13:16.277Z",
+  "today": "Thursday, 26 November 2026",
   "stats": {
     "industryTotal": 17,
-    "techTotal": 16,
+    "techTotal": 17,
     "learnTotal": 6,
     "windowHours": 48
   },
@@ -250,6 +250,34 @@
   ],
   "tech": [
     {
+      "id": "CleanTechnica-1795666002154-0",
+      "fetchedAt": "2026-11-26T04:06:42.154Z",
+      "headline": "DTE Energy Advances New Michigan Solar Projects to Create Jobs &#038; Save Customers Money on Fuel Costs",
+      "summary": "The company launches a competitive bidding process for up to 150 megawatts of new Michigan solar energy. DTE Energy has announced plans to add up to 150 megawatts of new solar energy in Michigan, creating construction jobs, supporting local communiti",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/11/25/dte-energy-advances-new-michigan-solar-projects-to-create-jobs-save-customers-money-on-fuel-costs/",
+      "searchQuery": "DTE Energy Advances New Michigan Solar Projects to 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "4h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "CleanTechnica-1795666002154-1",
+      "fetchedAt": "2026-11-26T04:06:42.154Z",
+      "headline": "SC Solar Showcases at RE+ 2026 Garner Global Attention",
+      "summary": "Covering TOPCon, XBC, HJT, and Perovskite-Silicon Tandem Technologies; Over 1,000 Automated Module Lines Delivered Globally, More Than 40 in North America RE+ 2026 was held at the Las Vegas Convention Center from November 17 to 19. Driven by the U.S.",
+      "source": "CleanTechnica",
+      "url": "https://cleantechnica.com/2026/11/25/sc-solar-showcases-at-re-2026-garner-global-attention/",
+      "searchQuery": "SC Solar Showcases at RE+ 2026 Garner Global Atten 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "4h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
       "id": "PV Magazine-1795642478164-0",
       "fetchedAt": "2026-11-25T21:34:38.164Z",
       "headline": "UtmoLight, UNSW achieve 19.6% efficiency for 2.81 m² perovskite solar module",
@@ -458,20 +486,6 @@
       "timeAgo": "5h ago",
       "validity": 9,
       "validityReason": "Real article from publication"
-    },
-    {
-      "id": "CleanTechnica-1795488777090-0",
-      "fetchedAt": "2026-11-24T02:52:57.090Z",
-      "headline": "COP 31 Fails to Include Fossil Fuel Phaseout Language",
-      "summary": "COP 31 negotiators failed to agree on including language calling for a transition away from fossil fuels in the final communiqué, language that was included two years ago. The UN climate conference ended this month without the fossil fuel phaseout commitment, drawing criticism for endorsing carbon capture technology instead.",
-      "source": "CleanTechnica",
-      "url": "https://cleantechnica.com/2026/11/23/cop-31-plants-a-big-wet-kiss-on-failed-carbon-capture-technology/",
-      "searchQuery": "COP 31 Plants A Big Wet Kiss On Failed Carbon Capt 2026",
-      "category": "Policy Update",
-      "region": "Global",
-      "timeAgo": "6h ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
     }
   ],
   "learn": [
