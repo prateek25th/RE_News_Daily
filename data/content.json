@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-26T16:51:48.352Z",
-  "nextUpdateAt": "2026-11-26T18:51:48.352Z",
-  "today": "Thursday, 26 November 2026",
+  "generatedAt": "2026-11-27T01:46:07.108Z",
+  "nextUpdateAt": "2026-11-27T03:46:07.108Z",
+  "today": "Friday, 27 November 2026",
   "stats": {
-    "industryTotal": 17,
+    "industryTotal": 16,
     "techTotal": 17,
     "learnTotal": 6,
     "windowHours": 48
@@ -230,20 +230,6 @@
       "category": "Energy Storage",
       "region": "India",
       "timeAgo": "4m ago",
-      "validity": 9,
-      "validityReason": "Real article — AI summarised only"
-    },
-    {
-      "id": "Mercom India-1795566792961-0",
-      "fetchedAt": "2026-11-25T00:33:12.961Z",
-      "headline": "MNRE Archives Inactive PM Surya Ghar Applications",
-      "summary": "Ministry of New and Renewable Energy announces phased archiving of inactive rooftop solar applications under PM Surya Ghar scheme. The ministry stated this step will streamline the application process for the residential rooftop solar programme by removing dormant applications from the system.",
-      "source": "Mercom India",
-      "url": "https://www.mercomindia.com/mnre-to-archive-inactive-pm-surya-ghar-applications",
-      "searchQuery": "MNRE to Archive Inactive PM Surya Ghar Application 2026",
-      "category": "Rooftop Solar",
-      "region": "India",
-      "timeAgo": "5h ago",
       "validity": 9,
       "validityReason": "Real article — AI summarised only"
     }
