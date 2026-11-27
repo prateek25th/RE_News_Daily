@@ -1,14 +1,70 @@
 {
-  "generatedAt": "2026-11-27T01:46:07.108Z",
-  "nextUpdateAt": "2026-11-27T03:46:07.108Z",
+  "generatedAt": "2026-11-27T10:54:51.586Z",
+  "nextUpdateAt": "2026-11-27T12:54:51.586Z",
   "today": "Friday, 27 November 2026",
   "stats": {
-    "industryTotal": 16,
-    "techTotal": 17,
+    "industryTotal": 20,
+    "techTotal": 20,
     "learnTotal": 6,
     "windowHours": 48
   },
   "industry": [
+    {
+      "id": "Mercom India-1795776324393-0",
+      "fetchedAt": "2026-11-27T10:45:24.393Z",
+      "headline": "Australia Invites Bids for Renewable Energy Projects",
+      "summary": "The Australian government has invited bids to procure renewable energy generation capacity under Tender 12 of its Capacity Investment Scheme (CIS) for the National Electricity Market (NEM).",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/australia-invites-bids-for-renewable-energy-projects",
+      "searchQuery": "Australia Invites Bids for Renewable Energy Projec 2026",
+      "category": "Solar Tender",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1795776324393-1",
+      "fetchedAt": "2026-11-27T10:45:24.393Z",
+      "headline": "Ireland Awards 1.55 GW of Solar and Wind Capacity in Sixth RESS Auction",
+      "summary": "Ireland&#8217;s transmission system operator, EirGrid, has announced provisional results from the sixth auction under the Renewable Electricity Support Scheme (RESS), awarding 1,555.3 MW of renewable energy capacity across 28 solar and onshore wind p",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/ireland-awards-1-55-gw-of-solar-and-wind-capacity-in-sixth-ress-auction",
+      "searchQuery": "Ireland Awards 1.55 GW of Solar and Wind Capacity  2026",
+      "category": "Solar Tender",
+      "region": "Global",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1795776324394-2",
+      "fetchedAt": "2026-11-27T10:45:24.394Z",
+      "headline": "Daily News Wrap-Up: India’s Rooftop Solar Additions Rise 127% in 9M 2026",
+      "summary": "Listen to this article India added 11.2 GW of rooftop solar capacity in the first nine months (9M) of calendar year (CY) 2026, up 127.5%",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/daily-news-wrap-up-indias-rooftop-solar-additions-rise-127-in-9m-2026",
+      "searchQuery": "Daily News Wrap-Up: India’s Rooftop Solar Addition 2026",
+      "category": "Rooftop Solar",
+      "region": "India",
+      "timeAgo": "Just now",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "Mercom India-1795776324394-3",
+      "fetchedAt": "2026-11-27T10:45:24.394Z",
+      "headline": "Karnataka’s Revised Billing Rules Could Raise Solar Open Access Costs",
+      "summary": "Commercial and industrial (C&#038;I) consumers procuring solar power through open access in Karnataka could see reduced electricity cost savings after Bangalore Electricity Supply Company’s (BESCOM) revision of the time-of-day (ToD) billing methodolo",
+      "source": "Mercom India",
+      "url": "https://www.mercomindia.com/karnatakas-revised-billing-rules-could-raise-solar-open-access-costs",
+      "searchQuery": "Karnataka’s Revised Billing Rules Could Raise Sola 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "17m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "Mercom India-1795711557272-0",
       "fetchedAt": "2026-11-26T16:45:57.272Z",
@@ -235,6 +291,48 @@
     }
   ],
   "tech": [
+    {
+      "id": "PV Magazine-1795776534905-1",
+      "fetchedAt": "2026-11-27T10:48:54.905Z",
+      "headline": "Hong Kong researchers build 27.04%-efficient perovskite solar cell via trans-interface engineering",
+      "summary": "Researchers in Hong Kong have developed vertically aligned nanolinks that penetrate both the perovskite absorber and the charge transport layer, improving charge transfer and interfacial mechanical reliability. Around 92% of the tested devices retain",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/11/27/hong-kong-researchers-build-27-04-efficient-perovskite-solar-cell-via-trans-interface-engineering/",
+      "searchQuery": "Hong Kong researchers build 27.04%-efficient perov 2026",
+      "category": "Solar Tech",
+      "region": "Global",
+      "timeAgo": "51m ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1795776534905-2",
+      "fetchedAt": "2026-11-27T10:48:54.905Z",
+      "headline": "Rooftop PV could offset 37.3% of vertical farm electricity use",
+      "summary": "Researchers grew 10,500 Hippeastrum plants in a yearlong trial comparing three- and four-layer growing units equipped with rooftop solar. Modeled PV generation matched 37.3% of measured annual electricity use, with LED lighting accounting for 73.6% o",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/11/27/rooftop-pv-could-offset-37-3-of-vertical-farm-electricity-use/",
+      "searchQuery": "Rooftop PV could offset 37.3% of vertical farm ele 2026",
+      "category": "Rooftop Solar",
+      "region": "Global",
+      "timeAgo": "1h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
+    {
+      "id": "PV Magazine-1795776534905-3",
+      "fetchedAt": "2026-11-27T10:48:54.905Z",
+      "headline": "Reactive UV additive improves back-contact solar module durability",
+      "summary": "A research team tested a UV-converting encapsulant designed to preserve the film’s electrical insulation and moisture barrier. After 192 hours of potential-induced degradation testing, mini-modules using the film lost 4.11% of their power. The post R",
+      "source": "PV Magazine",
+      "url": "https://www.pv-magazine.com/2026/11/27/reactive-uv-additive-improves-back-contact-solar-module-durability/",
+      "searchQuery": "Reactive UV additive improves back-contact solar m 2026",
+      "category": "Policy Update",
+      "region": "Global",
+      "timeAgo": "2h ago",
+      "validity": 9,
+      "validityReason": "Real article from publication"
+    },
     {
       "id": "PV Magazine-1795711643708-2",
       "fetchedAt": "2026-11-26T16:47:23.708Z",
